@@ -1,29 +1,30 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.login('NzcyODI5Mjk4MDA4MTI5NTQ5.X6AXkw.IXLDcddPu43kNiB8UY8hOCr6HJI')
-client.on("ready", () => { // When the bot is ready
-    console.log("Ready!"); // Log "Ready!"
-});
-
- const BalkoEmbed = new Discord.MessageEmbed()
-    
-.setColor('##f9475d')
-.setTitle('Balko Listing Found')
-.setAuthor('Footsites Restock')
-.setDescription(' 5 checkouts on **Eastbay**')
-.addFields(
-    { name: 'Price', value:'700' },
-    
-
-
-    
-
-)
-
-.setTimestamp()
-.setFooter('Footsites • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-
-client.channels.cache.get('772833340327329812').send(BalkoEmbed)
+var balkoPriceWtb=''
+var f3PriceWtb=''
+var rushPriceWtb=''
+var mercuryPriceWtb=''
+var solePriceWtb=''
+var wrathWTsPrice=''
+var veloxWtbPrice=''
+var mekWtbPrice=''
+var prismWtbPrice=''
+var polarisWtbPrice=''
+var splashForceWtbPrice=''
+var pdWtbPrice=''
+var dasheWtbPrice=''
+var tohruWtbPrice=''
+var phantomWtbPrice=''
+var adeptWtbPrice=''
+var burstWtbPrice=''
+var cyberWtbPrice=''
+var estockWtbPrice=''
+var eveWtbPrice=''
+var galaxsioWtbPrice=''
+var hawkWtbPrice=''
+var ganeshWtbPrice=''
+var hayhaWtbPrice=''
+var kiloWtbPrice=''
+var flareWtbPrice=''
+var fleekWtbPrice=''
+var nebulaWtbPrice=''
+var customWtbPrice=''
+var customBotWtbPrice=''
