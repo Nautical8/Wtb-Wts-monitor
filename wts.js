@@ -7,7 +7,7 @@ const client = new Discord.Client();
 
 
 var wtsChannelId='772833340327329812' //change this channel ID for each group where the wts will be posted
-var wtbChannelId=''//change this channel ID for each group where the wtb will be posted
+var wtbChannelId='773625024779124776'//change this channel ID for each group where the wtb will be posted
 
 
 var userId=''
@@ -123,11 +123,18 @@ if (receivedMessage.member.roles.some(role => role.name === 'best' )){ //This is
     .setColor('#f9475d')
     .setTitle('KubeIO Bot Marketplace Wts/Wtb Monitor')
     .setDescription('Commands:')
-    .addField('!(Bot Name Here)wts (Pice Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot name and the price.')
-    .addField('!(Bot Name Here)wtb (Pice Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot name and the price.')
+    .addField('!(Bot Name Here)wts (Pice Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot name and wtb.')
+    .addField('!(Bot Name Here)wtb (Pice Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot name and wtb.')
     .addField('!custombotwts (Bot Name Here)','This will add a custom monitor for a bot WTS name add a space after custombotwts , you will also have to add the price in another command or this wont work.')
     .addField('!custombotwtsprice (Price Here)','This will add a custom monitor for a bot WTS name add a space after custombotwtsprice.')
-
+    .addField('!(Bot Name Here)wts (Pice Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot wts.')
+    .addField('!(Bot Name Here)wtb (Pice Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot wts.')
+    .addField('!custombotwts (Bot Name Here)','This will add a custom monitor for a bot WTS name add a space after custombotwts , you will also have to add the price in another command or this wont work.')
+    .addField('!custombotwtsprice (Price Here)','This will add a custom monitor for a bot WTS name add a space after custombotwtsprice.')
+    .addField('!clearallwts','This command will clear all wts monitors')
+    .addField('!clearallwtb','This command will clear all wtb monitors')
+    .addField('!clearall','This command will clear all monitors')
+    .addField('Replacing A Monitor','To replace a monitor simply do the setting commands above and use a different price')
 
     .setTimestamp()
     .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
@@ -157,7 +164,7 @@ if (receivedMessage.member.roles.some(role => role.name === 'best' )){ //This is
     
 
 }else if(primaryCommand == "clearallwts") {
-    clearAll(arguments, receivedMessage)
+    clearAllWts(arguments, receivedMessage)
     
 
     clearAllWts = new Discord.RichEmbed()
@@ -694,7 +701,7 @@ else if (primaryCommand == "balkowtb") {
     
 
 }else if(primaryCommand == "clearallwtb") {
-    clearAll(arguments, receivedMessage)
+    clearAllWtb(arguments, receivedMessage)
     
 
     clearAllWtb = new Discord.RichEmbed()
@@ -1197,6 +1204,28 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(customWtbEmbed)
 
 }
+else if(primaryCommand == "clearall") {
+
+
+    clearAll(arguments, receivedMessage)
+    
+
+    clearAll = new Discord.RichEmbed()
+    
+    .setColor('#f9475d')
+    .setTitle('All Monitors Cleared')
+    
+    
+    .setTimestamp()
+    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+    
+    
+    
+    
+    receivedMessage.channel.send(clearAll)
+
+}
+
 
 }else{
     error = new Discord.RichEmbed()
@@ -8279,7 +8308,7 @@ function CustomWts (arguments, receivedMessage) {
   });
   
 }
-function  clearAll(arguments, receivedMessage) {
+function  clearAllWts(arguments, receivedMessage) {
 
    
  f3PriceWts=''
@@ -15379,7 +15408,110 @@ function balkoWtb(arguments, receivedMessage) {
     });
     
   }
+  function  clearAllWtb(arguments, receivedMessage) {
 
+     balkoPriceWtb=''
+     f3PriceWtb=''
+     rushPriceWtb=''
+     mercuryPriceWtb=''
+     solePriceWtb=''
+     veloxWtbPrice=''
+     mekWtbPrice=''
+     prismWtbPrice=''
+     polarisWtbPrice=''
+     splashForceWtbPrice=''
+     pdWtbPrice=''
+     dasheWtbPrice=''
+     tohruWtbPrice=''
+     phantomWtbPrice=''
+     adeptWtbPrice=''
+     burstWtbPrice=''
+     cyberWtbPrice=''
+     estockWtbPrice=''
+     eveWtbPrice=''
+     galaxsioWtbPrice=''
+     hawkWtbPrice=''
+     ganeshWtbPrice=''
+     hayhaWtbPrice=''
+     kiloWtbPrice=''
+     flareWtbPrice=''
+     fleekWtbPrice=''
+     nebulaWtbPrice=''
+     customWtbPrice=''
+     customBotWtbPrice=''
+    
+     
+     
+   }
+   function  clearAll(arguments, receivedMessage) {
+
+     balkoPriceWts=''
+ f3PriceWts=''
+ rushPriceWts=''
+ mercuryPriceWts=''
+ solePriceWts=''
+ wrathWTsPrice=''
+ veloxWtsPrice=''
+ mekWtsPrice=''
+ prismWtsPrice=''
+ polarisWtsPrice=''
+ splashForceWtsPrice=''
+ pdWtsPrice=''
+ dasheWtsPrice=''
+ tohruWtsPrice=''
+ phantomWtsPrice=''
+ adeptWtsPrice=''
+ burstWtsPrice=''
+ cyberWtsPrice=''
+ estockWtsPrice=''
+ eveWtsPrice=''
+ galaxsioWtsPrice=''
+ hawkWtsPrice=''
+ ganeshWtsPrice=''
+ hayhaWtsPrice=''
+ kiloWtsPrice=''
+ flareWtsPrice=''
+ fleekWtsPrice=''
+ nebulaWtsPrice=''
+ customWtsPrice=''
+ customBotWtsPrice=''
+
+//split for wtb vars
+
+ balkoPriceWtb=''
+ f3PriceWtb=''
+ rushPriceWtb=''
+ mercuryPriceWtb=''
+ solePriceWtb=''
+ wrathWTsPrice=''
+ veloxWtbPrice=''
+ mekWtbPrice=''
+ prismWtbPrice=''
+ polarisWtbPrice=''
+ splashForceWtbPrice=''
+ pdWtbPrice=''
+ dasheWtbPrice=''
+ tohruWtbPrice=''
+ phantomWtbPrice=''
+ adeptWtbPrice=''
+ burstWtbPrice=''
+ cyberWtbPrice=''
+ estockWtbPrice=''
+ eveWtbPrice=''
+ galaxsioWtbPrice=''
+ hawkWtbPrice=''
+ ganeshWtbPrice=''
+ hayhaWtbPrice=''
+ kiloWtbPrice=''
+ flareWtbPrice=''
+ fleekWtbPrice=''
+ nebulaWtbPrice=''
+ customWtbPrice=''
+ customBotWtbPrice=''
+    
+  }
+  
+   
 });
 
 
