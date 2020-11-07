@@ -3864,7 +3864,7 @@ function balkoWtb(arguments, receivedMessage) {
 
         if(message.channel.id==('626997507205103617'||'743950898501517322'||'733784514769191013')){
         
-        if(message.content.toString().toLowerCase().includes(wrathWTsPrice)){
+        if(message.content.toString().toLowerCase().includes(wrathWtbPrice)){
     
        userId= message.author.id
        messageId= message.id
