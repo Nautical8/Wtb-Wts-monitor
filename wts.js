@@ -6,8 +6,8 @@ const client = new Discord.Client();
 // Replace BOT_TOKEN with your bot account's token
 
 
-var wtsChannelId='772833340327329812' //change this channel ID for each group where the wts will be posted
-var wtbChannelId='773625024779124776'//change this channel ID for each group where the wtb will be posted
+var wtsChannelId='750508273790353450' //change this channel ID for each group where the wts will be posted
+var wtbChannelId='750508444397862984'//change this channel ID for each group where the wtb will be posted
 
 
 var userId=''
@@ -78,8 +78,6 @@ var nebulaWtbPrice=''
 var customWtbPrice=''
 var customBotWtbPrice=''
 
-user.login('NzcyODI5Mjk4MDA4MTI5NTQ5.X6AXkw.IXLDcddPu43kNiB8UY8hOCr6HJI')//User token
-client.login('NzcyODI1NzAxNDk3MTc2MDg0.X6AUBQ.z5OXfGz2O-_xwxBR7eV9beQh1Sw')//bot token
 
 user.on("ready", () => { // When the bot is ready
     console.log("Ready!"); // Log "Ready!"
@@ -110,7 +108,7 @@ console.log("Arguments: " + arguments) // There may not be any arguments
 
 
  
-if (receivedMessage.member.roles.some(role => role.name === 'best' )){ //This is used so only certian roles can use the bot change it for every group, use the name of the role
+if (receivedMessage.member.roles.some(role => role.name === 'Owner'|| 'Administrator'||'Support')){ //This is used so only certian roles can use the bot change it for every group, use the name of the role
 
 
     
@@ -123,12 +121,12 @@ if (receivedMessage.member.roles.some(role => role.name === 'best' )){ //This is
     .setColor('#f9475d')
     .setTitle('KubeIO Bot Marketplace Wts/Wtb Monitor')
     .setDescription('Commands:')
-    .addField('!(Bot Name Here)wts (Pice Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot name and wtb.')
-    .addField('!(Bot Name Here)wtb (Pice Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot name and wtb.')
+    .addField('!(Bot Name Here)wts (Price Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot name and wtb.')
+    .addField('!(Bot Name Here)wtb (Price Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot name and wtb.')
     .addField('!custombotwts (Bot Name Here)','This will add a custom monitor for a bot WTS name add a space after custombotwts , you will also have to add the price in another command or this wont work.')
     .addField('!custombotwtsprice (Price Here)','This will add a custom monitor for a bot WTS name add a space after custombotwtsprice.')
-    .addField('!(Bot Name Here)wts (Pice Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot wts.')
-    .addField('!(Bot Name Here)wtb (Pice Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot wts.')
+    .addField('!(Bot Name Here)wts (Price Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot wts.')
+    .addField('!(Bot Name Here)wtb (Price Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot wts.')
     .addField('!custombotwts (Bot Name Here)','This will add a custom monitor for a bot WTS name add a space after custombotwts , you will also have to add the price in another command or this wont work.')
     .addField('!custombotwtsprice (Price Here)','This will add a custom monitor for a bot WTS name add a space after custombotwtsprice.')
     .addField('!clearallwts','This command will clear all wts monitors')
@@ -1285,7 +1283,7 @@ function balkoWts(arguments, receivedMessage) {
     
     
        
-
+        client.channels.get(wtsChannelId).send('<@&774503052530155560>')
        client.channels.get(wtsChannelId).send(BalkoEmbed)
 
     }
@@ -1329,7 +1327,8 @@ function f3Wts(arguments, receivedMessage) {
       
       
          
-  
+          client.channels.get(wtsChannelId).send('<@&774503521709457459>')
+
          client.channels.get(wtsChannelId).send(f3embed)
   
           
@@ -1375,7 +1374,7 @@ function rushWts(arguments, receivedMessage) {
       
       
          
-  
+          client.channels.get(wtsChannelId).send('<@&774503635903053875>')
          client.channels.get(wtsChannelId).send(rushEmbed)
   
           
@@ -1421,6 +1420,7 @@ function mercuryWts(arguments, receivedMessage) {
       
          
   
+          client.channels.get(wtsChannelId).send('<@&774503635903053875>')
          client.channels.get(wtsChannelId).send(mercuryEmbed)
   
           
@@ -5857,3 +5857,5 @@ function balkoWtb(arguments, receivedMessage) {
 
 
 
+user.login('NzcyODI5Mjk4MDA4MTI5NTQ5.X6AXkw.IXLDcddPu43kNiB8UY8hOCr6HJI')//User token
+client.login('NzcyODI1NzAxNDk3MTc2MDg0.X6AUBQ.z5OXfGz2O-_xwxBR7eV9beQh1Sw')//bot token
