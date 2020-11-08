@@ -6,6 +6,7 @@
   "dependencies": {
     "discord-embed": "^1.2.0",
     "discord.js": "^11.6.3",
+    "javascript-obfuscator": "^2.7.1",
     "node": "^15.0.1"
   },
   "devDependencies": {},
