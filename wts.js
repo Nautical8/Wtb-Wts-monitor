@@ -161,6 +161,82 @@ if (receivedMessage.member.roles.some(role => role.name === 'Owner'|| 'Administr
     
     
 
+}
+
+else if (primaryCommand == "current") {
+  
+  currentEmbed = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Current monitor')
+  .addField('BalkoWts',balkoPriceWts)
+  .addField('BalkoWtb',balkoPriceWtb)
+  .addField('f3Wts',f3PriceWts)
+  .addField('f3Wtb',f3PriceWtb)
+  .addField('RushWts',rushPriceWts)
+  .addField('RushWtb',rushPriceWtb)
+  .addField('MercuryWts',mercuryPriceWts)
+  .addField('MercuryWtb',mercuryPriceWtb)
+  .addField('SoleWts',solePriceWts)
+  .addField('SoleWtb',solePriceWtb)
+  .addField('WrathWts',wrathWTsPrice)
+  .addField('WrathWtb',wrathWtb)
+  .addField('VeloxWts',veloxWts)
+  .addField('VeloxWtb',veloxWtb)
+  .addField('MekWts',mekWts)
+  .addField('MekWtb',mekWtb)
+  .addField('PrismWts',prismWtsPrice)
+  .addField('PrismWtb',prismWtbPrice)
+  .addField('PolarisWts',polarisWtsPrice)
+  .addField('PolarisWtb',polarisWtbPrice)
+  .addField('SFWts',splashForceWtsPrice)
+  .addField('SFWtb',splashForceWtbPrice)
+  .addField('pdWts',pdWtsPrice)
+  .addField('pdWtb',pdWtbPrice)
+  .addField('DasheWts',dasheWtsPrice)
+  .addField('DasheWtb',dasheWtbPrice)
+  .addField('TohruWts',tohruWtsPrice)
+  .addField('TohruWtb',tohruWtbPrice)
+  .addField('PhantomWts',phantomWtsPrice)
+  .addField('PhantomWtb',phantomWtbPrice)
+  .addField('AdeptWts',adeptWtsPrice)
+  .addField('AdeptWtb',adeptWtbPrice)
+  .addField('BurstWts',burstWtsPrice)
+  .addField('BurstWtb',burstWtbPrice)
+  .addField('CyberWts',cyberWtsPrice)
+  .addField('CyberWtb',cyberWtbPrice)
+  .addField('EstockWts',estockWtsPrice)
+  .addField('EstockWtb',estockWtbPrice)
+  .addField('EveWts',eveWtsPrice)
+  .addField('EveWtb',eveWtbPrice)
+  .addField('GalaxsioWts',galaxsioWtsPrice)
+  .addField('GalaxsioWtb',galaxsioWtbPrice)
+  .addField('HawkWts',hawkWtsPrice)
+  .addField('HawkWtb',hawkWtbPrice)
+  .addField('GaneshWts',ganeshWtsPrice)
+  .addField('GaneshWtb',ganeshWtbPrice)
+  .addField('HayhaWts',hayhaWtsPrice)
+  .addField('HayhaWtb',hayhaWtbPrice)
+  .addField('KiloWts',kiloWtsPrice)
+  .addField('KiloWtb',kiloWtbPrice)
+  .addField('FlareWts',flareWtsPrice)
+  .addField('FlareWtb',flareWtbPrice)
+  .addField('FleekWts',fleekWtsPrice)
+  .addField('FleekWtb',fleekWtbPrice)
+  .addField('NebulaWts',nebulaWtsPrice)
+  .addField('NebulaWtb',nebulaWtbPrice)
+
+
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(currentEmbed)
+  
+  
+
 }else if(primaryCommand == "clearallwts") {
     clearAllWts(arguments, receivedMessage)
     
@@ -1250,7 +1326,7 @@ function balkoWts(arguments, receivedMessage) {
   balkoPriceWts=arguments
   user.on('message', message => { // When a message is created
 
-    if(message.channel.id==('626996132278435850'||'710921872098852905'||'750080118684254328')){
+    if(message.channel.id==('772833340327329812'||'773625024779124776'||'750080118684254328')){
         
     if(message.content.toString().toLowerCase().includes(balkoPriceWts)){
 
