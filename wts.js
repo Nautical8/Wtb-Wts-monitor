@@ -1496,7 +1496,11 @@ function mercuryWts(arguments, receivedMessage) {
       
          
   
+<<<<<<< HEAD
           client.channels.get(wtsChannelId).send('<@&774503635903053875>')
+=======
+          client.channels.get(wtsChannelId).send('<@&774803234971451452>')
+>>>>>>> 4689c12cd2fa27396302cc0ac9188cbc7fac8d32
          client.channels.get(wtsChannelId).send(mercuryEmbed)
   
           
@@ -1531,7 +1535,7 @@ function mercuryWts(arguments, receivedMessage) {
          
          
             
-     
+             client.channels.get(wtsChannelId).send('<@&774803234971451452>')
          client.channels.get(wtsChannelId).send(mercuryEmbed)
      
              
@@ -1566,7 +1570,7 @@ function mercuryWts(arguments, receivedMessage) {
              
              
                 
-         
+                 client.channels.get(wtsChannelId).send('<@&774803234971451452>')
              client.channels.get(wtsChannelId).send(mercuryEmbed)
          
                  
@@ -1601,7 +1605,7 @@ function mercuryWts(arguments, receivedMessage) {
                  
                  
                     
-             
+                     client.channels.get(wtsChannelId).send('<@&774803234971451452>')
                  client.channels.get(wtsChannelId).send(mercuryEmbed)
              
                      
@@ -1637,7 +1641,7 @@ function mercuryWts(arguments, receivedMessage) {
                      
                      
                         
-                 
+                         client.channels.get(wtsChannelId).send('<@&774803234971451452>')
                      client.channels.get(wtsChannelId).send(mercuryEmbed)
                  
                          
@@ -1672,7 +1676,7 @@ function mercuryWts(arguments, receivedMessage) {
                              .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                          
                          
-                            
+                             client.channels.get(wtsChannelId).send('<@&774803234971451452>')
                      
                          client.channels.get(wtsChannelId).send(mercuryEmbed)
                      
@@ -1707,7 +1711,7 @@ function mercuryWts(arguments, receivedMessage) {
                                  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                              
                              
-                                
+                                 client.channels.get(wtsChannelId).send('<@&774803234971451452>')
                          
                              client.channels.get(wtsChannelId).send(mercuryEmbed)
                          
@@ -1756,7 +1760,7 @@ function soleWts(arguments, receivedMessage) {
       
       
          
-  
+          client.channels.get(wtsChannelId).send('<@&774803407533506562>')
          client.channels.get(wtsChannelId).send(soleEmbed)
   
           
@@ -1801,7 +1805,8 @@ function wrathWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774803488193511475>')
+
   
          client.channels.get(wtsChannelId).send(wrathEmbed)
   
@@ -1846,7 +1851,7 @@ function veloxWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+
   
          client.channels.get(wtsChannelId).send(veloxEmbed)
   
@@ -1896,7 +1901,8 @@ function mekWts(arguments, receivedMessage) {
       
       
          
-  
+          client.channels.get(wtsChannelId).send('<@&774803745346289684>')
+
          client.channels.get(wtsChannelId).send(mekEmbed)
   
           
@@ -1945,7 +1951,8 @@ function prismWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774803748018454559>')
+
   
          client.channels.get(wtsChannelId).send(prismEmbed)
   
@@ -1992,7 +1999,8 @@ function polarisWts(arguments, receivedMessage) {
           .setTimestamp()
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
-      
+          client.channels.get(wtsChannelId).send('<@&774803951438659594>')
+
          
   
          client.channels.get(wtsChannelId).send(poalrisEmbed)
@@ -2043,7 +2051,8 @@ function splashForceWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774803954713231366>')
+
   
          client.channels.get(wtsChannelId).send(sfEmbed)
   
@@ -2080,7 +2089,8 @@ function splashForceWts(arguments, receivedMessage) {
              .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
          
          
-            
+             client.channels.get(wtsChannelId).send('<@&774803954713231366>')
+
      
          client.channels.get(wtsChannelId).send(sfEmbed)
      
@@ -2115,7 +2125,8 @@ function splashForceWts(arguments, receivedMessage) {
                  .setTimestamp()
                  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
              
-             
+                 client.channels.get(wtsChannelId).send('<@&774803954713231366>')
+
                 
          
              client.channels.get(wtsChannelId).send(sfEmbed)
@@ -2151,7 +2162,8 @@ function splashForceWts(arguments, receivedMessage) {
                      .setTimestamp()
                      .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                  
-                 
+                     client.channels.get(wtsChannelId).send('<@&774803954713231366>')
+
                     
              
                  client.channels.get(wtsChannelId).send(sfEmbed)
@@ -2199,7 +2211,8 @@ function pdWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774803955078266890>')
+
   
          client.channels.get(wtsChannelId).send(pdEmbed)
   
@@ -2251,7 +2264,8 @@ function dasheWts(arguments, receivedMessage) {
               .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
           
           
-             
+              client.channels.get(wtsChannelId).send('<@&774500633020989512>')
+
       
              client.channels.get(wtsChannelId).send(dasheEmbed)
       
@@ -2290,7 +2304,8 @@ function dasheWts(arguments, receivedMessage) {
              .setTimestamp()
              .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
          
-         
+             client.channels.get(wtsChannelId).send('<@&774500633020989512>')
+
             
      
          client.channels.get(wtsChannelId).send(dasheEmbed)
@@ -2327,7 +2342,8 @@ function dasheWts(arguments, receivedMessage) {
                  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
              
              
-                
+                 client.channels.get(wtsChannelId).send('<@&774500633020989512>')
+
          
              client.channels.get(wtsChannelId).send(dasheEmbed)
          
@@ -2364,7 +2380,8 @@ function dasheWts(arguments, receivedMessage) {
              
              
                 
-         
+                 client.channels.get(wtsChannelId).send('<@&774500633020989512>')
+
              client.channels.get(wtsChannelId).send(dasheEmbed)
          
                  
@@ -2399,7 +2416,8 @@ function dasheWts(arguments, receivedMessage) {
                      .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                  
                  
-                    
+                     client.channels.get(wtsChannelId).send('<@&774500633020989512>')
+
              
                  client.channels.get(wtsChannelId).send(dasheEmbed)
              
@@ -2434,7 +2452,8 @@ function dasheWts(arguments, receivedMessage) {
                          .setTimestamp()
                          .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                      
-                     
+                         client.channels.get(wtsChannelId).send('<@&774500633020989512>')
+
                         
                  
                      client.channels.get(wtsChannelId).send(dasheEmbed)
@@ -2483,9 +2502,10 @@ function tohruWts(arguments, receivedMessage) {
   
           .setTimestamp()
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+          
       
-      
-         
+          client.channels.get(wtsChannelId).send('<@&774804317387096134>')
+
   
          client.channels.get(wtsChannelId).send(tohruEmbed)
   
@@ -2534,7 +2554,8 @@ function phantomWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774804319785975839>')
+
   
          client.channels.get(wtsChannelId).send(PhantomEmbed)
   
@@ -2583,7 +2604,8 @@ function adeptWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774804319819792395>')
+
   
          client.channels.get(wtsChannelId).send(adeptEmbed)
   
@@ -2632,7 +2654,8 @@ function burstWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774804320490225674>')
+
   
          client.channels.get(wtsChannelId).send(burstEmbed)
   
@@ -2680,7 +2703,8 @@ function cyberWts(arguments, receivedMessage) {
       
       
          
-  
+          client.channels.get(wtsChannelId).send('<@&774804321362640906>')
+
          client.channels.get(wtsChannelId).send(cyberEmbed)
   
           
@@ -2727,7 +2751,8 @@ function estockWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774804939720753172>')
+
   
          client.channels.get(wtsChannelId).send(estockEmbed)
   
@@ -2776,7 +2801,7 @@ function eveWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774804941478821888>')
   
          client.channels.get(wtsChannelId).send(eveEmbed)
   
@@ -2825,7 +2850,8 @@ function galaxioWts(arguments, receivedMessage) {
       
       
          
-  
+          client.channels.get(wtsChannelId).send('<@&774804944536076318>')
+
          client.channels.get(wtsChannelId).send(glaxsioEmbed)
   
           
@@ -2872,7 +2898,8 @@ function hawkWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774804946059132938>')
+
   
          client.channels.get(wtsChannelId).send(hawkEmbed)
   
@@ -2920,7 +2947,8 @@ function ganeshWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774804947967410176>')
+
   
          client.channels.get(wtsChannelId).send(ganeshEmbed)
   
@@ -2969,7 +2997,8 @@ function hayhaWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774805427098746950>')
+
   
          client.channels.get(wtsChannelId).send(hayhaEmbed)
   
@@ -3017,7 +3046,8 @@ function kiloWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774805429858467841>')
+
   
          client.channels.get(wtsChannelId).send(kiloEmbed)
   
@@ -3066,7 +3096,8 @@ function flareWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774805432521981972>')
+
   
             client.channels.get(wtsChannelId).send(FlareEmbed)
   
@@ -3115,7 +3146,8 @@ function fleekWts(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774805437714923620>')
+
   
          client.channels.get(wtsChannelId).send(fleekEmbed)
   
@@ -3164,7 +3196,8 @@ function nebulaWts (arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtsChannelId).send('<@&774805952116686848>')
+
   
          client.channels.get(wtsChannelId).send(nebulaEmbed)
   
@@ -3201,7 +3234,8 @@ function nebulaWts (arguments, receivedMessage) {
              .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
          
          
-            
+             client.channels.get(wtsChannelId).send('<@&774805952116686848>')
+
      
             client.channels.get(wtsChannelId).send(nebulaEmbed)
      
@@ -3238,7 +3272,8 @@ function nebulaWts (arguments, receivedMessage) {
                  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
              
              
-                
+                 client.channels.get(wtsChannelId).send('<@&774805952116686848>')
+
          
                 client.channels.get(wtsChannelId).send(nebulaEmbed)
          
@@ -3275,7 +3310,8 @@ function nebulaWts (arguments, receivedMessage) {
                      .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                  
                  
-                    
+                     client.channels.get(wtsChannelId).send('<@&774805952116686848>')
+
              
                     client.channels.get(wtsChannelId).send(nebulaEmbed)
              
@@ -3323,7 +3359,7 @@ function CustomWts (arguments, receivedMessage) {
           .setTimestamp()
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
-      
+          client.channels.get(wtsChannelId).send('<@&774805980637823036>')
          
   
          user.channels.get(wtsChannelId).send(customEmbed)
@@ -3361,7 +3397,8 @@ function CustomWts (arguments, receivedMessage) {
              .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
          
          
-            
+             client.channels.get(wtsChannelId).send('<@&774805980637823036>')
+
      
             user.channels.get(wtsChannelId).send(customEmbed)
      
@@ -3399,7 +3436,8 @@ function CustomWts (arguments, receivedMessage) {
              
              
                 
-         
+                 client.channels.get(wtsChannelId).send('<@&774805980637823036>')
+
                 user.channels.get(wtsChannelId).send(customEmbed)
          
                  
@@ -3435,7 +3473,8 @@ function CustomWts (arguments, receivedMessage) {
                      .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                  
                  
-                    
+                     client.channels.get(wtsChannelId).send('<@&774805980637823036>')
+
              
                     user.channels.get(wtsChannelId).send(customEmbed)
              
@@ -3523,7 +3562,8 @@ function balkoWtb(arguments, receivedMessage) {
           .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
       
       
-         
+          client.channels.get(wtbChannelId).send('<@&774503052530155560>')
+
   
          client.channels.get(wtbChannelId).send(BalkoEmbed)
   
@@ -3568,7 +3608,8 @@ function balkoWtb(arguments, receivedMessage) {
         
         
            
-    
+            client.channels.get(wtbChannelId).send('<@&774503521709457459>')
+
            client.channels.get(wtbChannelId).send(f3embed)
     
             
@@ -3615,7 +3656,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774503635903053875>')
+
     
            client.channels.get(wtbChannelId).send(rushEmbed)
     
@@ -3662,6 +3704,7 @@ function balkoWtb(arguments, receivedMessage) {
         
         
            
+            client.channels.get(wtbChannelId).send('<@&774803234971451452>')
     
            client.channels.get(wtbChannelId).send(mercuryEmbed)
     
@@ -3696,6 +3739,7 @@ function balkoWtb(arguments, receivedMessage) {
                .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
            
            
+            client.channels.get(wtbChannelId).send('<@&774803234971451452>')
               
        
            client.channels.get(wtbChannelId).send(mercuryEmbed)
@@ -3731,6 +3775,7 @@ function balkoWtb(arguments, receivedMessage) {
                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                
                
+            client.channels.get(wtbChannelId).send('<@&774803234971451452>')
                   
            
                client.channels.get(wtbChannelId).send(mercuryEmbed)
@@ -3766,6 +3811,7 @@ function balkoWtb(arguments, receivedMessage) {
                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                    
                    
+            client.channels.get(wtbChannelId).send('<@&774803234971451452>')
                       
                
                    client.channels.get(wtbChannelId).send(mercuryEmbed)
@@ -3803,6 +3849,7 @@ function balkoWtb(arguments, receivedMessage) {
                        
                        
                           
+            client.channels.get(wtbChannelId).send('<@&774803234971451452>')
                    
                        client.channels.get(wtbChannelId).send(mercuryEmbed)
                    
@@ -3838,6 +3885,7 @@ function balkoWtb(arguments, receivedMessage) {
                                .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                            
                            
+            client.channels.get(wtbChannelId).send('<@&774803234971451452>')
                               
                        
                            client.channels.get(wtbChannelId).send(mercuryEmbed)
@@ -3873,6 +3921,7 @@ function balkoWtb(arguments, receivedMessage) {
                                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                                
                                
+            client.channels.get(wtbChannelId).send('<@&774803234971451452>')
                                   
                            
                                client.channels.get(wtbChannelId).send(mercuryEmbed)
@@ -3921,6 +3970,7 @@ function balkoWtb(arguments, receivedMessage) {
             .setTimestamp()
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
+            client.channels.get(wtbChannelId).send('<@&774803407533506562>')
         
            
     
@@ -3967,7 +4017,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774803488193511475>')
+
     
            client.channels.get(wtbChannelId).send(wrathEmbed)
     
@@ -4012,7 +4063,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setTimestamp()
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
-        
+            client.channels.get(wtbChannelId).send('<@&774803645416996914>')
+
            
     
            client.channels.get(wtbChannelId).send(veloxEmbed)
@@ -4062,7 +4114,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774803745346289684>')
+
     
            client.channels.get(wtbChannelId).send(mekEmbed)
     
@@ -4112,7 +4165,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774803748018454559>')
+
     
            client.channels.get(wtbChannelId).send(prismEmbed)
     
@@ -4163,7 +4217,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774803951438659594>')
+
     
            client.channels.get(wtbChannelId).send(poalrisEmbed)
     
@@ -4212,7 +4267,8 @@ function balkoWtb(arguments, receivedMessage) {
         
         
            
-    
+            client.channels.get(wtbChannelId).send('<@&774803954713231366>')
+
            client.channels.get(wtbChannelId).send(sfEmbed)
     
             
@@ -4249,6 +4305,7 @@ function balkoWtb(arguments, receivedMessage) {
            
            
               
+               client.channels.get(wtbChannelId).send('<@&774803954713231366>')
        
            client.channels.get(wtbChannelId).send(sfEmbed)
        
@@ -4283,6 +4340,7 @@ function balkoWtb(arguments, receivedMessage) {
                    .setTimestamp()
                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                
+            client.channels.get(wtbChannelId).send('<@&774803954713231366>')
                
                   
            
@@ -4320,6 +4378,7 @@ function balkoWtb(arguments, receivedMessage) {
                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                    
                    
+            client.channels.get(wtbChannelId).send('<@&774803954713231366>')
                       
                
                    client.channels.get(wtbChannelId).send(sfEmbed)
@@ -4367,6 +4426,7 @@ function balkoWtb(arguments, receivedMessage) {
             .setTimestamp()
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
+            client.channels.get(wtbChannelId).send('<@&774803955078266890>')
         
            
     
@@ -4414,7 +4474,8 @@ function balkoWtb(arguments, receivedMessage) {
         
         
            
-    
+            client.channels.get(wtbChannelId).send('<@&774500633020989512>')
+
            client.channels.get(wtbChannelId).send(dasheEmbed)
     
             
@@ -4450,7 +4511,8 @@ function balkoWtb(arguments, receivedMessage) {
            
            
               
-       
+               client.channels.get(wtbChannelId).send('<@&774500633020989512>')
+
            client.channels.get(wtbChannelId).send(dasheEmbed)
        
                
@@ -4485,7 +4547,8 @@ function balkoWtb(arguments, receivedMessage) {
                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                
                
-                  
+                   client.channels.get(wtbChannelId).send('<@&774500633020989512>')
+
            
                client.channels.get(wtbChannelId).send(dasheEmbed)
            
@@ -4521,7 +4584,8 @@ function balkoWtb(arguments, receivedMessage) {
                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                
                
-                  
+                   client.channels.get(wtbChannelId).send('<@&774500633020989512>')
+
            
                client.channels.get(wtbChannelId).send(dasheEmbed)
            
@@ -4556,7 +4620,8 @@ function balkoWtb(arguments, receivedMessage) {
                        .setTimestamp()
                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                    
-                   
+                       client.channels.get(wtbChannelId).send('<@&774500633020989512>')
+
                       
                
                    client.channels.get(wtbChannelId).send(dasheEmbed)
@@ -4593,7 +4658,8 @@ function balkoWtb(arguments, receivedMessage) {
                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                        
                        
-                          
+                           client.channels.get(wtbChannelId).send('<@&774500633020989512>')
+
                    
                        client.channels.get(wtbChannelId).send(dasheEmbed)
                    
@@ -4641,7 +4707,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774804317387096134>')
+
     
            client.channels.get(wtbChannelId).send(tohruEmbed)
     
@@ -4691,7 +4758,8 @@ function balkoWtb(arguments, receivedMessage) {
         
         
            
-    
+            client.channels.get(wtbChannelId).send('<@&774804319785975839>')
+
            client.channels.get(wtbChannelId).send(PhantomEmbed)
     
             
@@ -4737,7 +4805,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774804319819792395>')
+
     
            client.channels.get(wtbChannelId).send(adeptEmbed)
     
@@ -4784,7 +4853,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774804320490225674>')
+
     
            client.channels.get(wtbChannelId).send(burstEmbed)
     
@@ -4832,7 +4902,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774804321362640906>')
+
     
            client.channels.get(wtbChannelId).send(cyberEmbed)
     
@@ -4881,7 +4952,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774804939720753172>')
+
     
            client.channels.get(wtbChannelId).send(estockEmbed)
     
@@ -4931,7 +5003,8 @@ function balkoWtb(arguments, receivedMessage) {
         
         
            
-    
+            client.channels.get(wtbChannelId).send('<@&774804941478821888>')
+
            client.channels.get(wtbChannelId).send(eveEmbed)
     
             
@@ -4979,7 +5052,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774804944536076318>')
+
     
            client.channels.get(wtbChannelId).send(glaxsioEmbed)
     
@@ -5017,7 +5091,8 @@ function balkoWtb(arguments, receivedMessage) {
            
            
               
-       
+               client.channels.get(wtbChannelId).send('<@&774804944536076318>')
+
            client.channels.get(wtbChannelId).send(glaxsioEmbed)
        
                
@@ -5054,7 +5129,8 @@ function balkoWtb(arguments, receivedMessage) {
                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                
                
-                  
+                   client.channels.get(wtbChannelId).send('<@&774804944536076318>')
+
            
                client.channels.get(wtbChannelId).send(glaxsioEmbed)
            
@@ -5093,7 +5169,8 @@ function balkoWtb(arguments, receivedMessage) {
                    
                    
                       
-               
+                       client.channels.get(wtbChannelId).send('<@&774804944536076318>')
+
                    client.channels.get(wtbChannelId).send(glaxsioEmbed)
                
                        
@@ -5130,7 +5207,8 @@ function balkoWtb(arguments, receivedMessage) {
                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                        
                        
-                          
+                           client.channels.get(wtbChannelId).send('<@&774804944536076318>')
+
                    
                        client.channels.get(wtbChannelId).send(glaxsioEmbed)
                    
@@ -5168,7 +5246,8 @@ function balkoWtb(arguments, receivedMessage) {
                                .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                            
                            
-                              
+                               client.channels.get(wtbChannelId).send('<@&774804944536076318>')
+
                        
                            client.channels.get(wtbChannelId).send(glaxsioEmbed)
                        
@@ -5207,7 +5286,8 @@ function balkoWtb(arguments, receivedMessage) {
                            
                            
                               
-                       
+                               client.channels.get(wtbChannelId).send('<@&774804944536076318>')
+
                            client.channels.get(wtbChannelId).send(glaxsioEmbed)
                        
                                
@@ -5254,7 +5334,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774804946059132938>')
+
     
            client.channels.get(wtbChannelId).send(hawkEmbed)
     
@@ -5301,7 +5382,8 @@ function balkoWtb(arguments, receivedMessage) {
         
         
            
-    
+            client.channels.get(wtbChannelId).send('<@&774804947967410176>')
+
            client.channels.get(wtbChannelId).send(ganeshEmbed)
     
             
@@ -5347,7 +5429,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774805427098746950>')
+
     
            client.channels.get(wtbChannelId).send(hayhaEmbed)
     
@@ -5395,7 +5478,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774805429858467841>')
+
     
            client.channels.get(wtbChannelId).send(kiloEmbed)
     
@@ -5445,7 +5529,8 @@ function balkoWtb(arguments, receivedMessage) {
         
         
            
-    
+            client.channels.get(wtbChannelId).send('<@&774805432521981972>')
+
               client.channels.get(wtbChannelId).send(FlareEmbed)
     
             
@@ -5492,7 +5577,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774805437714923620>')
+
     
            client.channels.get(wtbChannelId).send(fleekEmbed)
     
@@ -5541,7 +5627,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774805952116686848>')
+
     
            client.channels.get(wtbChannelId).send(nebulaEmbed)
     
@@ -5578,7 +5665,8 @@ function balkoWtb(arguments, receivedMessage) {
                .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
            
            
-              
+               client.channels.get(wtbChannelId).send('<@&774805952116686848>')
+
        
               client.channels.get(wtbChannelId).send(nebulaEmbed)
        
@@ -5615,7 +5703,8 @@ function balkoWtb(arguments, receivedMessage) {
                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                
                
-                  
+                   client.channels.get(wtbChannelId).send('<@&774805952116686848>')
+
            
                   client.channels.get(wtbChannelId).send(nebulaEmbed)
            
@@ -5653,7 +5742,8 @@ function balkoWtb(arguments, receivedMessage) {
                    
                    
                       
-               
+                       client.channels.get(wtbChannelId).send('<@&774805952116686848>')
+
                       client.channels.get(wtbChannelId).send(nebulaEmbed)
                
                        
@@ -5701,7 +5791,8 @@ function balkoWtb(arguments, receivedMessage) {
             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
         
         
-           
+            client.channels.get(wtbChannelId).send('<@&774805980637823036>')
+
     
            user.channels.get(wtbChannelId).send(customEmbed)
     
@@ -5739,7 +5830,8 @@ function balkoWtb(arguments, receivedMessage) {
            
            
               
-       
+               client.channels.get(wtbChannelId).send('<@&774805980637823036>')
+
               user.channels.get(wtbChannelId).send(customEmbed)
        
                
@@ -5775,7 +5867,8 @@ function balkoWtb(arguments, receivedMessage) {
                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                
                
-                  
+                   client.channels.get(wtbChannelId).send('<@&774805980637823036>')
+
            
                   user.channels.get(wtbChannelId).send(customEmbed)
            
@@ -5812,7 +5905,8 @@ function balkoWtb(arguments, receivedMessage) {
                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                    
                    
-                      
+                       client.channels.get(wtbChannelId).send('<@&774805980637823036>')
+
                
                       user.channels.get(wtbChannelId).send(customEmbed)
                
