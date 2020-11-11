@@ -184,12 +184,12 @@ if (receivedMessage.member.roles.some(role => role.name === 'Owner'|| 'Administr
     .setColor('#f9475d')
     .setTitle('KubeIO Bot Marketplace Wts/Wtb Monitor')
     .setDescription('Commands:')
-    .addField('!(Bot Name Here)wts (Price Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot name and wtb.')
-    .addField('!(Bot Name Here)wtb (Price Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot name and wtb.')
     .addField('!custombotwts (Bot Name Here)','This will add a custom monitor for a bot WTS name add a space after custombotwts , you will also have to add the price in another command or this wont work.')
     .addField('!custombotwtsprice (Price Here)','This will add a custom monitor for a bot WTS name add a space after custombotwtsprice.')
-    .addField('!(Bot Name Here)wts (Price Here)','This will set a WTS monitor for a bot make sure there are no spaces in between the bot wts.')
-    .addField('!(Bot Name Here)wtb (Price Here)','This will set a WTB monitor for a bot make sure there are no spaces in between the bot wts.')
+    .addField('!(Bot Name Here)wts (Price Here)','This will set a WTS monitor max make sure the price is more than the min.')
+    .addField('!(Bot Name Here)wtb (Price Here)','This will set a WTB monitor for make sure the price is more than the min.')
+    .addField('!(Bot Name Here)wtsmin (Price Here)','This will set a WTS monitor min price make sure it is less than the max price')
+    .addField('!(Bot Name Here)wtbmion (Price Here)','This will set a WTB monitor min price make sure it is less than the max price')
     .addField('!custombotwts (Bot Name Here)','This will add a custom monitor for a bot WTS name add a space after custombotwts , you will also have to add the price in another command or this wont work.')
     .addField('!custombotwtsprice (Price Here)','This will add a custom monitor for a bot WTS name add a space after custombotwtsprice.')
     .addField('!clearallwts','This command will clear all wts monitors')
@@ -263,23 +263,7 @@ else if (primaryCommand == "balkowtsmin") {
   
   receivedMessage.channel.send(f3Sucess)
 }
-else if(primaryCommand == "mercurywtsmin") {
-  mercuryWts(arguments, receivedMessage)
-  
-  mercurySucess = new Discord.RichEmbed()
-  
-  .setColor('#f9475d')
-  .setTitle('Mercury WTS Min Sucessfully Added')
-  
-  
-  .setTimestamp()
-  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-  
-  
-  
-  
-  receivedMessage.channel.send(mercurySucess)
-}
+
 else if (primaryCommand == "current2") {
   
   Current2= new Discord.RichEmbed()
@@ -288,26 +272,26 @@ else if (primaryCommand == "current2") {
 
   .setTitle('Current monitor')
 
-  .addField('GaneshWts',ganeshWtsPrice)
-  .addField('GaneshWtb',ganeshWtbPrice)
-  .addField('HayhaWts',hayhaWtsPrice)
-  .addField('HayhaWtb',hayhaWtbPrice)
-  .addField('KiloWts',kiloWtsPrice)
-  .addField('KiloWtb',kiloWtbPrice)
-  .addField('FlareWts',flareWtsPrice)
-  .addField('FlareWtb',flareWtbPrice)
-  .addField('FleekWts',fleekWtsPrice)
-  .addField('FleekWtb',fleekWtbPrice)
-  .addField('NebulaWts',nebulaWtsPrice)
-  .addField('NebulaWtb',nebulaWtbPrice)
-  .addField('SFWts',splashForceWtsPrice)
-  .addField('SFWtb',splashForceWtbPrice)
-  .addField('pdWts',pdWtsPrice)
-  .addField('pdWtb',pdWtbPrice)
-  .addField('PolarisWts',polarisWtsPrice)
-  .addField('PolarisWtb',polarisWtbPrice)
-  .addField('PrismWts',prismWtsPrice)
-  .addField('PrismWtb',prismWtbPrice)
+  .addField('GaneshWts','max '+ganeshWtsPrice+' min '+ganeshWtsPricemin)
+  .addField('GaneshWtb','max '+ganeshWtbPrice+' min '+ganeshWtbPricemin)
+  .addField('HayhaWts','max '+tohruWtbPrice+' min '+tohruWtbPricemin)
+  .addField('HayhaWtb','max '+hayhaWtbPrice+' min '+tohruWtbPricemin)
+  .addField('KiloWts','max '+kiloWtsPrice+' min '+kiloWtsPricemin)
+  .addField('KiloWtb','max '+kiloWtbPrice+' min '+kiloWtbPricemin)
+  .addField('FlareWts','max '+flareWtsPrice+' min '+flareWtsPricemin)
+  .addField('FlareWtb','max '+flareWtbPrice+' min '+flareWtbPricemin)
+  .addField('FleekWts','max '+fleekWtsPrice+' min '+fleekWtsPricemin)
+  .addField('FleekWtb','max '+fleekWtbPrice+' min '+fleekWtbPricemin)
+  .addField('NebulaWts','max '+nebulaWtsPrice+' min '+nebulaWtsPricemin)
+  .addField('NebulaWtb','max '+nebulaWtbPrice+' min '+nebulaWtbPricemin)
+  .addField('SFWts','max '+splashForceWtsPrice+' min '+splashForceWtsPricemin)
+  .addField('SFWtb','max '+splashForceWtbPrice+' min '+splashForceWtbPricemin)
+  .addField('pdWts','max '+pdWtsPrice+' min '+pdWtsPricemin)
+  .addField('pdWtb','max '+pdWtbPrice+' min '+pdWtbPricemin)
+  .addField('PolarisWts','max '+polarisWtsPrice+' min '+polarisWtsPrice)
+  .addField('PolarisWtb','max '+polarisWtbPrice+' min '+polarisWtbPricemin)
+  .addField('PrismWts','max '+prismWtsPrice+' min '+prismWtsPricemin)
+  .addField('PrismWtb','max '+prismWtbPrice+' min '+prismWtbPricemin)
 
 
   .setTimestamp()
@@ -329,26 +313,26 @@ else if (primaryCommand == "current") {
   .setColor('#f9475d')
 
   .setTitle('Current monitor')
-  .addField('DasheWts',dasheWtsPrice)
-  .addField('DasheWtb',dasheWtbPrice)
-  .addField('TohruWts',tohruWtsPrice)
-  .addField('TohruWtb',tohruWtbPrice)
-  .addField('PhantomWts',phantomWtsPrice)
-  .addField('PhantomWtb',phantomWtbPrice)
-  .addField('AdeptWts',adeptWtsPrice)
-  .addField('AdeptWtb',adeptWtbPrice)
-  .addField('BurstWts',burstWtsPrice)
-  .addField('BurstWtb',burstWtbPrice)
-  .addField('CyberWts',cyberWtsPrice)
-  .addField('CyberWtb',cyberWtbPrice)
-  .addField('EstockWts',estockWtsPrice)
-  .addField('EstockWtb',estockWtbPrice)
-  .addField('EveWts',eveWtsPrice)
-  .addField('EveWtb',eveWtbPrice)
-  .addField('GalaxsioWts',galaxsioWtsPrice)
-  .addField('GalaxsioWtb',galaxsioWtbPrice)
-  .addField('HawkWts',hawkWtsPrice)
-  .addField('HawkWtb',hawkWtbPrice)
+  .addField('DasheWts','max '+dasheWtsPrice+' min '+dasheWtsPricemin)
+  .addField('DasheWtb','max '+dasheWtbPrice+' min '+dasheWtbPricemin)
+  .addField('TohruWts','max '+tohruWtsPrice+' min '+tohruWtsPricemin)
+  .addField('TohruWtb','max '+tohruWtbPrice+' min '+tohruWtbPricemin)
+  .addField('PhantomWts','max '+phantomWtsPrice+' min '+phantomWtsPricemin)
+  .addField('PhantomWtb','max '+phantomWtbPrice+' min '+phantomWtbPricemin)
+  .addField('AdeptWts','max '+adeptWtsPrice+' min '+adeptWtsPrice)
+  .addField('AdeptWtb','max '+adeptWtbPrice+' min '+adeptWtbPricemin)
+  .addField('BurstWts','max '+burstWtsPrice+' min '+burstWtsPricemin)
+  .addField('BurstWtb','max '+burstWtbPrice+' min '+burstWtbPricemin)
+  .addField('CyberWts','max '+cyberWtsPrice+' min '+cyberWtsPricemin)
+  .addField('CyberWtb','max '+cyberWtbPrice+' min '+cyberWtbPricemin)
+  .addField('EstockWts','max '+estockWtsPrice+' min '+estockWtsPricemin)
+  .addField('EstockWtb','max '+estockWtbPrice+' min '+estockWtbPricemin)
+  .addField('EveWts','max '+eveWtsPrice+' min '+eveWtsPricemin)
+  .addField('EveWtb','max '+eveWtbPrice+' min '+eveWtbPricemin)
+  .addField('GalaxsioWts','max '+galaxsioWtsPrice+' min '+galaxsioWtsPricemin)
+  .addField('GalaxsioWtb','max '+galaxioWtb+' min '+galaxsioWtbPricemin)
+  .addField('HawkWts','max '+hawkWtsPrice+' min '+hawkWtsPricemin)
+  .addField('HawkWtb','max '+hawkWtbPrice+' min '+hawkWtbPricemin)
 
 
 
@@ -364,6 +348,23 @@ else if (primaryCommand == "current") {
   
 
 }
+else if(primaryCommand == "mercurywtsmin") {
+  mercuryWts(arguments, receivedMessage)
+  
+  mercurySucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Mercury WTS Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(mercurySucess)
+}
 else if (primaryCommand == "current3") {
   
   Current3 = new Discord.RichEmbed()
@@ -372,22 +373,22 @@ else if (primaryCommand == "current3") {
 
   .setTitle('Current monitor')
 
-  .addField('BalkoWts',balkoPriceWts)
-  .addField('BalkoWtb',balkoPriceWtb)
-  .addField('f3Wts',f3PriceWts)
-  .addField('f3Wtb',f3PriceWtb)
-  .addField('RushWts',rushPriceWts)
-  .addField('RushWtb',rushPriceWtb)
-  .addField('MercuryWts',mercuryPriceWts)
-  .addField('MercuryWtb',mercuryPriceWtb)
-  .addField('SoleWts',solePriceWts)
-  .addField('SoleWtb',solePriceWtb)
-  .addField('WrathWts',wrathWTsPrice)
-  .addField('WrathWtb',wrathWtb)
-  .addField('VeloxWts',veloxWts)
-  .addField('VeloxWtb',veloxWtb)
-  .addField('MekWts',mekWts)
-  .addField('MekWtb',mekWtb)
+  .addField('BalkoWts','max '+balkoPriceWts+' min '+balkoPriceWtsmin)
+  .addField('BalkoWtb','max '+balkoPriceWtb+' min '+balkoPriceWtbmin)
+  .addField('f3Wts','max '+f3PriceWts+' min '+f3PriceWtsmin)
+  .addField('f3Wtb','max '+f3PriceWtb+' min '+f3PriceWtbmin)
+  .addField('RushWts','max '+rushPriceWts+' min '+rushPriceWtsmin)
+  .addField('RushWtb','max '+rushPriceWtb+' min '+rushPriceWtbmin)
+  .addField('MercuryWts','max '+mercuryPriceWts+' min '+mercuryPriceWtsmin)
+  .addField('MercuryWtb','max '+mercuryPriceWtb+' min '+mercuryPriceWtbmin)
+  .addField('SoleWts','max '+solePriceWts+' min '+solePriceWtbmin)
+  .addField('SoleWtb','max '+solePriceWtb+' min '+solePriceWtbmin)
+  .addField('WrathWts','max '+wrathWTsPrice+' min '+wrathWTsPricemin)
+  .addField('WrathWtb','max '+wrathWtbPrice+' min '+wrathWtbPricemin)
+  .addField('VeloxWts','max '+veloxWtsPrice+' min '+veloxWtsPricemin)
+  .addField('VeloxWtb','max '+veloxWtbPrice+' min '+veloxWtbPricemin)
+  .addField('MekWts','max '+mekWtsPrice+' min '+mekWtbPricemin)
+  .addField('MekWtb','max '+mekWtbPrice+' min '+mekWtbPricemin)
   
   .setTimestamp()
   .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
@@ -1544,7 +1545,271 @@ receivedMessage.channel.send(f3Sucess)
   
   receivedMessage.channel.send(pdSucess)
 
+}else if(primaryCommand == "dashewtbmin") {
+  dasheWtb(arguments, receivedMessage)
+  
+  DasheSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Dashe WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(DasheSucess)
+}else if(primaryCommand == "tohruwtbmin") {
+  tohruWtb(arguments, receivedMessage)
+  tohruSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Tohru WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(tohruSucess)
+}else if(primaryCommand == "phantomwtb") {
+  phantomWtb(arguments, receivedMessage)
+  
+  phantomSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Phantom WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(phantomSucess)
+}else if(primaryCommand == "adeptwtb") {
+  adeptWtb(arguments, receivedMessage)
+  
+  adeptSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Adept WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(adeptSucess)
+}else if(primaryCommand == "burstwtb") {
+  burstWtb(arguments, receivedMessage)
+  
+  burstSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Burst WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(burstSucess)
+}else if(primaryCommand == "cyberwtbmin") {
+  cyberWtb(arguments, receivedMessage)
+  
+  cyberSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Cyber WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(cyberSucess)
+}else if(primaryCommand == "estockwtbmin") {
+  estockWtb(arguments, receivedMessage)
+  
+  estockSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Estock WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(estockSucess)
+}else if(primaryCommand == "evewtbmin") {
+  eveWtb(arguments, receivedMessage)
+  
+  eveSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Eve WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(eveSucess)
+}else if(primaryCommand == "galaxsiowtbmin") {
+  galaxioWtb(arguments, receivedMessage)
+  
+  galaxsioSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Galaxsio WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(galaxsioSucess)
+}else if(primaryCommand == "hawkmeshwtbmin") {
+  hawkWtb(arguments, receivedMessage)
+  
+  hawkSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Hawk Mesh WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(hawkSucess)
+}else if(primaryCommand == "ganeshwtbmin") {
+  ganeshWtb(arguments, receivedMessage)
+  
+  ganeshSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Ganesh WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(ganeshSucess)
+}else if(primaryCommand == "hayhawtbmin") {
+  hayhaWtb(arguments, receivedMessage)
+  
+  hayhaSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Hayha WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(hayhaSucess)
+
+}else if(primaryCommand == "kilowtbmin") {
+  kiloWtb(arguments, receivedMessage)
+  
+  kilSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Kilo WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(kilSucess)
+
+}else if(primaryCommand == "flarewtbmin") {
+  flareWtb(arguments, receivedMessage)
+  
+  flareSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Flare WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(flareSucess)
+
+}else if(primaryCommand == "fleekwtbmin") {
+  fleekWtb(arguments, receivedMessage)
+  
+  fleekSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Fleek WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(fleekSucess)
+
+}else if(primaryCommand == "nebulawtbmin") {
+  nebulaWtb(arguments, receivedMessage)
+  
+  nebulaSucess = new Discord.RichEmbed()
+  
+  .setColor('#f9475d')
+  .setTitle('Nebula WTB Min Sucessfully Added')
+  
+  
+  .setTimestamp()
+  .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+  
+  
+  
+  
+  receivedMessage.channel.send(nebulaSucess)
+
 }
+
+
+
+
 
 
 
@@ -1776,7 +2041,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(pdSucess)
 }else if(primaryCommand == "dashewtb") {
     dasheWtb(arguments, receivedMessage)
-    
+    dasheWtbPrice=arguments
     DasheSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1792,7 +2057,8 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(DasheSucess)
 }else if(primaryCommand == "tohruwtb") {
     tohruWtb(arguments, receivedMessage)
-    
+    tohruWtbPrice=arguments
+
     tohruSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1808,7 +2074,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(tohruSucess)
 }else if(primaryCommand == "phantomwtb") {
     phantomWtb(arguments, receivedMessage)
-    
+    phantomWtbPrice=arguments
     phantomSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1824,7 +2090,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(phantomSucess)
 }else if(primaryCommand == "adeptwtb") {
     adeptWtb(arguments, receivedMessage)
-    
+    adeptWtbPrice=arguments
     adeptSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1840,7 +2106,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(adeptSucess)
 }else if(primaryCommand == "burstwtb") {
     burstWtb(arguments, receivedMessage)
-    
+    burstWtbPrice=arguments
     burstSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1856,7 +2122,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(burstSucess)
 }else if(primaryCommand == "cyberwtb") {
     cyberWtb(arguments, receivedMessage)
-    
+    cyberWtbPrice=arguments
     cyberSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1872,7 +2138,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(cyberSucess)
 }else if(primaryCommand == "estockwtb") {
     estockWtb(arguments, receivedMessage)
-    
+    estockWtbPrice=arguments
     estockSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1886,9 +2152,9 @@ receivedMessage.channel.send(f3Sucess)
     
     
     receivedMessage.channel.send(estockSucess)
-}else if(primaryCommand == "estockwtb") {
+}else if(primaryCommand == "evewtb") {
     eveWtb(arguments, receivedMessage)
-    
+    eveWtbPrice=arguments
     eveSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1904,7 +2170,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(eveSucess)
 }else if(primaryCommand == "galaxsiowtb") {
     galaxioWtb(arguments, receivedMessage)
-    
+    galaxsioWtbPrice=arguments
     galaxsioSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1920,7 +2186,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(galaxsioSucess)
 }else if(primaryCommand == "hawkmeshwtb") {
     hawkWtb(arguments, receivedMessage)
-    
+    hawkWtbPrice=arguments
     hawkSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1936,7 +2202,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(hawkSucess)
 }else if(primaryCommand == "ganeshwtb") {
     ganeshWtb(arguments, receivedMessage)
-    
+    ganeshWtbPrice=arguments
     ganeshSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1952,7 +2218,7 @@ receivedMessage.channel.send(f3Sucess)
     receivedMessage.channel.send(ganeshSucess)
 }else if(primaryCommand == "hayhawtb") {
     hayhaWtb(arguments, receivedMessage)
-    
+    hayhaWtbPrice=arguments
     hayhaSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1969,7 +2235,7 @@ receivedMessage.channel.send(f3Sucess)
 
 }else if(primaryCommand == "kilowtb") {
     kiloWtb(arguments, receivedMessage)
-    
+    kiloWtbPrice=arguments
     kilSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -1986,7 +2252,7 @@ receivedMessage.channel.send(f3Sucess)
 
 }else if(primaryCommand == "flarewtb") {
     flareWtb(arguments, receivedMessage)
-    
+    flareWtbPrice=arguments
     flareSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -2003,7 +2269,7 @@ receivedMessage.channel.send(f3Sucess)
 
 }else if(primaryCommand == "fleekwtb") {
     fleekWtb(arguments, receivedMessage)
-    
+    fleekWtbPrice=arguments
     fleekSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -2020,7 +2286,7 @@ receivedMessage.channel.send(f3Sucess)
 
 }else if(primaryCommand == "nebulawtb") {
     nebulaWtb(arguments, receivedMessage)
-    
+    nebulaWtbPrice=arguments
     nebulaSucess = new Discord.RichEmbed()
     
     .setColor('#f9475d')
@@ -5341,11 +5607,12 @@ function balkoWtb(arguments, receivedMessage) {
   }
   function dasheWtb(arguments, receivedMessage) {
   
-      dasheWtbPrice=arguments
+      dasheWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
-            
-        if(message.content.toString().toLowerCase()==='wtb dashe '+(dasheWtbPrice)){
+        for (;dasheWtbPricemin<=dasheWtbPrice ;dasheWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase()==='wtb dashe '+(dasheWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5361,7 +5628,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Dashe WTB Listing Found')
-            .addField('Price','$'+dasheWtbPrice+' - '+'€'+dasheWtbPrice *.86 +' - '+'¥' +dasheWtbPrice*6.67, true )
+            .addField('Price','$'+dasheWtbPricemin+' - '+'€'+dasheWtbPricemin *.86 +' - '+'¥' +dasheWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5382,7 +5649,7 @@ function balkoWtb(arguments, receivedMessage) {
             
            
         }
-        else if(message.content.toString().toLowerCase()==='wtb dashe renewal $'+(dasheWtbPrice)){
+        else if(message.content.toString().toLowerCase()==='wtb dashe renewal $'+(dasheWtbPricemin)){
     
           userId= message.author.id
           messageId= message.id
@@ -5398,7 +5665,7 @@ function balkoWtb(arguments, receivedMessage) {
            
                .setColor('#f9475d')
                .setTitle('Dashe WTB Listing Found')
-               .addField('Price','$'+dasheWtbPrice+' - '+'€'+dasheWtbPrice *.86 +' - '+'¥' +dasheWtbPrice*6.67, true )
+               .addField('Price','$'+dasheWtbPricemin+' - '+'€'+dasheWtbPricemin *.86 +' - '+'¥' +dasheWtbPricemin*6.67, true )
                .addField('Seller', message.author.tag,true )
        
                .addField('Link To Seller', hyperSeller2)
@@ -5419,7 +5686,7 @@ function balkoWtb(arguments, receivedMessage) {
                
               
            }
-           else if(message.content.toString().toLowerCase()==='wtb dashe lt $'+(dasheWtbPrice)){
+           else if(message.content.toString().toLowerCase()==='wtb dashe lt $'+(dasheWtbPricemin)){
     
               userId= message.author.id
               messageId= message.id
@@ -5435,7 +5702,7 @@ function balkoWtb(arguments, receivedMessage) {
                
                    .setColor('#f9475d')
                    .setTitle('Dashe WTB Listing Found')
-                   .addField('Price','$'+dasheWtbPrice+' - '+'€'+dasheWtbPrice *.86 +' - '+'¥' +dasheWtbPrice*6.67, true )
+                   .addField('Price','$'+dasheWtbPricemin+' - '+'€'+dasheWtbPricemin *.86 +' - '+'¥' +dasheWtbPricemin*6.67, true )
                    .addField('Seller', message.author.tag,true )
            
                    .addField('Link To Seller', hyperSeller2)
@@ -5456,7 +5723,7 @@ function balkoWtb(arguments, receivedMessage) {
                    
                   
                }
-        else if(message.content.toString().toLowerCase()==='wtb dashe $'+(dasheWtbPrice)){
+        else if(message.content.toString().toLowerCase()==='wtb dashe $'+(dasheWtbPricemin)){
     
               userId= message.author.id
               messageId= message.id
@@ -5472,7 +5739,7 @@ function balkoWtb(arguments, receivedMessage) {
                
                    .setColor('#f9475d')
                    .setTitle('Dashe WTB Listing Found')
-                   .addField('Price','$'+dasheWtbPrice+' - '+'€'+dasheWtbPrice *.86 +' - '+'¥' +dasheWtbPrice*6.67, true )
+                   .addField('Price','$'+dasheWtbPricemin+' - '+'€'+dasheWtbPricemin *.86 +' - '+'¥' +dasheWtbPricemin*6.67, true )
                    .addField('Seller', message.author.tag,true )
            
                    .addField('Link To Seller', hyperSeller2)
@@ -5493,7 +5760,7 @@ function balkoWtb(arguments, receivedMessage) {
                    
                   
                }
-               else if(message.content.toString().toLowerCase()==='wtb dashe lifetime $'+(dasheWtbPrice)){
+               else if(message.content.toString().toLowerCase()==='wtb dashe lifetime $'+(dasheWtbPricemin)){
     
                   userId= message.author.id
                   messageId= message.id
@@ -5509,7 +5776,7 @@ function balkoWtb(arguments, receivedMessage) {
                    
                        .setColor('#f9475d')
                        .setTitle('Dashe WTB Listing Found')
-                       .addField('Price','$'+dasheWtbPrice+' - '+'€'+dasheWtbPrice *.86 +' - '+'¥' +dasheWtbPrice*6.67, true )
+                       .addField('Price','$'+dasheWtbPricemin+' - '+'€'+dasheWtbPricemin *.86 +' - '+'¥' +dasheWtbPricemin*6.67, true )
                        .addField('Seller', message.author.tag,true )
                
                        .addField('Link To Seller', hyperSeller2)
@@ -5530,7 +5797,7 @@ function balkoWtb(arguments, receivedMessage) {
                        
                       
                    }
-                   else if(message.content.toString().toLowerCase()===':dashe:wtb dashe lifetime $'+(dasheWtbPrice)){
+                   else if(message.content.toString().toLowerCase()===':dashe:wtb dashe lifetime $'+(dasheWtbPricemin)){
     
                       userId= message.author.id
                       messageId= message.id
@@ -5546,7 +5813,7 @@ function balkoWtb(arguments, receivedMessage) {
                        
                            .setColor('#f9475d')
                            .setTitle('Dashe WTB Listing Found')
-                           .addField('Price','$'+dasheWtbPrice+' - '+'€'+dasheWtbPrice *.86 +' - '+'¥' +dasheWtbPrice*6.67, true )
+                           .addField('Price','$'+dasheWtbPricemin+' - '+'€'+dasheWtbPricemin *.86 +' - '+'¥' +dasheWtbPricemin*6.67, true )
                            .addField('Seller', message.author.tag,true )
                    
                            .addField('Link To Seller', hyperSeller2)
@@ -5567,18 +5834,20 @@ function balkoWtb(arguments, receivedMessage) {
                            
                           
                        }
-      
+                      }
     });
     
   }
   function tohruWtb(arguments, receivedMessage) {
   
-      tohruWtbPrice=arguments
+      tohruWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
         if(message.channel.id=='733784514769191013'||'750079302409781380'||'734522776559419503'){
 
-        if(message.content.toString().toLowerCase().includes(tohruWtbPrice)){
+          for (;tohruWtbPricemin<=tohruWtbPrice ;tohruWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase().includes(tohruWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5595,7 +5864,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Tohru WTB Listing Found')
-            .addField('Price','$'+tohruWtbPrice+' - '+'€'+tohruWtbPrice *.86 +' - '+'¥' +tohruWtbPrice*6.67, true )
+            .addField('Price','$'+tohruWtbPricemin+' - '+'€'+tohruWtbPricemin *.86 +' - '+'¥' +tohruWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5616,19 +5885,21 @@ function balkoWtb(arguments, receivedMessage) {
             
            
         }
-  
+      }
     }
     });
     
   }
   function phantomWtb(arguments, receivedMessage) {
   
-      phantomWtbPrice=arguments
+      phantomWtbPricemin=arguments
       user.on('message', message => { // When a message is created
 
         if(message.channel.id=='627359748051697674'||'750079509361066107'||'710921644104876042'){
-        
-        if(message.content.toString().toLowerCase().includes(phantomWtbPrice)){
+
+          for (;phantomWtbPricemin<=phantomWtbPrice ;phantomWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase().includes(phantomWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5645,7 +5916,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Phantom WTB Listing Found')
-            .addField('Price','$'+phantomWtbPrice+' - '+'€'+phantomWtbPrice *.86 +' - '+'¥' +phantomWtbPrice*6.67, true )
+            .addField('Price','$'+phantomWtbPricemin+' - '+'€'+phantomWtbPricemin *.86 +' - '+'¥' +phantomWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5667,16 +5938,19 @@ function balkoWtb(arguments, receivedMessage) {
            
         }
         }
+      }
     });
     
   }
   function adeptWtb(arguments, receivedMessage) {
   
-      adeptWtbPrice=arguments
+      adeptWtbPricemin=arguments
       user.on('message', message => { // When a message is created
         if(message.channel.id=='626999229210165268'||'750079951725920346'||'700487424937295877'){
-        
-        if(message.content.toString().toLowerCase().includes(adeptWtbPrice)){
+
+          for (;adeptWtbPricemin<=adeptWtbPrice ;adeptWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase().includes(adeptWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5693,7 +5967,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Adept WTB Listing Found')
-            .addField('Price','$'+adeptWtbPrice+' - '+'€'+adeptWtbPrice *.86 +' - '+'¥' +adeptWtbPrice*6.67, true )
+            .addField('Price','$'+adeptWtbPricemin+' - '+'€'+adeptWtbPricemin *.86 +' - '+'¥' +adeptWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5715,16 +5989,20 @@ function balkoWtb(arguments, receivedMessage) {
            
         }
     }
+  }
     });
     
   }
   function burstWtb(arguments, receivedMessage) {
   
-      burstWtbPrice=arguments
+      burstWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
         if(message.channel.id=='762401858710667264'){
-        if(message.content.toString().toLowerCase().includes(burstWtbPrice)){
+
+          for (;burstWtbPricemin<=burstWtbPrice ;burstWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase().includes(burstWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5741,7 +6019,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Burst WTB Listing Found')
-            .addField('Price','$'+burstWtbPrice+' - '+'€'+burstWtbPrice *.86 +' - '+'¥' +burstWtbPrice*6.67, true )
+            .addField('Price','$'+burstWtbPricemin+' - '+'€'+burstWtbPricemin *.86 +' - '+'¥' +burstWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5762,6 +6040,7 @@ function balkoWtb(arguments, receivedMessage) {
             
            
         }
+      }
       
                    }
     });
@@ -5769,11 +6048,13 @@ function balkoWtb(arguments, receivedMessage) {
   }
   function cyberWtb(arguments, receivedMessage) {
   
-      cyberWtbPrice=arguments
+      cyberWtbPricemin=arguments
       user.on('message', message => { // When a message is created
         if(message.channel.id=='750080045221019778'||'710921814204874782'||'626930513768087552'){
-        
-        if(message.content.toString().toLowerCase().includes(cyberWtbPrice)){
+
+          for (;cyberWtbPricemin<=cyberWtbPrice ;cyberWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase().includes(cyberWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5790,7 +6071,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Cyber WTB Listing Found')
-            .addField('Price','$'+cyberWtbPrice+' - '+'€'+cyberWtbPrice *.86 +' - '+'¥' +cyberWtbPrice*6.67, true )
+            .addField('Price','$'+cyberWtbPricemin+' - '+'€'+cyberWtbPricemin *.86 +' - '+'¥' +cyberWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5811,7 +6092,7 @@ function balkoWtb(arguments, receivedMessage) {
             
            
         }
-  
+      }
             
         }
     });
@@ -5819,11 +6100,13 @@ function balkoWtb(arguments, receivedMessage) {
   }
   function estockWtb(arguments, receivedMessage) {
   
-      estockWtbPrice=arguments
+    estockWtbPricemin=arguments
       user.on('message', message => { // When a message is created
         if(message.channel.id=='761090584420810782'){
-        
-        if(message.content.toString().toLowerCase().includes(estockWtbPrice)){
+
+          for (;estockWtbPricemin<=estockWtbPrice ;estockWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase().includes(estockWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5840,7 +6123,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Estock WTB Listing Found')
-            .addField('Price','$'+estockWtbPrice+' - '+'€'+estockWtbPrice *.86 +' - '+'¥' +estockWtbPrice*6.67, true )
+            .addField('Price','$'+estockWtbPricemin+' - '+'€'+estockWtbPricemin *.86 +' - '+'¥' +estockWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5861,7 +6144,7 @@ function balkoWtb(arguments, receivedMessage) {
             
            
         }
-     
+      }
         }
       
     });
@@ -5869,11 +6152,14 @@ function balkoWtb(arguments, receivedMessage) {
   }
   function eveWtb(arguments, receivedMessage) {
   
-      estockWtbPrice=arguments
+      eveWtbPrice=arguments
       user.on('message', message => { // When a message is created
     
         if(message.channel.id=='626998019023175700'||'750079801586352320'||'710921775554494547'){
-        if(message.content.toString().toLowerCase().includes(eveWtbPrice)){
+
+          for (;eveWtbPricemin<=eveWtbPrice ;eveWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase().includes(eveWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5890,7 +6176,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Eve WTB Listing Found')
-            .addField('Price','$'+eveWtbPrice+' - '+'€'+eveWtbPrice *.86 +' - '+'¥' +eveWtbPrice*6.67, true )
+            .addField('Price','$'+eveWtbPricemin+' - '+'€'+eveWtbPricemin *.86 +' - '+'¥' +eveWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5913,17 +6199,18 @@ function balkoWtb(arguments, receivedMessage) {
         }
   
     }
-      
+  }
     });
     
   }
   function galaxioWtb(arguments, receivedMessage) {
   
-      galaxsioWtbPrice=arguments
+      galaxsioWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
-        
-        if(message.content.toString().toLowerCase()==='wtb galaxsio '+(galaxsioWtbPrice)){
+        for (;galaxsioWtbPricemin<=galaxsioWtbPrice ;galaxsioWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase()==='wtb galaxsio '+(galaxsioWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -5940,7 +6227,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Galaxsio WTB Listing Found')
-            .addField('Price','$'+galaxsioWtbPrice+' - '+'€'+galaxsioWtbPrice *.86 +' - '+'¥' +galaxsioWtbPrice*6.67, true )
+            .addField('Price','$'+galaxsioWtbPricemin+' - '+'€'+galaxsioWtbPricemin *.86 +' - '+'¥' +galaxsioWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -5961,7 +6248,7 @@ function balkoWtb(arguments, receivedMessage) {
             
            
         }
-        else if(message.content.toString().toLowerCase()==='wtb galaxsio $'+(galaxsioWtbPrice)){
+        else if(message.content.toString().toLowerCase()==='wtb galaxsio $'+(galaxsioWtbPricemin)){
     
           userId= message.author.id
           messageId= message.id
@@ -5978,7 +6265,7 @@ function balkoWtb(arguments, receivedMessage) {
            
                .setColor('#f9475d')
                .setTitle('Galaxsio WTB Listing Found')
-               .addField('Price','$'+galaxsioWtbPrice+' - '+'€'+galaxsioWtbPrice *.86 +' - '+'¥' +galaxsioWtbPrice*6.67, true )
+               .addField('Price','$'+galaxsioWtbPricemin+' - '+'€'+galaxsioWtbPricemin *.86 +' - '+'¥' +galaxsioWtbPricemin*6.67, true )
                .addField('Seller', message.author.tag,true )
        
                .addField('Link To Seller', hyperSeller2)
@@ -6000,7 +6287,7 @@ function balkoWtb(arguments, receivedMessage) {
               
            }
   
-           else if(message.content.toString().toLowerCase()==='wtb galaxsio lifetime $'+(galaxsioWtbPrice)){
+           else if(message.content.toString().toLowerCase()==='wtb galaxsio lifetime $'+(galaxsioWtbPricemin)){
     
               userId= message.author.id
               messageId= message.id
@@ -6017,7 +6304,7 @@ function balkoWtb(arguments, receivedMessage) {
                
                    .setColor('#f9475d')
                    .setTitle('Galaxsio WTB Listing Found')
-                   .addField('Price','$'+galaxsioWtbPrice+' - '+'€'+galaxsioWtbPrice *.86 +' - '+'¥' +galaxsioWtbPrice*6.67, true )
+                   .addField('Price','$'+galaxsioWtbPricemin+' - '+'€'+galaxsioWtbPricemin *.86 +' - '+'¥' +galaxsioWtbPricemin*6.67, true )
                    .addField('Seller', message.author.tag,true )
            
                    .addField('Link To Seller', hyperSeller2)
@@ -6039,7 +6326,7 @@ function balkoWtb(arguments, receivedMessage) {
                   
                }
            
-               else if(message.content.toString().toLowerCase()==='wtb galaxsio lifetime $'+(galaxsioWtbPrice/1000)+'k'){
+               else if(message.content.toString().toLowerCase()==='wtb galaxsio lifetime $'+(galaxsioWtbPricemin/1000)+'k'){
     
                   userId= message.author.id
                   messageId= message.id
@@ -6056,7 +6343,7 @@ function balkoWtb(arguments, receivedMessage) {
                    
                        .setColor('#f9475d')
                        .setTitle('Galaxsio WTB Listing Found')
-                       .addField('Price','$'+galaxsioWtbPrice+' - '+'€'+galaxsioWtbPrice *.86 +' - '+'¥' +galaxsioWtbPrice*6.67, true )
+                       .addField('Price','$'+galaxsioWtbPricemin+' - '+'€'+galaxsioWtbPricemin *.86 +' - '+'¥' +galaxsioWtbPricemin*6.67, true )
                        .addField('Seller', message.author.tag,true )
                
                        .addField('Link To Seller', hyperSeller2)
@@ -6078,7 +6365,7 @@ function balkoWtb(arguments, receivedMessage) {
                       
                    }
   
-                   else if(message.content.toString().toLowerCase()==='wtb galaxsio lt $'+(galaxsioWtbPrice/1000)+'k'){
+                   else if(message.content.toString().toLowerCase()==='wtb galaxsio lt $'+(galaxsioWtbPricemin/1000)+'k'){
     
                       userId= message.author.id
                       messageId= message.id
@@ -6095,7 +6382,7 @@ function balkoWtb(arguments, receivedMessage) {
                        
                            .setColor('#f9475d')
                            .setTitle('Galaxsio WTB Listing Found')
-                           .addField('Price','$'+galaxsioWtbPrice+' - '+'€'+galaxsioWtbPrice *.86 +' - '+'¥' +galaxsioWtbPrice*6.67, true )
+                           .addField('Price','$'+galaxsioWtbPricemin+' - '+'€'+galaxsioWtbPricemin *.86 +' - '+'¥' +galaxsioWtbPricemin*6.67, true )
                            .addField('Seller', message.author.tag,true )
                    
                            .addField('Link To Seller', hyperSeller2)
@@ -6117,7 +6404,7 @@ function balkoWtb(arguments, receivedMessage) {
                           
                        }
   
-                       else if(message.content.toString().toLowerCase()==='wtb galaxsio $'+(galaxsioWtbPrice/1000)+'k'){
+                       else if(message.content.toString().toLowerCase()==='wtb galaxsio $'+(galaxsioWtbPricemin/1000)+'k'){
     
                           userId= message.author.id
                           messageId= message.id
@@ -6134,7 +6421,7 @@ function balkoWtb(arguments, receivedMessage) {
                            
                                .setColor('#f9475d')
                                .setTitle('Galaxsio WTB Listing Found')
-                               .addField('Price','$'+galaxsioWtbPrice+' - '+'€'+galaxsioWtbPrice *.86 +' - '+'¥' +galaxsioWtbPrice*6.67, true )
+                               .addField('Price','$'+galaxsioWtbPricemin+' - '+'€'+galaxsioWtbPricemin *.86 +' - '+'¥' +galaxsioWtbPricemin*6.67, true )
                                .addField('Seller', message.author.tag,true )
                        
                                .addField('Link To Seller', hyperSeller2)
@@ -6156,7 +6443,7 @@ function balkoWtb(arguments, receivedMessage) {
                               
                            }
   
-                             else if(message.content.toString().toLowerCase()==='wtb galaxsio $'+(galaxsioWtbPrice/1000)+'k'){
+                             else if(message.content.toString().toLowerCase()==='wtb galaxsio $'+(galaxsioWtbPricemin/1000)+'k'){
     
                           userId= message.author.id
                           messageId= message.id
@@ -6173,7 +6460,7 @@ function balkoWtb(arguments, receivedMessage) {
                            
                                .setColor('#f9475d')
                                .setTitle('Galaxsio WTB Listing Found')
-                               .addField('Price','$'+galaxsioWtbPrice+' - '+'€'+galaxsioWtbPrice *.86 +' - '+'¥' +galaxsioWtbPrice*6.67, true )
+                               .addField('Price','$'+galaxsioWtbPricemin+' - '+'€'+galaxsioWtbPricemin *.86 +' - '+'¥' +galaxsioWtbPricemin*6.67, true )
                                .addField('Seller', message.author.tag,true )
                        
                                .addField('Link To Seller', hyperSeller2)
@@ -6194,18 +6481,22 @@ function balkoWtb(arguments, receivedMessage) {
                                
                               
                            }
-      
+                          }
     });
     
   }
   function hawkWtb(arguments, receivedMessage) {
   
-      hawkWtbPrice=arguments
+      hawkWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
         
         if(message.channel.id=='710921626534805575'||'626998937009782784'){
-        if(message.content.toString().toLowerCase().includes(hawkWtbPrice)){
+
+          for (;hawkWtbPricemin<=hawkWtbPrice ;hawkWtbPricemin++)  { 
+
+
+        if(message.content.toString().toLowerCase().includes(hawkWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -6222,7 +6513,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Hawk Mesh WTB Listing Found')
-            .addField('Price','$'+hawkWtbPrice+' - '+'€'+hawkWtbPrice *.86 +' - '+'¥' +hawkWtbPrice*6.67, true )
+            .addField('Price','$'+hawkWtbPricemin+' - '+'€'+hawkWtbPricemin *.86 +' - '+'¥' +hawkWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -6243,16 +6534,20 @@ function balkoWtb(arguments, receivedMessage) {
         }
        
     }
+  }
     });
     
   }
   function ganeshWtb(arguments, receivedMessage) {
   
-      ganeshWtbPrice=arguments
+      ganeshWtbPricemin=arguments
       user.on('message', message => { // When a message is created
         if(message.channel.id=='626998513175363594'||'764754256087089172'||'700487206904528948'){
         
-        if(message.content.toString().toLowerCase().includes(ganeshWtbPrice)){
+          for (;ganeshWtbPricemin<=ganeshWtbPrice ;ganeshWtbPricemin++)  { 
+
+
+        if(message.content.toString().toLowerCase().includes(ganeshWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -6269,7 +6564,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Ganesh WTB Listing Found')
-            .addField('Price','$'+ganeshWtbPrice+' - '+'€'+ganeshWtbPrice *.86 +' - '+'¥' +ganeshWtbPrice*6.67, true )
+            .addField('Price','$'+ganeshWtbPricemin+' - '+'€'+ganeshWtbPricemin *.86 +' - '+'¥' +ganeshWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -6291,16 +6586,20 @@ function balkoWtb(arguments, receivedMessage) {
            
         }
     }
+  }
     });
     
   }
   function hayhaWtb(arguments, receivedMessage) {
   
-      hayhaWtbPrice=arguments
+      hayhaWtbPricemin=arguments
       user.on('message', message => { // When a message is created
         if(message.channel.id=='699454406235521034'||'752600603938652300'||'710921584302620712'){
         
-        if(message.content.toString().toLowerCase().includes(hayhaWtbPrice)){
+          for (;hayhaWtbPricemin<=hayhaWtbPrice ;hayhaWtbPricemin++)  { 
+
+
+        if(message.content.toString().toLowerCase().includes(hayhaWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -6317,7 +6616,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Hayha WTB Listing Found')
-            .addField('Price','$'+hayhaWtbPrice+' - '+'€'+hayhaWtbPrice *.86 +' - '+'¥' +hayhaWtbPrice*6.67, true )
+            .addField('Price','$'+hayhaWtbPricemin+' - '+'€'+hayhaWtbPricemin *.86 +' - '+'¥' +hayhaWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -6339,17 +6638,21 @@ function balkoWtb(arguments, receivedMessage) {
            
         }
     }
+  }
     });
     
   }
   function kiloWtb(arguments, receivedMessage) { 
   
-      kiloWtbPrice=arguments
+      kiloWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
         if(message.channel.id=='734523543588569139'){
 
-        if(message.content.toString().toLowerCase().includes(kiloWtbPrice)){
+          for (;kiloWtbPricemin<=kiloWtbPrice ;kiloWtbPricemin++)  { 
+
+
+        if(message.content.toString().toLowerCase().includes(kiloWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -6366,7 +6669,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Kilo WTB Listing Found')
-            .addField('Price','$'+kiloWtbPrice+' - '+'€'+kiloWtbPrice *.86 +' - '+'¥' +kiloWtbPrice*6.67, true )
+            .addField('Price','$'+kiloWtbPricemin+' - '+'€'+kiloWtbPricemin *.86 +' - '+'¥' +kiloWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -6388,18 +6691,22 @@ function balkoWtb(arguments, receivedMessage) {
            
         }
       }
+    }
     });
     
   }
   function flareWtb(arguments, receivedMessage) {
   
-      flareWtbPrice=arguments
+      flareWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
         if(message.channel.id=='692632554792288286'||'700487256477138964'){
 
+          for (;flareWtbPricemin<=flareWtbPrice ;flareWtbPricemin++)  { 
 
-        if(message.content.toString().toLowerCase().includes(flareWtbPrice)){
+
+
+        if(message.content.toString().toLowerCase().includes(flareWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -6416,7 +6723,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Flare WTB Listing Found')
-            .addField('Price','$'+flareWtbPrice+' - '+'€'+flareWtbPrice *.86 +' - '+'¥' +flareWtbPrice*6.67, true )
+            .addField('Price','$'+flareWtbPricemin+' - '+'€'+flareWtbPricemin *.86 +' - '+'¥' +flareWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -6438,17 +6745,21 @@ function balkoWtb(arguments, receivedMessage) {
            
         }
     }
+  }
     });
     
   }
   function fleekWtb(arguments, receivedMessage) {
   
-      fleekWtbPrice=arguments
+      fleekWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
         if(message.channel.id=='626999475918864404'||'759444409158467604'||'710921712178430073'){
 
-        if(message.content.toString().toLowerCase(),includes(fleekWtbPrice)){
+          for (;fleekWtbPricemin<=fleekWtbPrice ;flareWtbPricemin++)  { 
+
+
+        if(message.content.toString().toLowerCase(),includes(flareWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -6465,7 +6776,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Fleek WTB Listing Found')
-            .addField('Price','$'+fleekWtbPrice+' - '+'€'+fleekWtbPrice *.86 +' - '+'¥' +fleekWtbPrice*6.67, true )
+            .addField('Price','$'+flareWtbPricemin+' - '+'€'+flareWtbPricemin *.86 +' - '+'¥' +flareWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -6488,17 +6799,19 @@ function balkoWtb(arguments, receivedMessage) {
         }
      
     }
+  }
       
     });
     
   }
   function nebulaWtb (arguments, receivedMessage) {
   
-      nebulaWtbPrice=arguments
+      nebulaWtbPricemin=arguments
       user.on('message', message => { // When a message is created
     
-        
-        if(message.content.toString().toLowerCase()==='wtb nebula '+(nebulaWtbPrice)){
+        for (;nebulaWtbPricemin<=nebulaWtbPrice ;nebulaWtbPricemin++)  { 
+
+        if(message.content.toString().toLowerCase()==='wtb nebula '+(nebulaWtbPricemin)){
     
        userId= message.author.id
        messageId= message.id
@@ -6515,7 +6828,7 @@ function balkoWtb(arguments, receivedMessage) {
         
             .setColor('#f9475d')
             .setTitle('Nebula WTB Listing Found')
-            .addField('Price','$'+nebulaWtbPrice+' - '+'€'+nebulaWtbPrice *.86 +' - '+'¥' +nebulaWtbPrice*6.67, true )
+            .addField('Price','$'+nebulaWtbPricemin+' - '+'€'+nebulaWtbPricemin *.86 +' - '+'¥' +nebulaWtbPricemin*6.67, true )
             .addField('Seller', message.author.tag,true )
     
             .addField('Link To Seller', hyperSeller2)
@@ -6536,7 +6849,7 @@ function balkoWtb(arguments, receivedMessage) {
             
            
         }
-        else if(message.content.toString().toLowerCase()==='wtb nebula $'+(nebulaWtbPrice)){
+        else if(message.content.toString().toLowerCase()==='wtb nebula $'+(nebulaWtbPricemin)){
     
           userId= message.author.id
           messageId= message.id
@@ -6553,7 +6866,7 @@ function balkoWtb(arguments, receivedMessage) {
            
                .setColor('#f9475d')
                .setTitle('Nebula WTB Listing Found')
-               .addField('Price','$'+nebulaWtbPrice+' - '+'€'+nebulaWtbPrice *.86 +' - '+'¥' +nebulaWtbPrice*6.67, true )
+               .addField('Price','$'+nebulaWtbPricemin+' - '+'€'+nebulaWtbPricemin *.86 +' - '+'¥' +nebulaWtbPricemin*6.67, true )
                .addField('Seller', message.author.tag,true )
        
                .addField('Link To Seller', hyperSeller2)
@@ -6574,7 +6887,7 @@ function balkoWtb(arguments, receivedMessage) {
                
               
            }
-          else if(message.content.toString().toLowerCase()==='wtb nebula '+(nebulaWtbPrice/1000)+'k'){
+          else if(message.content.toString().toLowerCase()==='wtb nebula '+(nebulaWtbPricemin/1000)+'k'){
     
               userId= message.author.id
               messageId= message.id
@@ -6591,7 +6904,7 @@ function balkoWtb(arguments, receivedMessage) {
                
                    .setColor('#f9475d')
                    .setTitle('Nebula WTB Listing Found')
-                   .addField('Price','$'+nebulaWtbPrice+' - '+'€'+nebulaWtbPrice *.86 +' - '+'¥' +nebulaWtbPrice*6.67, true )
+                   .addField('Price','$'+nebulaWtbPricemin+' - '+'€'+nebulaWtbPricemin *.86 +' - '+'¥' +nebulaWtbPricemin*6.67, true )
                    .addField('Seller', message.author.tag,true )
            
                    .addField('Link To Seller', hyperSeller2)
@@ -6612,7 +6925,7 @@ function balkoWtb(arguments, receivedMessage) {
                    
                   
                }
-               else if(message.content.toString().toLowerCase()==='wtb nebula $'+(nebulaWtbPrice/1000)+'k'){
+               else if(message.content.toString().toLowerCase()==='wtb nebula $'+(nebulaWtbPricemin/1000)+'k'){
     
                   userId= message.author.id
                   messageId= message.id
@@ -6629,7 +6942,7 @@ function balkoWtb(arguments, receivedMessage) {
                    
                        .setColor('#f9475d')
                        .setTitle('Nebula WTB Listing Found')
-                       .addField('Price','$'+nebulaWtbPrice+' - '+'€'+nebulaWtbPrice *.86 +' - '+'¥' +nebulaWtbPrice*6.67, true )
+                       .addField('Price','$'+nebulaWtbPricemin+' - '+'€'+nebulaWtbPricemin *.86 +' - '+'¥' +nebulaWtbPricemin*6.67, true )
                        .addField('Seller', message.author.tag,true )
                
                        .addField('Link To Seller', hyperSeller2)
@@ -6651,7 +6964,7 @@ function balkoWtb(arguments, receivedMessage) {
                       
                    }
     
-      
+                  }
     });
     
   }
