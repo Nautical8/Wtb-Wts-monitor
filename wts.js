@@ -2361,9 +2361,9 @@ client.on('message', (receivedMessage) => {
     function balkoWts(arguments, receivedMessage) {
 
 
-        balkoPriceWtsmin = arguments
+   
         user.on('message', message => { // When a message is created
-
+     balkoPriceWtsmin = arguments
             if(message.channel.id == '772833340327329812' || '773625024779124776' || '750080118684254328') {
 
 
@@ -2414,8 +2414,10 @@ client.on('message', (receivedMessage) => {
     function f3Wts(arguments, receivedMessage) {
 
 
-        f3PriceWtsmin = arguments
+  
         user.on('message', message => { // When a message is created
+
+          f3PriceWtsmin = arguments        
             if(message.channel.id == '626993314427568168' || '750079728328900718' || '710921760303742976') {
 
                 for(; f3PriceWtsmin <= f3PriceWts; f3PriceWtsmin++) {
@@ -2462,8 +2464,11 @@ client.on('message', (receivedMessage) => {
 
     function rushWts(arguments, receivedMessage) {
 
-        rushPriceWtsmin = arguments
+        
         user.on('message', message => { // When a message is created
+
+        rushPriceWtsmin = arguments    
+
             if(message.channel.id == '715325254100320309' || '752600540252209152' || '736704514756968558') {
                 for(; rushPriceWtsmin <= rushPriceWts; rushPriceWtsmin++) {
                     if(message.content.toString().toLowerCase().includes(rushPriceWtsmin)) {
@@ -2767,8 +2772,10 @@ client.on('message', (receivedMessage) => {
 
     function soleWts(arguments, receivedMessage) {
 
-        solePriceWtsmin = arguments
+  
         user.on('message', message => { // When a message is created
+
+            solePriceWtsmin = arguments      
             if(message.channel.id == '626997679377088562' || '751572267905056859' || '700486817496957000') {
 
                 for(; solePriceWtsmin <= solePriceWts; solePriceWtsmin++) {
@@ -2813,9 +2820,9 @@ client.on('message', (receivedMessage) => {
 
     function wrathWts(arguments, receivedMessage) {
 
-        wrathWTsPricemin = arguments
+   
         user.on('message', message => { // When a message is created
-
+     wrathWTsPricemin = arguments
             if(message.channel.id == '626997441392017428' || '743950855069368461' || '710921120542359582') {
 
 
@@ -2864,9 +2871,9 @@ client.on('message', (receivedMessage) => {
 
     function veloxWts(arguments, receivedMessage) {
 
-        veloxWtsPricemin = arguments
-        user.on('message', message => { // When a message is created
 
+        user.on('message', message => { // When a message is created
+        veloxWtsPricemin = arguments
             if(message.channel.id == '634518877748854814' || '750079237591007243' || '710921145146408972') {
 
                 for(; veloxWtsPricemin <= veloxWtsPrice; veloxWtsPricemin++) {
@@ -2915,10 +2922,10 @@ client.on('message', (receivedMessage) => {
 
     function mekWts(arguments, receivedMessage) {
 
-        mekWtsPricemin = arguments
+  
         user.on('message', message => { // When a message is created
 
-
+      mekWtsPricemin = arguments
             if(message.channel.id == '627003393461977108' || '750079650264252508' || '710921442967158872') {
 
                 for(; mekWtsPricemin <= mekWtbPrice; mekWtsPricemin++) {
@@ -2968,8 +2975,9 @@ client.on('message', (receivedMessage) => {
 
     function prismWts(arguments, receivedMessage) {
 
-        prismWtsPricemin = arguments
+     
         user.on('message', message => { // When a message is created
+       prismWtsPricemin = arguments        
 
             if(message.channel.id == '626997179378171925' || '750079394831401040' || '710921405935517697') {
 
@@ -3020,8 +3028,10 @@ client.on('message', (receivedMessage) => {
 
     function polarisWts(arguments, receivedMessage) {
 
-        polarisWtsPricemin = arguments
+  
         user.on('message', message => { // When a message is created
+
+       polarisWtsPricemin = arguments           
             if(message.channel.id == '713875826319294544' || '750079394831401040' || '710921405935517697') {
 
                 for(; polarisWtsPricemin <= polarisWtsPrice; polarisWtsPricemin++) {
@@ -3073,9 +3083,9 @@ client.on('message', (receivedMessage) => {
 
     function splashForceWts(arguments, receivedMessage) {
 
-        splashForceWtsPricemin = arguments
+      
         user.on('message', message => { // When a message is created
-
+  splashForceWtsPricemin = arguments
             for(; splashForceWtsPricemin <= splashForceWtsPrice; splashForceWtsPricemin++) {
                 if(message.content.toString().toLowerCase() === 'wts splash force ' + (splashForceWtsPricemin)) {
 
@@ -3230,9 +3240,9 @@ client.on('message', (receivedMessage) => {
 
     function pdWts(arguments, receivedMessage) {
 
-        pdWtsPricemin = arguments
+    
         user.on('message', message => { // When a message is created
-
+    pdWtsPricemin = arguments
             if(message.channel.id == '626996548009721886' || '750079568433512538' || '710921389552566303') {
                 for(; pdWtsPricemin <= pdWtsPrice; pdWtsPricemin++) {
 
@@ -3280,11 +3290,11 @@ client.on('message', (receivedMessage) => {
 
     function dasheWts(arguments, receivedMessage) {
 
-        dasheWtsPricemin = arguments
+    
         user.on('message', message => { // When a message is created
 
 
-
+    dasheWtsPricemin = arguments
 
             for(; dasheWtsPricemin <= dasheWtsPrice; dasheWtsPricemin++) {
 
@@ -3517,9 +3527,9 @@ client.on('message', (receivedMessage) => {
 
     function tohruWts(arguments, receivedMessage) {
 
-        tohruWtsPricemin = arguments
+  
         user.on('message', message => { // When a message is created
-
+      tohruWtsPricemin = arguments
             if(message.channel.id == '734522747580841985' || '750079269912444978' || '733784476546498651') {
 
                 for(; tohruWtsPricemin <= tohruWtsPrice; tohruWtsPricemin++) {
@@ -3571,10 +3581,10 @@ client.on('message', (receivedMessage) => {
 
     function phantomWts(arguments, receivedMessage) {
 
-        phantomWtsPricemin = arguments
         user.on('message', message => { // When a message is created
 
 
+        phantomWtsPricemin = arguments
             if(message.channel.id == '627359696335929365' || '750079496211922944' || '710921653739323402') {
                 for(; phantomWtsPricemin <= phantomWtsPrice; phantomWtsPricemin++) {
 
@@ -3623,9 +3633,9 @@ client.on('message', (receivedMessage) => {
 
     function adeptWts(arguments, receivedMessage) {
 
-        adeptWtsPricemin = arguments
+     
         user.on('message', message => { // When a message is created
-
+   adeptWtsPricemin = arguments
             if(message.channel.id == '627359696335929365' || '750079939973480488' || '710921903249948802') {
 
                 for(; adeptWtsPricemin <= adeptWtsPrice; adeptWtsPricemin++) {
@@ -3677,9 +3687,9 @@ client.on('message', (receivedMessage) => {
 
     function burstWts(arguments, receivedMessage) {
 
-        burstWtsPricemin = arguments
+  
         user.on('message', message => { // When a message is created
-
+      burstWtsPricemin = arguments
             if(message.channel.id == '762401756437020703') {
 
                 for(; burstWtsPricemin <= burstWtbPrice; burstWtsPricemin++) {
@@ -3730,9 +3740,9 @@ client.on('message', (receivedMessage) => {
 
     function cyberWts(arguments, receivedMessage) {
 
-        cyberWtsPricemin = arguments
+    
         user.on('message', message => { // When a message is created
-
+    cyberWtsPricemin = arguments
             if(message.channel.id == '626930445774487563' || '750080029278339203' || '710921830558335087') {
 
                 for(; cyberWtsPricemin <= cyberWtsPrice; cyberWtsPricemin++) {
@@ -3784,8 +3794,10 @@ client.on('message', (receivedMessage) => {
 
     function estockWts(arguments, receivedMessage) {
 
-        estockWtsPricemin = arguments
+     
         user.on('message', message => { // When a message is created
+
+            estockWtsPricemin = arguments   
             if(message.channel.id == '761090509858406400') {
                 for(; estockWtsPricemin <= estockWtsPrice; estockWtsPrice++) {
                     if(message.content.toString().toLowerCase().includes(estockWtsPricemin)) {
@@ -3835,8 +3847,10 @@ client.on('message', (receivedMessage) => {
 
     function eveWts(arguments, receivedMessage) {
 
-        eveWtsPricemin = arguments
+       
         user.on('message', message => { // When a message is created
+ eveWtsPricemin = arguments
+
             if(message.channel.id == '626997994927161377' || '750079789196509294' || '710921786321141911') {
 
 
@@ -3886,8 +3900,10 @@ client.on('message', (receivedMessage) => {
 
     function galaxioWts(arguments, receivedMessage) {
 
-        galaxsioWtsPricemin = arguments
+        
         user.on('message', message => { // When a message is created
+
+           galaxsioWtsPricemin = arguments 
             if(message.channel.id == '692817365561376788') {
 
 
@@ -3938,9 +3954,9 @@ client.on('message', (receivedMessage) => {
 
     function hawkWts(arguments, receivedMessage) {
 
-        hawkWtsPricemin = arguments
+     
         user.on('message', message => { // When a message is created
-
+   hawkWtsPricemin = arguments
             if(message.channel.id == '626998862145650698' || '710921635976446002') {
 
                 for(; hawkWtsPricemin <= hawkWtsPrice; hawkWtsPricemin++) {
@@ -3989,9 +4005,9 @@ client.on('message', (receivedMessage) => {
 
     function ganeshWts(arguments, receivedMessage) {
 
-        ganeshWtsPricemin = arguments
+    
         user.on('message', message => { // When a message is created
-
+    ganeshWtsPricemin = arguments
 
             if(message.channel.id == '626998427040874496' || '764754241113161728' || '710921675998494770') {
 
@@ -4043,9 +4059,9 @@ client.on('message', (receivedMessage) => {
 
     function hayhaWts(arguments, receivedMessage) {
 
-        hayhaWtsPricemin = arguments
+       
         user.on('message', message => { // When a message is created
-
+ hayhaWtsPricemin = arguments
             if(message.channel.id == '699454441354428516' || '752600588537167955' || '710921620025376769') {
 
                 for(; hayhaWtsPricemin <= hayhaWtsPrice; hayhaWtsPricemin++) {
@@ -4095,9 +4111,9 @@ client.on('message', (receivedMessage) => {
 
     function kiloWts(arguments, receivedMessage) {
 
-        kiloWtsPricemin = arguments
+     
         user.on('message', message => { // When a message is created
-
+   kiloWtsPricemin = arguments
             if(message.channel.id == '734523471542878349' || '733784066284978307') {
 
                 for(; kiloWtsPricemin <= kiloWtsPrice; kiloWtsPricemin++) {
@@ -4147,9 +4163,9 @@ client.on('message', (receivedMessage) => {
 
     function flareWts(arguments, receivedMessage) {
 
-        flareWtsPricemin = arguments
         user.on('message', message => { // When a message is created
 
+        flareWtsPricemin = arguments
             if(message.channel.id == '692632524609945660' || '710921725759455253') {
 
                 for(; flareWtsPricemin <= flareWtsPrice; flareWtsPricemin++) {
@@ -4199,9 +4215,9 @@ client.on('message', (receivedMessage) => {
 
     function fleekWts(arguments, receivedMessage) {
 
-        fleekWtsPricemin = arguments
+       
         user.on('message', message => { // When a message is created
-
+ fleekWtsPricemin = arguments
             if(message.channel.id == '626999432881242152' || '759444386257305620' || '700487250483478560') {
 
                 for(; fleekWtsPricemin <= fleekWtsPrice; fleekWtsPricemin++) {
@@ -4253,9 +4269,9 @@ client.on('message', (receivedMessage) => {
 
     function nebulaWts(arguments, receivedMessage) {
 
-        nebulaWtsPricemin = arguments
+     
         user.on('message', message => { // When a message is created
-
+   nebulaWtsPricemin = arguments
             for(; nebulaWtsPricemin <= nebulaWtsPrice; nebulaWtsPricemin++) {
 
                 if(message.content.toString().toLowerCase() === 'wts nebula ' + (nebulaWtsPricemin)) {
@@ -4416,10 +4432,10 @@ client.on('message', (receivedMessage) => {
     function CustomWts(arguments, receivedMessage) {
 
 
-        customWtsPrice = arguments
+       
         user.on('message', message => { // When a message is created
 
-
+ customWtsPrice = arguments
             if(message.content.toString().toLowerCase() === 'wts ' + (customBotWtsPrice) + ' ' + (customWtsPrice)) {
 
                 userId = message.author.id
@@ -4643,9 +4659,9 @@ client.on('message', (receivedMessage) => {
 
     function balkoWtb(arguments, receivedMessage) {
 
-        balkoPriceWtbmin = arguments
+      
         user.on('message', message => { // When a message is created
-
+  balkoPriceWtbmin = arguments
             if(message.channel.id == '626996366433976330' || '750080130038235218' || '710921862888161440') {
 
                 for(; balkoPriceWtbmin <= balkoPriceWtb; balkoPriceWtbmin++) {
@@ -4696,9 +4712,9 @@ client.on('message', (receivedMessage) => {
 
     function f3Wtb(arguments, receivedMessage) {
 
-        f3PriceWtbmin = arguments
+      
         user.on('message', message => { // When a message is created
-
+  f3PriceWtbmin = arguments
             if(message.channel.id == '626994422105636874' || '750079739414183946' || '710921740297044008') {
 
 
@@ -4747,10 +4763,10 @@ client.on('message', (receivedMessage) => {
 
     function rushWtb(arguments, receivedMessage) {
 
-        rushPriceWtbmin = arguments
+      
         user.on('message', message => { // When a message is created
 
-
+  rushPriceWtbmin = arguments
             if(message.channel.id == '715325456924147845' || '752600558270939256' || '736704547434790954') {
 
 
@@ -4801,9 +4817,9 @@ client.on('message', (receivedMessage) => {
 
     function mercuryWtb(arguments, receivedMessage) {
 
-        mercuryPriceWtbmin = arguments
+ 
         user.on('message', message => { // When a message is created
-
+       mercuryPriceWtbmin = arguments
             for(; mercuryPriceWtbmin <= mercuryPriceWtb; mercuryPriceWtbmin++) {
 
                 if(message.content.toString().toLowerCase() === 'wtb mercury ' + (mercuryPriceWtbmin)) {
@@ -5063,9 +5079,9 @@ client.on('message', (receivedMessage) => {
 
     function soleWtb(arguments, receivedMessage) {
 
-        solePriceWtbmin = arguments
+    
         user.on('message', message => { // When a message is created
-
+    solePriceWtbmin = arguments
             if(message.channel.id == '626997728915881993' || '751572280307482734' || '710921331872366644') {
 
                 for(; solePriceWtbmin <= solePriceWtb; solePriceWtbmin++) {
@@ -5112,9 +5128,9 @@ client.on('message', (receivedMessage) => {
 
     function wrathWtb(arguments, receivedMessage) {
 
-        wrathWtbPricemin = arguments
+     
         user.on('message', message => { // When a message is created
-
+   wrathWtbPricemin = arguments
             if(message.channel.id == '626997507205103617' || '743950898501517322' || '733784514769191013') {
 
                 for(; wrathWtbPricemin <= wrathWtbPrice; wrathWtbPricemin++) {
@@ -5162,9 +5178,9 @@ client.on('message', (receivedMessage) => {
 
     function veloxWtb(arguments, receivedMessage) {
 
-        veloxWtbPricemin = arguments
+     
         user.on('message', message => { // When a message is created
-
+   veloxWtbPricemin = arguments
             if(message.channel.id == '710921136078192723' || '750079086541668462' || '634518624677396501') {
 
                 for(; veloxWtbPricemin <= veloxWtbPrice; veloxWtbPricemin++) {
@@ -5215,9 +5231,9 @@ client.on('message', (receivedMessage) => {
 
     function mekWtb(arguments, receivedMessage) {
 
-        mekWtbPricemin = arguments
+      
         user.on('message', message => { // When a message is created
-
+  mekWtbPricemin = arguments
             if(message.channel.id == '627003458817359873' || '750079662675198053' || '710921433987022878') {
 
                 for(; mekWtbPricemin <= mekWtbPrice; mekWtbPricemin++) {
@@ -5267,10 +5283,10 @@ client.on('message', (receivedMessage) => {
 
     function prismWtb(arguments, receivedMessage) {
 
-        prismWtbPricemin = arguments
+  
         user.on('message', message => { // When a message is created
 
-
+      prismWtbPricemin = arguments
             if(message.channel.id == '626997238513795079' || '750079349167882462' || '710921411757211689') {
 
                 for(; prismWtbPricemin <= prismWtbPrice; prismWtbPricemin++) {
@@ -5321,10 +5337,10 @@ client.on('message', (receivedMessage) => {
 
     function polarisWtb(arguments, receivedMessage) {
 
-        polarisWtbPricemin = arguments
         user.on('message', message => { // When a message is created
 
 
+        polarisWtbPricemin = arguments
             if(message.channel.id == '710921396859175081' || '750079408445980717' || '713875954224726228') {
 
                 for(; polarisWtbPricemin <= polarisWtbPrice; polarisWtbPricemin++) {
@@ -5376,9 +5392,9 @@ client.on('message', (receivedMessage) => {
 
     function splashForceWtb(arguments, receivedMessage) {
 
-        splashForceWtbPricemin = arguments
+      
         user.on('message', message => { // When a message is created
-
+  splashForceWtbPricemin = arguments
             for(; splashForceWtbPricemin <= splashForceWtbPrice; splashForceWtbPricemin++) {
 
                 if(message.content.toString().toLowerCase() === 'wtb splash force ' + (splashForceWtbPricemin)) {
@@ -5534,10 +5550,10 @@ client.on('message', (receivedMessage) => {
 
     function pdWtb(arguments, receivedMessage) {
 
-        pdWtbPricemin = arguments
+       
         user.on('message', message => { // When a message is created
 
-
+ pdWtbPricemin = arguments
             if(message.channel.id == '626996604603465738' || '750079582606196826' || '710921374939742298') {
                 for(; pdWtbPricemin <= pdWtbPrice; pdWtbPricemin++) {
 
@@ -5584,9 +5600,9 @@ client.on('message', (receivedMessage) => {
 
     function dasheWtb(arguments, receivedMessage) {
 
-        dasheWtbPricemin = arguments
+       
         user.on('message', message => { // When a message is created
-
+ dasheWtbPricemin = arguments
             for(; dasheWtbPricemin <= dasheWtbPrice; dasheWtbPricemin++) {
 
                 if(message.content.toString().toLowerCase() === 'wtb dashe ' + (dasheWtbPricemin)) {
@@ -5813,9 +5829,9 @@ client.on('message', (receivedMessage) => {
 
     function tohruWtb(arguments, receivedMessage) {
 
-        tohruWtbPricemin = arguments
+    
         user.on('message', message => { // When a message is created
-
+    tohruWtbPricemin = arguments
             if(message.channel.id == '733784514769191013' || '750079302409781380' || '734522776559419503') {
 
                 for(; tohruWtbPricemin <= tohruWtbPrice; tohruWtbPricemin++) {
@@ -5866,9 +5882,9 @@ client.on('message', (receivedMessage) => {
 
     function phantomWtb(arguments, receivedMessage) {
 
-        phantomWtbPricemin = arguments
+     
         user.on('message', message => { // When a message is created
-
+   phantomWtbPricemin = arguments
             if(message.channel.id == '627359748051697674' || '750079509361066107' || '710921644104876042') {
 
                 for(; phantomWtbPricemin <= phantomWtbPrice; phantomWtbPricemin++) {
@@ -5919,8 +5935,9 @@ client.on('message', (receivedMessage) => {
 
     function adeptWtb(arguments, receivedMessage) {
 
-        adeptWtbPricemin = arguments
         user.on('message', message => { // When a message is created
+     
+        adeptWtbPricemin = arguments       
             if(message.channel.id == '626999229210165268' || '750079951725920346' || '700487424937295877') {
 
                 for(; adeptWtbPricemin <= adeptWtbPrice; adeptWtbPricemin++) {
@@ -5971,9 +5988,9 @@ client.on('message', (receivedMessage) => {
 
     function burstWtb(arguments, receivedMessage) {
 
-        burstWtbPricemin = arguments
+     
         user.on('message', message => { // When a message is created
-
+   burstWtbPricemin = arguments
             if(message.channel.id == '762401858710667264') {
 
                 for(; burstWtbPricemin <= burstWtbPrice; burstWtbPricemin++) {
@@ -6025,8 +6042,10 @@ client.on('message', (receivedMessage) => {
 
     function cyberWtb(arguments, receivedMessage) {
 
-        cyberWtbPricemin = arguments
         user.on('message', message => { // When a message is created
+        cyberWtbPricemin = arguments
+
+
             if(message.channel.id == '750080045221019778' || '710921814204874782' || '626930513768087552') {
 
                 for(; cyberWtbPricemin <= cyberWtbPrice; cyberWtbPricemin++) {
@@ -6078,8 +6097,10 @@ client.on('message', (receivedMessage) => {
 
     function estockWtb(arguments, receivedMessage) {
 
-        estockWtbPricemin = arguments
+   
         user.on('message', message => { // When a message is created
+
+           estockWtbPricemin = arguments      
             if(message.channel.id == '761090584420810782') {
 
                 for(; estockWtbPricemin <= estockWtbPrice; estockWtbPricemin++) {
@@ -6131,9 +6152,9 @@ client.on('message', (receivedMessage) => {
 
     function eveWtb(arguments, receivedMessage) {
 
-        eveWtbPrice = arguments
+     
         user.on('message', message => { // When a message is created
-
+   eveWtbPrice = arguments
             if(message.channel.id == '626998019023175700' || '750079801586352320' || '710921775554494547') {
 
                 for(; eveWtbPricemin <= eveWtbPrice; eveWtbPricemin++) {
@@ -6185,9 +6206,9 @@ client.on('message', (receivedMessage) => {
 
     function galaxioWtb(arguments, receivedMessage) {
 
-        galaxsioWtbPricemin = arguments
+      
         user.on('message', message => { // When a message is created
-
+  galaxsioWtbPricemin = arguments
             for(; galaxsioWtbPricemin <= galaxsioWtbPrice; galaxsioWtbPricemin++) {
 
                 if(message.content.toString().toLowerCase() === 'wtb galaxsio ' + (galaxsioWtbPricemin)) {
@@ -6457,10 +6478,10 @@ client.on('message', (receivedMessage) => {
 
     function hawkWtb(arguments, receivedMessage) {
 
-        hawkWtbPricemin = arguments
+       
         user.on('message', message => { // When a message is created
 
-
+ hawkWtbPricemin = arguments
             if(message.channel.id == '710921626534805575' || '626998937009782784') {
 
                 for(; hawkWtbPricemin <= hawkWtbPrice; hawkWtbPricemin++) {
@@ -6511,8 +6532,10 @@ client.on('message', (receivedMessage) => {
 
     function ganeshWtb(arguments, receivedMessage) {
 
-        ganeshWtbPricemin = arguments
+        
         user.on('message', message => { // When a message is created
+
+        ganeshWtbPricemin = arguments    
             if(message.channel.id == '626998513175363594' || '764754256087089172' || '700487206904528948') {
 
                 for(; ganeshWtbPricemin <= ganeshWtbPrice; ganeshWtbPricemin++) {
@@ -6564,8 +6587,10 @@ client.on('message', (receivedMessage) => {
 
     function hayhaWtb(arguments, receivedMessage) {
 
-        hayhaWtbPricemin = arguments
+    
         user.on('message', message => { // When a message is created
+
+             hayhaWtbPricemin = arguments   
             if(message.channel.id == '699454406235521034' || '752600603938652300' || '710921584302620712') {
 
                 for(; hayhaWtbPricemin <= hayhaWtbPrice; hayhaWtbPricemin++) {
@@ -6617,9 +6642,9 @@ client.on('message', (receivedMessage) => {
 
     function kiloWtb(arguments, receivedMessage) {
 
-        kiloWtbPricemin = arguments
+        
         user.on('message', message => { // When a message is created
-
+kiloWtbPricemin = arguments
             if(message.channel.id == '734523543588569139') {
 
                 for(; kiloWtbPricemin <= kiloWtbPrice; kiloWtbPricemin++) {
@@ -6671,9 +6696,9 @@ client.on('message', (receivedMessage) => {
 
     function flareWtb(arguments, receivedMessage) {
 
-        flareWtbPricemin = arguments
+    
         user.on('message', message => { // When a message is created
-
+    flareWtbPricemin = arguments
             if(message.channel.id == '692632554792288286' || '700487256477138964') {
 
                 for(; flareWtbPricemin <= flareWtbPrice; flareWtbPricemin++) {
@@ -6726,9 +6751,9 @@ client.on('message', (receivedMessage) => {
 
     function fleekWtb(arguments, receivedMessage) {
 
-        fleekWtbPricemin = arguments
+ 
         user.on('message', message => { // When a message is created
-
+       fleekWtbPricemin = arguments
             if(message.channel.id == '626999475918864404' || '759444409158467604' || '710921712178430073') {
 
                 for(; fleekWtbPricemin <= fleekWtbPrice; flareWtbPricemin++) {
@@ -6782,9 +6807,9 @@ client.on('message', (receivedMessage) => {
 
     function nebulaWtb(arguments, receivedMessage) {
 
-        nebulaWtbPricemin = arguments
+    
         user.on('message', message => { // When a message is created
-
+    nebulaWtbPricemin = arguments
             for(; nebulaWtbPricemin <= nebulaWtbPrice; nebulaWtbPricemin++) {
 
                 if(message.content.toString().toLowerCase() === 'wtb nebula ' + (nebulaWtbPricemin)) {
