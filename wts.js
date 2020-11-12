@@ -176,6 +176,7 @@ client.on('message', receivedMessage => {
 
 
             if(primaryCommand == "current") {
+                Current(arguments, receivedMessage)
 
 
 
@@ -183,7 +184,6 @@ client.on('message', receivedMessage => {
                 let page = 0;
 
                 Current2 = new Discord.RichEmbed()
-                Current(arguments, receivedMessage)
 
                     .setColor('#f9475d')
 
@@ -264,6 +264,7 @@ client.on('message', receivedMessage => {
 
 
                                     Current4 = new Discord.RichEmbed()
+
                                         .setColor('#f9475d')
 
                                         .setTitle('Current monitor')
@@ -295,6 +296,7 @@ client.on('message', receivedMessage => {
 
 
                                     Current5 = new Discord.RichEmbed()
+
                                         .setColor('#f9475d')
 
                                         .setTitle('Current monitor')
@@ -326,6 +328,7 @@ client.on('message', receivedMessage => {
 
 
                                     Current6 = new Discord.RichEmbed()
+
                                         .setColor('#f9475d')
 
                                         .setTitle('Current monitor')
