@@ -630,7 +630,7 @@ client.on('message', (receivedMessage) => {
 
 
                 receivedMessage.channel.send(pdSucess)
-            } else if(primaryCommand == "dashewts") {
+            } else if(primaryCommand == "dashewtsmin") {
                 dasheWts(arguments, receivedMessage)
 
                 DasheSucess = new Discord.RichEmbed()
@@ -1064,7 +1064,7 @@ client.on('message', (receivedMessage) => {
 
 
                 receivedMessage.channel.send(pdSucess)
-            } else if(primaryCommand == "dashewtsmin") {
+            } else if(primaryCommand == "dashewts") {
                 dasheWts(arguments, receivedMessage)
                 dasheWtsPrice = arguments
                 DasheSucess = new Discord.RichEmbed()
@@ -1583,7 +1583,7 @@ client.on('message', (receivedMessage) => {
 
                 receivedMessage.channel.send(pdSucess)
 
-            } else if(primaryCommand == "dashewtb") {
+            } else if(primaryCommand == "dashewtbmin") {
                 dasheWtb(arguments, receivedMessage)
 
                 DasheSucess = new Discord.RichEmbed()
@@ -2069,7 +2069,7 @@ client.on('message', (receivedMessage) => {
 
 
                 receivedMessage.channel.send(pdSucess)
-            } else if(primaryCommand == "dashewtbmin") {
+            } else if(primaryCommand == "dashewtb") {
                 dasheWtb(arguments, receivedMessage)
                 dasheWtbPrice = arguments
                 DasheSucess = new Discord.RichEmbed()
@@ -2418,7 +2418,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
      balkoPriceWtsmin = arguments
 
-         for(; balkoPriceWtsmin <= balkoPriceWts; balkoPriceWtsmin++) {
+         for(; balkoPriceWtsmin < balkoPriceWts; balkoPriceWtsmin++) {
 
               
             if(message.channel.id == '772833340327329812' ) {
@@ -2521,7 +2521,7 @@ client.on('message', (receivedMessage) => {
           f3PriceWtsmin = arguments        
         
 
-                for(; f3PriceWtsmin <= f3PriceWts; f3PriceWtsmin++) {
+                for(; f3PriceWtsmin < f3PriceWts; f3PriceWtsmin++) {
                     
                     
             if(message.channel.id ==  '710921760303742976') {
@@ -2644,7 +2644,7 @@ client.on('message', (receivedMessage) => {
 
         rushPriceWtsmin = arguments    
      
-         for(; rushPriceWtsmin <= rushPriceWts; rushPriceWtsmin++) {      
+         for(; rushPriceWtsmin < rushPriceWts; rushPriceWtsmin++) {      
 
             
         
@@ -2793,7 +2793,7 @@ client.on('message', (receivedMessage) => {
             mercuryPriceWtsmin = arguments
 
 
-            for(; mercuryPriceWtsmin <= mercuryPriceWts; mercuryPriceWtsmin++) {
+            for(; mercuryPriceWtsmin < mercuryPriceWts; mercuryPriceWtsmin++) {
 
                 if(message.content.toString().toLowerCase() === 'wts mercury ' + (mercuryPriceWtsmin)) {
 
@@ -3051,7 +3051,7 @@ client.on('message', (receivedMessage) => {
 
             solePriceWtsmin = arguments 
             
-               for(; solePriceWtsmin <= solePriceWts; solePriceWtsmin++) {   
+               for(; solePriceWtsmin < solePriceWts; solePriceWtsmin++) {   
                
        
             if(message.channel.id ==  '700486817496957000') {
@@ -3172,7 +3172,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
      wrathWTsPricemin = arguments
 
-            for(; wrathWTsPricemin <= wrathWTsPrice; wrathWTsPricemin++) {
+            for(; wrathWTsPricemin < wrathWTsPrice; wrathWTsPricemin++) {
 
            
                       
@@ -3298,7 +3298,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
         veloxWtsPricemin = arguments
 
-         for(; veloxWtsPricemin <= veloxWtsPrice; veloxWtsPricemin++) {
+         for(; veloxWtsPricemin < veloxWtsPrice; veloxWtsPricemin++) {
 
             
             if(message.channel.id ==  '710921145146408972') {
@@ -3440,7 +3440,7 @@ client.on('message', (receivedMessage) => {
 
       mekWtsPricemin = arguments
 
-        for(; mekWtsPricemin <= mekWtbPrice; mekWtsPricemin++) {
+        for(; mekWtsPricemin < mekWtbPrice; mekWtsPricemin++) {
             
             if(message.channel.id ==  '710921442967158872') {
 
@@ -3573,7 +3573,7 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
        prismWtsPricemin = arguments        
-  for(; prismWtsPricemin <= prismWtsPrice; prismWtsPricemin++) {
+  for(; prismWtsPricemin < prismWtsPrice; prismWtsPricemin++) {
 
          
 
@@ -3712,7 +3712,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
        polarisWtsPricemin = arguments           
-          for(; polarisWtsPricemin <= polarisWtsPrice; polarisWtsPricemin++) {
+          for(; polarisWtsPricemin < polarisWtsPrice; polarisWtsPricemin++) {
                         
 
             if(message.channel.id ==  '710921405935517697') {
@@ -3853,7 +3853,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
   splashForceWtsPricemin = arguments
 
-            for(; splashForceWtsPricemin <= splashForceWtsPrice; splashForceWtsPricemin++) {
+            for(; splashForceWtsPricemin < splashForceWtsPrice; splashForceWtsPricemin++) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -4046,7 +4046,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
     pdWtsPricemin = arguments
 
-           for(; pdWtsPricemin <= pdWtsPrice; pdWtsPricemin++) {
+           for(; pdWtsPricemin < pdWtsPrice; pdWtsPricemin++) {
             
                       
    
@@ -4181,7 +4181,7 @@ client.on('message', (receivedMessage) => {
     dasheWtsPricemin = arguments
 
                         
-          for(; dasheWtsPricemin <= dasheWtsPrice; dasheWtsPricemin++) {  
+          for(; dasheWtsPricemin < dasheWtsPrice; dasheWtsPricemin++) {  
 
 
                     
@@ -4237,7 +4237,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
       tohruWtsPricemin = arguments
 
-            for(; tohruWtsPricemin <= tohruWtsPrice; tohruWtsPricemin++) {  
+            for(; tohruWtsPricemin < tohruWtsPrice; tohruWtsPricemin++) {  
 
         
 
@@ -4376,7 +4376,7 @@ client.on('message', (receivedMessage) => {
 
         phantomWtsPricemin = arguments
 
-              for(; phantomWtsPricemin <= phantomWtsPrice; phantomWtsPricemin++) {  
+              for(; phantomWtsPricemin < phantomWtsPrice; phantomWtsPricemin++) {  
                  
 
             if(message.channel.id ==  '710921653739323402') {
@@ -4514,7 +4514,7 @@ client.on('message', (receivedMessage) => {
    
                       
 
-        for(; adeptWtsPricemin <= adeptWtsPrice; adeptWtsPricemin++) {
+        for(; adeptWtsPricemin < adeptWtsPrice; adeptWtsPricemin++) {
 
             if(message.channel.id ==  '710921903249948802') {
 
@@ -4650,7 +4650,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
       burstWtsPricemin = arguments
 
-                      for(; burstWtsPricemin <= burstWtbPrice; burstWtsPricemin++) {
+                      for(; burstWtsPricemin < burstWtbPrice; burstWtsPricemin++) {
 
                     
 
@@ -4707,7 +4707,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
     cyberWtsPricemin = arguments
 
-    for(; cyberWtsPricemin <= cyberWtsPrice; cyberWtsPricemin++) {
+    for(; cyberWtsPricemin < cyberWtsPrice; cyberWtsPricemin++) {
 
                        
             if(message.channel.id ==  '710921830558335087') {
@@ -4847,7 +4847,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
             estockWtsPricemin = arguments   
-         for(; estockWtsPricemin <= estockWtsPrice; estockWtsPrice++) {
+         for(; estockWtsPricemin < estockWtsPrice; estockWtsPrice++) {
                     
             if(message.channel.id == '761090509858406400') {
 
@@ -4904,7 +4904,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
             eveWtsPricemin = arguments
 
-    for(; eveWtsPricemin <= eveWtsPrice; eveWtsPricemin++) {
+    for(; eveWtsPricemin < eveWtsPrice; eveWtsPricemin++) {
 
 
             if(message.channel.id == '710921786321141911') {
@@ -5048,7 +5048,7 @@ client.on('message', (receivedMessage) => {
 
                      
 
-           for(; galaxsioWtsPricemin <= galaxsioWtsPrice; galaxsioWtsPricemin++) {   
+           for(; galaxsioWtsPricemin < galaxsioWtsPrice; galaxsioWtsPricemin++) {   
 
 
             if(message.channel.id == '692817365561376788') {
@@ -5103,7 +5103,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
    hawkWtsPricemin = arguments
 
-     for(; hawkWtsPricemin <= hawkWtsPrice; hawkWtsPricemin++) {
+     for(; hawkWtsPricemin < hawkWtsPrice; hawkWtsPricemin++) {
 
   userId = message.author.id
                      
@@ -5198,7 +5198,7 @@ client.on('message', (receivedMessage) => {
     ganeshWtsPricemin = arguments
 
    
-   for(; ganeshWtsPricemin <= ganeshWtsPrice; ganeshWtsPricemin++) {
+   for(; ganeshWtsPricemin < ganeshWtsPrice; ganeshWtsPricemin++) {
 
     
                       
@@ -5341,7 +5341,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
             hayhaWtsPricemin = arguments
 
-    for(; hayhaWtsPricemin <= hayhaWtsPrice; hayhaWtsPricemin++) {
+    for(; hayhaWtsPricemin < hayhaWtsPrice; hayhaWtsPricemin++) {
                       
 
             if(message.channel.id ==  '710921620025376769') {
@@ -5450,7 +5450,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
         kiloWtsPricemin = arguments
 
-        for(; kiloWtsPricemin <= kiloWtsPrice; kiloWtsPricemin++) {
+        for(; kiloWtsPricemin < kiloWtsPrice; kiloWtsPricemin++) {
             
                    
             if(message.channel.id ==  '733784066284978307') {
@@ -5543,7 +5543,7 @@ client.on('message', (receivedMessage) => {
 
         flareWtsPricemin = arguments
 
-            for(; flareWtsPricemin <= flareWtsPrice; flareWtsPricemin++) {
+            for(; flareWtsPricemin < flareWtsPrice; flareWtsPricemin++) {
 
                     
                             
@@ -5644,7 +5644,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
  fleekWtsPricemin = arguments
 
-    for(; fleekWtsPricemin <= fleekWtsPrice; fleekWtsPricemin++) {
+    for(; fleekWtsPricemin < fleekWtsPrice; fleekWtsPricemin++) {
 
                      
 
@@ -5783,7 +5783,7 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    nebulaWtsPricemin = arguments
-            for(; nebulaWtsPricemin <= nebulaWtsPrice; nebulaWtsPricemin++) {
+            for(; nebulaWtsPricemin < nebulaWtsPrice; nebulaWtsPricemin++) {
                
 
                 if(message.content.toString().toLowerCase() === 'wts nebula ' + (nebulaWtsPricemin)) {
@@ -6149,7 +6149,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
   balkoPriceWtbmin = arguments
 
-      for(; balkoPriceWtbmin <= balkoPriceWtb; balkoPriceWtbmin++) {
+      for(; balkoPriceWtbmin < balkoPriceWtb; balkoPriceWtbmin++) {
 
 
             if(message.channel.id ==  '710921862888161440') {
@@ -6287,7 +6287,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
   f3PriceWtbmin = arguments
 
-   for(; f3PriceWtbmin <= f3PriceWts; f3PriceWtbmin++) {
+   for(; f3PriceWtbmin < f3PriceWts; f3PriceWtbmin++) {
 
    
 
@@ -6420,7 +6420,7 @@ client.on('message', (receivedMessage) => {
 
   rushPriceWtbmin = arguments  
   
-  for(; rushPriceWtbmin <= rushPriceWtb; rushPriceWtbmin++) {
+  for(; rushPriceWtbmin < rushPriceWtb; rushPriceWtbmin++) {
 
             
 
@@ -6550,7 +6550,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
        mercuryPriceWtbmin = arguments
 
-            for(; mercuryPriceWtbmin <= mercuryPriceWtb; mercuryPriceWtbmin++) {
+            for(; mercuryPriceWtbmin < mercuryPriceWtb; mercuryPriceWtbmin++) {
 
                 if(message.content.toString().toLowerCase() === 'wtb mercury ' + (mercuryPriceWtbmin)) {
 
@@ -6813,7 +6813,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
     solePriceWtbmin = arguments
 
-       for(; solePriceWtbmin <= solePriceWtb; solePriceWtbmin++) {
+       for(; solePriceWtbmin < solePriceWtb; solePriceWtbmin++) {
      
 
             if(message.channel.id ==  '710921331872366644') {
@@ -6941,7 +6941,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
    wrathWtbPricemin = arguments
 
- for(; wrathWtbPricemin <= wrathWtbPrice; wrathWtbPricemin++) {
+ for(; wrathWtbPricemin < wrathWtbPrice; wrathWtbPricemin++) {
     
 
             if(message.channel.id ==  '733784514769191013') {
@@ -7066,7 +7066,7 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    veloxWtbPricemin = arguments
-  for(; veloxWtbPricemin <= veloxWtbPrice; veloxWtbPricemin++) {
+  for(; veloxWtbPricemin < veloxWtbPrice; veloxWtbPricemin++) {
 
  
               
@@ -7203,7 +7203,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
   mekWtbPricemin = arguments
 
-     for(; mekWtbPricemin <= mekWtbPrice; mekWtbPricemin++) {
+     for(; mekWtbPricemin < mekWtbPrice; mekWtbPricemin++) {
      
 
             if(message.channel.id ==  '710921433987022878') {
@@ -7338,7 +7338,7 @@ client.on('message', (receivedMessage) => {
 
       prismWtbPricemin = arguments
 
-  for(; prismWtbPricemin <= prismWtbPrice; prismWtbPricemin++) {
+  for(; prismWtbPricemin < prismWtbPrice; prismWtbPricemin++) {
 
                    
 
@@ -7478,7 +7478,7 @@ client.on('message', (receivedMessage) => {
 
         polarisWtbPricemin = arguments
 
-            for(; polarisWtbPricemin <= polarisWtbPrice; polarisWtbPricemin++) {
+            for(; polarisWtbPricemin < polarisWtbPrice; polarisWtbPricemin++) {
 
            
 
@@ -7617,7 +7617,7 @@ client.on('message', (receivedMessage) => {
   splashForceWtbPricemin = arguments
 
 
-            for(; splashForceWtbPricemin <= splashForceWtbPrice; splashForceWtbPricemin++) {
+            for(; splashForceWtbPricemin < splashForceWtbPrice; splashForceWtbPricemin++) {
 
               
 
@@ -7775,7 +7775,7 @@ client.on('message', (receivedMessage) => {
 
         pdWtbPricemin = arguments
 
-    for(; pdWtbPricemin <= pdWtbPrice; pdWtbPricemin++) {
+    for(; pdWtbPricemin < pdWtbPrice; pdWtbPricemin++) {
      
 
         client.channels.get(wtbChannelId).send('<@&774803955078266890>')
@@ -7901,7 +7901,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
              dasheWtbPricemin = arguments
 
-            for(; dasheWtbPricemin <= dasheWtbPrice; dasheWtbPricemin++) {
+            for(; dasheWtbPricemin < dasheWtbPrice; dasheWtbPricemin++) {
 
           
 
@@ -7948,7 +7948,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
     tohruWtbPricemin = arguments
 
-     for(; tohruWtbPricemin <= tohruWtbPrice; tohruWtbPricemin++) {
+     for(; tohruWtbPricemin < tohruWtbPrice; tohruWtbPricemin++) {
 
      
 
@@ -8089,7 +8089,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
    phantomWtbPricemin = arguments
 
-        for(; phantomWtbPricemin <= phantomWtbPrice; phantomWtbPricemin++) {
+        for(; phantomWtbPricemin < phantomWtbPrice; phantomWtbPricemin++) {
 
            
 
@@ -8225,7 +8225,7 @@ client.on('message', (receivedMessage) => {
 
                  
 
-               for(; adeptWtbPricemin <= adeptWtbPrice; adeptWtbPricemin++) {
+               for(; adeptWtbPricemin < adeptWtbPrice; adeptWtbPricemin++) {
 
 
             if(message.channel.id ==  '700487424937295877') {
@@ -8360,7 +8360,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
    burstWtbPricemin = arguments
 
-      for(; burstWtbPricemin <= burstWtbPrice; burstWtbPricemin++) {
+      for(; burstWtbPricemin < burstWtbPrice; burstWtbPricemin++) {
 
       
 
@@ -8417,7 +8417,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
         cyberWtbPricemin = arguments
 
-     for(; cyberWtbPricemin <= cyberWtbPrice; cyberWtbPricemin++) {
+     for(; cyberWtbPricemin < cyberWtbPrice; cyberWtbPricemin++) {
 
        
             if(message.channel.id ==  '626930513768087552') {
@@ -8552,7 +8552,7 @@ client.on('message', (receivedMessage) => {
 
            estockWtbPricemin = arguments      
 
-  for(; estockWtbPricemin <= estockWtbPrice; estockWtbPricemin++) {
+  for(; estockWtbPricemin < estockWtbPrice; estockWtbPricemin++) {
 
    
             if(message.channel.id == '761090584420810782') {
@@ -8610,7 +8610,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
    eveWtbPrice = arguments
 
-    for(; eveWtbPricemin <= eveWtbPrice; eveWtbPricemin++) {
+    for(; eveWtbPricemin < eveWtbPrice; eveWtbPricemin++) {
 
 
             if(message.channel.id ==  '710921775554494547') {
@@ -8750,7 +8750,7 @@ client.on('message', (receivedMessage) => {
   galaxsioWtbPricemin = arguments
 
 
-            for(; galaxsioWtbPricemin <= galaxsioWtbPrice; galaxsioWtbPricemin++) {
+            for(; galaxsioWtbPricemin < galaxsioWtbPrice; galaxsioWtbPricemin++) {
            
                 if(message.content.toString().toLowerCase() === 'wtb galaxsio ' + (galaxsioWtbPricemin)) {
 
@@ -9022,7 +9022,7 @@ client.on('message', (receivedMessage) => {
 
  hawkWtbPricemin = arguments
 
-    for(; hawkWtbPricemin <= hawkWtbPrice; hawkWtbPricemin++) {
+    for(; hawkWtbPricemin < hawkWtbPrice; hawkWtbPricemin++) {
 
              
             if(message.channel.id ==  '626998937009782784') {
@@ -9121,7 +9121,7 @@ client.on('message', (receivedMessage) => {
 
         ganeshWtbPricemin = arguments    
 
-     for(; ganeshWtbPricemin <= ganeshWtbPrice; ganeshWtbPricemin++) {
+     for(; ganeshWtbPricemin < ganeshWtbPrice; ganeshWtbPricemin++) {
 
 
             if(message.channel.id ==  '700487206904528948') {
@@ -9259,7 +9259,7 @@ client.on('message', (receivedMessage) => {
 
              hayhaWtbPricemin = arguments   
 
-                 for(; hayhaWtbPricemin <= hayhaWtbPrice; hayhaWtbPricemin++) {
+                 for(; hayhaWtbPricemin < hayhaWtbPrice; hayhaWtbPricemin++) {
 
 
             if(message.channel.id ==  '710921584302620712') {
@@ -9403,7 +9403,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 kiloWtbPricemin = arguments
 
-  for(; kiloWtbPricemin <= kiloWtbPrice; kiloWtbPricemin++) {
+  for(; kiloWtbPricemin < kiloWtbPrice; kiloWtbPricemin++) {
 
   
 
@@ -9462,7 +9462,7 @@ kiloWtbPricemin = arguments
         user.on('message', message => { // When a message is created
     flareWtbPricemin = arguments
 
-                    for(; flareWtbPricemin <= flareWtbPrice; flareWtbPricemin++) {
+                    for(; flareWtbPricemin < flareWtbPrice; flareWtbPricemin++) {
                         
                      
 
@@ -9561,7 +9561,7 @@ kiloWtbPricemin = arguments
         user.on('message', message => { // When a message is created
        fleekWtbPricemin = arguments
 
-         for(; fleekWtbPricemin <= fleekWtbPrice; flareWtbPricemin++) {
+         for(; fleekWtbPricemin < fleekWtbPrice; flareWtbPricemin++) {
          
             if(message.channel.id ==  '710921712178430073') {
 
@@ -9705,7 +9705,7 @@ kiloWtbPricemin = arguments
     nebulaWtbPricemin = arguments
 
 
-            for(; nebulaWtbPricemin <= nebulaWtbPrice; nebulaWtbPricemin++) {
+            for(; nebulaWtbPricemin < nebulaWtbPrice; nebulaWtbPricemin++) {
 
                
 
