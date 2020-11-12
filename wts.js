@@ -195,7 +195,7 @@ client.on('message', (receivedMessage) => {
                     .addField('!clearallwts', 'This command will clear all wts monitors')
                     .addField('!clearallwtb', 'This command will clear all wtb monitors')
                     .addField('!clearall', 'This command will clear all monitors')
-                    .addField('!current,!current2,!current3', 'This command will show all current bots values')
+                    .addField('!current,!current2,!current3,!current4,!current5', 'This command will show all current bots values')
                     .addField('Replacing A Monitor', 'To replace a monitor simply do the setting commands above and use a different price')
 
                     .setTimestamp()
@@ -317,21 +317,7 @@ client.on('message', (receivedMessage) => {
                     .addField('PhantomWtb', 'max ' + phantomWtbPrice + ' min ' + phantomWtbPricemin)
                     .addField('AdeptWts', 'max ' + adeptWtsPrice + ' min ' + adeptWtsPrice)
                     .addField('AdeptWtb', 'max ' + adeptWtbPrice + ' min ' + adeptWtbPricemin)
-                    .addField('BurstWts', 'max ' + burstWtsPrice + ' min ' + burstWtsPricemin)
-                    .addField('BurstWtb', 'max ' + burstWtbPrice + ' min ' + burstWtbPricemin)
-                    .addField('CyberWts', 'max ' + cyberWtsPrice + ' min ' + cyberWtsPricemin)
-                    .addField('CyberWtb', 'max ' + cyberWtbPrice + ' min ' + cyberWtbPricemin)
-                    .addField('EstockWts', 'max ' + estockWtsPrice + ' min ' + estockWtsPricemin)
-                    .addField('EstockWtb', 'max ' + estockWtbPrice + ' min ' + estockWtbPricemin)
-                    .addField('EveWts', 'max ' + eveWtsPrice + ' min ' + eveWtsPricemin)
-                    .addField('EveWtb', 'max ' + eveWtbPrice + ' min ' + eveWtbPricemin)
-                    .addField('GalaxsioWts', 'max ' + galaxsioWtsPrice + ' min ' + galaxsioWtsPricemin)
-                    .addField('GalaxsioWtb', 'max ' + galaxioWtb + ' min ' + galaxsioWtbPricemin)
-                    .addField('HawkWts', 'max ' + hawkWtsPrice + ' min ' + hawkWtsPricemin)
-                    .addField('HawkWtb', 'max ' + hawkWtbPrice + ' min ' + hawkWtbPricemin)
-
-
-
+                  
 
                     .setTimestamp()
                     .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
@@ -361,6 +347,8 @@ client.on('message', (receivedMessage) => {
                 receivedMessage.channel.send(mercurySucess)
             } else if(primaryCommand == "current3") {
 
+
+
                 Current3 = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -377,13 +365,7 @@ client.on('message', (receivedMessage) => {
                     .addField('MercuryWtb', 'max ' + mercuryPriceWtb + ' min ' + mercuryPriceWtbmin)
                     .addField('SoleWts', 'max ' + solePriceWts + ' min ' + solePriceWtbmin)
                     .addField('SoleWtb', 'max ' + solePriceWtb + ' min ' + solePriceWtbmin)
-                    .addField('WrathWts', 'max ' + wrathWTsPrice + ' min ' + wrathWTsPricemin)
-                    .addField('WrathWtb', 'max ' + wrathWtbPrice + ' min ' + wrathWtbPricemin)
-                    .addField('VeloxWts', 'max ' + veloxWtsPrice + ' min ' + veloxWtsPricemin)
-                    .addField('VeloxWtb', 'max ' + veloxWtbPrice + ' min ' + veloxWtbPricemin)
-                    .addField('MekWts', 'max ' + mekWtsPrice + ' min ' + mekWtbPricemin)
-                    .addField('MekWtb', 'max ' + mekWtbPrice + ' min ' + mekWtbPricemin)
-
+                  
                     .setTimestamp()
                     .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
@@ -394,7 +376,77 @@ client.on('message', (receivedMessage) => {
 
 
 
-            } else if(primaryCommand == "clearallwts") {
+            }else if(primaryCommand == "current5") {
+
+
+
+                Current5 = new Discord.RichEmbed()
+
+                    .setColor('#f9475d')
+
+                    .setTitle('Current monitor')
+                    .addField('WrathWts', 'max ' + wrathWTsPrice + ' min ' + wrathWTsPricemin)
+                    .addField('WrathWtb', 'max ' + wrathWtbPrice + ' min ' + wrathWtbPricemin)
+                    .addField('CyberWts', 'max ' + cyberWtsPrice + ' min ' + cyberWtsPricemin)
+                    .addField('CyberWtb', 'max ' + cyberWtbPrice + ' min ' + cyberWtbPricemin)
+                    .addField('EveWts', 'max ' + eveWtsPrice + ' min ' + eveWtsPricemin)
+                    .addField('EveWtb', 'max ' + eveWtbPrice + ' min ' + eveWtbPricemin)
+                    .addField('BurstWts', 'max ' + burstWtsPrice + ' min ' + burstWtsPricemin)
+                    .addField('BurstWtb', 'max ' + burstWtbPrice + ' min ' + burstWtbPricemin)
+                    .addField('EstockWts', 'max ' + estockWtsPrice + ' min ' + estockWtsPricemin)
+                    .addField('EstockWtb', 'max ' + estockWtbPrice + ' min ' + estockWtbPricemin)
+                   
+
+
+                   
+                    
+                    .setTimestamp()
+                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+
+
+                receivedMessage.channel.send(Current5)
+
+
+
+            }
+            
+            
+            else if(primaryCommand == "current4") {
+
+                
+
+                Current4 = new Discord.RichEmbed()
+
+                    .setColor('#f9475d')
+
+                    .setTitle('Current monitor')
+
+                    .addField('VeloxWts', 'max ' + veloxWtsPrice + ' min ' + veloxWtsPricemin)
+                    .addField('VeloxWtb', 'max ' + veloxWtbPrice + ' min ' + veloxWtbPricemin)
+                    .addField('MekWts', 'max ' + mekWtsPrice + ' min ' + mekWtbPricemin)
+                    .addField('MekWtb', 'max ' + mekWtbPrice + ' min ' + mekWtbPricemin)
+                    .addField('GalaxsioWts', 'max ' + galaxsioWtsPrice + ' min ' + galaxsioWtsPricemin)
+                    .addField('GalaxsioWtb', 'max ' + galaxioWtb + ' min ' + galaxsioWtbPricemin)
+                    .addField('HawkWts', 'max ' + hawkWtsPrice + ' min ' + hawkWtsPricemin)
+                    .addField('HawkWtb', 'max ' + hawkWtbPrice + ' min ' + hawkWtbPricemin)
+                  
+
+                    .setTimestamp()
+                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+
+
+                receivedMessage.channel.send(Current4)
+
+
+
+            }
+            
+            
+            else if(primaryCommand == "clearallwts") {
                 clearAllWts(arguments, receivedMessage)
 
 
@@ -578,7 +630,7 @@ client.on('message', (receivedMessage) => {
 
 
                 receivedMessage.channel.send(pdSucess)
-            } else if(primaryCommand == "dashewtsmin") {
+            } else if(primaryCommand == "dashewts") {
                 dasheWts(arguments, receivedMessage)
 
                 DasheSucess = new Discord.RichEmbed()
@@ -1012,7 +1064,7 @@ client.on('message', (receivedMessage) => {
 
 
                 receivedMessage.channel.send(pdSucess)
-            } else if(primaryCommand == "dashewts") {
+            } else if(primaryCommand == "dashewtsmin") {
                 dasheWts(arguments, receivedMessage)
                 dasheWtsPrice = arguments
                 DasheSucess = new Discord.RichEmbed()
@@ -1174,7 +1226,8 @@ client.on('message', (receivedMessage) => {
                 receivedMessage.channel.send(hawkSucess)
             } else if(primaryCommand == "ganeshwts") {
                 ganeshWts(arguments, receivedMessage)
-                ganeshWts = arguments
+                ganeshWtsPrice = arguments
+
                 ganeshSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1530,7 +1583,7 @@ client.on('message', (receivedMessage) => {
 
                 receivedMessage.channel.send(pdSucess)
 
-            } else if(primaryCommand == "dashewtbmin") {
+            } else if(primaryCommand == "dashewtb") {
                 dasheWtb(arguments, receivedMessage)
 
                 DasheSucess = new Discord.RichEmbed()
@@ -2016,7 +2069,7 @@ client.on('message', (receivedMessage) => {
 
 
                 receivedMessage.channel.send(pdSucess)
-            } else if(primaryCommand == "dashewtb") {
+            } else if(primaryCommand == "dashewtbmin") {
                 dasheWtb(arguments, receivedMessage)
                 dasheWtbPrice = arguments
                 DasheSucess = new Discord.RichEmbed()
@@ -2364,11 +2417,16 @@ client.on('message', (receivedMessage) => {
    
         user.on('message', message => { // When a message is created
      balkoPriceWtsmin = arguments
-            if(message.channel.id == '772833340327329812' || '773625024779124776' || '750080118684254328') {
+
+         for(; balkoPriceWtsmin <= balkoPriceWts; balkoPriceWtsmin++) {
+
+              
+            if(message.channel.id == '772833340327329812' ) {
 
 
-                for(; balkoPriceWtsmin <= balkoPriceWts; balkoPriceWtsmin++) {
+                   
 
+       
                     if(message.content.toString().toLowerCase().includes(balkoPriceWtsmin)) {
 
                         userId = message.author.id
@@ -2398,6 +2456,49 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                        client.channels.get(wtsChannelId).send('<@&774503052530155560>')
+                        client.channels.get(wtsChannelId).send(BalkoEmbed)
+
+                    }
+                }else if(message.channel.id =='773625024779124776'){
+
+                    if(message.content.toString().toLowerCase().includes(balkoPriceWtsmin)) {
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        BalkoEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Balko WTS Listing Found')
+                            .addField('Price', '$' + balkoPriceWtsmin + ' - ' + '€' + balkoPriceWtsmin * .86 + ' - ' + '¥' + balkoPriceWtsmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtsChannelId).send('<@&774503052530155560>')
+                        client.channels.get(wtsChannelId).send(BalkoEmbed)
+
+                    }
+                
+                }   else if(message.channel.id =='750080118684254328'){
+
+                    if(message.content.toString().toLowerCase().includes(balkoPriceWtsmin)) {
 
 
                         client.channels.get(wtsChannelId).send('<@&774503052530155560>')
@@ -2418,9 +2519,13 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
           f3PriceWtsmin = arguments        
-            if(message.channel.id == '626993314427568168' || '750079728328900718' || '710921760303742976') {
+        
 
                 for(; f3PriceWtsmin <= f3PriceWts; f3PriceWtsmin++) {
+                    
+                    
+            if(message.channel.id ==  '710921760303742976') {
+
                     if(message.content.toString().toLowerCase().includes(f3PriceWtsmin)) {
 
                         userId = message.author.id
@@ -2448,7 +2553,6 @@ client.on('message', (receivedMessage) => {
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
-
                         client.channels.get(wtsChannelId).send('<@&774503521709457459>')
 
                         client.channels.get(wtsChannelId).send(f3embed)
@@ -2456,24 +2560,10 @@ client.on('message', (receivedMessage) => {
 
 
                     }
-                }
-            }
-        });
+                }else if(message.channel.id == '626993314427568168'){
+                if(message.content.toString().toLowerCase().includes(f3PriceWtsmin)) {
 
-    }
-
-    function rushWts(arguments, receivedMessage) {
-
-        
-        user.on('message', message => { // When a message is created
-
-        rushPriceWtsmin = arguments    
-
-            if(message.channel.id == '715325254100320309' || '752600540252209152' || '736704514756968558') {
-                for(; rushPriceWtsmin <= rushPriceWts; rushPriceWtsmin++) {
-                    if(message.content.toString().toLowerCase().includes(rushPriceWtsmin)) {
-
-                        userId = message.author.id
+                    userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
@@ -2483,31 +2573,215 @@ client.on('message', (receivedMessage) => {
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
 
-                        rushEmbed = new Discord.RichEmbed()
+                        f3embed = new Discord.RichEmbed()
 
                             .setColor('#f9475d')
-                            .setTitle('Rush WTS Listing Found')
-                            .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
+                            .setTitle('F3 WTS Listing Found')
+                            .addField('Price', '$' + f3PriceWtsmin + ' - ' + '€' + f3PriceWtsmin * .86 + ' - ' + '¥' + f3PriceWtsmin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
 
                             .addField('Link To Listing', hyperListing2)
 
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774503521709457459>')
+
+                    client.channels.get(wtsChannelId).send(f3embed)
+
+
+
+                }
+            }else if (message.channel.id=='750079728328900718'){
+                if(message.content.toString().toLowerCase().includes(f3PriceWtsmin)) {
+
+                    userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        f3embed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('F3 WTS Listing Found')
+                            .addField('Price', '$' + f3PriceWtsmin + ' - ' + '€' + f3PriceWtsmin * .86 + ' - ' + '¥' + f3PriceWtsmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
+                    client.channels.get(wtsChannelId).send('<@&774503521709457459>')
 
+                    client.channels.get(wtsChannelId).send(f3embed)
+
+
+
+                }
+            }
+        }
+        });
+
+    }
+
+    function rushWts(arguments, receivedMessage) {
+
+        
+        user.on('message', message => { // When a message is created
+
+
+        rushPriceWtsmin = arguments    
+     
+         for(; rushPriceWtsmin <= rushPriceWts; rushPriceWtsmin++) {      
+
+            
+        
+
+
+
+            if(message.channel.id == '752600540252209152' ) {
+
+      
+
+
+       
+                    if(message.content.toString().toLowerCase().includes(rushPriceWtsmin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+            
+                        rushEmbed = new Discord.RichEmbed()
+            
+                            .setColor('#f9475d')
+                            .setTitle('Rush WTS Listing Found')
+                            .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+            
+                            .addField('Link To Seller', hyperSeller2)
+            
+                            .addField('Link To Listing', hyperListing2)
+            
+            
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                     
                         client.channels.get(wtsChannelId).send('<@&774503635903053875>')
                         client.channels.get(wtsChannelId).send(rushEmbed)
 
 
 
                     }
+                    
+                }else if(message.channel.id == '715325254100320309'){
+                    if(message.content.toString().toLowerCase().includes(rushPriceWtsmin)) {
+
+            userId = message.author.id
+            messageId = message.id
+            channelId = message.channel.id
+            serverId = message.guild.id
+            var hyperSeller = 'https://discordapp.com/users/' + userId
+            var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+            var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+            var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+            rushEmbed = new Discord.RichEmbed()
+
+                .setColor('#f9475d')
+                .setTitle('Rush WTS Listing Found')
+                .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
+                .addField('Seller', message.author.tag, true)
+
+                .addField('Link To Seller', hyperSeller2)
+
+                .addField('Link To Listing', hyperListing2)
+
+
+                .setTimestamp()
+                .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+        
+                userId = message.author.id
+                messageId = message.id
+                channelId = message.channel.id
+                serverId = message.guild.id
+                var hyperSeller = 'https://discordapp.com/users/' + userId
+                var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+    
+                var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+    
+                rushEmbed = new Discord.RichEmbed()
+    
+                    .setColor('#f9475d')
+                    .setTitle('Rush WTS Listing Found')
+                    .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
+                    .addField('Seller', message.author.tag, true)
+    
+                    .addField('Link To Seller', hyperSeller2)
+    
+                    .addField('Link To Listing', hyperListing2)
+    
+    
+                    .setTimestamp()
+                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtsChannelId).send('<@&774503635903053875>')
+                        client.channels.get(wtsChannelId).send(rushEmbed)
+                    }
+                
+            }else if(message.channel.id == '736704514756968558'){
+                if(message.content.toString().toLowerCase().includes(rushPriceWtsmin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+        
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+        
+                    rushEmbed = new Discord.RichEmbed()
+        
+                        .setColor('#f9475d')
+                        .setTitle('Rush WTS Listing Found')
+                        .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+        
+                        .addField('Link To Seller', hyperSeller2)
+        
+                        .addField('Link To Listing', hyperListing2)
+        
+        
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774503635903053875>')
+                    client.channels.get(wtsChannelId).send(rushEmbed)
                 }
             }
+        }
         });
 
     }
@@ -2775,10 +3049,14 @@ client.on('message', (receivedMessage) => {
   
         user.on('message', message => { // When a message is created
 
-            solePriceWtsmin = arguments      
-            if(message.channel.id == '626997679377088562' || '751572267905056859' || '700486817496957000') {
+            solePriceWtsmin = arguments 
+            
+               for(; solePriceWtsmin <= solePriceWts; solePriceWtsmin++) {   
+               
+       
+            if(message.channel.id ==  '700486817496957000') {
 
-                for(; solePriceWtsmin <= solePriceWts; solePriceWtsmin++) {
+          
                     if(message.content.toString().toLowerCase().includes(solePriceWtsmin)) {
 
                         userId = message.author.id
@@ -2806,13 +3084,83 @@ client.on('message', (receivedMessage) => {
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
+                        client.channels.get(wtsChannelId).send('<@&774803407533506562>')
+                        client.channels.get(wtsChannelId).send(soleEmbed)
+
+
+                    }
+                }else if(message.channel.id == '626997679377088562'){
+
+                    if(message.content.toString().toLowerCase().includes(solePriceWtsmin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        soleEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Sole WTS Listing Found')
+                            .addField('Price', '$' + solePriceWtsmin + ' - ' + '€' + solePriceWtsmin * .86 + ' - ' + '¥' + solePriceWtsmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
 
                         client.channels.get(wtsChannelId).send('<@&774803407533506562>')
                         client.channels.get(wtsChannelId).send(soleEmbed)
 
 
                     }
+
+                
+            }else if(message.channel.id == '751572267905056859'){
+
+                if(message.content.toString().toLowerCase().includes(solePriceWtsmin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    soleEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Sole WTS Listing Found')
+                        .addField('Price', '$' + solePriceWtsmin + ' - ' + '€' + solePriceWtsmin * .86 + ' - ' + '¥' + solePriceWtsmin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774803407533506562>')
+                    client.channels.get(wtsChannelId).send(soleEmbed)
+
+
                 }
+
+            }
             }
         });
 
@@ -2823,10 +3171,16 @@ client.on('message', (receivedMessage) => {
    
         user.on('message', message => { // When a message is created
      wrathWTsPricemin = arguments
-            if(message.channel.id == '626997441392017428' || '743950855069368461' || '710921120542359582') {
+
+            for(; wrathWTsPricemin <= wrathWTsPrice; wrathWTsPricemin++) {
+
+           
+                      
+     
+            if(message.channel.id ==  '710921120542359582') {
 
 
-                for(; wrathWTsPricemin <= wrathWTsPrice; wrathWTsPricemin++) {
+         
                     if(message.content.toString().toLowerCase().includes(wrathWTsPricemin)) {
 
                         userId = message.author.id
@@ -2853,8 +3207,6 @@ client.on('message', (receivedMessage) => {
 
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
                         client.channels.get(wtsChannelId).send('<@&774803488193511475>')
 
 
@@ -2863,22 +3215,8 @@ client.on('message', (receivedMessage) => {
 
 
                     }
-                }
-            }
-        });
-
-    }
-
-    function veloxWts(arguments, receivedMessage) {
-
-
-        user.on('message', message => { // When a message is created
-        veloxWtsPricemin = arguments
-            if(message.channel.id == '634518877748854814' || '750079237591007243' || '710921145146408972') {
-
-                for(; veloxWtsPricemin <= veloxWtsPrice; veloxWtsPricemin++) {
-
-                    if(message.content.toString().toLowerCase().includes(veloxWtsPricemin)) {
+                }else if(message.channel.id == '626997441392017428'){
+                    if(message.content.toString().toLowerCase().includes(wrathWTsPricemin)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2890,13 +3228,13 @@ client.on('message', (receivedMessage) => {
 
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                        veloxEmbed = new Discord.RichEmbed()
+
+                        wrathEmbed = new Discord.RichEmbed()
 
                             .setColor('#f9475d')
-                            .setTitle('Velox WTS Listing Found')
-                            .addField('Price', '$' + veloxWtsPricemin + ' - ' + '€' + veloxWtsPricemin * .86 + ' - ' + '¥' + veloxWtsPricemin * 6.67, true)
+                            .setTitle('Wrath WTS Listing Found')
+                            .addField('Price', '$' + wrathWTsPricemin + ' - ' + '€' + wrathWTsPricemin * .86 + ' - ' + '¥' + wrathWTsPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
                             .addField('Link To Seller', hyperSeller2)
 
                             .addField('Link To Listing', hyperListing2)
@@ -2904,8 +3242,99 @@ client.on('message', (receivedMessage) => {
 
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtsChannelId).send('<@&774803488193511475>')
 
 
+                        client.channels.get(wtsChannelId).send(wrathEmbed)
+
+
+
+                    }
+                
+            }else if(message.channel.id == '743950855069368461'){
+                if(message.content.toString().toLowerCase().includes(wrathWTsPricemin)) {
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    wrathEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Wrath WTS Listing Found')
+                        .addField('Price', '$' + wrathWTsPricemin + ' - ' + '€' + wrathWTsPricemin * .86 + ' - ' + '¥' + wrathWTsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                    client.channels.get(wtsChannelId).send('<@&774803488193511475>')
+
+
+                    client.channels.get(wtsChannelId).send(wrathEmbed)
+
+
+
+                }
+            }
+        }
+        });
+
+    }
+
+    function veloxWts(arguments, receivedMessage) {
+
+
+        user.on('message', message => { // When a message is created
+        veloxWtsPricemin = arguments
+
+         for(; veloxWtsPricemin <= veloxWtsPrice; veloxWtsPricemin++) {
+
+            
+            if(message.channel.id ==  '710921145146408972') {
+
+               
+
+                    if(message.content.toString().toLowerCase().includes(veloxWtsPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+            
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                        veloxEmbed = new Discord.RichEmbed()
+            
+                            .setColor('#f9475d')
+                            .setTitle('Velox WTS Listing Found')
+                            .addField('Price', '$' + veloxWtsPricemin + ' - ' + '€' + veloxWtsPricemin * .86 + ' - ' + '¥' + veloxWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+            
+                            .addField('Link To Seller', hyperSeller2)
+            
+                            .addField('Link To Listing', hyperListing2)
+            
+            
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+            
+
+
+                        client.channels.get(wtsChannelId).send('<@&774803645416996914>')
 
 
                         client.channels.get(wtsChannelId).send(veloxEmbed)
@@ -2913,9 +3342,93 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+                }else if (message.channel.id == '634518877748854814'){
+
+                    if(message.content.toString().toLowerCase().includes(veloxWtsPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+            
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                        veloxEmbed = new Discord.RichEmbed()
+            
+                            .setColor('#f9475d')
+                            .setTitle('Velox WTS Listing Found')
+                            .addField('Price', '$' + veloxWtsPricemin + ' - ' + '€' + veloxWtsPricemin * .86 + ' - ' + '¥' + veloxWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+            
+                            .addField('Link To Seller', hyperSeller2)
+            
+                            .addField('Link To Listing', hyperListing2)
+            
+            
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+            
+
+
+                        client.channels.get(wtsChannelId).send('<@&774803645416996914>')
+
+
+                        client.channels.get(wtsChannelId).send(veloxEmbed)
+
+
+
+                    }
+
+
+                
+            }else if (message.channel.id == '750079237591007243'){
+
+                if(message.content.toString().toLowerCase().includes(veloxWtsPricemin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+        
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+        
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                    veloxEmbed = new Discord.RichEmbed()
+        
+                        .setColor('#f9475d')
+                        .setTitle('Velox WTS Listing Found')
+                        .addField('Price', '$' + veloxWtsPricemin + ' - ' + '€' + veloxWtsPricemin * .86 + ' - ' + '¥' + veloxWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+        
+                        .addField('Link To Seller', hyperSeller2)
+        
+                        .addField('Link To Listing', hyperListing2)
+        
+        
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+        
+
+
+                    client.channels.get(wtsChannelId).send('<@&774803645416996914>')
+
+
+                    client.channels.get(wtsChannelId).send(veloxEmbed)
+
+
+
                 }
 
+
+            
+
             }
+        }
         });
 
     }
@@ -2926,9 +3439,12 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
       mekWtsPricemin = arguments
-            if(message.channel.id == '627003393461977108' || '750079650264252508' || '710921442967158872') {
 
-                for(; mekWtsPricemin <= mekWtbPrice; mekWtsPricemin++) {
+        for(; mekWtsPricemin <= mekWtbPrice; mekWtsPricemin++) {
+            
+            if(message.channel.id ==  '710921442967158872') {
+
+              
                     if(message.content.toString().toLowerCase().includes(mekWtsPrice)) {
 
                         userId = message.author.id
@@ -2955,8 +3471,87 @@ client.on('message', (receivedMessage) => {
 
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+ 
 
 
+                        client.channels.get(wtsChannelId).send('<@&774803745346289684>')
+
+                        client.channels.get(wtsChannelId).send(mekEmbed)
+
+
+
+                    }
+
+                }else if(message.channel.id == '627003393461977108'){
+
+                    if(message.content.toString().toLowerCase().includes(mekWtsPrice)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        mekEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Mek WTS Listing Found')
+                            .addField('Price', '$' + mekWtsPrice + ' - ' + '€' + mekWtsPrice * .86 + ' - ' + '¥' + mekWtsPrice * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+ 
+
+
+                        client.channels.get(wtsChannelId).send('<@&774803745346289684>')
+
+                        client.channels.get(wtsChannelId).send(mekEmbed)
+
+
+
+                    }
+
+                }
+                else if(message.channel.id == '750079650264252508'){
+
+                    if(message.content.toString().toLowerCase().includes(mekWtsPrice)) {
+
+                      
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        mekEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Mek WTS Listing Found')
+                            .addField('Price', '$' + mekWtsPrice + ' - ' + '€' + mekWtsPrice * .86 + ' - ' + '¥' + mekWtsPrice * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+ 
 
                         client.channels.get(wtsChannelId).send('<@&774803745346289684>')
 
@@ -2978,10 +3573,95 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
        prismWtsPricemin = arguments        
+  for(; prismWtsPricemin <= prismWtsPrice; prismWtsPricemin++) {
 
-            if(message.channel.id == '626997179378171925' || '750079394831401040' || '710921405935517697') {
+         
 
-                for(; prismWtsPricemin <= prismWtsPrice; prismWtsPricemin++) {
+
+            if(message.channel.id == '710921405935517697') {
+
+              
+                    if(message.content.toString().toLowerCase().includes(prismWtsPricemin)) {
+
+                  
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        prismEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Prism WTS Listing Found')
+                            .addField('Price', '$' + prismWtsPricemin + ' - ' + '€' + prismWtsPricemin * .86 + ' - ' + '¥' + prismWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtsChannelId).send('<@&774803748018454559>')
+
+
+                        client.channels.get(wtsChannelId).send(prismEmbed)
+
+
+
+                    }
+                }else if (message.channel.id == '626997179378171925'){
+
+                    
+                    if(message.content.toString().toLowerCase().includes(prismWtsPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        prismEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Prism WTS Listing Found')
+                            .addField('Price', '$' + prismWtsPricemin + ' - ' + '€' + prismWtsPricemin * .86 + ' - ' + '¥' + prismWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtsChannelId).send('<@&774803748018454559>')
+
+
+                        client.channels.get(wtsChannelId).send(prismEmbed)
+
+
+
+                    }
+                }
+                else if (message.channel.id == '750079394831401040'){
+
+                    
                     if(message.content.toString().toLowerCase().includes(prismWtsPricemin)) {
 
                         userId = message.author.id
@@ -3032,11 +3712,15 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
        polarisWtsPricemin = arguments           
-            if(message.channel.id == '713875826319294544' || '750079394831401040' || '710921405935517697') {
+          for(; polarisWtsPricemin <= polarisWtsPrice; polarisWtsPricemin++) {
+                        
 
-                for(; polarisWtsPricemin <= polarisWtsPrice; polarisWtsPricemin++) {
+            if(message.channel.id ==  '710921405935517697') {
+
+      
                     if(message.content.toString().toLowerCase().includes(polarisWtsPricemin)) {
 
+                    
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -3073,10 +3757,92 @@ client.on('message', (receivedMessage) => {
 
                     }
 
+                }else if(message.channel.id == '713875826319294544'){
+                
+                if(message.content.toString().toLowerCase().includes(polarisWtsPricemin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    poalrisEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Polaris WTS Listing Found')
+                        .addField('Price', '$' + polarisWtsPricemin + ' - ' + '€' + polarisWtsPricemin * .86 + ' - ' + '¥' + polarisWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774803951438659594>')
+
+
+
+                    client.channels.get(wtsChannelId).send(poalrisEmbed)
+
+
+
                 }
 
+            }
+        
+            else if(message.channel.id == '750079394831401040'){
+                
+                if(message.content.toString().toLowerCase().includes(polarisWtsPricemin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    poalrisEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Polaris WTS Listing Found')
+                        .addField('Price', '$' + polarisWtsPricemin + ' - ' + '€' + polarisWtsPricemin * .86 + ' - ' + '¥' + polarisWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774803951438659594>')
+
+
+
+                    client.channels.get(wtsChannelId).send(poalrisEmbed)
+
+
+
+                }
 
             }
+        }
         });
 
     }
@@ -3086,7 +3852,43 @@ client.on('message', (receivedMessage) => {
       
         user.on('message', message => { // When a message is created
   splashForceWtsPricemin = arguments
+
             for(; splashForceWtsPricemin <= splashForceWtsPrice; splashForceWtsPricemin++) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                    sfEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Splash Force WTS Listing Found')
+                        .addField('Price', '$' + splashForceWtsPricemin + ' - ' + '€' + splashForceWtsPricemin * .86 + ' - ' + '¥' + splashForceWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774803954713231366>')
+
+
+                    client.channels.get(wtsChannelId).send(sfEmbed)
+
+
+
                 if(message.content.toString().toLowerCase() === 'wts splash force ' + (splashForceWtsPricemin)) {
 
                     userId = message.author.id
@@ -3243,10 +4045,16 @@ client.on('message', (receivedMessage) => {
     
         user.on('message', message => { // When a message is created
     pdWtsPricemin = arguments
-            if(message.channel.id == '626996548009721886' || '750079568433512538' || '710921389552566303') {
-                for(; pdWtsPricemin <= pdWtsPrice; pdWtsPricemin++) {
+
+           for(; pdWtsPricemin <= pdWtsPrice; pdWtsPricemin++) {
+            
+                      
+   
+            if(message.channel.id == '710921389552566303') {
+         
 
                     if(message.content.toString().toLowerCase().includes(pdWtsPricemin)) {
+
 
                         userId = message.author.id
                         messageId = message.id
@@ -3273,6 +4081,43 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                        client.channels.get(wtsChannelId).send('<@&774803955078266890>')
+
+
+                        client.channels.get(wtsChannelId).send(pdEmbed)
+
+
+
+                    }
+                }else if (message.channel.id == '626996548009721886'){
+
+                    if(message.content.toString().toLowerCase().includes(pdWtsPricemin)) {
+
+
+                          userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        pdEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Project Destroyer WTS Listing Found')
+                            .addField('Price', '$' + pdWtsPricemin + ' - ' + '€' + pdWtsPricemin * .86 + ' - ' + '¥' + pdWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774803955078266890>')
 
@@ -3282,8 +4127,47 @@ client.on('message', (receivedMessage) => {
 
 
                     }
-                }
             }
+        else if (message.channel.id == '750079568433512538'){
+
+            if(message.content.toString().toLowerCase().includes(pdWtsPricemin)) {
+
+
+                  userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        pdEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Project Destroyer WTS Listing Found')
+                            .addField('Price', '$' + pdWtsPricemin + ' - ' + '€' + pdWtsPricemin * .86 + ' - ' + '¥' + pdWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                client.channels.get(wtsChannelId).send('<@&774803955078266890>')
+
+
+                client.channels.get(wtsChannelId).send(pdEmbed)
+
+
+
+            }
+    }
+        }
         });
 
     }
@@ -3296,11 +4180,73 @@ client.on('message', (receivedMessage) => {
 
     dasheWtsPricemin = arguments
 
-            for(; dasheWtsPricemin <= dasheWtsPrice; dasheWtsPricemin++) {
+                        
+          for(; dasheWtsPricemin <= dasheWtsPrice; dasheWtsPricemin++) {  
 
+
+                    
 
                 if(message.channel.id == '710921806243954770') {
+
                     if(message.content.toString().toLowerCase().includes(dasheWtsPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+            
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                        dasheEmbed = new Discord.RichEmbed()
+            
+                            .setColor('#f9475d')
+                            .setTitle('Dashe WTS Listing Found')
+                            .addField('Price', '$' + dasheWtsPricemin + ' - ' + '€' + dasheWtsPricemin * .86 + ' - ' + '¥' + dasheWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+            
+                            .addField('Link To Seller', hyperSeller2)
+            
+                            .addField('Link To Listing', hyperListing2)
+            
+            
+            
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+            
+                        client.channels.get(wtsChannelId).send('<@&774500633020989512>')
+
+
+                        client.channels.get(wtsChannelId).send(dasheEmbed)
+
+                    
+
+                    }
+                   
+                } 
+            }
+        });
+
+    }
+
+    function tohruWts(arguments, receivedMessage) {
+
+  
+        user.on('message', message => { // When a message is created
+      tohruWtsPricemin = arguments
+
+            for(; tohruWtsPricemin <= tohruWtsPrice; tohruWtsPricemin++) {  
+
+        
+
+
+            if(message.channel.id == '733784476546498651') {
+
+        
+
+                    if(message.content.toString().toLowerCase().includes(tohruWtsPricemin||tohruWtsPricemin/1000)) {
 
 
                         userId = message.author.id
@@ -3313,11 +4259,12 @@ client.on('message', (receivedMessage) => {
 
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                        dasheEmbed = new Discord.RichEmbed()
+
+                        tohruEmbed = new Discord.RichEmbed()
 
                             .setColor('#f9475d')
-                            .setTitle('Dashe WTS Listing Found')
-                            .addField('Price', '$' + dasheWtsPricemin + ' - ' + '€' + dasheWtsPricemin * .86 + ' - ' + '¥' + dasheWtsPricemin * 6.67, true)
+                            .setTitle('Tohru WTS Listing Found')
+                            .addField('Price', '$' + tohruWtsPricemin + ' - ' + '€' + tohruWtsPricemin * .86 + ' - ' + '¥' + tohruWtsPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3329,214 +4276,15 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
-
-                        client.channels.get(wtsChannelId).send('<@&774500633020989512>')
-
-
-                        client.channels.get(wtsChannelId).send(dasheEmbed)
+                        client.channels.get(wtsChannelId).send('<@&774804317387096134>')
 
 
+                        client.channels.get(wtsChannelId).send(tohruEmbed)
 
                     }
 
-                } else if(message.content.toString().toLowerCase() === 'wts dashe renewal $' + (dasheWtsPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTS Listing Found')
-                        .addField('Price', '$' + dasheWtsPricemin + ' - ' + '€' + dasheWtsPricemin * .86 + ' - ' + '¥' + dasheWtsPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-                    client.channels.get(wtsChannelId).send('<@&774500633020989512>')
-
-
-
-                    client.channels.get(wtsChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wts dashe lt $' + (dasheWtsPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTS Listing Found')
-                        .addField('Price', '$' + dasheWtsPricemin + ' - ' + '€' + dasheWtsPricemin * .86 + ' - ' + '¥' + dasheWtsPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-                    client.channels.get(wtsChannelId).send('<@&774500633020989512>')
-
-
-                    client.channels.get(wtsChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wts dashe $' + (dasheWtsPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTS Listing Found')
-                        .addField('Price', '$' + dasheWtsPricemin + ' - ' + '€' + dasheWtsPricemin * .86 + ' - ' + '¥' + dasheWtsPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-
-                    client.channels.get(wtsChannelId).send('<@&774500633020989512>')
-
-                    client.channels.get(wtsChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wts dashe lifetime $' + (dasheWtsPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTS Listing Found')
-                        .addField('Price', '$' + dasheWtsPricemin + ' - ' + '€' + dasheWtsPricemin * .86 + ' - ' + '¥' + dasheWtsPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-                    client.channels.get(wtsChannelId).send('<@&774500633020989512>')
-
-
-                    client.channels.get(wtsChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === ':dashe:wts dashe lifetime $' + (dasheWtsPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTS Listing Found')
-                        .addField('Price', '$' + dasheWtsPricemin + ' - ' + '€' + dasheWtsPricemin * .86 + ' - ' + '¥' + dasheWtsPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-                    client.channels.get(wtsChannelId).send('<@&774500633020989512>')
-
-
-
-                    client.channels.get(wtsChannelId).send(dasheEmbed)
-
-
-
-                }
-            }
-        });
-
-    }
-
-    function tohruWts(arguments, receivedMessage) {
-
-  
-        user.on('message', message => { // When a message is created
-      tohruWtsPricemin = arguments
-            if(message.channel.id == '734522747580841985' || '750079269912444978' || '733784476546498651') {
-
-                for(; tohruWtsPricemin <= tohruWtsPrice; tohruWtsPricemin++) {
-
-                    if(message.content.toString().toLowerCase().includes(tohruWtsPricemin)) {
-
-
+                }else if (message.channel.id == '734522747580841985'){
+                    if(message.content.toString().toLowerCase().includes(tohruWtsPricemin||tohruWtsPricemin/1000)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3573,7 +4321,49 @@ client.on('message', (receivedMessage) => {
 
                     }
 
+
                 }
+                
+            else if (message.channel.id == '750079269912444978'){
+                if(message.content.toString().toLowerCase().includes(tohruWtsPricemin||tohruWtsPricemin/1000)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    tohruEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Tohru WTS Listing Found')
+                        .addField('Price', '$' + tohruWtsPricemin + ' - ' + '€' + tohruWtsPricemin * .86 + ' - ' + '¥' + tohruWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774804317387096134>')
+
+
+                    client.channels.get(wtsChannelId).send(tohruEmbed)
+
+                }
+
+
+            }
             }
         });
 
@@ -3585,10 +4375,14 @@ client.on('message', (receivedMessage) => {
 
 
         phantomWtsPricemin = arguments
-            if(message.channel.id == '627359696335929365' || '750079496211922944' || '710921653739323402') {
-                for(; phantomWtsPricemin <= phantomWtsPrice; phantomWtsPricemin++) {
 
-                    if(message.content.toString().toLowerCase().includes(phantomWtsPricemin)) {
+              for(; phantomWtsPricemin <= phantomWtsPrice; phantomWtsPricemin++) {  
+                 
+
+            if(message.channel.id ==  '710921653739323402') {
+        
+
+                    if(message.content.toString().toLowerCase().includes(phantomWtsPricemin||phantomWtsPricemin/1000)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3625,7 +4419,88 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+                }else if(message.channel.id == '627359696335929365'){
+
+                    
+                    if(message.content.toString().toLowerCase().includes(phantomWtsPricemin||phantomWtsPricemin/1000)) {
+
+                       
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        phatnomEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Phantom WTS Listing Found')
+                            .addField('Price', '$' + phantomWtsPricemin + ' - ' + '€' + phantomWtsPricemin * .86 + ' - ' + '¥' + phantomWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtsChannelId).send('<@&774804319785975839>')
+
+
+                        client.channels.get(wtsChannelId).send(PhantomEmbed)
+
+
+                    }
                 }
+            else if(message.channel.id == '750079496211922944'){
+
+                    
+                if(message.content.toString().toLowerCase().includes(phantomWtsPricemin)||phantomWtsPricemin/1000) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    phatnomEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Phantom WTS Listing Found')
+                        .addField('Price', '$' + phantomWtsPricemin + ' - ' + '€' + phantomWtsPricemin * .86 + ' - ' + '¥' + phantomWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774804319785975839>')
+
+
+                    client.channels.get(wtsChannelId).send(PhantomEmbed)
+
+
+                }
+            }
             }
         });
 
@@ -3636,10 +4511,14 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    adeptWtsPricemin = arguments
-            if(message.channel.id == '627359696335929365' || '750079939973480488' || '710921903249948802') {
+   
+                      
 
-                for(; adeptWtsPricemin <= adeptWtsPrice; adeptWtsPricemin++) {
+        for(; adeptWtsPricemin <= adeptWtsPrice; adeptWtsPricemin++) {
 
+            if(message.channel.id ==  '710921903249948802') {
+
+           
                     if(message.content.toString().toLowerCase().includes(adeptWtsPricemin)) {
 
                         userId = message.author.id
@@ -3669,6 +4548,45 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                        client.channels.get(wtsChannelId).send('<@&774804319819792395>')
+
+
+                        client.channels.get(wtsChannelId).send(adeptEmbed)
+
+
+
+                    }
+                }else if (message.channel.id == '627359696335929365'){
+
+                    
+                    if(message.content.toString().toLowerCase().includes(adeptWtsPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        adeptEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Adept WTS Listing Found')
+                            .addField('Price', '$' + adeptWtsPricemin + ' - ' + '€' + adeptWtsPricemin * .86 + ' - ' + '¥' + adeptWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804319819792395>')
 
@@ -3678,7 +4596,48 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+                
+            }else if (message.channel.id == '750079939973480488'){
+
+                    
+                if(message.content.toString().toLowerCase().includes(adeptWtsPricemin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    adeptEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Adept WTS Listing Found')
+                        .addField('Price', '$' + adeptWtsPricemin + ' - ' + '€' + adeptWtsPricemin * .86 + ' - ' + '¥' + adeptWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                    client.channels.get(wtsChannelId).send('<@&774804319819792395>')
+
+
+                    client.channels.get(wtsChannelId).send(adeptEmbed)
+
+
+
                 }
+            }
             }
 
         });
@@ -3690,12 +4649,17 @@ client.on('message', (receivedMessage) => {
   
         user.on('message', message => { // When a message is created
       burstWtsPricemin = arguments
+
+                      for(; burstWtsPricemin <= burstWtbPrice; burstWtsPricemin++) {
+
+                    
+
+
             if(message.channel.id == '762401756437020703') {
 
-                for(; burstWtsPricemin <= burstWtbPrice; burstWtsPricemin++) {
+
 
                     if(message.content.toString().toLowerCase().includes(burstWtsPricemin)) {
-
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -3723,7 +4687,6 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
-
                         client.channels.get(wtsChannelId).send('<@&774804320490225674>')
 
 
@@ -3743,9 +4706,13 @@ client.on('message', (receivedMessage) => {
     
         user.on('message', message => { // When a message is created
     cyberWtsPricemin = arguments
-            if(message.channel.id == '626930445774487563' || '750080029278339203' || '710921830558335087') {
 
-                for(; cyberWtsPricemin <= cyberWtsPrice; cyberWtsPricemin++) {
+    for(; cyberWtsPricemin <= cyberWtsPrice; cyberWtsPricemin++) {
+
+                       
+            if(message.channel.id ==  '710921830558335087') {
+
+            
 
                     if(message.content.toString().toLowerCase().includes(cyberWtsPricemin)) {
 
@@ -3777,6 +4744,46 @@ client.on('message', (receivedMessage) => {
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
+                        client.channels.get(wtsChannelId).send('<@&774804321362640906>')
+
+                        client.channels.get(wtsChannelId).send(cyberEmbed)
+
+
+
+                    }
+
+                }else if (message.channel.id == '626930445774487563'){
+
+
+                    if(message.content.toString().toLowerCase().includes(cyberWtsPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        cyberEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Cyber WTS Listing Found')
+                            .addField('Price', '$' + cyberWtsPricemin + ' - ' + '€' + cyberWtsPricemin * .86 + ' - ' + '¥' + cyberWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
 
                         client.channels.get(wtsChannelId).send('<@&774804321362640906>')
 
@@ -3786,7 +4793,49 @@ client.on('message', (receivedMessage) => {
 
                     }
 
+                
+            }else if (message.channel.id == '750080029278339203'){
+
+
+                if(message.content.toString().toLowerCase().includes(cyberWtsPricemin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    cyberEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Cyber WTS Listing Found')
+                        .addField('Price', '$' + cyberWtsPricemin + ' - ' + '€' + cyberWtsPricemin * .86 + ' - ' + '¥' + cyberWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774804321362640906>')
+
+                    client.channels.get(wtsChannelId).send(cyberEmbed)
+
+
+
                 }
+
+            }
             }
         });
 
@@ -3798,8 +4847,12 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
             estockWtsPricemin = arguments   
+         for(; estockWtsPricemin <= estockWtsPrice; estockWtsPrice++) {
+                    
             if(message.channel.id == '761090509858406400') {
-                for(; estockWtsPricemin <= estockWtsPrice; estockWtsPrice++) {
+
+
+       
                     if(message.content.toString().toLowerCase().includes(estockWtsPricemin)) {
 
                         userId = message.author.id
@@ -3849,14 +4902,18 @@ client.on('message', (receivedMessage) => {
 
        
         user.on('message', message => { // When a message is created
- eveWtsPricemin = arguments
+            eveWtsPricemin = arguments
 
-            if(message.channel.id == '626997994927161377' || '750079789196509294' || '710921786321141911') {
+    for(; eveWtsPricemin <= eveWtsPrice; eveWtsPricemin++) {
 
 
-                for(; eveWtsPricemin <= eveWtsPrice; eveWtsPricemin++) {
+            if(message.channel.id == '710921786321141911') {
+
+
+            
                     if(message.content.toString().toLowerCase().includes(eveWtsPricemin)) {
 
+                
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -3892,7 +4949,91 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+                }else if(message.channel.id == '626997994927161377'){
+
+                    if(message.content.toString().toLowerCase().includes(eveWtsPricemin)) {
+
+                
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        eveEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Eve WTS Listing Found')
+                            .addField('Price', '$' + eveWtsPricemin + ' - ' + '€' + eveWtsPricemin * .86 + ' - ' + '¥' + eveWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtsChannelId).send('<@&774804941478821888>')
+
+                        client.channels.get(wtsChannelId).send(eveEmbed)
+
+
+
+                    }
+
                 }
+
+            else if(message.channel.id == '750079789196509294'){
+
+                if(message.content.toString().toLowerCase().includes(eveWtsPricemin)) {
+
+            
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    eveEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Eve WTS Listing Found')
+                        .addField('Price', '$' + eveWtsPricemin + ' - ' + '€' + eveWtsPricemin * .86 + ' - ' + '¥' + eveWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                    client.channels.get(wtsChannelId).send('<@&774804941478821888>')
+
+                    client.channels.get(wtsChannelId).send(eveEmbed)
+
+
+
+                }
+
+            }
             }
         });
 
@@ -3904,10 +5045,16 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
            galaxsioWtsPricemin = arguments 
+
+                     
+
+           for(; galaxsioWtsPricemin <= galaxsioWtsPrice; galaxsioWtsPricemin++) {   
+
+
             if(message.channel.id == '692817365561376788') {
 
 
-                for(; galaxsioWtsPricemin <= galaxsioWtsPrice; galaxsioWtsPricemin++) {
+             
                     if(message.content.toString().toLowerCase().includes(galaxsioWtsPricemin)) {
 
                         userId = message.author.id
@@ -3937,8 +5084,6 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
-
-
                         client.channels.get(wtsChannelId).send('<@&774804944536076318>')
 
                         client.channels.get(wtsChannelId).send(glaxsioEmbed)
@@ -3957,12 +5102,54 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    hawkWtsPricemin = arguments
-            if(message.channel.id == '626998862145650698' || '710921635976446002') {
 
-                for(; hawkWtsPricemin <= hawkWtsPrice; hawkWtsPricemin++) {
+     for(; hawkWtsPricemin <= hawkWtsPrice; hawkWtsPricemin++) {
+
+  userId = message.author.id
+                     
+
+            if(message.channel.id == '710921635976446002') {
+
+           
                     if(message.content.toString().toLowerCase().includes(hawkWtsPricemin)) {
 
-                        userId = message.author.id
+                      
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        hawkEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Hawk Mesh WTS Listing Found')
+                            .addField('Price', '$' + hawkWtsPricemin + ' - ' + '€' + hawkWtsPricemin * .86 + ' - ' + '¥' + hawkWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtsChannelId).send('<@&774804946059132938>')
+
+
+                        client.channels.get(wtsChannelId).send(hawkEmbed)
+
+                    }
+
+                }else if(message.channel.id == '626998862145650698'){
+
+                    if(message.content.toString().toLowerCase().includes(hawkWtsPricemin)) {
+
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
@@ -3989,13 +5176,13 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
-
                         client.channels.get(wtsChannelId).send('<@&774804946059132938>')
 
 
                         client.channels.get(wtsChannelId).send(hawkEmbed)
 
                     }
+
 
                 }
             }
@@ -4007,41 +5194,88 @@ client.on('message', (receivedMessage) => {
 
     
         user.on('message', message => { // When a message is created
+
     ganeshWtsPricemin = arguments
 
-            if(message.channel.id == '626998427040874496' || '764754241113161728' || '710921675998494770') {
+   
+   for(; ganeshWtsPricemin <= ganeshWtsPrice; ganeshWtsPricemin++) {
 
-                for(; ganeshWtsPricemin <= ganeshWtsPrice; ganeshWtsPricemin++) {
+    
+                      
+
+
+            if(message.channel.id == '710921675998494770') {
+
+             
 
                     if(message.content.toString().toLowerCase().includes(ganeshWtsPricemin)) {
-
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                    
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                    
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                    
                         ganeshEmbed = new Discord.RichEmbed()
-
+                    
                             .setColor('#f9475d')
                             .setTitle('Ganesh WTS Listing Found')
                             .addField('Price', '$' + ganeshWtsPricemin + ' - ' + '€' + ganeshWtsPricemin * .86 + ' - ' + '¥' + ganeshWtsPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                    
                             .addField('Link To Seller', hyperSeller2)
-
+                    
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                    
+                    
+                    
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    
+                        client.channels.get(wtsChannelId).send('<@&774804947967410176>')
 
+
+                        client.channels.get(wtsChannelId).send(ganeshEmbed)
+
+
+
+                    }
+                }else if (message.channel.id == '772833340327329812'){
+
+
+                    if(message.content.toString().toLowerCase().includes(ganeshWtsPricemin)) {
+
+
+                         userId = message.author.id
+    messageId = message.id
+    channelId = message.channel.id
+    serverId = message.guild.id
+
+    var hyperSeller = 'https://discordapp.com/users/' + userId
+    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+    ganeshEmbed = new Discord.RichEmbed()
+
+        .setColor('#f9475d')
+        .setTitle('Ganesh WTS Listing Found')
+        .addField('Price', '$' + ganeshWtsPricemin + ' - ' + '€' + ganeshWtsPricemin * .86 + ' - ' + '¥' + ganeshWtsPricemin * 6.67, true)
+        .addField('Seller', message.author.tag, true)
+
+        .addField('Link To Seller', hyperSeller2)
+
+        .addField('Link To Listing', hyperListing2)
+
+
+
+        .setTimestamp()
+        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804947967410176>')
 
@@ -4051,7 +5285,51 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
+                
+            }else if (message.channel.id == '764754241113161728'){
+
+
+                if(message.content.toString().toLowerCase().includes(ganeshWtsPricemin)) {
+
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                
+                    ganeshEmbed = new Discord.RichEmbed()
+                
+                        .setColor('#f9475d')
+                        .setTitle('Ganesh WTS Listing Found')
+                        .addField('Price', '$' + ganeshWtsPricemin + ' - ' + '€' + ganeshWtsPricemin * .86 + ' - ' + '¥' + ganeshWtsPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+                
+                        .addField('Link To Seller', hyperSeller2)
+                
+                        .addField('Link To Listing', hyperListing2)
+                
+                
+                
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                
+                    client.channels.get(wtsChannelId).send('<@&774804947967410176>')
+
+
+                    client.channels.get(wtsChannelId).send(ganeshEmbed)
+
+
+
                 }
+
+            }
             }
         });
 
@@ -4061,10 +5339,14 @@ client.on('message', (receivedMessage) => {
 
        
         user.on('message', message => { // When a message is created
- hayhaWtsPricemin = arguments
-            if(message.channel.id == '699454441354428516' || '752600588537167955' || '710921620025376769') {
+            hayhaWtsPricemin = arguments
 
-                for(; hayhaWtsPricemin <= hayhaWtsPrice; hayhaWtsPricemin++) {
+    for(; hayhaWtsPricemin <= hayhaWtsPrice; hayhaWtsPricemin++) {
+                      
+
+            if(message.channel.id ==  '710921620025376769') {
+
+            
 
                     if(message.content.toString().toLowerCase().includes(hayhaWtsPricemin)) {
 
@@ -4095,6 +5377,18 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                        client.channels.get(wtsChannelId).send('<@&774805427098746950>')
+
+
+                        client.channels.get(wtsChannelId).send(hayhaEmbed)
+
+
+                    }
+                }else if (message.channel.id == '699454441354428516'){
+
+                    if(message.content.toString().toLowerCase().includes(hayhaWtsPricemin)) {
+
+                      
 
                         client.channels.get(wtsChannelId).send('<@&774805427098746950>')
 
@@ -4103,6 +5397,47 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
+                }
+                else if (message.channel.id == '752600588537167955'){
+
+                    if(message.content.toString().toLowerCase().includes(hayhaWtsPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        hayhaEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Hayha WTS Listing Found')
+                            .addField('Price', '$' + hayhaWtsPricemin + ' - ' + '€' + hayhaWtsPricemin * .86 + ' - ' + '¥' + hayhaWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtsChannelId).send('<@&774805427098746950>')
+
+
+                        client.channels.get(wtsChannelId).send(hayhaEmbed)
+
+
+                    }
+
                 }
             }
         });
@@ -4113,13 +5448,53 @@ client.on('message', (receivedMessage) => {
 
      
         user.on('message', message => { // When a message is created
-   kiloWtsPricemin = arguments
-            if(message.channel.id == '734523471542878349' || '733784066284978307') {
+        kiloWtsPricemin = arguments
 
-                for(; kiloWtsPricemin <= kiloWtsPrice; kiloWtsPricemin++) {
+        for(; kiloWtsPricemin <= kiloWtsPrice; kiloWtsPricemin++) {
+            
+                   
+            if(message.channel.id ==  '733784066284978307') {
+
+                
 
                     if(message.content.toString().toLowerCase().includes(kiloWtsPricemin)) {
 
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        kiloEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Kilo WTS Listing Found')
+                            .addField('Price', '$' + kiloWtsPricemin + ' - ' + '€' + kiloWtsPricemin * .86 + ' - ' + '¥' + kiloWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtsChannelId).send('<@&774805429858467841>')
+
+
+                        client.channels.get(wtsChannelId).send(kiloEmbed)
+
+
+                    }
+                }else if (message.channel.id == '734523471542878349'){
+                    if(message.content.toString().toLowerCase().includes(kiloWtsPricemin)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -4155,6 +5530,7 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
                 }
             }
         });
@@ -4166,9 +5542,14 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
         flareWtsPricemin = arguments
-            if(message.channel.id == '692632524609945660' || '710921725759455253') {
 
-                for(; flareWtsPricemin <= flareWtsPrice; flareWtsPricemin++) {
+            for(; flareWtsPricemin <= flareWtsPrice; flareWtsPricemin++) {
+
+                    
+                            
+            if(message.channel.id ==  '710921725759455253') {
+
+            
 
                     if(message.content.toString().toLowerCase().includes(flareWtsPricemin)) {
 
@@ -4197,7 +5578,8 @@ client.on('message', (receivedMessage) => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');   
+                            
 
 
                         client.channels.get(wtsChannelId).send('<@&774805432521981972>')
@@ -4207,6 +5589,49 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
+                }else if(message.channel.id == '692632524609945660'){
+
+
+                    if(message.content.toString().toLowerCase().includes(flareWtsPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        FlareEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Flare WTS Listing Found')
+                            .addField('Price', '$' + flareWtsPricemin + ' - ' + '€' + flareWtsPricemin * .86 + ' - ' + '¥' + flareWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');   
+                            
+
+
+                        client.channels.get(wtsChannelId).send('<@&774805432521981972>')
+
+
+                        client.channels.get(wtsChannelId).send(FlareEmbed)
+
+
+                    }
+
                 }
             }
         });
@@ -4218,10 +5643,55 @@ client.on('message', (receivedMessage) => {
        
         user.on('message', message => { // When a message is created
  fleekWtsPricemin = arguments
-            if(message.channel.id == '626999432881242152' || '759444386257305620' || '700487250483478560') {
 
-                for(; fleekWtsPricemin <= fleekWtsPrice; fleekWtsPricemin++) {
+    for(; fleekWtsPricemin <= fleekWtsPrice; fleekWtsPricemin++) {
 
+                     
+
+            if(message.channel.id == '700487250483478560') {
+
+             
+
+                    if(message.content.toString().toLowerCase().includes(fleekWtsPricemin)) {
+
+                     
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        fleekEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Fleek WTS Listing Found')
+                            .addField('Price', '$' + fleekWtsPricemin + ' - ' + '€' + fleekWtsPricemin * .86 + ' - ' + '¥' + fleekWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtsChannelId).send('<@&774805437714923620>')
+
+
+                        client.channels.get(wtsChannelId).send(fleekEmbed)
+
+
+
+                    }
+
+                }else if(message.channel.id == '626999432881242152'){
                     if(message.content.toString().toLowerCase().includes(fleekWtsPricemin)) {
 
                         userId = message.author.id
@@ -4262,6 +5732,47 @@ client.on('message', (receivedMessage) => {
                     }
 
                 }
+                else if(message.channel.id == '759444386257305620'){
+                    if(message.content.toString().toLowerCase().includes(fleekWtsPricemin)) {
+
+                     
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        fleekEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Fleek WTS Listing Found')
+                            .addField('Price', '$' + fleekWtsPricemin + ' - ' + '€' + fleekWtsPricemin * .86 + ' - ' + '¥' + fleekWtsPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtsChannelId).send('<@&774805437714923620>')
+
+
+                        client.channels.get(wtsChannelId).send(fleekEmbed)
+
+
+
+                    }
+
+                }
             }
         });
 
@@ -4273,6 +5784,7 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
    nebulaWtsPricemin = arguments
             for(; nebulaWtsPricemin <= nebulaWtsPrice; nebulaWtsPricemin++) {
+               
 
                 if(message.content.toString().toLowerCase() === 'wts nebula ' + (nebulaWtsPricemin)) {
 
@@ -4280,29 +5792,28 @@ client.on('message', (receivedMessage) => {
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     nebulaEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Nebula WTS Listing Found')
                         .addField('Price', '$' + nebulaWtsPricemin + ' - ' + '€' + nebulaWtsPricemin * .86 + ' - ' + '¥' + nebulaWtsPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                     client.channels.get(wtsChannelId).send('<@&774805952116686848>')
 
@@ -4314,31 +5825,7 @@ client.on('message', (receivedMessage) => {
                 } else if(message.content.toString().toLowerCase() === 'wts nebula $' + (nebulaWtsPricemin)) {
 
                     userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
-                    nebulaEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Nebula WTS Listing Found')
-                        .addField('Price', '$' + nebulaWtsPricemin + ' - ' + '€' + nebulaWtsPricemin * .86 + ' - ' + '¥' + nebulaWtsPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                  
 
 
                     client.channels.get(wtsChannelId).send('<@&774805952116686848>')
@@ -4354,26 +5841,26 @@ client.on('message', (receivedMessage) => {
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     nebulaEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Nebula WTS Listing Found')
                         .addField('Price', '$' + nebulaWtsPricemin + ' - ' + '€' + nebulaWtsPricemin * .86 + ' - ' + '¥' + nebulaWtsPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
@@ -4391,29 +5878,28 @@ client.on('message', (receivedMessage) => {
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     nebulaEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Nebula WTS Listing Found')
                         .addField('Price', '$' + nebulaWtsPricemin + ' - ' + '€' + nebulaWtsPricemin * .86 + ' - ' + '¥' + nebulaWtsPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                     client.channels.get(wtsChannelId).send('<@&774805952116686848>')
 
@@ -4662,12 +6148,17 @@ client.on('message', (receivedMessage) => {
       
         user.on('message', message => { // When a message is created
   balkoPriceWtbmin = arguments
-            if(message.channel.id == '626996366433976330' || '750080130038235218' || '710921862888161440') {
 
-                for(; balkoPriceWtbmin <= balkoPriceWtb; balkoPriceWtbmin++) {
+      for(; balkoPriceWtbmin <= balkoPriceWtb; balkoPriceWtbmin++) {
+
+
+            if(message.channel.id ==  '710921862888161440') {
+
+          
 
 
                     if(message.content.toString().toLowerCase().includes(balkoPriceWtbminPriceWtb)) {
+
 
                         userId = message.author.id
                         messageId = message.id
@@ -4695,8 +6186,6 @@ client.on('message', (receivedMessage) => {
 
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
                         client.channels.get(wtbChannelId).send('<@&774503052530155560>')
 
 
@@ -4705,6 +6194,88 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+                }
+                else if(message.channel.id == '626996366433976330' ){
+                    if(message.content.toString().toLowerCase().includes(balkoPriceWtbminPriceWtb)) {
+
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        BalkoEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Balko WTB Listing Found')
+                            .addField('Price', '$' + balkoPriceWtbmin + ' - ' + '€' + balkoPriceWtbmin * .86 + ' - ' + '¥' + balkoPriceWtbmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtbChannelId).send('<@&774503052530155560>')
+
+
+                        client.channels.get(wtbChannelId).send(BalkoEmbed)
+
+
+
+                    }
+
+
+                }
+                else if(message.channel.id == '750080130038235218' ){
+                    if(message.content.toString().toLowerCase().includes(balkoPriceWtbminPriceWtb)) {
+
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        BalkoEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Balko WTB Listing Found')
+                            .addField('Price', '$' + balkoPriceWtbmin + ' - ' + '€' + balkoPriceWtbmin * .86 + ' - ' + '¥' + balkoPriceWtbmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtbChannelId).send('<@&774503052530155560>')
+
+
+                        client.channels.get(wtbChannelId).send(BalkoEmbed)
+
+
+
+                    }
+
+
                 }
             }
         });
@@ -4715,11 +6286,91 @@ client.on('message', (receivedMessage) => {
       
         user.on('message', message => { // When a message is created
   f3PriceWtbmin = arguments
-            if(message.channel.id == '626994422105636874' || '750079739414183946' || '710921740297044008') {
+
+   for(; f3PriceWtbmin <= f3PriceWts; f3PriceWtbmin++) {
+
+   
+
+            if(message.channel.id ==  '710921740297044008') {
 
 
-                for(; f3PriceWtbmin <= f3PriceWts; f3PriceWtbmin++) {
+               
 
+                    if(message.content.toString().toLowerCase().includes(f3PriceWtbmin)) {
+
+                      
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                    
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                    
+                        f3embed = new Discord.RichEmbed()
+                    
+                            .setColor('#f9475d')
+                            .setTitle('F3 WTB Listing Found')
+                            .addField('Price', '$' + f3PriceWtbmin + ' - ' + '€' + f3PriceWtbmin * .86 + ' - ' + '¥' + f3PriceWtbmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                    
+                            .addField('Link To Seller', hyperSeller2)
+                    
+                            .addField('Link To Listing', hyperListing2)
+                    
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send('<@&774503521709457459>')
+
+                        client.channels.get(wtbChannelId).send(f3embed)
+
+
+
+                    }
+                }
+                else if(message.channel.id == '626994422105636874'){
+                    if(message.content.toString().toLowerCase().includes(f3PriceWtbmin)) {
+
+                      
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                    
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                    
+                        f3embed = new Discord.RichEmbed()
+                    
+                            .setColor('#f9475d')
+                            .setTitle('F3 WTB Listing Found')
+                            .addField('Price', '$' + f3PriceWtbmin + ' - ' + '€' + f3PriceWtbmin * .86 + ' - ' + '¥' + f3PriceWtbmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                    
+                            .addField('Link To Seller', hyperSeller2)
+                    
+                            .addField('Link To Listing', hyperListing2)
+                    
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send('<@&774503521709457459>')
+
+                        client.channels.get(wtbChannelId).send(f3embed)
+
+
+
+                    }
+
+                }
+                else if(message.channel.id == '750079739414183946'){
                     if(message.content.toString().toLowerCase().includes(f3PriceWtbmin)) {
 
                         userId = message.author.id
@@ -4728,21 +6379,21 @@ client.on('message', (receivedMessage) => {
                         serverId = message.guild.id
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                    
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                    
                         f3embed = new Discord.RichEmbed()
-
+                    
                             .setColor('#f9475d')
                             .setTitle('F3 WTB Listing Found')
                             .addField('Price', '$' + f3PriceWtbmin + ' - ' + '€' + f3PriceWtbmin * .86 + ' - ' + '¥' + f3PriceWtbmin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                    
                             .addField('Link To Seller', hyperSeller2)
-
+                    
                             .addField('Link To Listing', hyperListing2)
-
+                    
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
@@ -4755,6 +6406,7 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
                 }
             }
         });
@@ -4766,11 +6418,19 @@ client.on('message', (receivedMessage) => {
       
         user.on('message', message => { // When a message is created
 
-  rushPriceWtbmin = arguments
-            if(message.channel.id == '715325456924147845' || '752600558270939256' || '736704547434790954') {
+  rushPriceWtbmin = arguments  
+  
+  for(; rushPriceWtbmin <= rushPriceWtb; rushPriceWtbmin++) {
+
+            
 
 
-                for(; rushPriceWtbmin <= rushPriceWtb; rushPriceWtbmin++) {
+                      
+
+            if(message.channel.id ==  '736704547434790954') {
+
+
+             
 
 
                     if(message.content.toString().toLowerCase().includes(rushPriceWtbmin)) {
@@ -4799,16 +6459,85 @@ client.on('message', (receivedMessage) => {
 
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
                         client.channels.get(wtbChannelId).send('<@&774503635903053875>')
 
 
                         client.channels.get(wtbChannelId).send(rushEmbed)
 
 
+                    }
+                }else if(message.channel.id == '715325456924147845'){
+
+                    if(message.content.toString().toLowerCase().includes(rushPriceWtbmin)) {
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        rushEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Rush WTB Listing Found')
+                            .addField('Price', '$' + rushPriceWtbmin + ' - ' + '€' + rushPriceWtbmin * .86 + ' - ' + '¥' + rushPriceWtbmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                  
+                        client.channels.get(wtbChannelId).send('<@&774503635903053875>')
+
+
+                        client.channels.get(wtbChannelId).send(rushEmbed)
+
 
                     }
+
+                }else if(message.channel.id == '752600558270939256'){
+
+                    if(message.content.toString().toLowerCase().includes(rushPriceWtbmin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        rushEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Rush WTB Listing Found')
+                            .addField('Price', '$' + rushPriceWtbmin + ' - ' + '€' + rushPriceWtbmin * .86 + ' - ' + '¥' + rushPriceWtbmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtbChannelId).send('<@&774503635903053875>')
+
+
+                        client.channels.get(wtbChannelId).send(rushEmbed)
+
+
+                    }
+
                 }
             }
         });
@@ -4820,6 +6549,7 @@ client.on('message', (receivedMessage) => {
  
         user.on('message', message => { // When a message is created
        mercuryPriceWtbmin = arguments
+
             for(; mercuryPriceWtbmin <= mercuryPriceWtb; mercuryPriceWtbmin++) {
 
                 if(message.content.toString().toLowerCase() === 'wtb mercury ' + (mercuryPriceWtbmin)) {
@@ -5082,35 +6812,39 @@ client.on('message', (receivedMessage) => {
     
         user.on('message', message => { // When a message is created
     solePriceWtbmin = arguments
-            if(message.channel.id == '626997728915881993' || '751572280307482734' || '710921331872366644') {
 
-                for(; solePriceWtbmin <= solePriceWtb; solePriceWtbmin++) {
+       for(; solePriceWtbmin <= solePriceWtb; solePriceWtbmin++) {
+     
+
+            if(message.channel.id ==  '710921331872366644') {
+
+         
 
                     if(message.content.toString().toLowerCase().includes(solePriceWtbmin)) {
-
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                
                         soleEmbed = new Discord.RichEmbed()
-
+                
                             .setColor('#f9475d')
                             .setTitle('Sole WTB Listing Found')
                             .addField('Price', '$' + solePriceWtbmin + ' - ' + '€' + solePriceWtbmin * .86 + ' - ' + '¥' + solePriceWtbmin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                
                             .addField('Link To Seller', hyperSeller2)
-
+                
                             .addField('Link To Listing', hyperListing2)
-
+                
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    
 
                         client.channels.get(wtbChannelId).send('<@&774803407533506562>')
 
@@ -5120,7 +6854,82 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+                }else if(message.channel.id == '626997728915881993'){
+
+                    if(message.content.toString().toLowerCase().includes(solePriceWtbmin)) {
+
+                    
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                
+                        soleEmbed = new Discord.RichEmbed()
+                
+                            .setColor('#f9475d')
+                            .setTitle('Sole WTB Listing Found')
+                            .addField('Price', '$' + solePriceWtbmin + ' - ' + '€' + solePriceWtbmin * .86 + ' - ' + '¥' + solePriceWtbmin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                
+                            .addField('Link To Seller', hyperSeller2)
+                
+                            .addField('Link To Listing', hyperListing2)
+                
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtbChannelId).send('<@&774803407533506562>')
+
+
+
+                        client.channels.get(wtbChannelId).send(soleEmbed)
+
+
+                    }
+
+                
+            }else if(message.channel.id == '751572280307482734'){
+
+                if(message.content.toString().toLowerCase().includes(solePriceWtbmin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+            
+                    soleEmbed = new Discord.RichEmbed()
+            
+                        .setColor('#f9475d')
+                        .setTitle('Sole WTB Listing Found')
+                        .addField('Price', '$' + solePriceWtbmin + ' - ' + '€' + solePriceWtbmin * .86 + ' - ' + '¥' + solePriceWtbmin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+            
+                        .addField('Link To Seller', hyperSeller2)
+            
+                        .addField('Link To Listing', hyperListing2)
+            
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                    client.channels.get(wtbChannelId).send('<@&774803407533506562>')
+
+
+
+                    client.channels.get(wtbChannelId).send(soleEmbed)
+
+
                 }
+
+            }
             }
         });
 
@@ -5131,9 +6940,13 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    wrathWtbPricemin = arguments
-            if(message.channel.id == '626997507205103617' || '743950898501517322' || '733784514769191013') {
 
-                for(; wrathWtbPricemin <= wrathWtbPrice; wrathWtbPricemin++) {
+ for(; wrathWtbPricemin <= wrathWtbPrice; wrathWtbPricemin++) {
+    
+
+            if(message.channel.id ==  '733784514769191013') {
+
+               
 
                     if(message.content.toString().toLowerCase().includes(wrathWtbPricemin)) {
 
@@ -5161,6 +6974,40 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                        client.channels.get(wtbChannelId).send('<@&774803488193511475>')
+
+
+                        client.channels.get(wtbChannelId).send(wrathEmbed)
+
+
+
+                    }
+                }else if(message.channel.id == '626997507205103617'){
+                    if(message.content.toString().toLowerCase().includes(wrathWtbPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        wrathEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Wrath WTB Listing Found')
+                            .addField('Price', '$' + wrathWtbPricemin + ' - ' + '€' + wrathWtbPricemin * .86 + ' - ' + '¥' + wrathWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774803488193511475>')
 
@@ -5170,6 +7017,44 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
+                }
+                else if(message.channel.id == '743950898501517322'){
+                    if(message.content.toString().toLowerCase().includes(wrathWtbPricemin)) {
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        wrathEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Wrath WTB Listing Found')
+                            .addField('Price', '$' + wrathWtbPricemin + ' - ' + '€' + wrathWtbPricemin * .86 + ' - ' + '¥' + wrathWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    
+
+                        client.channels.get(wtbChannelId).send('<@&774803488193511475>')
+
+
+                        client.channels.get(wtbChannelId).send(wrathEmbed)
+
+
+
+                    }
+
                 }
             }
         });
@@ -5181,37 +7066,120 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    veloxWtbPricemin = arguments
-            if(message.channel.id == '710921136078192723' || '750079086541668462' || '634518624677396501') {
+  for(; veloxWtbPricemin <= veloxWtbPrice; veloxWtbPricemin++) {
 
-                for(; veloxWtbPricemin <= veloxWtbPrice; veloxWtbPricemin++) {
+ 
+              
+
+            if(message.channel.id ==  '634518624677396501') {
+
 
                     if(message.content.toString().toLowerCase().includes(veloxWtbPricemin)) {
-
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                     
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                     
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
                         veloxEmbed = new Discord.RichEmbed()
-
+                     
                             .setColor('#f9475d')
                             .setTitle('Velox WTB Listing Found')
                             .addField('Price', '$' + veloxWtbPricemin + ' - ' + '€' + veloxWtbPricemin * .86 + ' - ' + '¥' + veloxWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                     
                             .addField('Link To Seller', hyperSeller2)
-
+                     
                             .addField('Link To Listing', hyperListing2)
-
-
+                     
+                     
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                     
+                   
+                        client.channels.get(wtbChannelId).send('<@&774803645416996914>')
 
+
+
+                        client.channels.get(wtbChannelId).send(veloxEmbed)
+
+
+
+                    }
+
+                }else if(message.channel.id == '710921136078192723'){
+
+                    if(message.content.toString().toLowerCase().includes(veloxWtbPricemin)) {
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                     
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                     
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                        veloxEmbed = new Discord.RichEmbed()
+                     
+                            .setColor('#f9475d')
+                            .setTitle('Velox WTB Listing Found')
+                            .addField('Price', '$' + veloxWtbPricemin + ' - ' + '€' + veloxWtbPricemin * .86 + ' - ' + '¥' + veloxWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                     
+                            .addField('Link To Seller', hyperSeller2)
+                     
+                            .addField('Link To Listing', hyperListing2)
+                     
+                     
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                     
+                   
+                        client.channels.get(wtbChannelId).send('<@&774803645416996914>')
+
+
+
+                        client.channels.get(wtbChannelId).send(veloxEmbed)
+
+
+
+                    }
+
+                }
+                else if(message.channel.id == '750079086541668462'){
+                    
+                    if(message.content.toString().toLowerCase().includes(veloxWtbPricemin)) {
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                     
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                     
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                        veloxEmbed = new Discord.RichEmbed()
+                     
+                            .setColor('#f9475d')
+                            .setTitle('Velox WTB Listing Found')
+                            .addField('Price', '$' + veloxWtbPricemin + ' - ' + '€' + veloxWtbPricemin * .86 + ' - ' + '¥' + veloxWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                     
+                            .addField('Link To Seller', hyperSeller2)
+                     
+                            .addField('Link To Listing', hyperListing2)
+                     
+                     
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                     
+                   
                         client.channels.get(wtbChannelId).send('<@&774803645416996914>')
 
 
@@ -5234,11 +7202,17 @@ client.on('message', (receivedMessage) => {
       
         user.on('message', message => { // When a message is created
   mekWtbPricemin = arguments
-            if(message.channel.id == '627003458817359873' || '750079662675198053' || '710921433987022878') {
 
-                for(; mekWtbPricemin <= mekWtbPrice; mekWtbPricemin++) {
+     for(; mekWtbPricemin <= mekWtbPrice; mekWtbPricemin++) {
+     
+
+            if(message.channel.id ==  '710921433987022878') {
+
+             
 
                     if(message.content.toString().toLowerCase().includes(mekWtbPricemin)) {
+
+
 
                         userId = message.author.id
                         messageId = message.id
@@ -5263,9 +7237,7 @@ client.on('message', (receivedMessage) => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');    
                         client.channels.get(wtbChannelId).send('<@&774803745346289684>')
 
 
@@ -5276,10 +7248,88 @@ client.on('message', (receivedMessage) => {
                     }
 
                 }
+            else if(message.channel.id == '627003458817359873'){
+
+                if(message.content.toString().toLowerCase().includes(mekWtbPricemin)) {
+
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    mekEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Mek WTB Listing Found')
+                        .addField('Price', '$' + mekWtbPricemin + ' - ' + '€' + mekWtbPricemin * .86 + ' - ' + '¥' + mekWtbPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');    
+
+                    client.channels.get(wtbChannelId).send('<@&774803745346289684>')
+
+
+                    client.channels.get(wtbChannelId).send(mekEmbed)
+
+
+
+                }
             }
+            else if(message.channel.id == '750079662675198053'){
+
+                if(message.content.toString().toLowerCase().includes(mekWtbPricemin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    mekEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Mek WTB Listing Found')
+                        .addField('Price', '$' + mekWtbPricemin + ' - ' + '€' + mekWtbPricemin * .86 + ' - ' + '¥' + mekWtbPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');    
+
+
+                    client.channels.get(wtbChannelId).send('<@&774803745346289684>')
+
+
+                    client.channels.get(wtbChannelId).send(mekEmbed)
+
+
+
+                }
+            }
+     }
         });
 
-    }
+        }
 
     function prismWtb(arguments, receivedMessage) {
 
@@ -5287,12 +7337,18 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
       prismWtbPricemin = arguments
-            if(message.channel.id == '626997238513795079' || '750079349167882462' || '710921411757211689') {
 
-                for(; prismWtbPricemin <= prismWtbPrice; prismWtbPricemin++) {
+  for(; prismWtbPricemin <= prismWtbPrice; prismWtbPricemin++) {
+
+                   
+
+            if(message.channel.id ==  '710921411757211689') {
+
+              
 
                     if(message.content.toString().toLowerCase().includes(prismWtbPricemin)) {
 
+                        
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -5319,7 +7375,6 @@ client.on('message', (receivedMessage) => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
-
                         client.channels.get(wtbChannelId).send('<@&774803748018454559>')
 
 
@@ -5329,8 +7384,89 @@ client.on('message', (receivedMessage) => {
 
                     }
                 }
-            }
+            else if(message.channel.id == '626997238513795079'){
 
+                if(message.content.toString().toLowerCase().includes(prismWtbPricemin)) {
+
+                        
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    prismEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Prism WTB Listing Found')
+                        .addField('Price', '$' + prismWtbPricemin + ' - ' + '€' + prismWtbPricemin * .86 + ' - ' + '¥' + prismWtbPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                    client.channels.get(wtbChannelId).send('<@&774803748018454559>')
+
+
+                    client.channels.get(wtbChannelId).send(prismEmbed)
+
+
+
+                }
+
+            }
+            else if(message.channel.id == '750079349167882462'){
+
+                if(message.content.toString().toLowerCase().includes(prismWtbPricemin)) {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    prismEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Prism WTB Listing Found')
+                        .addField('Price', '$' + prismWtbPricemin + ' - ' + '€' + prismWtbPricemin * .86 + ' - ' + '¥' + prismWtbPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtbChannelId).send('<@&774803748018454559>')
+
+
+                    client.channels.get(wtbChannelId).send(prismEmbed)
+
+
+
+                }
+
+            }
+        }
         });
 
     }
@@ -5341,10 +7477,54 @@ client.on('message', (receivedMessage) => {
 
 
         polarisWtbPricemin = arguments
-            if(message.channel.id == '710921396859175081' || '750079408445980717' || '713875954224726228') {
 
-                for(; polarisWtbPricemin <= polarisWtbPrice; polarisWtbPricemin++) {
+            for(; polarisWtbPricemin <= polarisWtbPrice; polarisWtbPricemin++) {
 
+           
+
+
+            if(message.channel.id ==  '713875954224726228') {
+
+            
+
+
+                    if(message.content.toString().toLowerCase().includes(polarisWtbPricemin)) {
+
+                       
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+        
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+        
+                        poalrisEmbed = new Discord.RichEmbed()
+        
+                            .setColor('#f9475d')
+                            .setTitle('Polaris WTB Listing Found')
+                            .addField('Price', '$' + polarisWtbPricemin + ' - ' + '€' + polarisWtbPricemin * .86 + ' - ' + '¥' + polarisWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+        
+                            .addField('Link To Seller', hyperSeller2)
+        
+                            .addField('Link To Listing', hyperListing2)
+        
+        
+        
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtbChannelId).send('<@&774803951438659594>')
+
+
+                        client.channels.get(wtbChannelId).send(poalrisEmbed)
+
+
+
+                    }
+                }else if(message.channel.id == '710921396859175081'){
 
                     if(message.content.toString().toLowerCase().includes(polarisWtbPricemin)) {
 
@@ -5354,26 +7534,25 @@ client.on('message', (receivedMessage) => {
                         serverId = message.guild.id
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+        
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+        
                         poalrisEmbed = new Discord.RichEmbed()
-
+        
                             .setColor('#f9475d')
                             .setTitle('Polaris WTB Listing Found')
                             .addField('Price', '$' + polarisWtbPricemin + ' - ' + '€' + polarisWtbPricemin * .86 + ' - ' + '¥' + polarisWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+        
                             .addField('Link To Seller', hyperSeller2)
-
+        
                             .addField('Link To Listing', hyperListing2)
-
-
-
+        
+        
+        
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                         client.channels.get(wtbChannelId).send('<@&774803951438659594>')
 
@@ -5383,6 +7562,47 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
+                }
+                else if(message.channel.id == '750079408445980717'){
+                    
+                    if(message.content.toString().toLowerCase().includes(polarisWtbPricemin)) {
+
+                       
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+        
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+        
+                        poalrisEmbed = new Discord.RichEmbed()
+        
+                            .setColor('#f9475d')
+                            .setTitle('Polaris WTB Listing Found')
+                            .addField('Price', '$' + polarisWtbPricemin + ' - ' + '€' + polarisWtbPricemin * .86 + ' - ' + '¥' + polarisWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+        
+                            .addField('Link To Seller', hyperSeller2)
+        
+                            .addField('Link To Listing', hyperListing2)
+        
+        
+        
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtbChannelId).send('<@&774803951438659594>')
+
+
+                        client.channels.get(wtbChannelId).send(poalrisEmbed)
+
+
+
+                    }
+
                 }
 
             }
@@ -5395,7 +7615,11 @@ client.on('message', (receivedMessage) => {
       
         user.on('message', message => { // When a message is created
   splashForceWtbPricemin = arguments
+
+
             for(; splashForceWtbPricemin <= splashForceWtbPrice; splashForceWtbPricemin++) {
+
+              
 
                 if(message.content.toString().toLowerCase() === 'wtb splash force ' + (splashForceWtbPricemin)) {
 
@@ -5403,29 +7627,27 @@ client.on('message', (receivedMessage) => {
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
                     sfEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTB Listing Found')
                         .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPrice * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
 
                     client.channels.get(wtbChannelId).send('<@&774803954713231366>')
 
@@ -5435,33 +7657,32 @@ client.on('message', (receivedMessage) => {
 
                 } else if(message.content.toString().toLowerCase() === 'wtb splash force/sf ' + (splashForceWtbPricemin)) {
 
+                   
                     userId = message.author.id
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
                     sfEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTB Listing Found')
-                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPrice * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
 
                     client.channels.get(wtbChannelId).send('<@&774803954713231366>')
 
@@ -5472,30 +7693,30 @@ client.on('message', (receivedMessage) => {
                 } else if(message.content.toString().toLowerCase() === 'wtb splash force/sf $' + (splashForceWtbPricemin)) {
 
                     userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
+                messageId = message.id
+                channelId = message.channel.id
+                serverId = message.guild.id
 
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                var hyperSeller = 'https://discordapp.com/users/' + userId
+                var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
 
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    sfEmbed = new Discord.RichEmbed()
+                var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                sfEmbed = new Discord.RichEmbed()
 
-                        .setColor('#f9475d')
-                        .setTitle('Splash Force WTB Listing Found')
-                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
+                    .setColor('#f9475d')
+                    .setTitle('Splash Force WTB Listing Found')
+                    .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPrice * 6.67, true)
+                    .addField('Seller', message.author.tag, true)
 
-                        .addField('Link To Seller', hyperSeller2)
+                    .addField('Link To Seller', hyperSeller2)
 
-                        .addField('Link To Listing', hyperListing2)
+                    .addField('Link To Listing', hyperListing2)
 
 
 
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setTimestamp()
+                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774803954713231366>')
 
@@ -5511,28 +7732,27 @@ client.on('message', (receivedMessage) => {
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
                     sfEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTB Listing Found')
-                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPrice * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                     client.channels.get(wtbChannelId).send('<@&774803954713231366>')
 
@@ -5553,45 +7773,122 @@ client.on('message', (receivedMessage) => {
        
         user.on('message', message => { // When a message is created
 
- pdWtbPricemin = arguments
-            if(message.channel.id == '626996604603465738' || '750079582606196826' || '710921374939742298') {
-                for(; pdWtbPricemin <= pdWtbPrice; pdWtbPricemin++) {
+        pdWtbPricemin = arguments
+
+    for(; pdWtbPricemin <= pdWtbPrice; pdWtbPricemin++) {
+     
+
+        client.channels.get(wtbChannelId).send('<@&774803955078266890>')
+
+            if(message.channel.id ==  '710921374939742298') {
+             
 
                     if(message.content.toString().toLowerCase(), includes(pdWtbPricemin)) {
 
+   
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                
                         pdEmbed = new Discord.RichEmbed()
-
+                
                             .setColor('#f9475d')
                             .setTitle('Project Destroyer WTB Listing Found')
                             .addField('Price', '$' + pdWtbPricemin + ' - ' + '€' + pdWtbPricemin * .86 + ' - ' + '¥' + pdWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
-
+                
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                
+                
+                
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-                        client.channels.get(wtbChannelId).send('<@&774803955078266890>')
-
 
 
                         client.channels.get(wtbChannelId).send(pdEmbed)
 
 
                     }
+                }else if(message.channel.id == '626996604603465738'){
+
+                    if(message.content.toString().toLowerCase(), includes(pdWtbPricemin)) {
+
+   
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                
+                        pdEmbed = new Discord.RichEmbed()
+                
+                            .setColor('#f9475d')
+                            .setTitle('Project Destroyer WTB Listing Found')
+                            .addField('Price', '$' + pdWtbPricemin + ' - ' + '€' + pdWtbPricemin * .86 + ' - ' + '¥' + pdWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                            .addField('Link To Seller', hyperSeller2)
+                
+                            .addField('Link To Listing', hyperListing2)
+                
+                
+                
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send(pdEmbed)
+
+
+                    }
+
+                }
+                else if(message.channel.id == '750079582606196826'){
+
+                    if(message.content.toString().toLowerCase(), includes(pdWtbPricemin)) {
+
+   
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                
+                        pdEmbed = new Discord.RichEmbed()
+                
+                            .setColor('#f9475d')
+                            .setTitle('Project Destroyer WTB Listing Found')
+                            .addField('Price', '$' + pdWtbPricemin + ' - ' + '€' + pdWtbPricemin * .86 + ' - ' + '¥' + pdWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                            .addField('Link To Seller', hyperSeller2)
+                
+                            .addField('Link To Listing', hyperListing2)
+                
+                
+                
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send(pdEmbed)
+
+
+                    }
+
                 }
             }
         });
@@ -5602,226 +7899,44 @@ client.on('message', (receivedMessage) => {
 
        
         user.on('message', message => { // When a message is created
- dasheWtbPricemin = arguments
+             dasheWtbPricemin = arguments
+
             for(; dasheWtbPricemin <= dasheWtbPrice; dasheWtbPricemin++) {
 
-                if(message.content.toString().toLowerCase() === 'wtb dashe ' + (dasheWtbPricemin)) {
+          
 
+                if(message.channel.id ==  '710921801102000199') {
                     userId = message.author.id
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
                     dasheEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Dashe WTB Listing Found')
                         .addField('Price', '$' + dasheWtbPricemin + ' - ' + '€' + dasheWtbPricemin * .86 + ' - ' + '¥' + dasheWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-
                     client.channels.get(wtbChannelId).send('<@&774500633020989512>')
 
                     client.channels.get(wtbChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wtb dashe renewal $' + (dasheWtbPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTB Listing Found')
-                        .addField('Price', '$' + dasheWtbPricemin + ' - ' + '€' + dasheWtbPricemin * .86 + ' - ' + '¥' + dasheWtbPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-
-                    client.channels.get(wtbChannelId).send('<@&774500633020989512>')
-
-                    client.channels.get(wtbChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wtb dashe lt $' + (dasheWtbPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTB Listing Found')
-                        .addField('Price', '$' + dasheWtbPricemin + ' - ' + '€' + dasheWtbPricemin * .86 + ' - ' + '¥' + dasheWtbPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-                    client.channels.get(wtbChannelId).send('<@&774500633020989512>')
-
-
-                    client.channels.get(wtbChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wtb dashe $' + (dasheWtbPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTB Listing Found')
-                        .addField('Price', '$' + dasheWtbPricemin + ' - ' + '€' + dasheWtbPricemin * .86 + ' - ' + '¥' + dasheWtbPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-                    client.channels.get(wtbChannelId).send('<@&774500633020989512>')
-
-
-                    client.channels.get(wtbChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wtb dashe lifetime $' + (dasheWtbPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTB Listing Found')
-                        .addField('Price', '$' + dasheWtbPricemin + ' - ' + '€' + dasheWtbPricemin * .86 + ' - ' + '¥' + dasheWtbPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-                    client.channels.get(wtbChannelId).send('<@&774500633020989512>')
-
-
-
-                    client.channels.get(wtbChannelId).send(dasheEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === ':dashe:wtb dashe lifetime $' + (dasheWtbPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                    dasheEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Dashe WTB Listing Found')
-                        .addField('Price', '$' + dasheWtbPricemin + ' - ' + '€' + dasheWtbPricemin * .86 + ' - ' + '¥' + dasheWtbPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-                    client.channels.get(wtbChannelId).send('<@&774500633020989512>')
-
-
-                    client.channels.get(wtbChannelId).send(dasheEmbed)
-
-
 
                 }
+             
             }
         });
 
@@ -5832,9 +7947,14 @@ client.on('message', (receivedMessage) => {
     
         user.on('message', message => { // When a message is created
     tohruWtbPricemin = arguments
-            if(message.channel.id == '733784514769191013' || '750079302409781380' || '734522776559419503') {
 
-                for(; tohruWtbPricemin <= tohruWtbPrice; tohruWtbPricemin++) {
+     for(; tohruWtbPricemin <= tohruWtbPrice; tohruWtbPricemin++) {
+
+     
+
+            if(message.channel.id ==  '734522776559419503') {
+
+           
 
                     if(message.content.toString().toLowerCase().includes(tohruWtbPricemin)) {
 
@@ -5842,26 +7962,26 @@ client.on('message', (receivedMessage) => {
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                
                         tohruEmbed = new Discord.RichEmbed()
-
+                
                             .setColor('#f9475d')
                             .setTitle('Tohru WTB Listing Found')
                             .addField('Price', '$' + tohruWtbPricemin + ' - ' + '€' + tohruWtbPricemin * .86 + ' - ' + '¥' + tohruWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                
                             .addField('Link To Seller', hyperSeller2)
-
+                
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                
+                
+                
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
@@ -5874,6 +7994,89 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
+                }else if (message.channel.id == '733784514769191013'){
+
+                    if(message.content.toString().toLowerCase().includes(tohruWtbPricemin)) {
+
+                       
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                
+                        tohruEmbed = new Discord.RichEmbed()
+                
+                            .setColor('#f9475d')
+                            .setTitle('Tohru WTB Listing Found')
+                            .addField('Price', '$' + tohruWtbPricemin + ' - ' + '€' + tohruWtbPricemin * .86 + ' - ' + '¥' + tohruWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                
+                            .addField('Link To Seller', hyperSeller2)
+                
+                            .addField('Link To Listing', hyperListing2)
+                
+                
+                
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtbChannelId).send('<@&774804317387096134>')
+
+
+                        client.channels.get(wtbChannelId).send(tohruEmbed)
+
+
+
+                    }
+
+                }else if (message.channel.id == '750079302409781380'){
+
+                    if(message.content.toString().toLowerCase().includes(tohruWtbPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                
+                        tohruEmbed = new Discord.RichEmbed()
+                
+                            .setColor('#f9475d')
+                            .setTitle('Tohru WTB Listing Found')
+                            .addField('Price', '$' + tohruWtbPricemin + ' - ' + '€' + tohruWtbPricemin * .86 + ' - ' + '¥' + tohruWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                
+                            .addField('Link To Seller', hyperSeller2)
+                
+                            .addField('Link To Listing', hyperListing2)
+                
+                
+                
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send('<@&774804317387096134>')
+
+
+                        client.channels.get(wtbChannelId).send(tohruEmbed)
+
+
+
+                    }
+
                 }
             }
         });
@@ -5885,12 +8088,153 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    phantomWtbPricemin = arguments
-            if(message.channel.id == '627359748051697674' || '750079509361066107' || '710921644104876042') {
 
-                for(; phantomWtbPricemin <= phantomWtbPrice; phantomWtbPricemin++) {
+        for(; phantomWtbPricemin <= phantomWtbPrice; phantomWtbPricemin++) {
+
+           
+
+            if(message.channel.id ==  '710921644104876042') {
+
+           
 
                     if(message.content.toString().toLowerCase().includes(phantomWtbPricemin)) {
 
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+            
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+            
+                        phatnomEmbed = new Discord.RichEmbed()
+            
+                            .setColor('#f9475d')
+                            .setTitle('Phantom WTB Listing Found')
+                            .addField('Price', '$' + phantomWtbPricemin + ' - ' + '€' + phantomWtbPricemin * .86 + ' - ' + '¥' + phantomWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+            
+                            .addField('Link To Seller', hyperSeller2)
+            
+                            .addField('Link To Listing', hyperListing2)
+            
+            
+            
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send('<@&774804319785975839>')
+
+                        client.channels.get(wtbChannelId).send(PhantomEmbed)
+
+
+
+                    }
+                }else if(message.channel.id == '627359748051697674'){
+                    if(message.content.toString().toLowerCase().includes(phantomWtbPricemin)) {
+
+                      
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+            
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+            
+                        phatnomEmbed = new Discord.RichEmbed()
+            
+                            .setColor('#f9475d')
+                            .setTitle('Phantom WTB Listing Found')
+                            .addField('Price', '$' + phantomWtbPricemin + ' - ' + '€' + phantomWtbPricemin * .86 + ' - ' + '¥' + phantomWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+            
+                            .addField('Link To Seller', hyperSeller2)
+            
+                            .addField('Link To Listing', hyperListing2)
+            
+            
+            
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtbChannelId).send('<@&774804319785975839>')
+
+                        client.channels.get(wtbChannelId).send(PhantomEmbed)
+
+
+
+                    }
+                
+            }else if(message.channel.id == '750079509361066107'){
+                if(message.content.toString().toLowerCase().includes(phantomWtbPricemin)) {
+
+                  
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+        
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+        
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+        
+                    phatnomEmbed = new Discord.RichEmbed()
+        
+                        .setColor('#f9475d')
+                        .setTitle('Phantom WTB Listing Found')
+                        .addField('Price', '$' + phantomWtbPricemin + ' - ' + '€' + phantomWtbPricemin * .86 + ' - ' + '¥' + phantomWtbPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+        
+                        .addField('Link To Seller', hyperSeller2)
+        
+                        .addField('Link To Listing', hyperListing2)
+        
+        
+        
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                    client.channels.get(wtbChannelId).send('<@&774804319785975839>')
+
+                    client.channels.get(wtbChannelId).send(PhantomEmbed)
+
+
+
+                }
+            }
+            }
+        });
+
+    }
+
+    function adeptWtb(arguments, receivedMessage) {
+
+        user.on('message', message => { // When a message is created
+     
+        adeptWtbPricemin = arguments     
+
+                 
+
+               for(; adeptWtbPricemin <= adeptWtbPrice; adeptWtbPricemin++) {
+
+
+            if(message.channel.id ==  '700487424937295877') {
+
+           
+
+                    if(message.content.toString().toLowerCase().includes(adeptWtbPricemin)) {
+
+                     
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -5902,11 +8246,11 @@ client.on('message', (receivedMessage) => {
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
 
-                        phatnomEmbed = new Discord.RichEmbed()
+                        adeptEmbed = new Discord.RichEmbed()
 
                             .setColor('#f9475d')
-                            .setTitle('Phantom WTB Listing Found')
-                            .addField('Price', '$' + phantomWtbPricemin + ' - ' + '€' + phantomWtbPricemin * .86 + ' - ' + '¥' + phantomWtbPricemin * 6.67, true)
+                            .setTitle('Adept WTB Listing Found')
+                            .addField('Price', '$' + adeptWtbPricemin + ' - ' + '€' + adeptWtbPricemin * .86 + ' - ' + '¥' + adeptWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5917,30 +8261,15 @@ client.on('message', (receivedMessage) => {
 
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        client.channels.get(wtbChannelId).send('<@&774804319819792395>')
 
 
-
-                        client.channels.get(wtbChannelId).send('<@&774804319785975839>')
-
-                        client.channels.get(wtbChannelId).send(PhantomEmbed)
+                        client.channels.get(wtbChannelId).send(adeptEmbed)
 
 
 
                     }
-                }
-            }
-        });
-
-    }
-
-    function adeptWtb(arguments, receivedMessage) {
-
-        user.on('message', message => { // When a message is created
-     
-        adeptWtbPricemin = arguments       
-            if(message.channel.id == '626999229210165268' || '750079951725920346' || '700487424937295877') {
-
-                for(; adeptWtbPricemin <= adeptWtbPrice; adeptWtbPricemin++) {
+                }else if(message.channel.id == '626999229210165268'){
 
                     if(message.content.toString().toLowerCase().includes(adeptWtbPricemin)) {
 
@@ -5970,8 +8299,47 @@ client.on('message', (receivedMessage) => {
 
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                     
+                        client.channels.get(wtbChannelId).send('<@&774804319819792395>')
 
 
+                        client.channels.get(wtbChannelId).send(adeptEmbed)
+
+
+
+                    }
+                }
+                else if(message.channel.id == '750079951725920346'){
+
+                    if(message.content.toString().toLowerCase().includes(adeptWtbPricemin)) {
+
+                     
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        adeptEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Adept WTB Listing Found')
+                            .addField('Price', '$' + adeptWtbPricemin + ' - ' + '€' + adeptWtbPricemin * .86 + ' - ' + '¥' + adeptWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774804319819792395>')
 
 
@@ -5991,40 +8359,44 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    burstWtbPricemin = arguments
+
+      for(; burstWtbPricemin <= burstWtbPrice; burstWtbPricemin++) {
+
+      
+
+
             if(message.channel.id == '762401858710667264') {
 
-                for(; burstWtbPricemin <= burstWtbPrice; burstWtbPricemin++) {
+             
 
                     if(message.content.toString().toLowerCase().includes(burstWtbPricemin)) {
-
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                
                         burstEmbed = new Discord.RichEmbed()
-
+                
                             .setColor('#f9475d')
                             .setTitle('Burst WTB Listing Found')
                             .addField('Price', '$' + burstWtbPricemin + ' - ' + '€' + burstWtbPricemin * .86 + ' - ' + '¥' + burstWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                
                             .addField('Link To Seller', hyperSeller2)
-
+                
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                
+                
+                
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
+                      
                         client.channels.get(wtbChannelId).send('<@&774804320490225674>')
 
 
@@ -6045,40 +8417,79 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
         cyberWtbPricemin = arguments
 
+     for(; cyberWtbPricemin <= cyberWtbPrice; cyberWtbPricemin++) {
 
-            if(message.channel.id == '750080045221019778' || '710921814204874782' || '626930513768087552') {
+       
+            if(message.channel.id ==  '626930513768087552') {
 
-                for(; cyberWtbPricemin <= cyberWtbPrice; cyberWtbPricemin++) {
-
+           
                     if(message.content.toString().toLowerCase().includes(cyberWtbPricemin)) {
 
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                
                         cyberEmbed = new Discord.RichEmbed()
-
+                
                             .setColor('#f9475d')
                             .setTitle('Cyber WTB Listing Found')
                             .addField('Price', '$' + cyberWtbPricemin + ' - ' + '€' + cyberWtbPricemin * .86 + ' - ' + '¥' + cyberWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                
                             .addField('Link To Seller', hyperSeller2)
-
+                
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                
+                
+                
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                
+                        client.channels.get(wtbChannelId).send('<@&774804321362640906>')
 
+
+                        client.channels.get(wtbChannelId).send(cyberEmbed)
+
+
+
+                    }
+                }else if (message.channel.id == '750080045221019778'){
+                    
+                    if(message.content.toString().toLowerCase().includes(cyberWtbPricemin)) {
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                
+                        cyberEmbed = new Discord.RichEmbed()
+                
+                            .setColor('#f9475d')
+                            .setTitle('Cyber WTB Listing Found')
+                            .addField('Price', '$' + cyberWtbPricemin + ' - ' + '€' + cyberWtbPricemin * .86 + ' - ' + '¥' + cyberWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                
+                            .addField('Link To Seller', hyperSeller2)
+                
+                            .addField('Link To Listing', hyperListing2)
+                
+                
+                
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                
 
                         client.channels.get(wtbChannelId).send('<@&774804321362640906>')
 
@@ -6088,8 +8499,47 @@ client.on('message', (receivedMessage) => {
 
 
                     }
-                }
+                
+            }else if (message.channel.id == '710921814204874782'){
+                    
+                if(message.content.toString().toLowerCase().includes(cyberWtbPricemin)) {
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+            
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+            
+                    cyberEmbed = new Discord.RichEmbed()
+            
+                        .setColor('#f9475d')
+                        .setTitle('Cyber WTB Listing Found')
+                        .addField('Price', '$' + cyberWtbPricemin + ' - ' + '€' + cyberWtbPricemin * .86 + ' - ' + '¥' + cyberWtbPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+            
+                        .addField('Link To Seller', hyperSeller2)
+            
+                        .addField('Link To Listing', hyperListing2)
+            
+            
+            
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+            
 
+                    client.channels.get(wtbChannelId).send('<@&774804321362640906>')
+
+
+                    client.channels.get(wtbChannelId).send(cyberEmbed)
+
+
+
+                }
+            }
             }
         });
 
@@ -6101,39 +8551,43 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
            estockWtbPricemin = arguments      
+
+  for(; estockWtbPricemin <= estockWtbPrice; estockWtbPricemin++) {
+
+   
             if(message.channel.id == '761090584420810782') {
 
-                for(; estockWtbPricemin <= estockWtbPrice; estockWtbPricemin++) {
+              
 
                     if(message.content.toString().toLowerCase().includes(estockWtbPricemin)) {
 
+                     
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                    
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                    
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                    
                         estockEmbed = new Discord.RichEmbed()
-
+                    
                             .setColor('#f9475d')
                             .setTitle('Estock WTB Listing Found')
                             .addField('Price', '$' + estockWtbPricemin + ' - ' + '€' + estockWtbPricemin * .86 + ' - ' + '¥' + estockWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                    
                             .addField('Link To Seller', hyperSeller2)
-
+                    
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                    
+                    
+                    
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                         client.channels.get(wtbChannelId).send('<@&774804939720753172>')
 
@@ -6155,39 +8609,124 @@ client.on('message', (receivedMessage) => {
      
         user.on('message', message => { // When a message is created
    eveWtbPrice = arguments
-            if(message.channel.id == '626998019023175700' || '750079801586352320' || '710921775554494547') {
 
-                for(; eveWtbPricemin <= eveWtbPrice; eveWtbPricemin++) {
+    for(; eveWtbPricemin <= eveWtbPrice; eveWtbPricemin++) {
+
+
+            if(message.channel.id ==  '710921775554494547') {
+
+            
 
                     if(message.content.toString().toLowerCase().includes(eveWtbPricemin)) {
+
+                     
 
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                
                         eveEmbed = new Discord.RichEmbed()
-
+                
                             .setColor('#f9475d')
                             .setTitle('Eve WTB Listing Found')
                             .addField('Price', '$' + eveWtbPricemin + ' - ' + '€' + eveWtbPricemin * .86 + ' - ' + '¥' + eveWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                
                             .addField('Link To Seller', hyperSeller2)
-
+                
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                
+                
+                
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                        client.channels.get(wtbChannelId).send('<@&774804941478821888>')
+
+                        client.channels.get(wtbChannelId).send(eveEmbed)
+
+
+
+                    }
+
+                }else if(message.channel.id == '626998019023175700'){
+                    if(message.content.toString().toLowerCase().includes(eveWtbPricemin)) {
+
+                     
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+                
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+                
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+                
+                        eveEmbed = new Discord.RichEmbed()
+                
+                            .setColor('#f9475d')
+                            .setTitle('Eve WTB Listing Found')
+                            .addField('Price', '$' + eveWtbPricemin + ' - ' + '€' + eveWtbPricemin * .86 + ' - ' + '¥' + eveWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+                
+                            .addField('Link To Seller', hyperSeller2)
+                
+                            .addField('Link To Listing', hyperListing2)
+                
+                
+                
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtbChannelId).send('<@&774804941478821888>')
+
+                        client.channels.get(wtbChannelId).send(eveEmbed)
+
+
+
+                    }
+
+                }
+                else if(message.channel.id == '750079801586352320'){
+                    if(message.content.toString().toLowerCase().includes(eveWtbPricemin)) {
+
+                     
+        userId = message.author.id
+        messageId = message.id
+        channelId = message.channel.id
+        serverId = message.guild.id
+
+        var hyperSeller = 'https://discordapp.com/users/' + userId
+        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+        eveEmbed = new Discord.RichEmbed()
+
+            .setColor('#f9475d')
+            .setTitle('Eve WTB Listing Found')
+            .addField('Price', '$' + eveWtbPricemin + ' - ' + '€' + eveWtbPricemin * .86 + ' - ' + '¥' + eveWtbPricemin * 6.67, true)
+            .addField('Seller', message.author.tag, true)
+
+            .addField('Link To Seller', hyperSeller2)
+
+            .addField('Link To Listing', hyperListing2)
+
+
+
+            .setTimestamp()
+            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804941478821888>')
@@ -6209,37 +8748,39 @@ client.on('message', (receivedMessage) => {
       
         user.on('message', message => { // When a message is created
   galaxsioWtbPricemin = arguments
-            for(; galaxsioWtbPricemin <= galaxsioWtbPrice; galaxsioWtbPricemin++) {
 
+
+            for(; galaxsioWtbPricemin <= galaxsioWtbPrice; galaxsioWtbPricemin++) {
+           
                 if(message.content.toString().toLowerCase() === 'wtb galaxsio ' + (galaxsioWtbPricemin)) {
 
+                  
                     userId = message.author.id
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     glaxsioEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
                         .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
 
@@ -6250,33 +8791,33 @@ client.on('message', (receivedMessage) => {
 
                 } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (galaxsioWtbPricemin)) {
 
+                  
                     userId = message.author.id
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     glaxsioEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
                         .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
@@ -6291,29 +8832,28 @@ client.on('message', (receivedMessage) => {
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     glaxsioEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
                         .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
 
@@ -6328,29 +8868,28 @@ client.on('message', (receivedMessage) => {
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     glaxsioEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
                         .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
@@ -6365,26 +8904,26 @@ client.on('message', (receivedMessage) => {
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     glaxsioEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
                         .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
@@ -6398,33 +8937,33 @@ client.on('message', (receivedMessage) => {
 
                 } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (galaxsioWtbPricemin / 1000) + 'k') {
 
+                  
                     userId = message.author.id
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     glaxsioEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
                         .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
 
@@ -6435,33 +8974,33 @@ client.on('message', (receivedMessage) => {
 
                 } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (galaxsioWtbPricemin / 1000) + 'k') {
 
+                  
                     userId = message.author.id
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     glaxsioEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
                         .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
@@ -6482,40 +9021,45 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
  hawkWtbPricemin = arguments
-            if(message.channel.id == '710921626534805575' || '626998937009782784') {
 
-                for(; hawkWtbPricemin <= hawkWtbPrice; hawkWtbPricemin++) {
+    for(; hawkWtbPricemin <= hawkWtbPrice; hawkWtbPricemin++) {
+
+             
+            if(message.channel.id ==  '626998937009782784') {
+
+             
 
 
                     if(message.content.toString().toLowerCase().includes(hawkWtbPricemin)) {
+
+                       
 
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                
                         hawkEmbed = new Discord.RichEmbed()
-
+                
                             .setColor('#f9475d')
                             .setTitle('Hawk Mesh WTB Listing Found')
                             .addField('Price', '$' + hawkWtbPricemin + ' - ' + '€' + hawkWtbPricemin * .86 + ' - ' + '¥' + hawkWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                
                             .addField('Link To Seller', hyperSeller2)
-
+                
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                
+                
+                
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                         client.channels.get(wtbChannelId).send('<@&774804946059132938>')
 
@@ -6524,6 +9068,46 @@ client.on('message', (receivedMessage) => {
 
                     }
 
+                }else if(message.channel.id == '710921626534805575'){
+
+                    if(message.content.toString().toLowerCase().includes(hawkWtbPricemin)) {
+
+                       
+        userId = message.author.id
+        messageId = message.id
+        channelId = message.channel.id
+        serverId = message.guild.id
+
+        var hyperSeller = 'https://discordapp.com/users/' + userId
+        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+        hawkEmbed = new Discord.RichEmbed()
+
+            .setColor('#f9475d')
+            .setTitle('Hawk Mesh WTB Listing Found')
+            .addField('Price', '$' + hawkWtbPricemin + ' - ' + '€' + hawkWtbPricemin * .86 + ' - ' + '¥' + hawkWtbPricemin * 6.67, true)
+            .addField('Seller', message.author.tag, true)
+
+            .addField('Link To Seller', hyperSeller2)
+
+            .addField('Link To Listing', hyperListing2)
+
+
+
+            .setTimestamp()
+            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send('<@&774804946059132938>')
+
+
+                        client.channels.get(wtbChannelId).send(hawkEmbed)
+
+                    }
+                    
                 }
             }
         });
@@ -6536,40 +9120,123 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
         ganeshWtbPricemin = arguments    
-            if(message.channel.id == '626998513175363594' || '764754256087089172' || '700487206904528948') {
 
-                for(; ganeshWtbPricemin <= ganeshWtbPrice; ganeshWtbPricemin++) {
+     for(; ganeshWtbPricemin <= ganeshWtbPrice; ganeshWtbPricemin++) {
+
+
+            if(message.channel.id ==  '700487206904528948') {
+
+           
 
 
                     if(message.content.toString().toLowerCase().includes(ganeshWtbPricemin)) {
+
+                     
 
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                
                         ganeshEmbed = new Discord.RichEmbed()
-
+                
                             .setColor('#f9475d')
                             .setTitle('Ganesh WTB Listing Found')
                             .addField('Price', '$' + ganeshWtbPricemin + ' - ' + '€' + ganeshWtbPricemin * .86 + ' - ' + '¥' + ganeshWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                
                             .addField('Link To Seller', hyperSeller2)
-
+                
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                
+                
+                
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                        client.channels.get(wtbChannelId).send('<@&774804947967410176>')
+
+                        client.channels.get(wtbChannelId).send(ganeshEmbed)
+
+
+
+                    }
+                }else if(message.channel.id == '626998513175363594'){
+                    if(message.content.toString().toLowerCase().includes(ganeshWtbPricemin)) {
+
+                     
+        userId = message.author.id
+        messageId = message.id
+        channelId = message.channel.id
+        serverId = message.guild.id
+
+        var hyperSeller = 'https://discordapp.com/users/' + userId
+        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+        ganeshEmbed = new Discord.RichEmbed()
+
+            .setColor('#f9475d')
+            .setTitle('Ganesh WTB Listing Found')
+            .addField('Price', '$' + ganeshWtbPricemin + ' - ' + '€' + ganeshWtbPricemin * .86 + ' - ' + '¥' + ganeshWtbPricemin * 6.67, true)
+            .addField('Seller', message.author.tag, true)
+
+            .addField('Link To Seller', hyperSeller2)
+
+            .addField('Link To Listing', hyperListing2)
+
+
+
+            .setTimestamp()
+            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send('<@&774804947967410176>')
+
+                        client.channels.get(wtbChannelId).send(ganeshEmbed)
+
+
+
+                    }
+                }
+                else if(message.channel.id == '764754256087089172'){
+                    if(message.content.toString().toLowerCase().includes(ganeshWtbPricemin)) {
+
+                     
+        userId = message.author.id
+        messageId = message.id
+        channelId = message.channel.id
+        serverId = message.guild.id
+
+        var hyperSeller = 'https://discordapp.com/users/' + userId
+        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+        ganeshEmbed = new Discord.RichEmbed()
+
+            .setColor('#f9475d')
+            .setTitle('Ganesh WTB Listing Found')
+            .addField('Price', '$' + ganeshWtbPricemin + ' - ' + '€' + ganeshWtbPricemin * .86 + ' - ' + '¥' + ganeshWtbPricemin * 6.67, true)
+            .addField('Seller', message.author.tag, true)
+
+            .addField('Link To Seller', hyperSeller2)
+
+            .addField('Link To Listing', hyperListing2)
+
+
+
+            .setTimestamp()
+            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804947967410176>')
@@ -6591,39 +9258,84 @@ client.on('message', (receivedMessage) => {
         user.on('message', message => { // When a message is created
 
              hayhaWtbPricemin = arguments   
-            if(message.channel.id == '699454406235521034' || '752600603938652300' || '710921584302620712') {
 
-                for(; hayhaWtbPricemin <= hayhaWtbPrice; hayhaWtbPricemin++) {
+                 for(; hayhaWtbPricemin <= hayhaWtbPrice; hayhaWtbPricemin++) {
+
+
+            if(message.channel.id ==  '710921584302620712') {
+
+            
 
 
                     if(message.content.toString().toLowerCase().includes(hayhaWtbPricemin)) {
+
+                      
 
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+    
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                         hayhaEmbed = new Discord.RichEmbed()
-
+    
                             .setColor('#f9475d')
                             .setTitle('Hayha WTB Listing Found')
                             .addField('Price', '$' + hayhaWtbPricemin + ' - ' + '€' + hayhaWtbPricemin * .86 + ' - ' + '¥' + hayhaWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+    
                             .addField('Link To Seller', hyperSeller2)
-
+    
                             .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtbChannelId).send('<@&774805427098746950>')
+
+
+                        client.channels.get(wtbChannelId).send(hayhaEmbed)
+
+
+
+                    }
+                }else if(message.channel.id == '699454406235521034'){
+                    if(message.content.toString().toLowerCase().includes(hayhaWtbPricemin)) {
+
+                      
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    hayhaEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Hayha WTB Listing Found')
+                        .addField('Price', '$' + hayhaWtbPricemin + ' - ' + '€' + hayhaWtbPricemin * .86 + ' - ' + '¥' + hayhaWtbPricemin * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774805427098746950>')
@@ -6634,6 +9346,51 @@ client.on('message', (receivedMessage) => {
 
 
                     }
+
+
+                }
+                else if(message.channel.id == '752600603938652300'){
+                    if(message.content.toString().toLowerCase().includes(hayhaWtbPricemin)) {
+
+                      
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+    
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+    
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+    
+                        hayhaEmbed = new Discord.RichEmbed()
+    
+                            .setColor('#f9475d')
+                            .setTitle('Hayha WTB Listing Found')
+                            .addField('Price', '$' + hayhaWtbPricemin + ' - ' + '€' + hayhaWtbPricemin * .86 + ' - ' + '¥' + hayhaWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+    
+                            .addField('Link To Seller', hyperSeller2)
+    
+                            .addField('Link To Listing', hyperListing2)
+    
+    
+    
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                        client.channels.get(wtbChannelId).send('<@&774805427098746950>')
+
+
+                        client.channels.get(wtbChannelId).send(hayhaEmbed)
+
+
+
+                    }
+
+
                 }
             }
         });
@@ -6645,9 +9402,14 @@ client.on('message', (receivedMessage) => {
         
         user.on('message', message => { // When a message is created
 kiloWtbPricemin = arguments
+
+  for(; kiloWtbPricemin <= kiloWtbPrice; kiloWtbPricemin++) {
+
+  
+
             if(message.channel.id == '734523543588569139') {
 
-                for(; kiloWtbPricemin <= kiloWtbPrice; kiloWtbPricemin++) {
+              
 
 
                     if(message.content.toString().toLowerCase().includes(kiloWtbPricemin)) {
@@ -6656,26 +9418,26 @@ kiloWtbPricemin = arguments
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+                    
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+                    
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+                    
                         kiloEmbed = new Discord.RichEmbed()
-
+                    
                             .setColor('#f9475d')
                             .setTitle('Kilo WTB Listing Found')
                             .addField('Price', '$' + kiloWtbPricemin + ' - ' + '€' + kiloWtbPricemin * .86 + ' - ' + '¥' + kiloWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+                    
                             .addField('Link To Seller', hyperSeller2)
-
+                    
                             .addField('Link To Listing', hyperListing2)
-
-
-
+                    
+                    
+                    
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
@@ -6699,12 +9461,55 @@ kiloWtbPricemin = arguments
     
         user.on('message', message => { // When a message is created
     flareWtbPricemin = arguments
-            if(message.channel.id == '692632554792288286' || '700487256477138964') {
 
-                for(; flareWtbPricemin <= flareWtbPrice; flareWtbPricemin++) {
+                    for(; flareWtbPricemin <= flareWtbPrice; flareWtbPricemin++) {
+                        
+                     
+
+            if(message.channel.id ==  '700487256477138964') {
 
 
 
+
+                    if(message.content.toString().toLowerCase().includes(flareWtbPricemin)) {
+
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        FlareEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Flare WTB Listing Found')
+                            .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
+
+
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                        client.channels.get(wtbChannelId).send('<@&774805432521981972>')
+
+                        client.channels.get(wtbChannelId).send(FlareEmbed)
+
+
+
+                    }
+                }else if(message.channel.id == '692632554792288286'){
                     if(message.content.toString().toLowerCase().includes(flareWtbPricemin)) {
 
                         userId = message.author.id
@@ -6743,6 +9548,7 @@ kiloWtbPricemin = arguments
 
 
                     }
+
                 }
             }
         });
@@ -6754,40 +9560,44 @@ kiloWtbPricemin = arguments
  
         user.on('message', message => { // When a message is created
        fleekWtbPricemin = arguments
-            if(message.channel.id == '626999475918864404' || '759444409158467604' || '710921712178430073') {
 
-                for(; fleekWtbPricemin <= fleekWtbPrice; flareWtbPricemin++) {
+         for(; fleekWtbPricemin <= fleekWtbPrice; flareWtbPricemin++) {
+         
+            if(message.channel.id ==  '710921712178430073') {
+
+              
 
 
                     if(message.content.toString().toLowerCase(), includes(flareWtbPricemin)) {
-
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
                         serverId = message.guild.id
-
+            
                         var hyperSeller = 'https://discordapp.com/users/' + userId
                         var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+            
                         var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                         var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+            
                         fleekEmbed = new Discord.RichEmbed()
-
+            
                             .setColor('#f9475d')
                             .setTitle('Fleek WTB Listing Found')
                             .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
-
+            
                             .addField('Link To Seller', hyperSeller2)
-
+            
                             .addField('Link To Listing', hyperListing2)
-
-
-
+            
+            
+            
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
+            
+            
+                       
 
                         client.channels.get(wtbChannelId).send('<@&774805437714923620>')
 
@@ -6798,6 +9608,89 @@ kiloWtbPricemin = arguments
 
                     }
 
+                }else if(message.channel.id == '626999475918864404'){
+
+                    if(message.content.toString().toLowerCase(), includes(flareWtbPricemin)) {
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+            
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+            
+                        fleekEmbed = new Discord.RichEmbed()
+            
+                            .setColor('#f9475d')
+                            .setTitle('Fleek WTB Listing Found')
+                            .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+            
+                            .addField('Link To Seller', hyperSeller2)
+            
+                            .addField('Link To Listing', hyperListing2)
+            
+            
+            
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+            
+            
+                       
+
+                        client.channels.get(wtbChannelId).send('<@&774805437714923620>')
+
+
+                        client.channels.get(wtbChannelId).send(fleekEmbed)
+
+
+
+                    }
+                }
+                else if(message.channel.id == '759444409158467604'){
+
+                    if(message.content.toString().toLowerCase(), includes(flareWtbPricemin)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+            
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+            
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+            
+                        fleekEmbed = new Discord.RichEmbed()
+            
+                            .setColor('#f9475d')
+                            .setTitle('Fleek WTB Listing Found')
+                            .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+            
+                            .addField('Link To Seller', hyperSeller2)
+            
+                            .addField('Link To Listing', hyperListing2)
+            
+            
+            
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+            
+            
+
+                        client.channels.get(wtbChannelId).send('<@&774805437714923620>')
+
+
+                        client.channels.get(wtbChannelId).send(fleekEmbed)
+
+
+
+                    }
                 }
             }
 
@@ -6810,37 +9703,42 @@ kiloWtbPricemin = arguments
     
         user.on('message', message => { // When a message is created
     nebulaWtbPricemin = arguments
+
+
             for(; nebulaWtbPricemin <= nebulaWtbPrice; nebulaWtbPricemin++) {
+
+               
+
 
                 if(message.content.toString().toLowerCase() === 'wtb nebula ' + (nebulaWtbPricemin)) {
 
+                  
                     userId = message.author.id
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     nebulaEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Nebula WTB Listing Found')
                         .addField('Price', '$' + nebulaWtbPricemin + ' - ' + '€' + nebulaWtbPricemin * .86 + ' - ' + '¥' + nebulaWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                     client.channels.get(wtbChannelId).send('<@&774805952116686848>')
 
@@ -6855,26 +9753,26 @@ kiloWtbPricemin = arguments
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     nebulaEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Nebula WTB Listing Found')
                         .addField('Price', '$' + nebulaWtbPricemin + ' - ' + '€' + nebulaWtbPricemin * .86 + ' - ' + '¥' + nebulaWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
 
@@ -6892,29 +9790,28 @@ kiloWtbPricemin = arguments
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     nebulaEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Nebula WTB Listing Found')
                         .addField('Price', '$' + nebulaWtbPricemin + ' - ' + '€' + nebulaWtbPricemin * .86 + ' - ' + '¥' + nebulaWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
                     client.channels.get(wtbChannelId).send('<@&774805952116686848>')
 
@@ -6929,29 +9826,28 @@ kiloWtbPricemin = arguments
                     messageId = message.id
                     channelId = message.channel.id
                     serverId = message.guild.id
-
+    
                     var hyperSeller = 'https://discordapp.com/users/' + userId
                     var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
+    
                     var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
                     var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
+    
                     nebulaEmbed = new Discord.RichEmbed()
-
+    
                         .setColor('#f9475d')
                         .setTitle('Nebula WTB Listing Found')
                         .addField('Price', '$' + nebulaWtbPricemin + ' - ' + '€' + nebulaWtbPricemin * .86 + ' - ' + '¥' + nebulaWtbPricemin * 6.67, true)
                         .addField('Seller', message.author.tag, true)
-
+    
                         .addField('Link To Seller', hyperSeller2)
-
+    
                         .addField('Link To Listing', hyperListing2)
-
-
-
+    
+    
+    
                         .setTimestamp()
                         .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
 
 
                     client.channels.get(wtbChannelId).send('<@&774805952116686848>')
