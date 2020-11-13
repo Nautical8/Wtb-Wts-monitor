@@ -4248,7 +4248,6 @@ client.on('message', receivedMessage => {
 
                         client.channels.get(wtsChannelId).send('<@&774500633020989512>')
 
-
                         client.channels.get(wtsChannelId).send(dasheEmbed)
 
 
@@ -7941,6 +7940,9 @@ client.on('message', receivedMessage => {
 
 
                 if(message.channel.id == '710921801102000199') {
+
+                    if(message.content.toString().toLowerCase(), includes(min)) {
+
                     userId = message.author.id
                     messageId = message.id
                     channelId = message.channel.id
@@ -7971,6 +7973,7 @@ client.on('message', receivedMessage => {
                     client.channels.get(wtbChannelId).send(dasheEmbed)
 
                 }
+            }
 
             }
         });
