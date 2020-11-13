@@ -401,7 +401,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(commandEmbed)
 
             } else if(primaryCommand == "balkowts") {
-                balkoWts(arguments, receivedMessage)
                 balkoPriceWts = arguments
                 BalkoEmbed = new Discord.RichEmbed()
 
@@ -495,7 +494,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(clearAllWts)
 
             } else if(primaryCommand == "f3wts") {
-                f3Wts(arguments, receivedMessage)
                 f3PriceWts = arguments
                 f3Sucess = new Discord.RichEmbed()
 
@@ -908,6 +906,8 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(fleekSucess)
 
             } else if(primaryCommand == "nebulawtsmin") {
+
+
                 nebulaWts(arguments, receivedMessage)
 
                 nebulaSucess = new Discord.RichEmbed()
@@ -924,8 +924,9 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(nebulaSucess)
 
-            } else if(primaryCommand == "rushwts") {
-                rushWts(arguments, receivedMessage)
+            } 
+            
+            else if(primaryCommand == "rushwts") {
                 rushPriceWts = arguments
                 rushSucess = new Discord.RichEmbed()
 
@@ -943,7 +944,6 @@ client.on('message', receivedMessage => {
 
 
             } else if(primaryCommand == "mercurywts") {
-                mercuryWts(arguments, receivedMessage)
                 mercuryPriceWts = arguments
                 mercurySucess = new Discord.RichEmbed()
 
@@ -961,7 +961,6 @@ client.on('message', receivedMessage => {
 
 
             } else if(primaryCommand == "solewts") {
-                soleWts(arguments, receivedMessage)
                 solePriceWts = arguments
 
                 soleSucess = new Discord.RichEmbed()
@@ -980,7 +979,6 @@ client.on('message', receivedMessage => {
 
 
             } else if(primaryCommand == "wrathwts") {
-                wrathWts(arguments, receivedMessage)
                 wrathWTsPrice = arguments
                 wrathSucess = new Discord.RichEmbed()
 
@@ -997,7 +995,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(wrathSucess)
 
             } else if(primaryCommand == "veloxwts") {
-                veloxWts(arguments, receivedMessage)
                 veloxWtsPrice = arguments
                 veloxSucess = new Discord.RichEmbed()
 
@@ -1014,7 +1011,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(veloxSucess)
 
             } else if(primaryCommand == "mekwts") {
-                mekWts(arguments, receivedMessage)
                 mekWtsPrice = arguments
                 mekSucess = new Discord.RichEmbed()
 
@@ -1031,7 +1027,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(mekSucess)
 
             } else if(primaryCommand == "prismwts") {
-                prismWts(arguments, receivedMessage)
                 prismWtsPrice = arguments
                 prismSucess = new Discord.RichEmbed()
 
@@ -1047,7 +1042,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(prismSucess)
             } else if(primaryCommand == "polariswts") {
-                polarisWts(arguments, receivedMessage)
                 polarisWtsPrice = arguments
                 polarisSucess = new Discord.RichEmbed()
 
@@ -1063,7 +1057,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(polarisSucess)
             } else if(primaryCommand == "sfwts") {
-                splashForceWts(arguments, receivedMessage)
                 splashForceWtsPrice = arguments
                 sfsucess = new Discord.RichEmbed()
 
@@ -1079,7 +1072,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(sfsucess)
             } else if(primaryCommand == "pdwts") {
-                pdWts(arguments, receivedMessage)
                 pdWtsPrice = arguments
                 pdSucess = new Discord.RichEmbed()
 
@@ -1095,7 +1087,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(pdSucess)
             } else if(primaryCommand == "dashewts") {
-                dasheWts(arguments, receivedMessage)
                 dasheWtsPrice = arguments
                 DasheSucess = new Discord.RichEmbed()
 
@@ -1111,7 +1102,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(DasheSucess)
             } else if(primaryCommand == "tohruwts") {
-                tohruWts(arguments, receivedMessage)
                 tohruWtsPrice = arguments
                 tohruSucess = new Discord.RichEmbed()
 
@@ -1127,7 +1117,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(tohruSucess)
             } else if(primaryCommand == "phantomwts") {
-                phantomWts(arguments, receivedMessage)
                 phantomWtsPrice = arguments
                 phantomSucess = new Discord.RichEmbed()
 
@@ -1143,7 +1132,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(phantomSucess)
             } else if(primaryCommand == "adeptwts") {
-                adeptWts(arguments, receivedMessage)
                 adeptWtsPrice = arguments
                 adeptSucess = new Discord.RichEmbed()
 
@@ -1159,7 +1147,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(adeptSucess)
             } else if(primaryCommand == "burstwts") {
-                burstWts(arguments, receivedMessage)
                 burstWtsPrice = arguments
                 burstSucess = new Discord.RichEmbed()
 
@@ -1175,7 +1162,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(burstSucess)
             } else if(primaryCommand == "cyberwts") {
-                cyberWts(arguments, receivedMessage)
                 cyberWtsPrice = arguments
                 cyberSucess = new Discord.RichEmbed()
 
@@ -1191,7 +1177,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(cyberSucess)
             } else if(primaryCommand == "estockwts") {
-                estockWts(arguments, receivedMessage)
                 estockWtsPrice = arguments
                 estockSucess = new Discord.RichEmbed()
 
@@ -1207,7 +1192,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(estockSucess)
             } else if(primaryCommand == "evewts") {
-                eveWts(arguments, receivedMessage)
                 eveWtsPrice = arguments
                 eveSucess = new Discord.RichEmbed()
 
@@ -1223,7 +1207,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(eveSucess)
             } else if(primaryCommand == "galaxsiowts") {
-                galaxioWts(arguments, receivedMessage)
                 galaxsioWtsPrice = arguments
                 galaxsioSucess = new Discord.RichEmbed()
 
@@ -1239,7 +1222,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(galaxsioSucess)
             } else if(primaryCommand == "hawkmeshwts") {
-                hawkWts(arguments, receivedMessage)
                 hawkWtsPrice = arguments
                 hawkSucess = new Discord.RichEmbed()
 
@@ -1255,7 +1237,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(hawkSucess)
             } else if(primaryCommand == "ganeshwts") {
-                ganeshWts(arguments, receivedMessage)
                 ganeshWtsPrice = arguments
 
                 ganeshSucess = new Discord.RichEmbed()
@@ -1272,7 +1253,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(ganeshSucess)
             } else if(primaryCommand == "hayhawts") {
-                hayhaWts(arguments, receivedMessage)
                 hayhaWtsPrice = arguments
                 hayhaSucess = new Discord.RichEmbed()
 
@@ -1289,7 +1269,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(hayhaSucess)
 
             } else if(primaryCommand == "kilowts") {
-                kiloWts(arguments, receivedMessage)
                 kiloWtsPrice = arguments
                 kilSucess = new Discord.RichEmbed()
 
@@ -1306,7 +1285,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(kilSucess)
 
             } else if(primaryCommand == "flarewts") {
-                flareWts(arguments, receivedMessage)
                 flareWtsPrice = arguments
                 flareSucess = new Discord.RichEmbed()
 
@@ -1323,7 +1301,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(flareSucess)
 
             } else if(primaryCommand == "fleekwts") {
-                fleekWts(arguments, receivedMessage)
                 fleekWtsPrice = arguments
                 fleekSucess = new Discord.RichEmbed()
 
@@ -1340,7 +1317,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(fleekSucess)
 
             } else if(primaryCommand == "nebulawts") {
-                nebulaWts(arguments, receivedMessage)
                 nebulaWtsPrice = arguments
                 nebulaSucess = new Discord.RichEmbed()
 
@@ -1644,7 +1620,7 @@ client.on('message', receivedMessage => {
 
 
                 receivedMessage.channel.send(tohruSucess)
-            } else if(primaryCommand == "phantomwtb") {
+            } else if(primaryCommand == "phantomwtbmin") {
                 phantomWtb(arguments, receivedMessage)
 
                 phantomSucess = new Discord.RichEmbed()
@@ -1660,7 +1636,7 @@ client.on('message', receivedMessage => {
 
 
                 receivedMessage.channel.send(phantomSucess)
-            } else if(primaryCommand == "adeptwtb") {
+            } else if(primaryCommand == "adeptwtbmin") {
                 adeptWtb(arguments, receivedMessage)
 
                 adeptSucess = new Discord.RichEmbed()
@@ -1676,7 +1652,7 @@ client.on('message', receivedMessage => {
 
 
                 receivedMessage.channel.send(adeptSucess)
-            } else if(primaryCommand == "burstwtb") {
+            } else if(primaryCommand == "burstwtbmin") {
                 burstWtb(arguments, receivedMessage)
 
                 burstSucess = new Discord.RichEmbed()
@@ -1873,8 +1849,9 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(nebulaSucess)
 
-            } else if(primaryCommand == "balkowtb") {
-                balkoWtb(arguments, receivedMessage)
+            } 
+            
+            else if(primaryCommand == "balkowtb") {
                 balkoPriceWtb = arguments
                 BalkoEmbed = new Discord.RichEmbed()
 
@@ -1911,7 +1888,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(clearAllWtb)
 
             } else if(primaryCommand == "f3wtb") {
-                f3Wtb(arguments, receivedMessage)
                 f3PriceWtb = arguments
                 f3Sucess = new Discord.RichEmbed()
 
@@ -1928,7 +1904,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(f3Sucess)
 
             } else if(primaryCommand == "rushwtb") {
-                rushWtb(arguments, receivedMessage)
 
                 rushPriceWtb = arguments
                 rushSucess = new Discord.RichEmbed()
@@ -1947,7 +1922,6 @@ client.on('message', receivedMessage => {
 
 
             } else if(primaryCommand == "mercurywtb") {
-                mercuryWtb(arguments, receivedMessage)
                 mercuryPriceWtb = arguments
 
                 mercurySucess = new Discord.RichEmbed()
@@ -1966,7 +1940,6 @@ client.on('message', receivedMessage => {
 
 
             } else if(primaryCommand == "solewtb") {
-                soleWtb(arguments, receivedMessage)
                 solePriceWtb = arguments
                 soleSucess = new Discord.RichEmbed()
 
@@ -2001,7 +1974,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(wrathSucess)
 
             } else if(primaryCommand == "veloxwtb") {
-                veloxWtb(arguments, receivedMessage)
                 veloxWtbPrice = arguments
                 veloxSucess = new Discord.RichEmbed()
 
@@ -2018,7 +1990,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(veloxSucess)
 
             } else if(primaryCommand == "mekwtb") {
-                mekWtb(arguments, receivedMessage)
                 mekWtbPrice = arguments
                 mekSucess = new Discord.RichEmbed()
 
@@ -2035,7 +2006,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(mekSucess)
 
             } else if(primaryCommand == "prismwtb") {
-                prismWtb(arguments, receivedMessage)
 
                 prismWtbPrice = arguments
                 prismSucess = new Discord.RichEmbed()
@@ -2052,7 +2022,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(prismSucess)
             } else if(primaryCommand == "polariswtb") {
-                polarisWtb(arguments, receivedMessage)
                 polarisWtbPrice = arguments
                 polarisSucess = new Discord.RichEmbed()
 
@@ -2068,7 +2037,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(polarisSucess)
             } else if(primaryCommand == "sfwtb") {
-                splashForceWtb(arguments, receivedMessage)
                 splashForceWtbPrice = arguments
                 sfsucess = new Discord.RichEmbed()
 
@@ -2084,7 +2052,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(sfsucess)
             } else if(primaryCommand == "pdwtb") {
-                pdWtb(arguments, receivedMessage)
                 pdWtbPrice = arguments
                 pdSucess = new Discord.RichEmbed()
 
@@ -2100,7 +2067,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(pdSucess)
             } else if(primaryCommand == "dashewtb") {
-                dasheWtb(arguments, receivedMessage)
                 dasheWtbPrice = arguments
                 DasheSucess = new Discord.RichEmbed()
 
@@ -2116,7 +2082,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(DasheSucess)
             } else if(primaryCommand == "tohruwtb") {
-                tohruWtb(arguments, receivedMessage)
                 tohruWtbPrice = arguments
 
                 tohruSucess = new Discord.RichEmbed()
@@ -2133,7 +2098,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(tohruSucess)
             } else if(primaryCommand == "phantomwtb") {
-                phantomWtb(arguments, receivedMessage)
                 phantomWtbPrice = arguments
                 phantomSucess = new Discord.RichEmbed()
 
@@ -2149,7 +2113,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(phantomSucess)
             } else if(primaryCommand == "adeptwtb") {
-                adeptWtb(arguments, receivedMessage)
                 adeptWtbPrice = arguments
                 adeptSucess = new Discord.RichEmbed()
 
@@ -2165,7 +2128,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(adeptSucess)
             } else if(primaryCommand == "burstwtb") {
-                burstWtb(arguments, receivedMessage)
                 burstWtbPrice = arguments
                 burstSucess = new Discord.RichEmbed()
 
@@ -2181,7 +2143,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(burstSucess)
             } else if(primaryCommand == "cyberwtb") {
-                cyberWtb(arguments, receivedMessage)
                 cyberWtbPrice = arguments
                 cyberSucess = new Discord.RichEmbed()
 
@@ -2197,7 +2158,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(cyberSucess)
             } else if(primaryCommand == "estockwtb") {
-                estockWtb(arguments, receivedMessage)
                 estockWtbPrice = arguments
                 estockSucess = new Discord.RichEmbed()
 
@@ -2213,7 +2173,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(estockSucess)
             } else if(primaryCommand == "evewtb") {
-                eveWtb(arguments, receivedMessage)
                 eveWtbPrice = arguments
                 eveSucess = new Discord.RichEmbed()
 
@@ -2229,7 +2188,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(eveSucess)
             } else if(primaryCommand == "galaxsiowtb") {
-                galaxioWtb(arguments, receivedMessage)
                 galaxsioWtbPrice = arguments
                 galaxsioSucess = new Discord.RichEmbed()
 
@@ -2245,7 +2203,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(galaxsioSucess)
             } else if(primaryCommand == "hawkmeshwtb") {
-                hawkWtb(arguments, receivedMessage)
                 hawkWtbPrice = arguments
                 hawkSucess = new Discord.RichEmbed()
 
@@ -2261,7 +2218,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(hawkSucess)
             } else if(primaryCommand == "ganeshwtb") {
-                ganeshWtb(arguments, receivedMessage)
                 ganeshWtbPrice = arguments
                 ganeshSucess = new Discord.RichEmbed()
 
@@ -2277,7 +2233,6 @@ client.on('message', receivedMessage => {
 
                 receivedMessage.channel.send(ganeshSucess)
             } else if(primaryCommand == "hayhawtb") {
-                hayhaWtb(arguments, receivedMessage)
                 hayhaWtbPrice = arguments
                 hayhaSucess = new Discord.RichEmbed()
 
@@ -2294,7 +2249,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(hayhaSucess)
 
             } else if(primaryCommand == "kilowtb") {
-                kiloWtb(arguments, receivedMessage)
                 kiloWtbPrice = arguments
                 kilSucess = new Discord.RichEmbed()
 
@@ -2311,7 +2265,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(kilSucess)
 
             } else if(primaryCommand == "flarewtb") {
-                flareWtb(arguments, receivedMessage)
                 flareWtbPrice = arguments
                 flareSucess = new Discord.RichEmbed()
 
@@ -2328,7 +2281,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(flareSucess)
 
             } else if(primaryCommand == "fleekwtb") {
-                fleekWtb(arguments, receivedMessage)
                 fleekWtbPrice = arguments
                 fleekSucess = new Discord.RichEmbed()
 
@@ -2345,7 +2297,6 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(fleekSucess)
 
             } else if(primaryCommand == "nebulawtb") {
-                nebulaWtb(arguments, receivedMessage)
                 nebulaWtbPrice = arguments
                 nebulaSucess = new Discord.RichEmbed()
 
@@ -2456,7 +2407,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2491,7 +2442,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '773625024779124776') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -2527,7 +2478,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750080118684254328') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                             userId = message.author.id
                             messageId = message.id
@@ -2561,9 +2512,7 @@ client.on('message', receivedMessage => {
                             client.channels.get(wtsChannelId).send(BalkoEmbed)
     
                         }
-                        client.channels.get(wtsChannelId).send('<@&774503052530155560>')
-                        client.channels.get(wtsChannelId).send(BalkoEmbed)
-
+                      
                     }
                 }
             
@@ -2586,7 +2535,7 @@ client.on('message', receivedMessage => {
 
                 if(message.channel.id == '710921760303742976') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2621,7 +2570,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626993314427568168') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2656,7 +2605,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '750079728328900718') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2714,7 +2663,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2749,7 +2698,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '715325254100320309') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2782,7 +2731,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '736704514756968558') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2828,7 +2777,7 @@ client.on('message', receivedMessage => {
 
             for(; min < mercuryPriceWts; min++) {
 
-                if(message.content.toString().toLowerCase() === 'wts mercury ' + (min)) {
+                if(message.content.toString() === 'wts mercury ' + (min)) {
 
 
                     userId = message.author.id
@@ -2863,7 +2812,7 @@ client.on('message', receivedMessage => {
                     client.channels.get(wtsChannelId).send(mercuryEmbed)
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury aio $' + (min)) {
+                } else if(message.content.toString() === 'wts mercury aio $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -2897,7 +2846,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury aio ' + (min)) {
+                } else if(message.content.toString() === 'wts mercury aio ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -2931,7 +2880,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury aio ' + (min) + '$') {
+                } else if(message.content.toString() === 'wts mercury aio ' + (min) + '$') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -2965,7 +2914,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury ' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wts mercury ' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -2999,7 +2948,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury ' + (min / 1000) + 'k$') {
+                } else if(message.content.toString() === 'wts mercury ' + (min / 1000) + 'k$') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -3033,7 +2982,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury $' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wts mercury $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -3090,7 +3039,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '700486817496957000') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3124,7 +3073,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626997679377088562') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3160,7 +3109,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '751572267905056859') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3214,7 +3163,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3249,7 +3198,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626997441392017428') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3285,7 +3234,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '743950855069368461') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -3338,7 +3287,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3377,7 +3326,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '634518877748854814') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3419,7 +3368,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079237591007243') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3478,7 +3427,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921442967158872') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3517,7 +3466,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '627003393461977108') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3556,7 +3505,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079650264252508') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -3614,7 +3563,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921405935517697') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -3654,7 +3603,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '626997179378171925') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3694,7 +3643,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '750079394831401040') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3751,7 +3700,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921405935517697') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -3792,7 +3741,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '713875826319294544') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3833,7 +3782,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079394831401040') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3886,37 +3835,8 @@ client.on('message', receivedMessage => {
             min=splashForceWtsPricemin
             for(; min < splashForceWtsPrice; min++) {
 
-                userId = message.author.id
-                messageId = message.id
-                channelId = message.channel.id
-                serverId = message.guild.id
-
-                var hyperSeller = 'https://discordapp.com/users/' + userId
-                var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-                sfEmbed = new Discord.RichEmbed()
-
-                    .setColor('#f9475d')
-                    .setTitle('Splash Force WTS Listing Found')
-                    .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
-                    .addField('Seller', message.author.tag, true)
-
-                    .addField('Link To Seller', hyperSeller2)
-
-                    .addField('Link To Listing', hyperListing2)
-
-
-
-                    .setTimestamp()
-                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-                client.channels.get(wtsChannelId).send('<@&774803954713231366>')
-
-
-                client.channels.get(wtsChannelId).send(sfEmbed)
+             
+              
 
 
 
@@ -4084,7 +4004,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921389552566303') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -4122,7 +4042,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626996548009721886') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -4160,7 +4080,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '750079568433512538') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -4218,7 +4138,7 @@ client.on('message', receivedMessage => {
 
                 if(message.channel.id == '710921806243954770') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4275,7 +4195,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min )) {
+                    if(message.content.toString().includes(min )) {
 
 
                         userId = message.author.id
@@ -4313,7 +4233,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '734522747580841985') {
-                    if(message.content.toString().toLowerCase().includes(min )) {
+                    if(message.content.toString().includes(min )) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4352,7 +4272,7 @@ client.on('message', receivedMessage => {
 
 
                 } else if(message.channel.id == '750079269912444978') {
-                    if(message.content.toString().toLowerCase().includes(min )) {
+                    if(message.content.toString().includes(min )) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4409,7 +4329,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921653739323402') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min )) {
+                    if(message.content.toString().includes(min )) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4449,7 +4369,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '627359696335929365') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min )) {
+                    if(message.content.toString().includes(min )) {
 
 
                         userId = message.author.id
@@ -4489,7 +4409,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '750079496211922944') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min) ) {
+                    if(message.content.toString().includes(min) ) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4545,7 +4465,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921903249948802') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4585,7 +4505,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '627359696335929365') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4626,7 +4546,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '750079939973480488') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4685,7 +4605,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -4740,7 +4660,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4781,7 +4701,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '626930445774487563') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4823,7 +4743,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '750080029278339203') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4880,7 +4800,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4938,7 +4858,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -4978,7 +4898,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626997994927161377') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -5019,7 +4939,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079789196509294') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
 
@@ -5080,7 +5000,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5136,7 +5056,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921635976446002') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         messageId = message.id
@@ -5173,7 +5093,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '626998862145650698') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         messageId = message.id
                         channelId = message.channel.id
@@ -5232,7 +5152,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -5271,7 +5191,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '772833340327329812') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -5314,7 +5234,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '764754241113161728') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -5372,7 +5292,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5410,7 +5330,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '699454441354428516') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5449,7 +5369,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '752600588537167955') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5505,7 +5425,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5542,7 +5462,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '734523471542878349') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -5599,7 +5519,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5641,7 +5561,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '692632524609945660') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5700,7 +5620,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -5740,7 +5660,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '626999432881242152') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5780,7 +5700,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '759444386257305620') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -5834,7 +5754,7 @@ client.on('message', receivedMessage => {
             for(; min < nebulaWtsPrice; min++) {
 
 
-                if(message.content.toString().toLowerCase() === 'wts nebula ' + (min)) {
+                if(message.content.toString() === 'wts nebula ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -5870,7 +5790,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts nebula $' + (min)) {
+                } else if(message.content.toString() === 'wts nebula $' + (min)) {
 
                     userId = message.author.id
 
@@ -5883,7 +5803,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts nebula ' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wts nebula ' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -5920,7 +5840,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts nebula $' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wts nebula $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -5970,7 +5890,7 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             customWtsPrice = arguments
-            if(message.content.toString().toLowerCase() === 'wts ' + (customBotWtsPrice) + ' ' + (customWtsPrice)) {
+            if(message.content.toString() === 'wts ' + (customBotWtsPrice) + ' ' + (customWtsPrice)) {
 
                 userId = message.author.id
                 messageId = message.id
@@ -6006,7 +5926,7 @@ client.on('message', receivedMessage => {
 
 
 
-            } else if(message.content.toString().toLowerCase() === 'wts ' + (customBotWtsPrice) + ' $' + (customWtsPrice)) {
+            } else if(message.content.toString() === 'wts ' + (customBotWtsPrice) + ' $' + (customWtsPrice)) {
 
                 userId = message.author.id
                 messageId = message.id
@@ -6043,7 +5963,7 @@ client.on('message', receivedMessage => {
 
 
 
-            } else if(message.content.toString().toLowerCase() === 'wts ' + (customBotWtsPrice) + ' $' + (customWtsPrice / 1000) + 'k') {
+            } else if(message.content.toString() === 'wts ' + (customBotWtsPrice) + ' $' + (customWtsPrice / 1000) + 'k') {
 
                 userId = message.author.id
                 messageId = message.id
@@ -6080,7 +6000,7 @@ client.on('message', receivedMessage => {
 
 
 
-            } else if(message.content.toString().toLowerCase() === 'wts ' + (customBotWtsPrice) + ' ' + (customWtsPrice / 1000) + 'k') {
+            } else if(message.content.toString() === 'wts ' + (customBotWtsPrice) + ' ' + (customWtsPrice / 1000) + 'k') {
 
                 userId = message.author.id
                 messageId = message.id
@@ -6205,7 +6125,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -6243,7 +6163,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626996366433976330') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -6283,7 +6203,7 @@ client.on('message', receivedMessage => {
 
 
                 } else if(message.channel.id == '750080130038235218') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -6342,7 +6262,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -6378,7 +6298,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626994422105636874') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -6415,7 +6335,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '750079739414183946') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6474,7 +6394,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6509,7 +6429,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '715325456924147845') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -6545,7 +6465,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '752600558270939256') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6593,7 +6513,7 @@ client.on('message', receivedMessage => {
             min=mercuryPriceWtbmin
             for(; min < mercuryPriceWtb; min++) {
 
-                if(message.content.toString().toLowerCase() === 'wtb mercury ' + (min)) {
+                if(message.content.toString() === 'wtb mercury ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6628,7 +6548,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio $' + (min)) {
+                } else if(message.content.toString() === 'wtb mercury aio $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6663,7 +6583,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio ' + (min)) {
+                } else if(message.content.toString() === 'wtb mercury aio ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6698,7 +6618,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio ' + (min) + '$') {
+                } else if(message.content.toString() === 'wtb mercury aio ' + (min) + '$') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6733,7 +6653,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury ' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wtb mercury ' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6768,7 +6688,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury ' + (min / 1000) + 'k$') {
+                } else if(message.content.toString() === 'wtb mercury ' + (min / 1000) + 'k$') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6803,7 +6723,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury $' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wtb mercury $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6861,7 +6781,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -6897,7 +6817,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626997728915881993') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -6935,7 +6855,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '751572280307482734') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6989,7 +6909,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7024,7 +6944,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626997507205103617') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7060,7 +6980,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '743950898501517322') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -7115,7 +7035,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '634518624677396501') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -7154,7 +7074,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '710921136078192723') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -7193,7 +7113,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079086541668462') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -7250,7 +7170,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
 
@@ -7289,7 +7209,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '627003458817359873') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -7327,7 +7247,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '750079662675198053') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7384,7 +7304,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -7423,7 +7343,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626997238513795079') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -7463,7 +7383,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079349167882462') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7524,7 +7444,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -7562,7 +7482,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '710921396859175081') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7601,7 +7521,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079408445980717') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -7818,7 +7738,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921374939742298') {
 
 
-                    if(message.content.toString().toLowerCase(), includes(min)) {
+                    if(message.content.toString(), includes(min)) {
 
 
                         userId = message.author.id
@@ -7853,7 +7773,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626996604603465738') {
 
-                    if(message.content.toString().toLowerCase(), includes(min)) {
+                    if(message.content.toString(), includes(min)) {
 
 
                         userId = message.author.id
@@ -7889,7 +7809,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079582606196826') {
 
-                    if(message.content.toString().toLowerCase(), includes(min)) {
+                    if(message.content.toString(), includes(min)) {
 
 
                         userId = message.author.id
@@ -7941,7 +7861,7 @@ client.on('message', receivedMessage => {
 
                 if(message.channel.id == '710921801102000199') {
 
-                    if(message.content.toString().toLowerCase(), includes(min)) {
+                    if(message.content.toString(), includes(min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -7994,7 +7914,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8035,7 +7955,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '733784514769191013') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -8076,7 +7996,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079302409781380') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8135,7 +8055,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8173,7 +8093,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '627359748051697674') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -8212,7 +8132,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '750079509361066107') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -8270,7 +8190,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -8309,7 +8229,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626999229210165268') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8348,7 +8268,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '750079951725920346') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -8406,7 +8326,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -8460,7 +8380,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '626930513768087552') {
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8499,7 +8419,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '750080045221019778') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -8539,7 +8459,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '710921814204874782') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -8596,7 +8516,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -8654,7 +8574,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
 
@@ -8694,7 +8614,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '626998019023175700') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
 
@@ -8734,7 +8654,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '750079801586352320') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -8788,7 +8708,7 @@ client.on('message', receivedMessage => {
 
             for(; min < galaxsioWtbPrice; min++) {
 
-                if(message.content.toString().toLowerCase() === 'wtb galaxsio ' + (min)) {
+                if(message.content.toString() === 'wtb galaxsio ' + (min)) {
 
 
                     userId = message.author.id
@@ -8825,7 +8745,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (min)) {
+                } else if(message.content.toString() === 'wtb galaxsio $' + (min)) {
 
 
                     userId = message.author.id
@@ -8862,7 +8782,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lifetime $' + (min)) {
+                } else if(message.content.toString() === 'wtb galaxsio lifetime $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -8898,7 +8818,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lifetime $' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wtb galaxsio lifetime $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -8934,7 +8854,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lt $' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wtb galaxsio lt $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -8971,7 +8891,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wtb galaxsio $' + (min / 1000) + 'k') {
 
 
                     userId = message.author.id
@@ -9008,7 +8928,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wtb galaxsio $' + (min / 1000) + 'k') {
 
 
                     userId = message.author.id
@@ -9066,7 +8986,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
 
@@ -9106,7 +9026,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '710921626534805575') {
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -9165,7 +9085,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
 
@@ -9204,7 +9124,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626998513175363594') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -9243,7 +9163,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '764754256087089172') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -9302,7 +9222,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
 
@@ -9342,7 +9262,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '699454406235521034') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -9384,7 +9304,7 @@ client.on('message', receivedMessage => {
 
 
                 } else if(message.channel.id == '752600603938652300') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
 
@@ -9446,7 +9366,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -9505,7 +9425,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
 
                         userId = message.author.id
@@ -9544,7 +9464,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '692632554792288286') {
-                    if(message.content.toString().toLowerCase().includes(min)) {
+                    if(message.content.toString().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -9602,7 +9522,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase(), includes(min)) {
+                    if(message.content.toString(), includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -9644,7 +9564,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '626999475918864404') {
 
-                    if(message.content.toString().toLowerCase(), includes(min)) {
+                    if(message.content.toString(), includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -9685,7 +9605,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '759444409158467604') {
 
-                    if(message.content.toString().toLowerCase(), includes(min)) {
+                    if(message.content.toString(), includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -9743,7 +9663,7 @@ client.on('message', receivedMessage => {
 
 
 
-                if(message.content.toString().toLowerCase() === 'wtb nebula ' + (min)) {
+                if(message.content.toString() === 'wtb nebula ' + (min)) {
 
 
                     userId = message.author.id
@@ -9780,7 +9700,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb nebula $' + (min)) {
+                } else if(message.content.toString() === 'wtb nebula $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -9817,7 +9737,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb nebula ' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wtb nebula ' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -9853,7 +9773,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb nebula $' + (min / 1000) + 'k') {
+                } else if(message.content.toString() === 'wtb nebula $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -9903,7 +9823,7 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
 
-            if(message.content.toString().toLowerCase() === 'wtb ' + (customBotWtbPrice) + ' ' + (customWtbPrice)) {
+            if(message.content.toString() === 'wtb ' + (customBotWtbPrice) + ' ' + (customWtbPrice)) {
 
                 userId = message.author.id
                 messageId = message.id
@@ -9940,7 +9860,7 @@ client.on('message', receivedMessage => {
 
 
 
-            } else if(message.content.toString().toLowerCase() === 'wtb ' + (customBotWtbPrice) + ' $' + (customWtbPrice)) {
+            } else if(message.content.toString() === 'wtb ' + (customBotWtbPrice) + ' $' + (customWtbPrice)) {
 
                 userId = message.author.id
                 messageId = message.id
@@ -9977,7 +9897,7 @@ client.on('message', receivedMessage => {
 
 
 
-            } else if(message.content.toString().toLowerCase() === 'wtb ' + (customBotWtbPrice) + ' $' + (customWtbPrice / 1000) + 'k') {
+            } else if(message.content.toString() === 'wtb ' + (customBotWtbPrice) + ' $' + (customWtbPrice / 1000) + 'k') {
 
                 userId = message.author.id
                 messageId = message.id
@@ -10014,7 +9934,7 @@ client.on('message', receivedMessage => {
 
 
 
-            } else if(message.content.toString().toLowerCase() === 'wtb ' + (customBotWtbPrice) + ' ' + (customWtbPrice / 1000) + 'k') {
+            } else if(message.content.toString() === 'wtb ' + (customBotWtbPrice) + ' ' + (customWtbPrice / 1000) + 'k') {
 
                 userId = message.author.id
                 messageId = message.id
