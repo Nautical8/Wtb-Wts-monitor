@@ -206,7 +206,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                 receivedMessage.channel.send(Current2).then(receivedMessage => {
 
@@ -256,7 +256,7 @@ client.on('message', receivedMessage => {
                                         .setDescription(pages[page - 1])
 
                                         .setTimestamp()
-                                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                                     receivedMessage.edit(Current3)
 
@@ -287,7 +287,7 @@ client.on('message', receivedMessage => {
                                         .setDescription(pages[page - 1])
 
                                         .setTimestamp()
-                                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                                     receivedMessage.edit(Current4)
@@ -319,7 +319,7 @@ client.on('message', receivedMessage => {
                                         .setDescription(pages[page - 1])
 
                                         .setTimestamp()
-                                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                                     receivedMessage.edit(Current5)
@@ -348,7 +348,7 @@ client.on('message', receivedMessage => {
                                         .setDescription(pages[page - 1])
 
                                         .setTimestamp()
-                                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                                     receivedMessage.edit(Current6)
@@ -387,11 +387,11 @@ client.on('message', receivedMessage => {
                     .addField('!clearallwts', 'This command will clear all wts monitors')
                     .addField('!clearallwtb', 'This command will clear all wtb monitors')
                     .addField('!clearall', 'This command will clear all monitors')
-                    .addField('!current,!current2,!current3,!current4,!current5', 'This command will show all current bots values')
+                    .addField('!current', 'This command will show all current bots values')
                     .addField('Replacing A Monitor', 'To replace a monitor simply do the setting commands above and use a different price')
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -408,7 +408,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -427,7 +427,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -447,7 +447,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -465,7 +465,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -485,7 +485,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -502,7 +502,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -519,7 +519,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -538,7 +538,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -555,7 +555,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -571,7 +571,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -588,7 +588,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -605,7 +605,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -620,7 +620,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -636,7 +636,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -652,7 +652,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -668,7 +668,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -684,7 +684,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -700,7 +700,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -717,7 +717,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -734,7 +734,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -750,7 +750,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -766,7 +766,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -782,7 +782,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -798,7 +798,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -814,7 +814,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -830,7 +830,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -848,7 +848,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -865,7 +865,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -881,7 +881,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -898,7 +898,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -915,7 +915,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -932,7 +932,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -950,7 +950,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -969,7 +969,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -987,7 +987,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1004,7 +1004,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1021,7 +1021,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1038,7 +1038,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1054,7 +1054,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1070,7 +1070,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1086,7 +1086,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1102,7 +1102,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1118,7 +1118,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1134,7 +1134,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1150,7 +1150,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1166,7 +1166,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1182,7 +1182,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1198,7 +1198,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1214,7 +1214,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1230,7 +1230,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1246,7 +1246,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1263,7 +1263,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1279,7 +1279,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1296,7 +1296,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1313,7 +1313,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1330,7 +1330,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1347,7 +1347,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1364,7 +1364,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1387,7 +1387,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1412,7 +1412,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1431,7 +1431,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1448,7 +1448,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1466,7 +1466,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1484,7 +1484,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1502,7 +1502,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1519,7 +1519,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1536,7 +1536,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1553,7 +1553,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1570,7 +1570,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1587,7 +1587,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1604,7 +1604,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1621,7 +1621,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1636,7 +1636,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1652,7 +1652,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1668,7 +1668,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1684,7 +1684,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1700,7 +1700,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1716,7 +1716,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1732,7 +1732,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1748,7 +1748,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1764,7 +1764,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1780,7 +1780,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1796,7 +1796,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1813,7 +1813,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1830,7 +1830,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1847,7 +1847,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1864,7 +1864,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1881,7 +1881,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1901,7 +1901,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1918,7 +1918,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1936,7 +1936,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1955,7 +1955,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1973,7 +1973,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -1991,7 +1991,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2008,7 +2008,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2025,7 +2025,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2043,7 +2043,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2059,7 +2059,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2075,7 +2075,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2091,7 +2091,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2107,7 +2107,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2124,7 +2124,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2140,7 +2140,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2156,7 +2156,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2172,7 +2172,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2188,7 +2188,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2204,7 +2204,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2220,7 +2220,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2236,7 +2236,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2252,7 +2252,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2268,7 +2268,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2284,7 +2284,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2301,7 +2301,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2318,7 +2318,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2335,7 +2335,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2352,7 +2352,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2369,7 +2369,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2390,7 +2390,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2410,7 +2410,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2428,7 +2428,7 @@ client.on('message', receivedMessage => {
 
 
                 .setTimestamp()
-                .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2445,8 +2445,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             balkoPriceWtsmin = arguments
-
-            for(; balkoPriceWtsmin < balkoPriceWts; balkoPriceWtsmin++) {
+            min=balkoPriceWtb   
+            for(; min < balkoPriceWts; min++) {
 
 
                 if(message.channel.id == '772833340327329812') {
@@ -2454,7 +2454,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(balkoPriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2471,7 +2471,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Balko WTS Listing Found')
-                            .addField('Price', '$' + balkoPriceWtsmin + ' - ' + '€' + balkoPriceWtsmin * .86 + ' - ' + '¥' + balkoPriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -2481,7 +2481,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774503052530155560>')
                         client.channels.get(wtsChannelId).send(BalkoEmbed)
@@ -2489,7 +2489,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '773625024779124776') {
 
-                    if(message.content.toString().toLowerCase().includes(balkoPriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -2505,7 +2505,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Balko WTS Listing Found')
-                            .addField('Price', '$' + balkoPriceWtsmin + ' - ' + '€' + balkoPriceWtsmin * .86 + ' - ' + '¥' + balkoPriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -2515,7 +2515,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774503052530155560>')
@@ -2525,9 +2525,41 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750080118684254328') {
 
-                    if(message.content.toString().toLowerCase().includes(balkoPriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
-
+                        if(message.content.toString().toLowerCase().includes(min)) {
+                            userId = message.author.id
+                            messageId = message.id
+                            channelId = message.channel.id
+                            serverId = message.guild.id
+    
+                            var hyperSeller = 'https://discordapp.com/users/' + userId
+                            var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+    
+                            var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                            var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+    
+                            BalkoEmbed = new Discord.RichEmbed()
+    
+                                .setColor('#f9475d')
+                                .setTitle('Balko WTS Listing Found')
+                                .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
+                                .addField('Seller', message.author.tag, true)
+    
+                                .addField('Link To Seller', hyperSeller2)
+    
+                                .addField('Link To Listing', hyperListing2)
+    
+    
+    
+                                .setTimestamp()
+                                .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
+    
+    
+                            client.channels.get(wtsChannelId).send('<@&774503052530155560>')
+                            client.channels.get(wtsChannelId).send(BalkoEmbed)
+    
+                        }
                         client.channels.get(wtsChannelId).send('<@&774503052530155560>')
                         client.channels.get(wtsChannelId).send(BalkoEmbed)
 
@@ -2546,14 +2578,14 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             f3PriceWtsmin = arguments
+            min=f3PriceWtbmin
 
-
-            for(; f3PriceWtsmin < f3PriceWts; f3PriceWtsmin++) {
+            for(; min < f3PriceWts; min++) {
 
 
                 if(message.channel.id == '710921760303742976') {
 
-                    if(message.content.toString().toLowerCase().includes(f3PriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2569,7 +2601,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('F3 WTS Listing Found')
-                            .addField('Price', '$' + f3PriceWtsmin + ' - ' + '€' + f3PriceWtsmin * .86 + ' - ' + '¥' + f3PriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -2577,7 +2609,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774503521709457459>')
@@ -2588,7 +2620,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626993314427568168') {
-                    if(message.content.toString().toLowerCase().includes(f3PriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2604,7 +2636,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('F3 WTS Listing Found')
-                            .addField('Price', '$' + f3PriceWtsmin + ' - ' + '€' + f3PriceWtsmin * .86 + ' - ' + '¥' + f3PriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -2612,7 +2644,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774503521709457459>')
@@ -2623,7 +2655,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '750079728328900718') {
-                    if(message.content.toString().toLowerCase().includes(f3PriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2639,7 +2671,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('F3 WTS Listing Found')
-                            .addField('Price', '$' + f3PriceWtsmin + ' - ' + '€' + f3PriceWtsmin * .86 + ' - ' + '¥' + f3PriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + f3PminiceWtsmin * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -2647,7 +2679,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774503521709457459>')
@@ -2670,8 +2702,8 @@ client.on('message', receivedMessage => {
 
 
             rushPriceWtsmin = arguments
-
-            for(; rushPriceWtsmin < rushPriceWts; rushPriceWtsmin++) {
+                min=rushPriceWtbmin
+            for(; min < rushPriceWts; min++) {
 
 
 
@@ -2681,7 +2713,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(rushPriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2697,7 +2729,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Rush WTS Listing Found')
-                            .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -2706,7 +2738,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774503635903053875>')
                         client.channels.get(wtsChannelId).send(rushEmbed)
@@ -2716,7 +2748,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '715325254100320309') {
-                    if(message.content.toString().toLowerCase().includes(rushPriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2732,7 +2764,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Rush WTS Listing Found')
-                            .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -2741,39 +2773,15 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
-                        userId = message.author.id
-                        messageId = message.id
-                        channelId = message.channel.id
-                        serverId = message.guild.id
-                        var hyperSeller = 'https://discordapp.com/users/' + userId
-                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
-                        rushEmbed = new Discord.RichEmbed()
-
-                            .setColor('#f9475d')
-                            .setTitle('Rush WTS Listing Found')
-                            .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
-                            .addField('Seller', message.author.tag, true)
-
-                            .addField('Link To Seller', hyperSeller2)
-
-                            .addField('Link To Listing', hyperListing2)
-
-
-                            .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
+                    
                         client.channels.get(wtsChannelId).send('<@&774503635903053875>')
                         client.channels.get(wtsChannelId).send(rushEmbed)
                     }
 
                 } else if(message.channel.id == '736704514756968558') {
-                    if(message.content.toString().toLowerCase().includes(rushPriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -2789,7 +2797,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Rush WTS Listing Found')
-                            .addField('Price', '$' + rushPriceWtsmin + ' - ' + '€' + rushPriceWtsmin * .86 + ' - ' + '¥' + rushPriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -2798,7 +2806,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774503635903053875>')
@@ -2815,11 +2823,11 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             mercuryPriceWtsmin = arguments
+                min=mercuryPriceWtbmin
 
+            for(; min < mercuryPriceWts; min++) {
 
-            for(; mercuryPriceWtsmin < mercuryPriceWts; mercuryPriceWtsmin++) {
-
-                if(message.content.toString().toLowerCase() === 'wts mercury ' + (mercuryPriceWtsmin)) {
+                if(message.content.toString().toLowerCase() === 'wts mercury ' + (min)) {
 
 
                     userId = message.author.id
@@ -2836,7 +2844,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTS Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtsmin + ' - ' + '€' + mercuryPriceWtsmin * .86 + ' - ' + '¥' + mercuryPriceWtsmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -2845,7 +2853,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2854,7 +2862,7 @@ client.on('message', receivedMessage => {
                     client.channels.get(wtsChannelId).send(mercuryEmbed)
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury aio $' + (mercuryPriceWtsmin)) {
+                } else if(message.content.toString().toLowerCase() === 'wts mercury aio $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -2870,7 +2878,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTS Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtsmin + ' - ' + '€' + mercuryPriceWtsmin * .86 + ' - ' + '¥' + mercuryPriceWtsmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -2879,7 +2887,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2888,7 +2896,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury aio ' + (mercuryPriceWtsmin)) {
+                } else if(message.content.toString().toLowerCase() === 'wts mercury aio ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -2904,7 +2912,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTS Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtsmin + ' - ' + '€' + mercuryPriceWtsmin * .86 + ' - ' + '¥' + mercuryPriceWtsmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -2913,7 +2921,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2922,7 +2930,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury aio ' + (mercuryPriceWtsmin) + '$') {
+                } else if(message.content.toString().toLowerCase() === 'wts mercury aio ' + (min) + '$') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -2938,7 +2946,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTS Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtsmin + ' - ' + '€' + mercuryPriceWtsmin * .86 + ' - ' + '¥' + mercuryPriceWtsmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -2947,7 +2955,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2956,7 +2964,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury ' + (mercuryPriceWtsmin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wts mercury ' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -2972,7 +2980,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTS Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtsmin + ' - ' + '€' + mercuryPriceWtsmin * .86 + ' - ' + '¥' + mercuryPriceWtsmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -2981,7 +2989,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -2990,7 +2998,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury ' + (mercuryPriceWtsmin / 1000) + 'k$') {
+                } else if(message.content.toString().toLowerCase() === 'wts mercury ' + (min / 1000) + 'k$') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -3006,7 +3014,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTS Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtsmin + ' - ' + '€' + mercuryPriceWtsmin * .86 + ' - ' + '¥' + mercuryPriceWtsmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -3015,7 +3023,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtsChannelId).send('<@&774803234971451452>')
@@ -3024,7 +3032,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts mercury $' + (mercuryPriceWtsmin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wts mercury $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -3040,7 +3048,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTS Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtsmin + ' - ' + '€' + mercuryPriceWtsmin * .86 + ' - ' + '¥' + mercuryPriceWtsmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -3049,7 +3057,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtsChannelId).send('<@&774803234971451452>')
@@ -3074,14 +3082,14 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             solePriceWtsmin = arguments
-
-            for(; solePriceWtsmin < solePriceWts; solePriceWtsmin++) {
+            min=solePriceWtsmin
+            for(; min < solePriceWts; min++) {
 
 
                 if(message.channel.id == '700486817496957000') {
 
 
-                    if(message.content.toString().toLowerCase().includes(solePriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3097,7 +3105,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Sole WTS Listing Found')
-                            .addField('Price', '$' + solePriceWtsmin + ' - ' + '€' + solePriceWtsmin * .86 + ' - ' + '¥' + solePriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3105,7 +3113,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774803407533506562>')
@@ -3115,7 +3123,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626997679377088562') {
 
-                    if(message.content.toString().toLowerCase().includes(solePriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3131,7 +3139,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Sole WTS Listing Found')
-                            .addField('Price', '$' + solePriceWtsmin + ' - ' + '€' + solePriceWtsmin * .86 + ' - ' + '¥' + solePriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3139,7 +3147,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774803407533506562>')
@@ -3151,7 +3159,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '751572267905056859') {
 
-                    if(message.content.toString().toLowerCase().includes(solePriceWtsmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3167,7 +3175,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Sole WTS Listing Found')
-                            .addField('Price', '$' + solePriceWtsmin + ' - ' + '€' + solePriceWtsmin * .86 + ' - ' + '¥' + solePriceWtsmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3175,7 +3183,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774803407533506562>')
@@ -3195,8 +3203,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             wrathWTsPricemin = arguments
-
-            for(; wrathWTsPricemin < wrathWTsPrice; wrathWTsPricemin++) {
+           min= wrathWTsPricemin
+            for(; min < wrathWTsPrice; min++) {
 
 
 
@@ -3205,7 +3213,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(wrathWTsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3222,7 +3230,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Wrath WTS Listing Found')
-                            .addField('Price', '$' + wrathWTsPricemin + ' - ' + '€' + wrathWTsPricemin * .86 + ' - ' + '¥' + wrathWTsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -3230,7 +3238,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtsChannelId).send('<@&774803488193511475>')
 
 
@@ -3240,7 +3248,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626997441392017428') {
-                    if(message.content.toString().toLowerCase().includes(wrathWTsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3257,7 +3265,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Wrath WTS Listing Found')
-                            .addField('Price', '$' + wrathWTsPricemin + ' - ' + '€' + wrathWTsPricemin * .86 + ' - ' + '¥' + wrathWTsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -3265,7 +3273,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtsChannelId).send('<@&774803488193511475>')
 
 
@@ -3276,7 +3284,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '743950855069368461') {
-                    if(message.content.toString().toLowerCase().includes(wrathWTsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -3292,7 +3300,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Wrath WTS Listing Found')
-                            .addField('Price', '$' + wrathWTsPricemin + ' - ' + '€' + wrathWTsPricemin * .86 + ' - ' + '¥' + wrathWTsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -3300,7 +3308,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774803488193511475>')
 
@@ -3321,15 +3329,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             veloxWtsPricemin = arguments
-
-            for(; veloxWtsPricemin < veloxWtsPrice; veloxWtsPricemin++) {
+            min=veloxWtsPricemin
+            for(; min < veloxWtsPrice; min++) {
 
 
                 if(message.channel.id == '710921145146408972') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(veloxWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3345,7 +3353,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Velox WTS Listing Found')
-                            .addField('Price', '$' + veloxWtsPricemin + ' - ' + '€' + veloxWtsPricemin * .86 + ' - ' + '¥' + veloxWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3354,7 +3362,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -3368,7 +3376,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '634518877748854814') {
 
-                    if(message.content.toString().toLowerCase().includes(veloxWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3384,7 +3392,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Velox WTS Listing Found')
-                            .addField('Price', '$' + veloxWtsPricemin + ' - ' + '€' + veloxWtsPricemin * .86 + ' - ' + '¥' + veloxWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3393,7 +3401,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -3410,7 +3418,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079237591007243') {
 
-                    if(message.content.toString().toLowerCase().includes(veloxWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3426,7 +3434,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Velox WTS Listing Found')
-                            .addField('Price', '$' + veloxWtsPricemin + ' - ' + '€' + veloxWtsPricemin * .86 + ' - ' + '¥' + veloxWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3435,7 +3443,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -3463,13 +3471,13 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             mekWtsPricemin = arguments
-
-            for(; mekWtsPricemin < mekWtbPrice; mekWtsPricemin++) {
+            min=mekWtsPricemin
+            for(; min < mekWtbPrice; min++) {
 
                 if(message.channel.id == '710921442967158872') {
 
 
-                    if(message.content.toString().toLowerCase().includes(mekWtsPrice)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3485,7 +3493,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Mek WTS Listing Found')
-                            .addField('Price', '$' + mekWtsPrice + ' - ' + '€' + mekWtsPrice * .86 + ' - ' + '¥' + mekWtsPrice * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3494,7 +3502,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -3508,7 +3516,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '627003393461977108') {
 
-                    if(message.content.toString().toLowerCase().includes(mekWtsPrice)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3524,7 +3532,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Mek WTS Listing Found')
-                            .addField('Price', '$' + mekWtsPrice + ' - ' + '€' + mekWtsPrice * .86 + ' - ' + '¥' + mekWtsPrice * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3533,7 +3541,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -3547,7 +3555,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079650264252508') {
 
-                    if(message.content.toString().toLowerCase().includes(mekWtsPrice)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -3564,7 +3572,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Mek WTS Listing Found')
-                            .addField('Price', '$' + mekWtsPrice + ' - ' + '€' + mekWtsPrice * .86 + ' - ' + '¥' + mekWtsPrice * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3573,7 +3581,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774803745346289684>')
@@ -3596,7 +3604,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             prismWtsPricemin = arguments
-            for(; prismWtsPricemin < prismWtsPrice; prismWtsPricemin++) {
+            min=prismWtsPricemin
+            for(; min < prismWtsPrice; min++) {
 
 
 
@@ -3604,7 +3613,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921405935517697') {
 
 
-                    if(message.content.toString().toLowerCase().includes(prismWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -3621,7 +3630,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Prism WTS Listing Found')
-                            .addField('Price', '$' + prismWtsPricemin + ' - ' + '€' + prismWtsPricemin * .86 + ' - ' + '¥' + prismWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3631,7 +3640,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774803748018454559>')
 
@@ -3644,7 +3653,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '626997179378171925') {
 
 
-                    if(message.content.toString().toLowerCase().includes(prismWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3660,7 +3669,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Prism WTS Listing Found')
-                            .addField('Price', '$' + prismWtsPricemin + ' - ' + '€' + prismWtsPricemin * .86 + ' - ' + '¥' + prismWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3670,7 +3679,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774803748018454559>')
@@ -3684,7 +3693,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '750079394831401040') {
 
 
-                    if(message.content.toString().toLowerCase().includes(prismWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3700,7 +3709,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Prism WTS Listing Found')
-                            .addField('Price', '$' + prismWtsPricemin + ' - ' + '€' + prismWtsPricemin * .86 + ' - ' + '¥' + prismWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3710,7 +3719,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774803748018454559>')
@@ -3734,13 +3743,14 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             polarisWtsPricemin = arguments
-            for(; polarisWtsPricemin < polarisWtsPrice; polarisWtsPricemin++) {
+            min=polarisWtsPricemin
+            for(; min < polarisWtsPrice; min++) {
 
 
                 if(message.channel.id == '710921405935517697') {
 
 
-                    if(message.content.toString().toLowerCase().includes(polarisWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -3757,7 +3767,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Polaris WTS Listing Found')
-                            .addField('Price', '$' + polarisWtsPricemin + ' - ' + '€' + polarisWtsPricemin * .86 + ' - ' + '¥' + polarisWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3767,7 +3777,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774803951438659594>')
 
@@ -3781,7 +3791,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '713875826319294544') {
 
-                    if(message.content.toString().toLowerCase().includes(polarisWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3797,7 +3807,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Polaris WTS Listing Found')
-                            .addField('Price', '$' + polarisWtsPricemin + ' - ' + '€' + polarisWtsPricemin * .86 + ' - ' + '¥' + polarisWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3807,7 +3817,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774803951438659594>')
@@ -3822,7 +3832,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079394831401040') {
 
-                    if(message.content.toString().toLowerCase().includes(polarisWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -3838,7 +3848,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Polaris WTS Listing Found')
-                            .addField('Price', '$' + polarisWtsPricemin + ' - ' + '€' + polarisWtsPricemin * .86 + ' - ' + '¥' + polarisWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -3848,7 +3858,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774803951438659594>')
@@ -3872,8 +3882,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             splashForceWtsPricemin = arguments
-
-            for(; splashForceWtsPricemin < splashForceWtsPrice; splashForceWtsPricemin++) {
+            min=splashForceWtsPricemin
+            for(; min < splashForceWtsPrice; min++) {
 
                 userId = message.author.id
                 messageId = message.id
@@ -3889,7 +3899,7 @@ client.on('message', receivedMessage => {
 
                     .setColor('#f9475d')
                     .setTitle('Splash Force WTS Listing Found')
-                    .addField('Price', '$' + splashForceWtsPricemin + ' - ' + '€' + splashForceWtsPricemin * .86 + ' - ' + '¥' + splashForceWtsPricemin * 6.67, true)
+                    .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                     .addField('Seller', message.author.tag, true)
 
                     .addField('Link To Seller', hyperSeller2)
@@ -3899,7 +3909,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                 client.channels.get(wtsChannelId).send('<@&774803954713231366>')
@@ -3909,7 +3919,7 @@ client.on('message', receivedMessage => {
 
 
 
-                if(message.content.toString().toLowerCase() === 'wts splash force ' + (splashForceWtsPricemin)) {
+                if(message.content.toString().toLowerCase() === 'wts splash force ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -3925,7 +3935,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTS Listing Found')
-                        .addField('Price', '$' + splashForceWtsPricemin + ' - ' + '€' + splashForceWtsPricemin * .86 + ' - ' + '¥' + splashForceWtsPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -3935,7 +3945,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtsChannelId).send('<@&774803954713231366>')
@@ -3945,7 +3955,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts splash force/sf ' + (splashForceWtsPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wts splash force/sf ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -3961,7 +3971,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTS Listing Found')
-                        .addField('Price', '$' + splashForceWtsPricemin + ' - ' + '€' + splashForceWtsPricemin * .86 + ' - ' + '¥' + splashForceWtsPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -3971,7 +3981,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtsChannelId).send('<@&774803954713231366>')
@@ -3981,7 +3991,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts splash force/sf $' + (splashForceWtsPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wts splash force/sf $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -3997,7 +4007,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTS Listing Found')
-                        .addField('Price', '$' + splashForceWtsPricemin + ' - ' + '€' + splashForceWtsPricemin * .86 + ' - ' + '¥' + splashForceWtsPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -4007,7 +4017,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtsChannelId).send('<@&774803954713231366>')
 
@@ -4017,7 +4027,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts splash force $' + (splashForceWtsPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wts splash force $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -4033,7 +4043,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTS Listing Found')
-                        .addField('Price', '$' + splashForceWtsPricemin + ' - ' + '€' + splashForceWtsPricemin * .86 + ' - ' + '¥' + splashForceWtsPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -4043,7 +4053,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtsChannelId).send('<@&774803954713231366>')
 
@@ -4065,15 +4075,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             pdWtsPricemin = arguments
-
-            for(; pdWtsPricemin < pdWtsPrice; pdWtsPricemin++) {
+            min=pdWtsPricemin
+            for(; min < pdWtsPrice; min++) {
 
 
 
                 if(message.channel.id == '710921389552566303') {
 
 
-                    if(message.content.toString().toLowerCase().includes(pdWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -4090,7 +4100,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Project Destroyer WTS Listing Found')
-                            .addField('Price', '$' + pdWtsPricemin + ' - ' + '€' + pdWtsPricemin * .86 + ' - ' + '¥' + pdWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -4099,7 +4109,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774803955078266890>')
 
@@ -4111,7 +4121,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626996548009721886') {
 
-                    if(message.content.toString().toLowerCase().includes(pdWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -4128,7 +4138,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Project Destroyer WTS Listing Found')
-                            .addField('Price', '$' + pdWtsPricemin + ' - ' + '€' + pdWtsPricemin * .86 + ' - ' + '¥' + pdWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -4137,7 +4147,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774803955078266890>')
 
@@ -4149,7 +4159,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '750079568433512538') {
 
-                    if(message.content.toString().toLowerCase().includes(pdWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -4166,7 +4176,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Project Destroyer WTS Listing Found')
-                            .addField('Price', '$' + pdWtsPricemin + ' - ' + '€' + pdWtsPricemin * .86 + ' - ' + '¥' + pdWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -4175,7 +4185,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774803955078266890>')
 
@@ -4198,16 +4208,16 @@ client.on('message', receivedMessage => {
 
 
             dasheWtsPricemin = arguments
+            min=dasheWtsPricemin
 
-
-            for(; dasheWtsPricemin < dasheWtsPrice; dasheWtsPricemin++) {
+            for(; min < dasheWtsPrice; min++) {
 
 
 
 
                 if(message.channel.id == '710921806243954770') {
 
-                    if(message.content.toString().toLowerCase().includes(dasheWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4223,7 +4233,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Dashe WTS Listing Found')
-                            .addField('Price', '$' + dasheWtsPricemin + ' - ' + '€' + dasheWtsPricemin * .86 + ' - ' + '¥' + dasheWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4233,7 +4243,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774500633020989512>')
 
@@ -4255,8 +4265,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             tohruWtsPricemin = arguments
-
-            for(; tohruWtsPricemin < tohruWtsPrice; tohruWtsPricemin++) {
+            min=tohruWtsPricemin
+            for(; min < tohruWtsPrice; min++) {
 
 
 
@@ -4265,7 +4275,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(tohruWtsPricemin || tohruWtsPricemin / 1000)) {
+                    if(message.content.toString().toLowerCase().includes(min )) {
 
 
                         userId = message.author.id
@@ -4283,7 +4293,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Tohru WTS Listing Found')
-                            .addField('Price', '$' + tohruWtsPricemin + ' - ' + '€' + tohruWtsPricemin * .86 + ' - ' + '¥' + tohruWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4293,7 +4303,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804317387096134>')
 
@@ -4303,7 +4313,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '734522747580841985') {
-                    if(message.content.toString().toLowerCase().includes(tohruWtsPricemin || tohruWtsPricemin / 1000)) {
+                    if(message.content.toString().toLowerCase().includes(min )) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4320,7 +4330,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Tohru WTS Listing Found')
-                            .addField('Price', '$' + tohruWtsPricemin + ' - ' + '€' + tohruWtsPricemin * .86 + ' - ' + '¥' + tohruWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4330,7 +4340,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804317387096134>')
@@ -4342,7 +4352,7 @@ client.on('message', receivedMessage => {
 
 
                 } else if(message.channel.id == '750079269912444978') {
-                    if(message.content.toString().toLowerCase().includes(tohruWtsPricemin || tohruWtsPricemin / 1000)) {
+                    if(message.content.toString().toLowerCase().includes(min )) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4359,7 +4369,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Tohru WTS Listing Found')
-                            .addField('Price', '$' + tohruWtsPricemin + ' - ' + '€' + tohruWtsPricemin * .86 + ' - ' + '¥' + tohruWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4369,7 +4379,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804317387096134>')
@@ -4392,14 +4402,14 @@ client.on('message', receivedMessage => {
 
 
             phantomWtsPricemin = arguments
-
-            for(; phantomWtsPricemin < phantomWtsPrice; phantomWtsPricemin++) {
+            min=phantomWtsPricemin
+            for(; min < phantomWtsPrice; min++) {
 
 
                 if(message.channel.id == '710921653739323402') {
 
 
-                    if(message.content.toString().toLowerCase().includes(phantomWtsPricemin || phantomWtsPricemin / 1000)) {
+                    if(message.content.toString().toLowerCase().includes(min )) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4416,7 +4426,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Phantom WTS Listing Found')
-                            .addField('Price', '$' + phantomWtsPricemin + ' - ' + '€' + phantomWtsPricemin * .86 + ' - ' + '¥' + phantomWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4426,7 +4436,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804319785975839>')
@@ -4439,7 +4449,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '627359696335929365') {
 
 
-                    if(message.content.toString().toLowerCase().includes(phantomWtsPricemin || phantomWtsPricemin / 1000)) {
+                    if(message.content.toString().toLowerCase().includes(min )) {
 
 
                         userId = message.author.id
@@ -4457,7 +4467,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Phantom WTS Listing Found')
-                            .addField('Price', '$' + phantomWtsPricemin + ' - ' + '€' + phantomWtsPricemin * .86 + ' - ' + '¥' + phantomWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4467,7 +4477,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804319785975839>')
 
@@ -4479,7 +4489,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '750079496211922944') {
 
 
-                    if(message.content.toString().toLowerCase().includes(phantomWtsPricemin) || phantomWtsPricemin / 1000) {
+                    if(message.content.toString().toLowerCase().includes(min) ) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4496,7 +4506,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Phantom WTS Listing Found')
-                            .addField('Price', '$' + phantomWtsPricemin + ' - ' + '€' + phantomWtsPricemin * .86 + ' - ' + '¥' + phantomWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4506,7 +4516,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804319785975839>')
@@ -4528,14 +4538,14 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
             adeptWtsPricemin = arguments
 
+            min=adeptWtsPricemin
 
-
-            for(; adeptWtsPricemin < adeptWtsPrice; adeptWtsPricemin++) {
+            for(; min < adeptWtsPrice; min++) {
 
                 if(message.channel.id == '710921903249948802') {
 
 
-                    if(message.content.toString().toLowerCase().includes(adeptWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4552,7 +4562,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Adept WTS Listing Found')
-                            .addField('Price', '$' + adeptWtsPricemin + ' - ' + '€' + adeptWtsPricemin * .86 + ' - ' + '¥' + adeptWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4562,7 +4572,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804319819792395>')
 
@@ -4575,7 +4585,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '627359696335929365') {
 
 
-                    if(message.content.toString().toLowerCase().includes(adeptWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4592,7 +4602,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Adept WTS Listing Found')
-                            .addField('Price', '$' + adeptWtsPricemin + ' - ' + '€' + adeptWtsPricemin * .86 + ' - ' + '¥' + adeptWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4602,7 +4612,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804319819792395>')
 
@@ -4616,7 +4626,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '750079939973480488') {
 
 
-                    if(message.content.toString().toLowerCase().includes(adeptWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4633,7 +4643,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Adept WTS Listing Found')
-                            .addField('Price', '$' + adeptWtsPricemin + ' - ' + '€' + adeptWtsPricemin * .86 + ' - ' + '¥' + adeptWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4643,7 +4653,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804319819792395>')
 
@@ -4665,8 +4675,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             burstWtsPricemin = arguments
-
-            for(; burstWtsPricemin < burstWtbPrice; burstWtsPricemin++) {
+            min=burstWtsPricemin
+            for(; min < burstWtbPrice; min++) {
 
 
 
@@ -4675,7 +4685,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(burstWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -4691,7 +4701,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Burst WTS Listing Found')
-                            .addField('Price', '$' + burstWtsPricemin + ' - ' + '€' + burstWtsPricemin * .86 + ' - ' + '¥' + burstWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4701,7 +4711,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804320490225674>')
 
@@ -4723,14 +4733,14 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
             cyberWtsPricemin = arguments
 
-            for(; cyberWtsPricemin < cyberWtsPrice; cyberWtsPricemin++) {
+            for(; min < cyberWtsPrice; min++) {
 
 
                 if(message.channel.id == '710921830558335087') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(cyberWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4747,7 +4757,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Cyber WTS Listing Found')
-                            .addField('Price', '$' + cyberWtsPricemin + ' - ' + '€' + cyberWtsPricemin * .86 + ' - ' + '¥' + cyberWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4757,7 +4767,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804321362640906>')
@@ -4771,7 +4781,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '626930445774487563') {
 
 
-                    if(message.content.toString().toLowerCase().includes(cyberWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4788,7 +4798,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Cyber WTS Listing Found')
-                            .addField('Price', '$' + cyberWtsPricemin + ' - ' + '€' + cyberWtsPricemin * .86 + ' - ' + '¥' + cyberWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4798,7 +4808,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804321362640906>')
@@ -4813,7 +4823,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '750080029278339203') {
 
 
-                    if(message.content.toString().toLowerCase().includes(cyberWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4830,7 +4840,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Cyber WTS Listing Found')
-                            .addField('Price', '$' + cyberWtsPricemin + ' - ' + '€' + cyberWtsPricemin * .86 + ' - ' + '¥' + cyberWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4840,7 +4850,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804321362640906>')
@@ -4863,13 +4873,14 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             estockWtsPricemin = arguments
-            for(; estockWtsPricemin < estockWtsPrice; estockWtsPrice++) {
+            min=estockWtsPricemin
+            for(; min < estockWtsPrice; min++) {
 
                 if(message.channel.id == '761090509858406400') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(estockWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -4886,7 +4897,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Estock WTS Listing Found')
-                            .addField('Price', '$' + estockWtsPricemin + ' - ' + '€' + estockWtsPricemin * .86 + ' - ' + '¥' + estockWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4896,7 +4907,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804939720753172>')
@@ -4919,15 +4930,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             eveWtsPricemin = arguments
-
-            for(; eveWtsPricemin < eveWtsPrice; eveWtsPricemin++) {
+            min=eveWtsPricemin
+            for(; min < eveWtsPrice; min++) {
 
 
                 if(message.channel.id == '710921786321141911') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(eveWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -4945,7 +4956,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Eve WTS Listing Found')
-                            .addField('Price', '$' + eveWtsPricemin + ' - ' + '€' + eveWtsPricemin * .86 + ' - ' + '¥' + eveWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4955,7 +4966,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804941478821888>')
@@ -4967,7 +4978,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626997994927161377') {
 
-                    if(message.content.toString().toLowerCase().includes(eveWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -4985,7 +4996,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Eve WTS Listing Found')
-                            .addField('Price', '$' + eveWtsPricemin + ' - ' + '€' + eveWtsPricemin * .86 + ' - ' + '¥' + eveWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -4995,7 +5006,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774804941478821888>')
@@ -5008,7 +5019,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079789196509294') {
 
-                    if(message.content.toString().toLowerCase().includes(eveWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
 
@@ -5027,7 +5038,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Eve WTS Listing Found')
-                            .addField('Price', '$' + eveWtsPricemin + ' - ' + '€' + eveWtsPricemin * .86 + ' - ' + '¥' + eveWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5037,7 +5048,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804941478821888>')
 
@@ -5059,17 +5070,17 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             galaxsioWtsPricemin = arguments
+            min=galaxsioWtsPricemin
 
 
-
-            for(; galaxsioWtsPricemin < galaxsioWtsPrice; galaxsioWtsPricemin++) {
+            for(; min < galaxsioWtsPrice; min++) {
 
 
                 if(message.channel.id == '692817365561376788') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(galaxsioWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5086,7 +5097,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Galaxsio WTS Listing Found')
-                            .addField('Price', '$' + galaxsioWtsPricemin + ' - ' + '€' + galaxsioWtsPricemin * .86 + ' - ' + '¥' + galaxsioWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5096,7 +5107,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804944536076318>')
 
@@ -5116,8 +5127,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             hawkWtsPricemin = arguments
-
-            for(; hawkWtsPricemin < hawkWtsPrice; hawkWtsPricemin++) {
+            min=hawkWtsPricemin
+            for(; min < hawkWtsPrice; min++) {
 
                 userId = message.author.id
 
@@ -5125,7 +5136,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921635976446002') {
 
 
-                    if(message.content.toString().toLowerCase().includes(hawkWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         messageId = message.id
@@ -5142,7 +5153,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hawk Mesh WTS Listing Found')
-                            .addField('Price', '$' + hawkWtsPricemin + ' - ' + '€' + hawkWtsPricemin * .86 + ' - ' + '¥' + hawkWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5152,7 +5163,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtsChannelId).send('<@&774804946059132938>')
 
 
@@ -5162,7 +5173,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '626998862145650698') {
 
-                    if(message.content.toString().toLowerCase().includes(hawkWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         messageId = message.id
                         channelId = message.channel.id
@@ -5178,7 +5189,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hawk Mesh WTS Listing Found')
-                            .addField('Price', '$' + hawkWtsPricemin + ' - ' + '€' + hawkWtsPricemin * .86 + ' - ' + '¥' + hawkWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5188,7 +5199,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804946059132938>')
 
@@ -5210,9 +5221,9 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             ganeshWtsPricemin = arguments
+            min=ganeshWtsPricemin
 
-
-            for(; ganeshWtsPricemin < ganeshWtsPrice; ganeshWtsPricemin++) {
+            for(; min < ganeshWtsPrice; min++) {
 
 
 
@@ -5221,7 +5232,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(ganeshWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -5237,7 +5248,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Ganesh WTS Listing Found')
-                            .addField('Price', '$' + ganeshWtsPricemin + ' - ' + '€' + ganeshWtsPricemin * .86 + ' - ' + '¥' + ganeshWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5247,7 +5258,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804947967410176>')
 
@@ -5260,7 +5271,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '772833340327329812') {
 
 
-                    if(message.content.toString().toLowerCase().includes(ganeshWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -5278,7 +5289,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Ganesh WTS Listing Found')
-                            .addField('Price', '$' + ganeshWtsPricemin + ' - ' + '€' + ganeshWtsPricemin * .86 + ' - ' + '¥' + ganeshWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5288,7 +5299,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804947967410176>')
 
@@ -5303,7 +5314,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '764754241113161728') {
 
 
-                    if(message.content.toString().toLowerCase().includes(ganeshWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -5321,7 +5332,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Ganesh WTS Listing Found')
-                            .addField('Price', '$' + ganeshWtsPricemin + ' - ' + '€' + ganeshWtsPricemin * .86 + ' - ' + '¥' + ganeshWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5331,7 +5342,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774804947967410176>')
 
@@ -5353,15 +5364,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             hayhaWtsPricemin = arguments
-
-            for(; hayhaWtsPricemin < hayhaWtsPrice; hayhaWtsPricemin++) {
+            min=hayhaWtsPricemin
+            for(; min < hayhaWtsPrice; min++) {
 
 
                 if(message.channel.id == '710921620025376769') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(hayhaWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5378,7 +5389,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hayha WTS Listing Found')
-                            .addField('Price', '$' + hayhaWtsPricemin + ' - ' + '€' + hayhaWtsPricemin * .86 + ' - ' + '¥' + hayhaWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5388,7 +5399,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774805427098746950>')
 
@@ -5399,9 +5410,34 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '699454441354428516') {
 
-                    if(message.content.toString().toLowerCase().includes(hayhaWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
+
+                        userId = message.author.id
+                        messageId = message.id
+                        channelId = message.channel.id
+                        serverId = message.guild.id
+
+                        var hyperSeller = 'https://discordapp.com/users/' + userId
+                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                        hayhaEmbed = new Discord.RichEmbed()
+
+                            .setColor('#f9475d')
+                            .setTitle('Hayha WTS Listing Found')
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
+                            .addField('Seller', message.author.tag, true)
+
+                            .addField('Link To Seller', hyperSeller2)
+
+                            .addField('Link To Listing', hyperListing2)
 
 
+
+                            .setTimestamp()
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774805427098746950>')
 
@@ -5413,7 +5449,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '752600588537167955') {
 
-                    if(message.content.toString().toLowerCase().includes(hayhaWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5430,7 +5466,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hayha WTS Listing Found')
-                            .addField('Price', '$' + hayhaWtsPricemin + ' - ' + '€' + hayhaWtsPricemin * .86 + ' - ' + '¥' + hayhaWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5440,7 +5476,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774805427098746950>')
 
@@ -5461,15 +5497,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             kiloWtsPricemin = arguments
-
-            for(; kiloWtsPricemin < kiloWtsPrice; kiloWtsPricemin++) {
+            min=kiloWtsPricemin
+            for(; min < kiloWtsPrice; min++) {
 
 
                 if(message.channel.id == '733784066284978307') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(kiloWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5486,7 +5522,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Kilo WTS Listing Found')
-                            .addField('Price', '$' + kiloWtsPricemin + ' - ' + '€' + kiloWtsPricemin * .86 + ' - ' + '¥' + kiloWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5496,7 +5532,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774805429858467841>')
 
@@ -5506,7 +5542,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '734523471542878349') {
-                    if(message.content.toString().toLowerCase().includes(kiloWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -5522,7 +5558,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Kilo WTS Listing Found')
-                            .addField('Price', '$' + kiloWtsPricemin + ' - ' + '€' + kiloWtsPricemin * .86 + ' - ' + '¥' + kiloWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5532,7 +5568,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774805429858467841>')
@@ -5554,8 +5590,8 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             flareWtsPricemin = arguments
-
-            for(; flareWtsPricemin < flareWtsPrice; flareWtsPricemin++) {
+            min=flareWtsPricemin
+            for(; min < flareWtsPrice; min++) {
 
 
 
@@ -5563,7 +5599,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(flareWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5580,7 +5616,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Flare WTS Listing Found')
-                            .addField('Price', '$' + flareWtsPricemin + ' - ' + '€' + flareWtsPricemin * .86 + ' - ' + '¥' + flareWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5590,7 +5626,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -5605,7 +5641,7 @@ client.on('message', receivedMessage => {
                 } else if(message.channel.id == '692632524609945660') {
 
 
-                    if(message.content.toString().toLowerCase().includes(flareWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5622,7 +5658,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Flare WTS Listing Found')
-                            .addField('Price', '$' + flareWtsPricemin + ' - ' + '€' + flareWtsPricemin * .86 + ' - ' + '¥' + flareWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5632,7 +5668,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -5655,8 +5691,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             fleekWtsPricemin = arguments
-
-            for(; fleekWtsPricemin < fleekWtsPrice; fleekWtsPricemin++) {
+            min=fleekWtsPricemin
+            for(; min < fleekWtsPrice; min++) {
 
 
 
@@ -5664,7 +5700,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(fleekWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -5682,7 +5718,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Fleek WTS Listing Found')
-                            .addField('Price', '$' + fleekWtsPricemin + ' - ' + '€' + fleekWtsPricemin * .86 + ' - ' + '¥' + fleekWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5692,7 +5728,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774805437714923620>')
 
@@ -5704,7 +5740,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '626999432881242152') {
-                    if(message.content.toString().toLowerCase().includes(fleekWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -5721,7 +5757,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Fleek WTS Listing Found')
-                            .addField('Price', '$' + fleekWtsPricemin + ' - ' + '€' + fleekWtsPricemin * .86 + ' - ' + '¥' + fleekWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5731,7 +5767,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtsChannelId).send('<@&774805437714923620>')
@@ -5744,7 +5780,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '759444386257305620') {
-                    if(message.content.toString().toLowerCase().includes(fleekWtsPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -5762,7 +5798,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Fleek WTS Listing Found')
-                            .addField('Price', '$' + fleekWtsPricemin + ' - ' + '€' + fleekWtsPricemin * .86 + ' - ' + '¥' + fleekWtsPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -5772,7 +5808,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtsChannelId).send('<@&774805437714923620>')
 
@@ -5794,59 +5830,11 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             nebulaWtsPricemin = arguments
-            for(; nebulaWtsPricemin < nebulaWtsPrice; nebulaWtsPricemin++) {
+            min=nebulaWtsPricemin
+            for(; min < nebulaWtsPrice; min++) {
 
 
-                if(message.content.toString().toLowerCase() === 'wts nebula ' + (nebulaWtsPricemin)) {
-
-                    userId = message.author.id
-                    messageId = message.id
-                    channelId = message.channel.id
-                    serverId = message.guild.id
-
-                    var hyperSeller = 'https://discordapp.com/users/' + userId
-                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
-                    nebulaEmbed = new Discord.RichEmbed()
-
-                        .setColor('#f9475d')
-                        .setTitle('Nebula WTS Listing Found')
-                        .addField('Price', '$' + nebulaWtsPricemin + ' - ' + '€' + nebulaWtsPricemin * .86 + ' - ' + '¥' + nebulaWtsPricemin * 6.67, true)
-                        .addField('Seller', message.author.tag, true)
-
-                        .addField('Link To Seller', hyperSeller2)
-
-                        .addField('Link To Listing', hyperListing2)
-
-
-
-                        .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-                    client.channels.get(wtsChannelId).send('<@&774805952116686848>')
-
-
-                    client.channels.get(wtsChannelId).send(nebulaEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wts nebula $' + (nebulaWtsPricemin)) {
-
-                    userId = message.author.id
-
-
-
-                    client.channels.get(wtsChannelId).send('<@&774805952116686848>')
-
-
-                    client.channels.get(wtsChannelId).send(nebulaEmbed)
-
-
-
-                } else if(message.content.toString().toLowerCase() === 'wts nebula ' + (nebulaWtsPricemin / 1000) + 'k') {
+                if(message.content.toString().toLowerCase() === 'wts nebula ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -5863,7 +5851,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Nebula WTS Listing Found')
-                        .addField('Price', '$' + nebulaWtsPricemin + ' - ' + '€' + nebulaWtsPricemin * .86 + ' - ' + '¥' + nebulaWtsPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -5873,7 +5861,19 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+                    client.channels.get(wtsChannelId).send('<@&774805952116686848>')
+
+
+                    client.channels.get(wtsChannelId).send(nebulaEmbed)
+
+
+
+                } else if(message.content.toString().toLowerCase() === 'wts nebula $' + (min)) {
+
+                    userId = message.author.id
+
 
 
                     client.channels.get(wtsChannelId).send('<@&774805952116686848>')
@@ -5883,7 +5883,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wts nebula $' + (nebulaWtsPricemin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wts nebula ' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -5900,7 +5900,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Nebula WTS Listing Found')
-                        .addField('Price', '$' + nebulaWtsPricemin + ' - ' + '€' + nebulaWtsPricemin * .86 + ' - ' + '¥' + nebulaWtsPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -5910,7 +5910,44 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
+
+
+                    client.channels.get(wtsChannelId).send('<@&774805952116686848>')
+
+
+                    client.channels.get(wtsChannelId).send(nebulaEmbed)
+
+
+
+                } else if(message.content.toString().toLowerCase() === 'wts nebula $' + (min / 1000) + 'k') {
+
+                    userId = message.author.id
+                    messageId = message.id
+                    channelId = message.channel.id
+                    serverId = message.guild.id
+
+                    var hyperSeller = 'https://discordapp.com/users/' + userId
+                    var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+
+                    var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                    var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+
+                    nebulaEmbed = new Discord.RichEmbed()
+
+                        .setColor('#f9475d')
+                        .setTitle('Nebula WTS Listing Found')
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
+                        .addField('Seller', message.author.tag, true)
+
+                        .addField('Link To Seller', hyperSeller2)
+
+                        .addField('Link To Listing', hyperListing2)
+
+
+
+                        .setTimestamp()
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtsChannelId).send('<@&774805952116686848>')
 
@@ -5960,7 +5997,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                 client.channels.get(wtsChannelId).send('<@&774805980637823036>')
 
@@ -5996,7 +6033,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                 client.channels.get(wtsChannelId).send('<@&774805980637823036>')
@@ -6033,7 +6070,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -6070,7 +6107,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                 client.channels.get(wtsChannelId).send('<@&774805980637823036>')
@@ -6159,8 +6196,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             balkoPriceWtbmin = arguments
-
-            for(; balkoPriceWtbmin < balkoPriceWtb; balkoPriceWtbmin++) {
+            min=balkoPriceWtbmin
+            for(; min < min; min++) {
 
 
                 if(message.channel.id == '710921862888161440') {
@@ -6168,7 +6205,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(balkoPriceWtbminPriceWtb)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -6186,7 +6223,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Balko WTB Listing Found')
-                            .addField('Price', '$' + balkoPriceWtbmin + ' - ' + '€' + balkoPriceWtbmin * .86 + ' - ' + '¥' + balkoPriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6196,7 +6233,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774503052530155560>')
 
 
@@ -6206,7 +6243,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626996366433976330') {
-                    if(message.content.toString().toLowerCase().includes(balkoPriceWtbminPriceWtb)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -6224,7 +6261,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Balko WTB Listing Found')
-                            .addField('Price', '$' + balkoPriceWtbmin + ' - ' + '€' + balkoPriceWtbmin * .86 + ' - ' + '¥' + balkoPriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6234,7 +6271,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774503052530155560>')
 
 
@@ -6246,7 +6283,7 @@ client.on('message', receivedMessage => {
 
 
                 } else if(message.channel.id == '750080130038235218') {
-                    if(message.content.toString().toLowerCase().includes(balkoPriceWtbminPriceWtb)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -6264,7 +6301,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Balko WTB Listing Found')
-                            .addField('Price', '$' + balkoPriceWtbmin + ' - ' + '€' + balkoPriceWtbmin * .86 + ' - ' + '¥' + balkoPriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6274,7 +6311,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774503052530155560>')
 
 
@@ -6295,8 +6332,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             f3PriceWtbmin = arguments
-
-            for(; f3PriceWtbmin < f3PriceWts; f3PriceWtbmin++) {
+            min=f3PriceWtbmin
+            for(; min < f3PriceWts; min++) {
 
 
 
@@ -6305,7 +6342,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(f3PriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -6322,7 +6359,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('F3 WTB Listing Found')
-                            .addField('Price', '$' + f3PriceWtbmin + ' - ' + '€' + f3PriceWtbmin * .86 + ' - ' + '¥' + f3PriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6330,7 +6367,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774503521709457459>')
@@ -6341,7 +6378,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626994422105636874') {
-                    if(message.content.toString().toLowerCase().includes(f3PriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -6358,7 +6395,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('F3 WTB Listing Found')
-                            .addField('Price', '$' + f3PriceWtbmin + ' - ' + '€' + f3PriceWtbmin * .86 + ' - ' + '¥' + f3PriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6366,7 +6403,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774503521709457459>')
@@ -6378,7 +6415,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '750079739414183946') {
-                    if(message.content.toString().toLowerCase().includes(f3PriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6394,7 +6431,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('F3 WTB Listing Found')
-                            .addField('Price', '$' + f3PriceWtbmin + ' - ' + '€' + f3PriceWtbmin * .86 + ' - ' + '¥' + f3PriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6402,7 +6439,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -6426,8 +6463,8 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             rushPriceWtbmin = arguments
-
-            for(; rushPriceWtbmin < rushPriceWtb; rushPriceWtbmin++) {
+            min=rushPriceWtbmin
+            for(; min < rushPriceWtb; min++) {
 
 
 
@@ -6437,7 +6474,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(rushPriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6453,7 +6490,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Rush WTB Listing Found')
-                            .addField('Price', '$' + rushPriceWtbmin + ' - ' + '€' + rushPriceWtbmin * .86 + ' - ' + '¥' + rushPriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6462,7 +6499,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774503635903053875>')
 
 
@@ -6472,7 +6509,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '715325456924147845') {
 
-                    if(message.content.toString().toLowerCase().includes(rushPriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -6487,7 +6524,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Rush WTB Listing Found')
-                            .addField('Price', '$' + rushPriceWtbmin + ' - ' + '€' + rushPriceWtbmin * .86 + ' - ' + '¥' + rushPriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6496,7 +6533,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774503635903053875>')
 
@@ -6508,7 +6545,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '752600558270939256') {
 
-                    if(message.content.toString().toLowerCase().includes(rushPriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6524,7 +6561,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Rush WTB Listing Found')
-                            .addField('Price', '$' + rushPriceWtbmin + ' - ' + '€' + rushPriceWtbmin * .86 + ' - ' + '¥' + rushPriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6533,7 +6570,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774503635903053875>')
 
 
@@ -6553,10 +6590,10 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             mercuryPriceWtbmin = arguments
+            min=mercuryPriceWtbmin
+            for(; min < mercuryPriceWtb; min++) {
 
-            for(; mercuryPriceWtbmin < mercuryPriceWtb; mercuryPriceWtbmin++) {
-
-                if(message.content.toString().toLowerCase() === 'wtb mercury ' + (mercuryPriceWtbmin)) {
+                if(message.content.toString().toLowerCase() === 'wtb mercury ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6572,7 +6609,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTB Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtbmin + ' - ' + '€' + mercuryPriceWtbmin * .86 + ' - ' + '¥' + mercuryPriceWtbmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -6581,7 +6618,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -6591,7 +6628,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio $' + (mercuryPriceWtbmin)) {
+                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6607,7 +6644,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTB Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtbmin + ' - ' + '€' + mercuryPriceWtbmin * .86 + ' - ' + '¥' + mercuryPriceWtbmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -6616,7 +6653,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774803234971451452>')
@@ -6626,7 +6663,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio ' + (mercuryPriceWtbmin)) {
+                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6642,7 +6679,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTB Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtbmin + ' - ' + '€' + mercuryPriceWtbmin * .86 + ' - ' + '¥' + mercuryPriceWtbmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -6651,7 +6688,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774803234971451452>')
@@ -6661,7 +6698,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio ' + (mercuryPriceWtbmin) + '$') {
+                } else if(message.content.toString().toLowerCase() === 'wtb mercury aio ' + (min) + '$') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6677,7 +6714,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTB Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtbmin + ' - ' + '€' + mercuryPriceWtbmin * .86 + ' - ' + '¥' + mercuryPriceWtbmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -6686,7 +6723,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774803234971451452>')
@@ -6696,7 +6733,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury ' + (mercuryPriceWtbmin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wtb mercury ' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6712,7 +6749,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTB Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtbmin + ' - ' + '€' + mercuryPriceWtbmin * .86 + ' - ' + '¥' + mercuryPriceWtbmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -6721,7 +6758,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -6731,7 +6768,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury ' + (mercuryPriceWtbmin / 1000) + 'k$') {
+                } else if(message.content.toString().toLowerCase() === 'wtb mercury ' + (min / 1000) + 'k$') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6747,7 +6784,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTB Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtbmin + ' - ' + '€' + mercuryPriceWtbmin * .86 + ' - ' + '¥' + mercuryPriceWtbmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -6756,7 +6793,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774803234971451452>')
@@ -6766,7 +6803,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb mercury $' + (mercuryPriceWtbmin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wtb mercury $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -6782,7 +6819,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Mercury WTB Listing Found')
-                        .addField('Price', '$' + mercuryPriceWtbmin + ' - ' + '€' + mercuryPriceWtbmin * .86 + ' - ' + '¥' + mercuryPriceWtbmin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -6791,7 +6828,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774803234971451452>')
@@ -6816,15 +6853,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             solePriceWtbmin = arguments
-
-            for(; solePriceWtbmin < solePriceWtb; solePriceWtbmin++) {
+            min=solePriceWtbmin
+            for(; min < solePriceWtb; min++) {
 
 
                 if(message.channel.id == '710921331872366644') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(solePriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -6839,7 +6876,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Sole WTB Listing Found')
-                            .addField('Price', '$' + solePriceWtbmin + ' - ' + '€' + solePriceWtbmin * .86 + ' - ' + '¥' + solePriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6847,7 +6884,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774803407533506562>')
@@ -6860,7 +6897,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626997728915881993') {
 
-                    if(message.content.toString().toLowerCase().includes(solePriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -6877,7 +6914,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Sole WTB Listing Found')
-                            .addField('Price', '$' + solePriceWtbmin + ' - ' + '€' + solePriceWtbmin * .86 + ' - ' + '¥' + solePriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6885,7 +6922,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774803407533506562>')
 
 
@@ -6898,7 +6935,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '751572280307482734') {
 
-                    if(message.content.toString().toLowerCase().includes(solePriceWtbmin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6914,7 +6951,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Sole WTB Listing Found')
-                            .addField('Price', '$' + solePriceWtbmin + ' - ' + '€' + solePriceWtbmin * .86 + ' - ' + '¥' + solePriceWtbmin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -6922,7 +6959,7 @@ client.on('message', receivedMessage => {
                             .addField('Link To Listing', hyperListing2)
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774803407533506562>')
 
@@ -6944,15 +6981,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             wrathWtbPricemin = arguments
-
-            for(; wrathWtbPricemin < wrathWtbPrice; wrathWtbPricemin++) {
+            min=wrathWtbPricemin
+            for(; min < wrathWtbPrice; min++) {
 
 
                 if(message.channel.id == '733784514769191013') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(wrathWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -6968,7 +7005,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Wrath WTB Listing Found')
-                            .addField('Price', '$' + wrathWtbPricemin + ' - ' + '€' + wrathWtbPricemin * .86 + ' - ' + '¥' + wrathWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -6976,7 +7013,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774803488193511475>')
 
@@ -6987,7 +7024,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626997507205103617') {
-                    if(message.content.toString().toLowerCase().includes(wrathWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7003,7 +7040,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Wrath WTB Listing Found')
-                            .addField('Price', '$' + wrathWtbPricemin + ' - ' + '€' + wrathWtbPricemin * .86 + ' - ' + '¥' + wrathWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -7011,7 +7048,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774803488193511475>')
 
@@ -7023,7 +7060,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '743950898501517322') {
-                    if(message.content.toString().toLowerCase().includes(wrathWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -7038,7 +7075,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Wrath WTB Listing Found')
-                            .addField('Price', '$' + wrathWtbPricemin + ' - ' + '€' + wrathWtbPricemin * .86 + ' - ' + '¥' + wrathWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -7046,7 +7083,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774803488193511475>')
@@ -7069,7 +7106,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             veloxWtbPricemin = arguments
-            for(; veloxWtbPricemin < veloxWtbPrice; veloxWtbPricemin++) {
+            min=veloxWtbPricemin
+            for(; min < veloxWtbPrice; min++) {
 
 
 
@@ -7077,7 +7115,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '634518624677396501') {
 
 
-                    if(message.content.toString().toLowerCase().includes(veloxWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -7092,7 +7130,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Velox WTB Listing Found')
-                            .addField('Price', '$' + veloxWtbPricemin + ' - ' + '€' + veloxWtbPricemin * .86 + ' - ' + '¥' + veloxWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7101,7 +7139,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774803645416996914>')
@@ -7116,7 +7154,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '710921136078192723') {
 
-                    if(message.content.toString().toLowerCase().includes(veloxWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -7131,7 +7169,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Velox WTB Listing Found')
-                            .addField('Price', '$' + veloxWtbPricemin + ' - ' + '€' + veloxWtbPricemin * .86 + ' - ' + '¥' + veloxWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7140,7 +7178,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774803645416996914>')
@@ -7155,7 +7193,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079086541668462') {
 
-                    if(message.content.toString().toLowerCase().includes(veloxWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -7170,7 +7208,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Velox WTB Listing Found')
-                            .addField('Price', '$' + veloxWtbPricemin + ' - ' + '€' + veloxWtbPricemin * .86 + ' - ' + '¥' + veloxWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7179,7 +7217,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774803645416996914>')
@@ -7204,15 +7242,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             mekWtbPricemin = arguments
-
-            for(; mekWtbPricemin < mekWtbPrice; mekWtbPricemin++) {
+            min=mekWtbPricemin
+            for(; min < mekWtbPrice; min++) {
 
 
                 if(message.channel.id == '710921433987022878') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(mekWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
 
@@ -7230,7 +7268,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Mek WTB Listing Found')
-                            .addField('Price', '$' + mekWtbPricemin + ' - ' + '€' + mekWtbPricemin * .86 + ' - ' + '¥' + mekWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7239,7 +7277,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774803745346289684>')
 
 
@@ -7251,7 +7289,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '627003458817359873') {
 
-                    if(message.content.toString().toLowerCase().includes(mekWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -7268,7 +7306,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Mek WTB Listing Found')
-                            .addField('Price', '$' + mekWtbPricemin + ' - ' + '€' + mekWtbPricemin * .86 + ' - ' + '¥' + mekWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7277,7 +7315,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774803745346289684>')
 
@@ -7289,7 +7327,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '750079662675198053') {
 
-                    if(message.content.toString().toLowerCase().includes(mekWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7305,7 +7343,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Mek WTB Listing Found')
-                            .addField('Price', '$' + mekWtbPricemin + ' - ' + '€' + mekWtbPricemin * .86 + ' - ' + '¥' + mekWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7314,7 +7352,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774803745346289684>')
@@ -7337,8 +7375,8 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             prismWtbPricemin = arguments
-
-            for(; prismWtbPricemin < prismWtbPrice; prismWtbPricemin++) {
+            min=prismWtbPricemin
+            for(; min < prismWtbPrice; min++) {
 
 
 
@@ -7346,7 +7384,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(prismWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -7363,7 +7401,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Prism WTB Listing Found')
-                            .addField('Price', '$' + prismWtbPricemin + ' - ' + '€' + prismWtbPricemin * .86 + ' - ' + '¥' + prismWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7373,7 +7411,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774803748018454559>')
 
@@ -7385,7 +7423,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626997238513795079') {
 
-                    if(message.content.toString().toLowerCase().includes(prismWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -7402,7 +7440,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Prism WTB Listing Found')
-                            .addField('Price', '$' + prismWtbPricemin + ' - ' + '€' + prismWtbPricemin * .86 + ' - ' + '¥' + prismWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7412,7 +7450,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774803748018454559>')
 
@@ -7425,7 +7463,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079349167882462') {
 
-                    if(message.content.toString().toLowerCase().includes(prismWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7441,7 +7479,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Prism WTB Listing Found')
-                            .addField('Price', '$' + prismWtbPricemin + ' - ' + '€' + prismWtbPricemin * .86 + ' - ' + '¥' + prismWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7451,7 +7489,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774803748018454559>')
@@ -7475,8 +7513,8 @@ client.on('message', receivedMessage => {
 
 
             polarisWtbPricemin = arguments
-
-            for(; polarisWtbPricemin < polarisWtbPrice; polarisWtbPricemin++) {
+            min=polarisWtbPricemin
+            for(; min < polarisWtbPrice; min++) {
 
 
 
@@ -7486,7 +7524,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(polarisWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -7503,7 +7541,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Polaris WTB Listing Found')
-                            .addField('Price', '$' + polarisWtbPricemin + ' - ' + '€' + polarisWtbPricemin * .86 + ' - ' + '¥' + polarisWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7513,7 +7551,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774803951438659594>')
 
 
@@ -7524,7 +7562,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '710921396859175081') {
 
-                    if(message.content.toString().toLowerCase().includes(polarisWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7540,7 +7578,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Polaris WTB Listing Found')
-                            .addField('Price', '$' + polarisWtbPricemin + ' - ' + '€' + polarisWtbPricemin * .86 + ' - ' + '¥' + polarisWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7550,7 +7588,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774803951438659594>')
 
@@ -7563,7 +7601,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079408445980717') {
 
-                    if(message.content.toString().toLowerCase().includes(polarisWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -7580,7 +7618,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Polaris WTB Listing Found')
-                            .addField('Price', '$' + polarisWtbPricemin + ' - ' + '€' + polarisWtbPricemin * .86 + ' - ' + '¥' + polarisWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min  * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7590,7 +7628,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774803951438659594>')
 
 
@@ -7612,13 +7650,13 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             splashForceWtbPricemin = arguments
+            min=splashForceWtbPricemin
+
+            for(; min < splashForceWtbPrice; min++) {
 
 
-            for(; splashForceWtbPricemin < splashForceWtbPrice; splashForceWtbPricemin++) {
 
-
-
-                if(message.content.toString().toLowerCase() === 'wtb splash force ' + (splashForceWtbPricemin)) {
+                if(message.content.toString().toLowerCase() === 'wtb splash force ' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -7634,7 +7672,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTB Listing Found')
-                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPrice * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -7644,7 +7682,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774803954713231366>')
 
@@ -7652,7 +7690,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb splash force/sf ' + (splashForceWtbPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wtb splash force/sf ' + (min)) {
 
 
                     userId = message.author.id
@@ -7669,7 +7707,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTB Listing Found')
-                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPrice * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -7679,7 +7717,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774803954713231366>')
 
@@ -7687,7 +7725,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb splash force/sf $' + (splashForceWtbPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wtb splash force/sf $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -7703,7 +7741,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTB Listing Found')
-                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPrice * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -7713,7 +7751,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774803954713231366>')
 
@@ -7723,7 +7761,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb splash force $' + (splashForceWtbPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wtb splash force $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -7739,7 +7777,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Splash Force WTB Listing Found')
-                        .addField('Price', '$' + splashForceWtbPricemin + ' - ' + '€' + splashForceWtbPricemin * .86 + ' - ' + '¥' + splashForceWtbPrice * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -7749,7 +7787,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774803954713231366>')
 
@@ -7771,8 +7809,8 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             pdWtbPricemin = arguments
-
-            for(; pdWtbPricemin < pdWtbPrice; pdWtbPricemin++) {
+            min=pdWtbPricemin
+            for(; min < pdWtbPrice; min++) {
 
 
                 client.channels.get(wtbChannelId).send('<@&774803955078266890>')
@@ -7780,7 +7818,7 @@ client.on('message', receivedMessage => {
                 if(message.channel.id == '710921374939742298') {
 
 
-                    if(message.content.toString().toLowerCase(), includes(pdWtbPricemin)) {
+                    if(message.content.toString().toLowerCase(), includes(min)) {
 
 
                         userId = message.author.id
@@ -7797,7 +7835,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Project Destroyer WTB Listing Found')
-                            .addField('Price', '$' + pdWtbPricemin + ' - ' + '€' + pdWtbPricemin * .86 + ' - ' + '¥' + pdWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -7806,7 +7844,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send(pdEmbed)
@@ -7815,7 +7853,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626996604603465738') {
 
-                    if(message.content.toString().toLowerCase(), includes(pdWtbPricemin)) {
+                    if(message.content.toString().toLowerCase(), includes(min)) {
 
 
                         userId = message.author.id
@@ -7832,7 +7870,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Project Destroyer WTB Listing Found')
-                            .addField('Price', '$' + pdWtbPricemin + ' - ' + '€' + pdWtbPricemin * .86 + ' - ' + '¥' + pdWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -7841,7 +7879,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send(pdEmbed)
@@ -7851,7 +7889,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079582606196826') {
 
-                    if(message.content.toString().toLowerCase(), includes(pdWtbPricemin)) {
+                    if(message.content.toString().toLowerCase(), includes(min)) {
 
 
                         userId = message.author.id
@@ -7868,7 +7906,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Project Destroyer WTB Listing Found')
-                            .addField('Price', '$' + pdWtbPricemin + ' - ' + '€' + pdWtbPricemin * .86 + ' - ' + '¥' + pdWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
                             .addField('Link To Seller', hyperSeller2)
 
@@ -7877,7 +7915,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send(pdEmbed)
@@ -7896,8 +7934,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             dasheWtbPricemin = arguments
-
-            for(; dasheWtbPricemin < dasheWtbPrice; dasheWtbPricemin++) {
+            min=dasheWtbPricemin
+            for(; min < dasheWtbPrice; min++) {
 
 
 
@@ -7916,7 +7954,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Dashe WTB Listing Found')
-                        .addField('Price', '$' + dasheWtbPricemin + ' - ' + '€' + dasheWtbPricemin * .86 + ' - ' + '¥' + dasheWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -7926,7 +7964,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                     client.channels.get(wtbChannelId).send('<@&774500633020989512>')
 
                     client.channels.get(wtbChannelId).send(dasheEmbed)
@@ -7943,8 +7981,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             tohruWtbPricemin = arguments
-
-            for(; tohruWtbPricemin < tohruWtbPrice; tohruWtbPricemin++) {
+            min=tohruWtbPricemin
+            for(; min < tohruWtbPrice; min++) {
 
 
 
@@ -7952,7 +7990,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(tohruWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -7969,7 +8007,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Tohru WTB Listing Found')
-                            .addField('Price', '$' + tohruWtbPricemin + ' - ' + '€' + tohruWtbPricemin * .86 + ' - ' + '¥' + tohruWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -7979,7 +8017,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804317387096134>')
@@ -7993,7 +8031,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '733784514769191013') {
 
-                    if(message.content.toString().toLowerCase().includes(tohruWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -8011,7 +8049,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Tohru WTB Listing Found')
-                            .addField('Price', '$' + tohruWtbPricemin + ' - ' + '€' + tohruWtbPricemin * .86 + ' - ' + '¥' + tohruWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8021,7 +8059,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804317387096134>')
 
@@ -8034,7 +8072,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '750079302409781380') {
 
-                    if(message.content.toString().toLowerCase().includes(tohruWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8051,7 +8089,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Tohru WTB Listing Found')
-                            .addField('Price', '$' + tohruWtbPricemin + ' - ' + '€' + tohruWtbPricemin * .86 + ' - ' + '¥' + tohruWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8061,7 +8099,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804317387096134>')
@@ -8084,8 +8122,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             phantomWtbPricemin = arguments
-
-            for(; phantomWtbPricemin < phantomWtbPrice; phantomWtbPricemin++) {
+            min=phantomWtbPricemin
+            for(; min < phantomWtbPrice; min++) {
 
 
 
@@ -8093,7 +8131,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(phantomWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8110,7 +8148,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Phantom WTB Listing Found')
-                            .addField('Price', '$' + phantomWtbPricemin + ' - ' + '€' + phantomWtbPricemin * .86 + ' - ' + '¥' + phantomWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8120,7 +8158,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804319785975839>')
@@ -8131,7 +8169,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '627359748051697674') {
-                    if(message.content.toString().toLowerCase().includes(phantomWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -8149,7 +8187,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Phantom WTB Listing Found')
-                            .addField('Price', '$' + phantomWtbPricemin + ' - ' + '€' + phantomWtbPricemin * .86 + ' - ' + '¥' + phantomWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8159,7 +8197,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804319785975839>')
 
@@ -8170,7 +8208,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '750079509361066107') {
-                    if(message.content.toString().toLowerCase().includes(phantomWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -8188,7 +8226,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Phantom WTB Listing Found')
-                            .addField('Price', '$' + phantomWtbPricemin + ' - ' + '€' + phantomWtbPricemin * .86 + ' - ' + '¥' + phantomWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8198,7 +8236,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804319785975839>')
 
@@ -8218,17 +8256,17 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             adeptWtbPricemin = arguments
+            min=adeptWtbPricemin
 
 
-
-            for(; adeptWtbPricemin < adeptWtbPrice; adeptWtbPricemin++) {
+            for(; min < adeptWtbPrice; min++) {
 
 
                 if(message.channel.id == '700487424937295877') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(adeptWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -8246,7 +8284,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Adept WTB Listing Found')
-                            .addField('Price', '$' + adeptWtbPricemin + ' - ' + '€' + adeptWtbPricemin * .86 + ' - ' + '¥' + adeptWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8256,7 +8294,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774804319819792395>')
 
 
@@ -8267,7 +8305,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '626999229210165268') {
 
-                    if(message.content.toString().toLowerCase().includes(adeptWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8284,7 +8322,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Adept WTB Listing Found')
-                            .addField('Price', '$' + adeptWtbPricemin + ' - ' + '€' + adeptWtbPricemin * .86 + ' - ' + '¥' + adeptWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8294,7 +8332,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804319819792395>')
 
@@ -8306,7 +8344,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '750079951725920346') {
 
-                    if(message.content.toString().toLowerCase().includes(adeptWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -8324,7 +8362,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Adept WTB Listing Found')
-                            .addField('Price', '$' + adeptWtbPricemin + ' - ' + '€' + adeptWtbPricemin * .86 + ' - ' + '¥' + adeptWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8334,7 +8372,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
                         client.channels.get(wtbChannelId).send('<@&774804319819792395>')
 
 
@@ -8354,8 +8392,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             burstWtbPricemin = arguments
-
-            for(; burstWtbPricemin < burstWtbPrice; burstWtbPricemin++) {
+            min=burstWtbPricemin
+            for(; min < burstWtbPrice; min++) {
 
 
 
@@ -8364,7 +8402,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(burstWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -8380,7 +8418,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Burst WTB Listing Found')
-                            .addField('Price', '$' + burstWtbPricemin + ' - ' + '€' + burstWtbPricemin * .86 + ' - ' + '¥' + burstWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8390,7 +8428,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804320490225674>')
 
@@ -8411,14 +8449,14 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             cyberWtbPricemin = arguments
-
-            for(; cyberWtbPricemin < cyberWtbPrice; cyberWtbPricemin++) {
+            min=cyberWtbPricemin
+            for(; min < cyberWtbPrice; min++) {
 
 
                 if(message.channel.id == '626930513768087552') {
 
 
-                    if(message.content.toString().toLowerCase().includes(cyberWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -8435,7 +8473,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Cyber WTB Listing Found')
-                            .addField('Price', '$' + cyberWtbPricemin + ' - ' + '€' + cyberWtbPricemin * .86 + ' - ' + '¥' + cyberWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8445,7 +8483,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804321362640906>')
 
@@ -8457,7 +8495,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '750080045221019778') {
 
-                    if(message.content.toString().toLowerCase().includes(cyberWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -8473,7 +8511,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Cyber WTB Listing Found')
-                            .addField('Price', '$' + cyberWtbPricemin + ' - ' + '€' + cyberWtbPricemin * .86 + ' - ' + '¥' + cyberWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8483,7 +8521,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804321362640906>')
@@ -8497,7 +8535,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '710921814204874782') {
 
-                    if(message.content.toString().toLowerCase().includes(cyberWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -8513,7 +8551,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Cyber WTB Listing Found')
-                            .addField('Price', '$' + cyberWtbPricemin + ' - ' + '€' + cyberWtbPricemin * .86 + ' - ' + '¥' + cyberWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8523,7 +8561,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804321362640906>')
@@ -8546,15 +8584,15 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             estockWtbPricemin = arguments
-
-            for(; estockWtbPricemin < estockWtbPrice; estockWtbPricemin++) {
+            min=estockWtbPricemin
+            for(; min < estockWtbPrice; min++) {
 
 
                 if(message.channel.id == '761090584420810782') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(estockWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -8572,7 +8610,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Estock WTB Listing Found')
-                            .addField('Price', '$' + estockWtbPricemin + ' - ' + '€' + estockWtbPricemin * .86 + ' - ' + '¥' + estockWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8582,7 +8620,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804939720753172>')
 
@@ -8604,15 +8642,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             eveWtbPrice = arguments
-
-            for(; eveWtbPricemin < eveWtbPrice; eveWtbPricemin++) {
+            min=eveWtbPrice
+            for(; min < eveWtbPrice; min++) {
 
 
                 if(message.channel.id == '710921775554494547') {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(eveWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
 
@@ -8631,7 +8669,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Eve WTB Listing Found')
-                            .addField('Price', '$' + eveWtbPricemin + ' - ' + '€' + eveWtbPricemin * .86 + ' - ' + '¥' + eveWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8641,7 +8679,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804941478821888>')
 
@@ -8652,7 +8690,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '626998019023175700') {
-                    if(message.content.toString().toLowerCase().includes(eveWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
 
@@ -8671,7 +8709,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Eve WTB Listing Found')
-                            .addField('Price', '$' + eveWtbPricemin + ' - ' + '€' + eveWtbPricemin * .86 + ' - ' + '¥' + eveWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8681,7 +8719,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804941478821888>')
 
@@ -8692,7 +8730,7 @@ client.on('message', receivedMessage => {
                     }
 
                 } else if(message.channel.id == '750079801586352320') {
-                    if(message.content.toString().toLowerCase().includes(eveWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -8710,7 +8748,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Eve WTB Listing Found')
-                            .addField('Price', '$' + eveWtbPricemin + ' - ' + '€' + eveWtbPricemin * .86 + ' - ' + '¥' + eveWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -8720,7 +8758,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804941478821888>')
@@ -8742,11 +8780,11 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             galaxsioWtbPricemin = arguments
+            min=galaxsioWtbPricemin
 
+            for(; min < galaxsioWtbPrice; min++) {
 
-            for(; galaxsioWtbPricemin < galaxsioWtbPrice; galaxsioWtbPricemin++) {
-
-                if(message.content.toString().toLowerCase() === 'wtb galaxsio ' + (galaxsioWtbPricemin)) {
+                if(message.content.toString().toLowerCase() === 'wtb galaxsio ' + (min)) {
 
 
                     userId = message.author.id
@@ -8764,7 +8802,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
-                        .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -8774,7 +8812,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
 
@@ -8783,7 +8821,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (galaxsioWtbPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (min)) {
 
 
                     userId = message.author.id
@@ -8801,7 +8839,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
-                        .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -8811,7 +8849,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
@@ -8820,7 +8858,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lifetime $' + (galaxsioWtbPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lifetime $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -8837,7 +8875,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
-                        .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -8847,7 +8885,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
 
@@ -8856,7 +8894,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lifetime $' + (galaxsioWtbPricemin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lifetime $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -8873,7 +8911,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
-                        .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -8883,7 +8921,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
@@ -8892,7 +8930,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lt $' + (galaxsioWtbPricemin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio lt $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -8909,7 +8947,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
-                        .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -8919,7 +8957,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
@@ -8929,7 +8967,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (galaxsioWtbPricemin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (min / 1000) + 'k') {
 
 
                     userId = message.author.id
@@ -8947,7 +8985,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
-                        .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -8957,7 +8995,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
 
@@ -8966,7 +9004,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (galaxsioWtbPricemin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wtb galaxsio $' + (min / 1000) + 'k') {
 
 
                     userId = message.author.id
@@ -8984,7 +9022,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Galaxsio WTB Listing Found')
-                        .addField('Price', '$' + galaxsioWtbPricemin + ' - ' + '€' + galaxsioWtbPricemin * .86 + ' - ' + '¥' + galaxsioWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -8994,7 +9032,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774804944536076318>')
@@ -9015,8 +9053,8 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             hawkWtbPricemin = arguments
-
-            for(; hawkWtbPricemin < hawkWtbPrice; hawkWtbPricemin++) {
+            min=hawkWtbPricemin
+            for(; min < hawkWtbPrice; min++) {
 
 
                 if(message.channel.id == '626998937009782784') {
@@ -9024,7 +9062,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(hawkWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
 
@@ -9043,7 +9081,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hawk Mesh WTB Listing Found')
-                            .addField('Price', '$' + hawkWtbPricemin + ' - ' + '€' + hawkWtbPricemin * .86 + ' - ' + '¥' + hawkWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9053,7 +9091,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804946059132938>')
 
@@ -9064,7 +9102,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '710921626534805575') {
 
-                    if(message.content.toString().toLowerCase().includes(hawkWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -9082,7 +9120,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hawk Mesh WTB Listing Found')
-                            .addField('Price', '$' + hawkWtbPricemin + ' - ' + '€' + hawkWtbPricemin * .86 + ' - ' + '¥' + hawkWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9092,7 +9130,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804946059132938>')
@@ -9114,8 +9152,8 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             ganeshWtbPricemin = arguments
-
-            for(; ganeshWtbPricemin < ganeshWtbPrice; ganeshWtbPricemin++) {
+            min=ganeshWtbPricemin
+            for(; min < ganeshWtbPrice; min++) {
 
 
                 if(message.channel.id == '700487206904528948') {
@@ -9123,7 +9161,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(ganeshWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
 
@@ -9142,7 +9180,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Ganesh WTB Listing Found')
-                            .addField('Price', '$' + ganeshWtbPricemin + ' - ' + '€' + ganeshWtbPricemin * .86 + ' - ' + '¥' + ganeshWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9152,7 +9190,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774804947967410176>')
 
@@ -9162,7 +9200,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '626998513175363594') {
-                    if(message.content.toString().toLowerCase().includes(ganeshWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -9180,7 +9218,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Ganesh WTB Listing Found')
-                            .addField('Price', '$' + ganeshWtbPricemin + ' - ' + '€' + ganeshWtbPricemin * .86 + ' - ' + '¥' + ganeshWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9190,7 +9228,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804947967410176>')
@@ -9201,7 +9239,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '764754256087089172') {
-                    if(message.content.toString().toLowerCase().includes(ganeshWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -9219,7 +9257,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Ganesh WTB Listing Found')
-                            .addField('Price', '$' + ganeshWtbPricemin + ' - ' + '€' + ganeshWtbPricemin * .86 + ' - ' + '¥' + ganeshWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9229,7 +9267,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774804947967410176>')
@@ -9251,8 +9289,8 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             hayhaWtbPricemin = arguments
-
-            for(; hayhaWtbPricemin < hayhaWtbPrice; hayhaWtbPricemin++) {
+            min=hayhaWtbPricemin
+            for(; min < hayhaWtbPrice; min++) {
 
 
                 if(message.channel.id == '710921584302620712') {
@@ -9260,7 +9298,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(hayhaWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
 
@@ -9279,7 +9317,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hayha WTB Listing Found')
-                            .addField('Price', '$' + hayhaWtbPricemin + ' - ' + '€' + hayhaWtbPricemin * .86 + ' - ' + '¥' + hayhaWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9289,7 +9327,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774805427098746950>')
 
@@ -9300,7 +9338,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '699454406235521034') {
-                    if(message.content.toString().toLowerCase().includes(hayhaWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -9318,7 +9356,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hayha WTB Listing Found')
-                            .addField('Price', '$' + hayhaWtbPricemin + ' - ' + '€' + hayhaWtbPricemin * .86 + ' - ' + '¥' + hayhaWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9328,7 +9366,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774805427098746950>')
@@ -9342,7 +9380,7 @@ client.on('message', receivedMessage => {
 
 
                 } else if(message.channel.id == '752600603938652300') {
-                    if(message.content.toString().toLowerCase().includes(hayhaWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
 
@@ -9361,7 +9399,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Hayha WTB Listing Found')
-                            .addField('Price', '$' + hayhaWtbPricemin + ' - ' + '€' + hayhaWtbPricemin * .86 + ' - ' + '¥' + hayhaWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9371,7 +9409,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                         client.channels.get(wtbChannelId).send('<@&774805427098746950>')
 
@@ -9394,8 +9432,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             kiloWtbPricemin = arguments
-
-            for(; kiloWtbPricemin < kiloWtbPrice; kiloWtbPricemin++) {
+            min=kiloWtbPricemin
+            for(; min < kiloWtbPrice; min++) {
 
 
 
@@ -9404,7 +9442,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(kiloWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -9421,7 +9459,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Kilo WTB Listing Found')
-                            .addField('Price', '$' + kiloWtbPricemin + ' - ' + '€' + kiloWtbPricemin * .86 + ' - ' + '¥' + kiloWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9431,7 +9469,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774805429858467841>')
@@ -9453,8 +9491,8 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             flareWtbPricemin = arguments
-
-            for(; flareWtbPricemin < flareWtbPrice; flareWtbPricemin++) {
+            min=flareWtbPricemin
+            for(; min < flareWtbPrice; min++) {
 
 
 
@@ -9463,7 +9501,7 @@ client.on('message', receivedMessage => {
 
 
 
-                    if(message.content.toString().toLowerCase().includes(flareWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
 
                         userId = message.author.id
@@ -9481,7 +9519,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Flare WTB Listing Found')
-                            .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9491,7 +9529,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                         client.channels.get(wtbChannelId).send('<@&774805432521981972>')
@@ -9502,7 +9540,7 @@ client.on('message', receivedMessage => {
 
                     }
                 } else if(message.channel.id == '692632554792288286') {
-                    if(message.content.toString().toLowerCase().includes(flareWtbPricemin)) {
+                    if(message.content.toString().toLowerCase().includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -9519,7 +9557,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Flare WTB Listing Found')
-                            .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9529,7 +9567,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -9552,15 +9590,15 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             fleekWtbPricemin = arguments
-
-            for(; fleekWtbPricemin < fleekWtbPrice; flareWtbPricemin++) {
+            min=fleekWtbPricemin
+            for(; min < fleekWtbPrice; min++) {
 
                 if(message.channel.id == '710921712178430073') {
 
 
 
 
-                    if(message.content.toString().toLowerCase(), includes(flareWtbPricemin)) {
+                    if(message.content.toString().toLowerCase(), includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -9576,7 +9614,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Fleek WTB Listing Found')
-                            .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9586,7 +9624,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -9602,7 +9640,7 @@ client.on('message', receivedMessage => {
 
                 } else if(message.channel.id == '626999475918864404') {
 
-                    if(message.content.toString().toLowerCase(), includes(flareWtbPricemin)) {
+                    if(message.content.toString().toLowerCase(), includes(min)) {
                         userId = message.author.id
                         messageId = message.id
                         channelId = message.channel.id
@@ -9618,7 +9656,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Fleek WTB Listing Found')
-                            .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9628,7 +9666,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -9643,7 +9681,7 @@ client.on('message', receivedMessage => {
                     }
                 } else if(message.channel.id == '759444409158467604') {
 
-                    if(message.content.toString().toLowerCase(), includes(flareWtbPricemin)) {
+                    if(message.content.toString().toLowerCase(), includes(min)) {
 
                         userId = message.author.id
                         messageId = message.id
@@ -9660,7 +9698,7 @@ client.on('message', receivedMessage => {
 
                             .setColor('#f9475d')
                             .setTitle('Fleek WTB Listing Found')
-                            .addField('Price', '$' + flareWtbPricemin + ' - ' + '€' + flareWtbPricemin * .86 + ' - ' + '¥' + flareWtbPricemin * 6.67, true)
+                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                             .addField('Seller', message.author.tag, true)
 
                             .addField('Link To Seller', hyperSeller2)
@@ -9670,7 +9708,7 @@ client.on('message', receivedMessage => {
 
 
                             .setTimestamp()
-                            .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -9694,14 +9732,14 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
             nebulaWtbPricemin = arguments
+            min=nebulaWtbPricemin
+
+            for(; min < nebulaWtbPrice; min++) {
 
 
-            for(; nebulaWtbPricemin < nebulaWtbPrice; nebulaWtbPricemin++) {
 
 
-
-
-                if(message.content.toString().toLowerCase() === 'wtb nebula ' + (nebulaWtbPricemin)) {
+                if(message.content.toString().toLowerCase() === 'wtb nebula ' + (min)) {
 
 
                     userId = message.author.id
@@ -9719,7 +9757,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Nebula WTB Listing Found')
-                        .addField('Price', '$' + nebulaWtbPricemin + ' - ' + '€' + nebulaWtbPricemin * .86 + ' - ' + '¥' + nebulaWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -9729,7 +9767,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774805952116686848>')
 
@@ -9738,7 +9776,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb nebula $' + (nebulaWtbPricemin)) {
+                } else if(message.content.toString().toLowerCase() === 'wtb nebula $' + (min)) {
 
                     userId = message.author.id
                     messageId = message.id
@@ -9755,7 +9793,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Nebula WTB Listing Found')
-                        .addField('Price', '$' + nebulaWtbPricemin + ' - ' + '€' + nebulaWtbPricemin * .86 + ' - ' + '¥' + nebulaWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -9765,7 +9803,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774805952116686848>')
@@ -9775,7 +9813,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb nebula ' + (nebulaWtbPricemin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wtb nebula ' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -9792,7 +9830,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Nebula WTB Listing Found')
-                        .addField('Price', '$' + nebulaWtbPricemin + ' - ' + '€' + nebulaWtbPricemin * .86 + ' - ' + '¥' + nebulaWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -9802,7 +9840,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
                     client.channels.get(wtbChannelId).send('<@&774805952116686848>')
 
@@ -9811,7 +9849,7 @@ client.on('message', receivedMessage => {
 
 
 
-                } else if(message.content.toString().toLowerCase() === 'wtb nebula $' + (nebulaWtbPricemin / 1000) + 'k') {
+                } else if(message.content.toString().toLowerCase() === 'wtb nebula $' + (min / 1000) + 'k') {
 
                     userId = message.author.id
                     messageId = message.id
@@ -9828,7 +9866,7 @@ client.on('message', receivedMessage => {
 
                         .setColor('#f9475d')
                         .setTitle('Nebula WTB Listing Found')
-                        .addField('Price', '$' + nebulaWtbPricemin + ' - ' + '€' + nebulaWtbPricemin * .86 + ' - ' + '¥' + nebulaWtbPricemin * 6.67, true)
+                        .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
                         .addField('Seller', message.author.tag, true)
 
                         .addField('Link To Seller', hyperSeller2)
@@ -9838,7 +9876,7 @@ client.on('message', receivedMessage => {
 
 
                         .setTimestamp()
-                        .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                        .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                     client.channels.get(wtbChannelId).send('<@&774805952116686848>')
@@ -9888,7 +9926,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                 client.channels.get(wtbChannelId).send('<@&774805980637823036>')
@@ -9925,7 +9963,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
 
@@ -9962,7 +10000,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                 client.channels.get(wtbChannelId).send('<@&774805980637823036>')
@@ -9999,7 +10037,7 @@ client.on('message', receivedMessage => {
 
 
                     .setTimestamp()
-                    .setFooter('KubeIO Monitor • Nautical#1010', 'https://i.imgur.com/qMKnaDQ.jpg');
+                    .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
 
                 client.channels.get(wtbChannelId).send('<@&774805980637823036>')
