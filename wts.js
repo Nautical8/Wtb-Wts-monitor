@@ -2,6 +2,8 @@ const Discord = require('discord.js');
 const user = new Discord.Client();
 const client = new Discord.Client();
 
+require('events').EventEmitter.defaultMaxListeners = 10000;
+
 
 // Replace BOT_TOKEN with your bot account's token
 
@@ -352,7 +354,7 @@ client.on('message', receivedMessage => {
 
 
                                     receivedMessage.edit(Current6)
-
+                        break;      
                                 }
 
 
@@ -2442,10 +2444,10 @@ client.on('message', receivedMessage => {
     function balkoWts(arguments, receivedMessage) {
 
 
-
         user.on('message', message => { // When a message is created
             balkoPriceWtsmin = arguments
-            min=balkoPriceWtb   
+        min=balkoPriceWtsmin   
+
             for(; min < balkoPriceWts; min++) {
 
 
@@ -2527,7 +2529,6 @@ client.on('message', receivedMessage => {
 
                     if(message.content.toString().toLowerCase().includes(min)) {
 
-                        if(message.content.toString().toLowerCase().includes(min)) {
                             userId = message.author.id
                             messageId = message.id
                             channelId = message.channel.id
@@ -2565,7 +2566,7 @@ client.on('message', receivedMessage => {
 
                     }
                 }
-            }
+            
         });
 
 
@@ -2578,7 +2579,7 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             f3PriceWtsmin = arguments
-            min=f3PriceWtbmin
+            min=f3PriceWtsmin
 
             for(; min < f3PriceWts; min++) {
 
@@ -2702,7 +2703,7 @@ client.on('message', receivedMessage => {
 
 
             rushPriceWtsmin = arguments
-                min=rushPriceWtbmin
+                min=rushPriceWtsmin
             for(; min < rushPriceWts; min++) {
 
 
@@ -2823,7 +2824,7 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             mercuryPriceWtsmin = arguments
-                min=mercuryPriceWtbmin
+                min=mercuryPriceWtsmin
 
             for(; min < mercuryPriceWts; min++) {
 
