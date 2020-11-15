@@ -8669,8 +8669,8 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            eveWtbPrice = arguments
-            min=eveWtbPrice
+            eveWtbPricemin = arguments
+            min=eveWtbPricemin
             for(; min < eveWtbPrice; min++) {
 
                 if (message.content.includes("<:" )) {
