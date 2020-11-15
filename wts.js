@@ -2401,7 +2401,9 @@ client.on('message', receivedMessage => {
 
             for(; min < balkoPriceWts; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '772833340327329812') {
 
 
@@ -2532,7 +2534,9 @@ client.on('message', receivedMessage => {
 
             for(; min < f3PriceWts; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921760303742976') {
 
                     if(message.content.toString().includes(min)) {
@@ -2656,7 +2660,9 @@ client.on('message', receivedMessage => {
             for(; min < rushPriceWts; min++) {
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '752600540252209152') {
 
@@ -2776,6 +2782,10 @@ client.on('message', receivedMessage => {
                 min=mercuryPriceWtsmin
 
             for(; min < mercuryPriceWts; min++) {
+
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.content.toString() === 'wts mercury ' + (min)) {
 
@@ -3034,7 +3044,9 @@ client.on('message', receivedMessage => {
             solePriceWtsmin = arguments
             min=solePriceWtsmin
             for(; min < solePriceWts; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '700486817496957000') {
 
@@ -3156,7 +3168,9 @@ client.on('message', receivedMessage => {
            min= wrathWTsPricemin
             for(; min < wrathWTsPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
 
                 if(message.channel.id == '710921120542359582') {
@@ -3281,7 +3295,9 @@ client.on('message', receivedMessage => {
             veloxWtsPricemin = arguments
             min=veloxWtsPricemin
             for(; min < veloxWtsPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921145146408972') {
 
@@ -3424,6 +3440,10 @@ client.on('message', receivedMessage => {
             min=mekWtsPricemin
             for(; min < mekWtbPrice; min++) {
 
+
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921442967158872') {
 
 
@@ -3559,7 +3579,9 @@ client.on('message', receivedMessage => {
 
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921405935517697') {
 
 
@@ -3696,7 +3718,9 @@ client.on('message', receivedMessage => {
             min=polarisWtsPricemin
             for(; min < polarisWtsPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921405935517697') {
 
 
@@ -3838,7 +3862,9 @@ client.on('message', receivedMessage => {
              
               
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.content.toString().toLowerCase() === 'wts splash force ' + (min)) {
 
@@ -3999,7 +4025,9 @@ client.on('message', receivedMessage => {
             min=pdWtsPricemin
             for(; min < pdWtsPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921389552566303') {
 
@@ -4134,7 +4162,9 @@ client.on('message', receivedMessage => {
             for(; min < dasheWtsPrice; min++) {
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921806243954770') {
 
@@ -4189,7 +4219,9 @@ client.on('message', receivedMessage => {
             for(; min < tohruWtsPrice; min++) {
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '733784476546498651') {
 
@@ -4324,7 +4356,9 @@ client.on('message', receivedMessage => {
             phantomWtsPricemin = arguments
             min=phantomWtsPricemin
             for(; min < phantomWtsPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921653739323402') {
 
@@ -4461,6 +4495,10 @@ client.on('message', receivedMessage => {
             min=adeptWtsPricemin
 
             for(; min < adeptWtsPrice; min++) {
+
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921903249948802') {
 
@@ -4599,7 +4637,9 @@ client.on('message', receivedMessage => {
             for(; min < burstWtbPrice; min++) {
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '762401756437020703') {
 
@@ -4654,7 +4694,9 @@ client.on('message', receivedMessage => {
             cyberWtsPricemin = arguments
 
             for(; min < cyberWtsPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921830558335087') {
 
@@ -4796,6 +4838,10 @@ client.on('message', receivedMessage => {
             min=estockWtsPricemin
             for(; min < estockWtsPrice; min++) {
 
+                if (message.content.includes("<:" )) {
+                    return
+                }
+
                 if(message.channel.id == '761090509858406400') {
 
 
@@ -4853,7 +4899,9 @@ client.on('message', receivedMessage => {
             min=eveWtsPricemin
             for(; min < eveWtsPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921786321141911') {
 
 
@@ -4994,7 +5042,9 @@ client.on('message', receivedMessage => {
 
 
             for(; min < galaxsioWtsPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '692817365561376788') {
 
@@ -5050,8 +5100,9 @@ client.on('message', receivedMessage => {
             min=hawkWtsPricemin
             for(; min < hawkWtsPrice; min++) {
 
-                userId = message.author.id
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921635976446002') {
 
@@ -5146,7 +5197,9 @@ client.on('message', receivedMessage => {
             for(; min < ganeshWtsPrice; min++) {
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921675998494770') {
 
@@ -5286,7 +5339,9 @@ client.on('message', receivedMessage => {
             hayhaWtsPricemin = arguments
             min=hayhaWtsPricemin
             for(; min < hayhaWtsPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921620025376769') {
 
@@ -5420,7 +5475,9 @@ client.on('message', receivedMessage => {
             min=kiloWtsPricemin
             for(; min < kiloWtsPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '733784066284978307') {
 
 
@@ -5514,7 +5571,9 @@ client.on('message', receivedMessage => {
             for(; min < flareWtsPrice; min++) {
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921725759455253') {
 
 
@@ -5613,7 +5672,9 @@ client.on('message', receivedMessage => {
             fleekWtsPricemin = arguments
             min=fleekWtsPricemin
             for(; min < fleekWtsPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
 
                 if(message.channel.id == '700487250483478560') {
@@ -5752,7 +5813,9 @@ client.on('message', receivedMessage => {
             nebulaWtsPricemin = arguments
             min=nebulaWtsPricemin
             for(; min < nebulaWtsPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.content.toString() === 'wts nebula ' + (min)) {
 
@@ -5890,6 +5953,10 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
             customWtsPrice = arguments
+
+            if (message.content.includes("<:" )) {
+                return
+            }
             if(message.content.toString() === 'wts ' + (customBotWtsPrice) + ' ' + (customWtsPrice)) {
 
                 userId = message.author.id
@@ -6119,7 +6186,9 @@ client.on('message', receivedMessage => {
             min=balkoPriceWtbmin
             for(; min < min; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921862888161440') {
 
 
@@ -6255,7 +6324,9 @@ client.on('message', receivedMessage => {
             min=f3PriceWtbmin
             for(; min < f3PriceWts; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921740297044008') {
 
@@ -6387,7 +6458,9 @@ client.on('message', receivedMessage => {
             for(; min < rushPriceWtb; min++) {
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '736704547434790954') {
 
@@ -6512,7 +6585,9 @@ client.on('message', receivedMessage => {
             mercuryPriceWtbmin = arguments
             min=mercuryPriceWtbmin
             for(; min < mercuryPriceWtb; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.content.toString() === 'wtb mercury ' + (min)) {
 
                     userId = message.author.id
@@ -6775,7 +6850,9 @@ client.on('message', receivedMessage => {
             solePriceWtbmin = arguments
             min=solePriceWtbmin
             for(; min < solePriceWtb; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921331872366644') {
 
@@ -6904,7 +6981,9 @@ client.on('message', receivedMessage => {
             min=wrathWtbPricemin
             for(; min < wrathWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '733784514769191013') {
 
 
@@ -7029,7 +7108,9 @@ client.on('message', receivedMessage => {
             min=veloxWtbPricemin
             for(; min < veloxWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
 
                 if(message.channel.id == '634518624677396501') {
@@ -7164,7 +7245,9 @@ client.on('message', receivedMessage => {
             mekWtbPricemin = arguments
             min=mekWtbPricemin
             for(; min < mekWtbPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921433987022878') {
 
@@ -7299,7 +7382,9 @@ client.on('message', receivedMessage => {
             for(; min < prismWtbPrice; min++) {
 
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921411757211689') {
 
 
@@ -7436,7 +7521,9 @@ client.on('message', receivedMessage => {
             min=polarisWtbPricemin
             for(; min < polarisWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
 
                 if(message.channel.id == '713875954224726228') {
@@ -7574,7 +7661,9 @@ client.on('message', receivedMessage => {
 
             for(; min < splashForceWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.content.toString().toLowerCase() === 'wtb splash force ' + (min)) {
 
@@ -7732,8 +7821,9 @@ client.on('message', receivedMessage => {
             min=pdWtbPricemin
             for(; min < pdWtbPrice; min++) {
 
-
-                client.channels.get(wtbChannelId).send('<@&774803955078266890>')
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921374939742298') {
 
@@ -7857,7 +7947,9 @@ client.on('message', receivedMessage => {
             min=dasheWtbPricemin
             for(; min < dasheWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921801102000199') {
 
@@ -7908,7 +8000,9 @@ client.on('message', receivedMessage => {
             min=tohruWtbPricemin
             for(; min < tohruWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '734522776559419503') {
 
@@ -8048,7 +8142,9 @@ client.on('message', receivedMessage => {
             phantomWtbPricemin = arguments
             min=phantomWtbPricemin
             for(; min < phantomWtbPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
 
                 if(message.channel.id == '710921644104876042') {
@@ -8185,7 +8281,9 @@ client.on('message', receivedMessage => {
 
             for(; min < adeptWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '700487424937295877') {
 
 
@@ -8319,7 +8417,9 @@ client.on('message', receivedMessage => {
             min=burstWtbPricemin
             for(; min < burstWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
 
                 if(message.channel.id == '762401858710667264') {
@@ -8376,7 +8476,9 @@ client.on('message', receivedMessage => {
             min=cyberWtbPricemin
             for(; min < cyberWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '626930513768087552') {
 
 
@@ -8510,7 +8612,9 @@ client.on('message', receivedMessage => {
             estockWtbPricemin = arguments
             min=estockWtbPricemin
             for(; min < estockWtbPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '761090584420810782') {
 
@@ -8569,7 +8673,9 @@ client.on('message', receivedMessage => {
             min=eveWtbPrice
             for(; min < eveWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921775554494547') {
 
 
@@ -8707,7 +8813,9 @@ client.on('message', receivedMessage => {
             min=galaxsioWtbPricemin
 
             for(; min < galaxsioWtbPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.content.toString() === 'wtb galaxsio ' + (min)) {
 
 
@@ -8979,7 +9087,9 @@ client.on('message', receivedMessage => {
             hawkWtbPricemin = arguments
             min=hawkWtbPricemin
             for(; min < hawkWtbPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '626998937009782784') {
 
@@ -9079,7 +9189,9 @@ client.on('message', receivedMessage => {
             min=ganeshWtbPricemin
             for(; min < ganeshWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '700487206904528948') {
 
 
@@ -9215,7 +9327,9 @@ client.on('message', receivedMessage => {
             hayhaWtbPricemin = arguments
             min=hayhaWtbPricemin
             for(; min < hayhaWtbPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '710921584302620712') {
 
@@ -9358,7 +9472,9 @@ client.on('message', receivedMessage => {
             kiloWtbPricemin = arguments
             min=kiloWtbPricemin
             for(; min < kiloWtbPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
 
                 if(message.channel.id == '734523543588569139') {
@@ -9418,7 +9534,9 @@ client.on('message', receivedMessage => {
             min=flareWtbPricemin
             for(; min < flareWtbPrice; min++) {
 
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
 
                 if(message.channel.id == '700487256477138964') {
 
@@ -9516,7 +9634,9 @@ client.on('message', receivedMessage => {
             fleekWtbPricemin = arguments
             min=fleekWtbPricemin
             for(; min < fleekWtbPrice; min++) {
-
+                if (message.content.includes("<:" )) {
+                    return
+                }
                 if(message.channel.id == '710921712178430073') {
 
 
@@ -9657,7 +9777,9 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
             nebulaWtbPricemin = arguments
             min=nebulaWtbPricemin
-
+            if (message.content.includes("<:" )) {
+                return
+            }
             for(; min < nebulaWtbPrice; min++) {
 
 
@@ -9821,7 +9943,9 @@ client.on('message', receivedMessage => {
 
         customWtbPrice = arguments
         user.on('message', message => { // When a message is created
-
+            if (message.content.includes("<:" )) {
+                return
+            }
 
             if(message.content.toString() === 'wtb ' + (customBotWtbPrice) + ' ' + (customWtbPrice)) {
 
