@@ -10135,6 +10135,34 @@ client.on('message', receivedMessage => {
         customBotWtbPrice = null
 
 
+        balkoPriceWtbmin = null
+        f3PriceWtbmin = null
+        rushPriceWtbmin = null
+        mercuryPriceWtbmin = null
+        solePriceWtbmin = null
+        wrathWtbPricemin = null
+        veloxWtbPricemin = null
+        mekWtbPricemin = null
+        prismWtbPricemin = null
+        polarisWtbPricemin = null
+        splashForceWtbPricemin = null
+        pdWtbPricemin = null
+        dasheWtbPricemin = null
+        tohruWtbPricemin = null
+        phantomWtbPricemin = null
+        adeptWtbPricemin = null
+        burstWtbPricemin = null
+        cyberWtbPricemin = null
+        estockWtbPricemin = null
+        eveWtbPricemin = null
+        galaxsioWtbPricemin = null
+        hawkWtbPricemin = null
+        ganeshWtbPricemin = null
+        hayhaWtbPricemin = null
+        kiloWtbPricemin = null
+        flareWtbPricemin = null
+        fleekWtbPricemin = null
+        nebulaWtbPricemin = null
 
     }
 
@@ -10203,6 +10231,64 @@ client.on('message', receivedMessage => {
         nebulaWtbPrice = null
         customWtbPrice = null
         customBotWtbPrice = null
+        
+ balkoPriceWtbmin = null
+ f3PriceWtbmin = null
+ rushPriceWtbmin = null
+ mercuryPriceWtbmin = null
+ solePriceWtbmin = null
+ wrathWtbPricemin = null
+ veloxWtbPricemin = null
+ mekWtbPricemin = null
+ prismWtbPricemin = null
+ polarisWtbPricemin = null
+ splashForceWtbPricemin = null
+ pdWtbPricemin = null
+ dasheWtbPricemin = null
+ tohruWtbPricemin = null
+ phantomWtbPricemin = null
+ adeptWtbPricemin = null
+ burstWtbPricemin = null
+ cyberWtbPricemin = null
+ estockWtbPricemin = null
+ eveWtbPricemin = null
+ galaxsioWtbPricemin = null
+ hawkWtbPricemin = null
+ ganeshWtbPricemin = null
+ hayhaWtbPricemin = null
+ kiloWtbPricemin = null
+ flareWtbPricemin = null
+ fleekWtbPricemin = null
+ nebulaWtbPricemin = null
+
+ balkoPriceWtsmin = null
+ f3PriceWtsmin = null
+ rushPriceWtsmin = null
+ mercuryPriceWtsmin = null
+ solePriceWtsmin = null
+ wrathWTsPricemin = null
+ veloxWtsPricemin = null
+ mekWtsPricemin = null
+ prismWtsPricemin = null
+ polarisWtsPricemin = null
+ splashForceWtsPricemin = null
+ pdWtsPricemin = null
+ dasheWtsPricemin = null
+ tohruWtsPricemin = null
+ phantomWtsPricemin = null
+ adeptWtsPricemin = null
+ burstWtsPricemin = null
+ cyberWtsPricemin = null
+ estockWtsPricemin = null
+ eveWtsPricemin = null
+ galaxsioWtsPricemin = null
+ hawkWtsPricemin = null
+ ganeshWtsPricemin = null
+ hayhaWtsPricemin = null
+ kiloWtsPricemin = null
+ flareWtsPricemin = null
+ fleekWtsPricemin = null
+ nebulaWtsPricemin = null
 
     }
 
