@@ -420,7 +420,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "balkowtsmin") {
                 balkoWts(arguments, receivedMessage)
-
+                balkoPriceWtsmin = arguments
                 BalkoEmbed = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -440,7 +440,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "f3wtsmin") {
                 f3Wts(arguments, receivedMessage)
-
+f3PriceWtsmin=arguments
                 f3Sucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -458,7 +458,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "mercurywtsmin") {
                 mercuryWts(arguments, receivedMessage)
-
+mercuryPriceWtsmin=arguments
                 mercurySucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -511,7 +511,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "rushwtsmin") {
                 rushWts(arguments, receivedMessage)
-
+rushPriceWtsmin=arguments
                 rushSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -530,7 +530,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "solewtsmin") {
                 soleWts(arguments, receivedMessage)
-
+solePriceWtsmin=arguments
                 soleSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -547,7 +547,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "wrathwtsmin") {
                 wrathWts(arguments, receivedMessage)
-
+wrathWTsPricemin=arguments
                 wrathSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -563,7 +563,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(wrathSucess)
             } else if(primaryCommand == "veloxwtsmin") {
                 veloxWts(arguments, receivedMessage)
-
+veloxWtsPricemin=arguments
                 veloxSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -580,7 +580,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "mekwtsmin") {
                 mekWts(arguments, receivedMessage)
-
+mekWtsPricemin=arguments
                 mekSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -597,7 +597,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "prismwtsmin") {
                 prismWts(arguments, receivedMessage)
-
+prismWtsPricemin=arguments
                 prismSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -613,6 +613,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(prismSucess)
             } else if(primaryCommand == "polariswtsmin") {
                 polarisWts(arguments, receivedMessage)
+                polarisWtsPricemin=arguments
                 polarisSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -628,7 +629,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(polarisSucess)
             } else if(primaryCommand == "sfwtsmin") {
                 splashForceWts(arguments, receivedMessage)
-
+splashForceWtsPricemin=arguments
                 sfsucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -644,7 +645,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(sfsucess)
             } else if(primaryCommand == "pdwtsmin") {
                 pdWts(arguments, receivedMessage)
-
+pdWtsPricemin=arguments
                 pdSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -660,7 +661,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(pdSucess)
             } else if(primaryCommand == "dashewtsmin") {
                 dasheWts(arguments, receivedMessage)
-
+dasheWtsPricemin=arguments
                 DasheSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -676,7 +677,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(DasheSucess)
             } else if(primaryCommand == "tohruwtsmin") {
                 tohruWts(arguments, receivedMessage)
-
+tohruWtsPricemin=arguments
                 tohruSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -692,7 +693,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(tohruSucess)
             } else if(primaryCommand == "phantomwtsmin") {
                 phantomWts(arguments, receivedMessage)
-
+phantomWtsPricemin=arguments
                 phantomSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -710,6 +711,7 @@ client.on('message', receivedMessage => {
 
 
                 adeptWts(arguments, receivedMessage)
+                adeptWtsPricemin=arguments
                 adeptSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -726,7 +728,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "burstwtsmin") {
                 burstWts(arguments, receivedMessage)
-
+                burstWtsPricemin=arguments
                 burstSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -742,7 +744,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(burstSucess)
             } else if(primaryCommand == "cyberwtsmin") {
                 cyberWts(arguments, receivedMessage)
-
+                cyberWtsPricemin=arguments
                 cyberSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -758,7 +760,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(cyberSucess)
             } else if(primaryCommand == "estockwtsmin") {
                 estockWts(arguments, receivedMessage)
-
+                estockWtsPricemin=arguments
                 estockSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -774,7 +776,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(estockSucess)
             } else if(primaryCommand == "galaxsiowtsmin") {
                 galaxioWts(arguments, receivedMessage)
-
+                galaxsioWtsPricemin=arguments
                 galaxsioSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -790,7 +792,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(galaxsioSucess)
             } else if(primaryCommand == "evewtsmin") {
                 eveWts(arguments, receivedMessage)
-
+                eveWtbPricemin=arguments
                 eveSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -806,7 +808,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(eveSucess)
             } else if(primaryCommand == "hawkmeshwtsmin") {
                 hawkWts(arguments, receivedMessage)
-
+                hawkWtsPricemin=arguments
                 hawkSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -822,7 +824,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(hawkSucess)
             } else if(primaryCommand == "ganeshwtsmin") {
                 ganeshWts(arguments, receivedMessage)
-
+                ganeshWtsPricemin=arguments
                 ganeshSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -840,7 +842,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "hayhawtsmin") {
                 hayhaWts(arguments, receivedMessage)
-
+                hayhaWtsPricemin=arguments
                 hayhaSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -857,7 +859,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "kilowtsmin") {
                 kiloWts(arguments, receivedMessage)
-
+                kiloWtsPricemin=arguments
                 kilSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -873,7 +875,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(kilSucess)
             } else if(primaryCommand == "flarewtsmin") {
                 flareWts(arguments, receivedMessage)
-
+                flareWtsPricemin=arguments
                 flareSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -890,7 +892,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "fleekwtsmin") {
                 fleekWts(arguments, receivedMessage)
-
+                fleekWtsPricemin=arguments
                 fleekSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -909,7 +911,7 @@ client.on('message', receivedMessage => {
 
 
                 nebulaWts(arguments, receivedMessage)
-
+nebulaWtsPricemin=arguments
                 nebulaSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1401,7 +1403,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "f3wtbmin") {
                 f3Wtb(arguments, receivedMessage)
-
+                f3PriceWtbmin=arguments
                 f3Sucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1418,7 +1420,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "rushwtbmin") {
                 rushWtb(arguments, receivedMessage)
-
+                rushPriceWtbmin=arguments
                 rushSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1436,7 +1438,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "mercurywtbmin") {
                 mercuryWtb(arguments, receivedMessage)
-
+                mercuryPriceWtbmin=arguments
                 mercurySucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1454,7 +1456,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "solewtbmin") {
                 soleWtb(arguments, receivedMessage)
-
+                solePriceWtbmin=arguments
                 soleSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1472,7 +1474,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "wrathwtbmin") {
                 wrathWtb(arguments, receivedMessage)
-
+                wrathWtbPrice=arguments
                 wrathSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1489,7 +1491,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "veloxwtbmin") {
                 veloxWtb(arguments, receivedMessage)
-
+                veloxWtbPricemin=arguments
                 veloxSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1506,8 +1508,8 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "mekwtbmin") {
                 mekWtb(arguments, receivedMessage)
-
-                mekSucess = new Discord.RichEmbed()
+                mekWtbPricemin=arguments
+                 mekSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
                     .setTitle('Mek WTB Min Sucessfully Added')
@@ -1523,7 +1525,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "prismwtbmin") {
                 prismWtb(arguments, receivedMessage)
-
+                prismWtbPricemin=arguments
                 prismSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1540,7 +1542,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "polariswtbmin") {
                 polarisWtb(arguments, receivedMessage)
-
+                polarisWtbPricemin=arguments
                 polarisSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1557,7 +1559,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "sfwtbmin") {
                 splashForceWtb(arguments, receivedMessage)
-
+                splashForceWtbPricemin=arguments
                 sfsucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1574,7 +1576,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "pdwtbmin") {
                 pdWtb(arguments, receivedMessage)
-
+                pdWtbPricemin=arguments
                 pdSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1591,7 +1593,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "dashewtbmin") {
                 dasheWtb(arguments, receivedMessage)
-
+                dasheWtbPricemin=arguments
                 DasheSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1608,7 +1610,7 @@ client.on('message', receivedMessage => {
             } else if(primaryCommand == "tohruwtbmin") {
                 tohruWtb(arguments, receivedMessage)
                 tohruSucess = new Discord.RichEmbed()
-
+                tohruWtbPrice=arguments
                     .setColor('#f9475d')
                     .setTitle('Tohru WTB Min Sucessfully Added')
 
@@ -1622,7 +1624,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(tohruSucess)
             } else if(primaryCommand == "phantomwtbmin") {
                 phantomWtb(arguments, receivedMessage)
-
+                phantomWtbPricemin=arguments
                 phantomSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1638,7 +1640,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(phantomSucess)
             } else if(primaryCommand == "adeptwtbmin") {
                 adeptWtb(arguments, receivedMessage)
-
+                adeptWtbPricemin=arguments
                 adeptSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1654,7 +1656,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(adeptSucess)
             } else if(primaryCommand == "burstwtbmin") {
                 burstWtb(arguments, receivedMessage)
-
+                burstWtbPricemin=arguments
                 burstSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1670,7 +1672,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(burstSucess)
             } else if(primaryCommand == "cyberwtbmin") {
                 cyberWtb(arguments, receivedMessage)
-
+                cyberWtbPricemin=arguments
                 cyberSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1686,8 +1688,8 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(cyberSucess)
             } else if(primaryCommand == "estockwtbmin") {
                 estockWtb(arguments, receivedMessage)
-
-                estockSucess = new Discord.RichEmbed()
+                estockWtbPricemin=arguments
+                  estockSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
                     .setTitle('Estock WTB Min Sucessfully Added')
@@ -1702,7 +1704,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(estockSucess)
             } else if(primaryCommand == "evewtbmin") {
                 eveWtb(arguments, receivedMessage)
-
+                eveWtbPricemin=arguments
                 eveSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1718,7 +1720,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(eveSucess)
             } else if(primaryCommand == "galaxsiowtbmin") {
                 galaxioWtb(arguments, receivedMessage)
-
+                galaxsioWtbPricemin=arguments
                 galaxsioSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1734,7 +1736,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(galaxsioSucess)
             } else if(primaryCommand == "hawkmeshwtbmin") {
                 hawkWtb(arguments, receivedMessage)
-
+                hawkWtbPrice=arguments
                 hawkSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1750,7 +1752,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(hawkSucess)
             } else if(primaryCommand == "ganeshwtbmin") {
                 ganeshWtb(arguments, receivedMessage)
-
+                ganeshWtbPricemin=arguments
                 ganeshSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1766,7 +1768,7 @@ client.on('message', receivedMessage => {
                 receivedMessage.channel.send(ganeshSucess)
             } else if(primaryCommand == "hayhawtbmin") {
                 hayhaWtb(arguments, receivedMessage)
-
+                hayhaWtbPricemin=arguments
                 hayhaSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1783,7 +1785,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "kilowtbmin") {
                 kiloWtb(arguments, receivedMessage)
-
+                kiloWtbPricemin=arguments
                 kilSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1800,7 +1802,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "flarewtbmin") {
                 flareWtb(arguments, receivedMessage)
-
+                flareWtbPricemin=arguments
                 flareSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1817,7 +1819,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "fleekwtbmin") {
                 fleekWtb(arguments, receivedMessage)
-
+                fleekWtbPricemin=arguments
                 fleekSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -1834,7 +1836,7 @@ client.on('message', receivedMessage => {
 
             } else if(primaryCommand == "nebulawtbmin") {
                 nebulaWtb(arguments, receivedMessage)
-
+                nebulaWtbPricemin=arguments
                 nebulaSucess = new Discord.RichEmbed()
 
                     .setColor('#f9475d')
@@ -2396,7 +2398,6 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            balkoPriceWtsmin = arguments
         min=balkoPriceWtsmin   
 
             for(; min < balkoPriceWts; min++) {
@@ -2529,7 +2530,6 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            f3PriceWtsmin = arguments
             min=f3PriceWtsmin
 
             for(; min < f3PriceWts; min++) {
@@ -2655,7 +2655,6 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
 
-            rushPriceWtsmin = arguments
                 min=rushPriceWtsmin
             for(; min < rushPriceWts; min++) {
 
@@ -2778,7 +2777,6 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            mercuryPriceWtsmin = arguments
                 min=mercuryPriceWtsmin
 
             for(; min < mercuryPriceWts; min++) {
@@ -3041,7 +3039,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            solePriceWtsmin = arguments
+            solePriceWtsmin 
             min=solePriceWtsmin
             for(; min < solePriceWts; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -3164,7 +3162,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            wrathWTsPricemin = arguments
+            wrathWTsPricemin 
            min= wrathWTsPricemin
             for(; min < wrathWTsPrice; min++) {
 
@@ -3292,7 +3290,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            veloxWtsPricemin = arguments
+            veloxWtsPricemin 
             min=veloxWtsPricemin
             for(; min < veloxWtsPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -3436,7 +3434,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            mekWtsPricemin = arguments
+            mekWtsPricemin 
             min=mekWtsPricemin
             for(; min < mekWtbPrice; min++) {
 
@@ -3573,7 +3571,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            prismWtsPricemin = arguments
+            prismWtsPricemin 
             min=prismWtsPricemin
             for(; min < prismWtsPrice; min++) {
 
@@ -3582,127 +3580,130 @@ client.on('message', receivedMessage => {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
                     return
                 }
-                if(message.channel.id == '710921405935517697') {
 
 
-                    if(message.content.toString().includes(min)) {
+                    if(message.channel.id == '710921427229868074') {
 
 
-                        userId = message.author.id
-                        messageId = message.id
-                        channelId = message.channel.id
-                        serverId = message.guild.id
-                        var hyperSeller = 'https://discordapp.com/users/' + userId
-                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
-                        prismEmbed = new Discord.RichEmbed()
-
-                            .setColor('#f9475d')
-                            .setTitle('Prism WTS Listing Found')
-                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
-                            .addField('Seller', message.author.tag, true)
-
-                            .addField('Link To Seller', hyperSeller2)
-
-                            .addField('Link To Listing', hyperListing2)
-
-
-
-                            .setTimestamp()
-                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-                        client.channels.get(wtsChannelId).send('<@&774803748018454559>')
-
-
-                        client.channels.get(wtsChannelId).send(prismEmbed)
-
-
-
+                        if(message.content.toString().includes(min)) {
+    
+    
+                            userId = message.author.id
+                            messageId = message.id
+                            channelId = message.channel.id
+                            serverId = message.guild.id
+                            var hyperSeller = 'https://discordapp.com/users/' + userId
+                            var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+    
+                            var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                            var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+    
+                            prismEmbed = new Discord.RichEmbed()
+    
+                                .setColor(' #0066ff')
+                                .setTitle('Prism WTS Listing Found')
+                                .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
+                                .addField('Seller', message.author.tag, true)
+    
+                                .addField('Link To Seller', hyperSeller2)
+    
+                                .addField('Link To Listing', hyperListing2)
+    
+    
+    
+                                .setTimestamp()
+                                .setFooter('DS Monitor • ', 'https://cdn.discordapp.com/icons/744044493090586694/1d9546a022b7458c95f0fbf41fbb2797.webp?size=1024');
+    
+                            client.channels.get(wtsChannelId).send('<@&778067355879997480>')
+    
+    
+                            client.channels.get(wtsChannelId).send(prismEmbed)
+    
+    
+    
+                        }
+                    } else if(message.channel.id == '626997179378171925') {
+    
+    
+                        if(message.content.toString().includes(min)) {
+    
+                            userId = message.author.id
+                            messageId = message.id
+                            channelId = message.channel.id
+                            serverId = message.guild.id
+                            var hyperSeller = 'https://discordapp.com/users/' + userId
+                            var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+    
+                            var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                            var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+    
+                            prismEmbed = new Discord.RichEmbed()
+    
+                                .setColor(' #0066ff')
+                                .setTitle('Prism WTS Listing Found')
+                                .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
+                                .addField('Seller', message.author.tag, true)
+    
+                                .addField('Link To Seller', hyperSeller2)
+    
+                                .addField('Link To Listing', hyperListing2)
+    
+    
+    
+                                .setTimestamp()
+                                .setFooter('DS Monitor • ', 'https://cdn.discordapp.com/icons/744044493090586694/1d9546a022b7458c95f0fbf41fbb2797.webp?size=1024');
+    
+    
+                            client.channels.get(wtsChannelId).send('<@&778067355879997480>')
+    
+    
+                            client.channels.get(wtsChannelId).send(prismEmbed)
+    
+    
+    
+                        }
+                    } else if(message.channel.id == '750079335439794238') {
+    
+    
+                        if(message.content.toString().includes(min)) {
+    
+                            userId = message.author.id
+                            messageId = message.id
+                            channelId = message.channel.id
+                            serverId = message.guild.id
+                            var hyperSeller = 'https://discordapp.com/users/' + userId
+                            var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
+    
+                            var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
+                            var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
+    
+                            prismEmbed = new Discord.RichEmbed()
+    
+                                .setColor(' #0066ff')
+                                .setTitle('Prism WTS Listing Found')
+                                .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
+                                .addField('Seller', message.author.tag, true)
+    
+                                .addField('Link To Seller', hyperSeller2)
+    
+                                .addField('Link To Listing', hyperListing2)
+    
+    
+    
+                                .setTimestamp()
+                                .setFooter('DS Monitor • ', 'https://cdn.discordapp.com/icons/744044493090586694/1d9546a022b7458c95f0fbf41fbb2797.webp?size=1024');
+    
+    
+                            client.channels.get(wtsChannelId).send('<@&778067355879997480>')
+    
+    
+                            client.channels.get(wtsChannelId).send(prismEmbed)
+    
+    
+    
+                        }
                     }
-                } else if(message.channel.id == '626997179378171925') {
-
-
-                    if(message.content.toString().includes(min)) {
-
-                        userId = message.author.id
-                        messageId = message.id
-                        channelId = message.channel.id
-                        serverId = message.guild.id
-                        var hyperSeller = 'https://discordapp.com/users/' + userId
-                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
-                        prismEmbed = new Discord.RichEmbed()
-
-                            .setColor('#f9475d')
-                            .setTitle('Prism WTS Listing Found')
-                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
-                            .addField('Seller', message.author.tag, true)
-
-                            .addField('Link To Seller', hyperSeller2)
-
-                            .addField('Link To Listing', hyperListing2)
-
-
-
-                            .setTimestamp()
-                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-                        client.channels.get(wtsChannelId).send('<@&774803748018454559>')
-
-
-                        client.channels.get(wtsChannelId).send(prismEmbed)
-
-
-
-                    }
-                } else if(message.channel.id == '750079394831401040') {
-
-
-                    if(message.content.toString().includes(min)) {
-
-                        userId = message.author.id
-                        messageId = message.id
-                        channelId = message.channel.id
-                        serverId = message.guild.id
-                        var hyperSeller = 'https://discordapp.com/users/' + userId
-                        var hyperListing = ' https://discordapp.com/channels/' + serverId + '/' + channelId + '/' + messageId + '/'
-
-                        var hyperListing2 = '[Click Here]' + '(' + hyperListing + ')'
-                        var hyperSeller2 = '[Click Here]' + '(' + hyperSeller + ')'
-
-                        prismEmbed = new Discord.RichEmbed()
-
-                            .setColor('#f9475d')
-                            .setTitle('Prism WTS Listing Found')
-                            .addField('Price', '$' + min + ' - ' + '€' + min * .86 + ' - ' + '¥' + min * 6.67, true)
-                            .addField('Seller', message.author.tag, true)
-
-                            .addField('Link To Seller', hyperSeller2)
-
-                            .addField('Link To Listing', hyperListing2)
-
-
-
-                            .setTimestamp()
-                            .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
-
-
-                        client.channels.get(wtsChannelId).send('<@&774803748018454559>')
-
-
-                        client.channels.get(wtsChannelId).send(prismEmbed)
-
-
-
-                    }
-                }
+        
             }
 
         });
@@ -3714,7 +3715,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            polarisWtsPricemin = arguments
+            polarisWtsPricemin 
             min=polarisWtsPricemin
             for(; min < polarisWtsPrice; min++) {
 
@@ -3855,7 +3856,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            splashForceWtsPricemin = arguments
+            splashForceWtsPricemin 
             min=splashForceWtsPricemin
             for(; min < splashForceWtsPrice; min++) {
 
@@ -4021,7 +4022,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            pdWtsPricemin = arguments
+            pdWtsPricemin 
             min=pdWtsPricemin
             for(; min < pdWtsPrice; min++) {
 
@@ -4156,7 +4157,7 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
 
-            dasheWtsPricemin = arguments
+            dasheWtsPricemin 
             min=dasheWtsPricemin
 
             for(; min < dasheWtsPrice; min++) {
@@ -4214,7 +4215,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            tohruWtsPricemin = arguments
+            tohruWtsPricemin 
             min=tohruWtsPricemin
             for(; min < tohruWtsPrice; min++) {
 
@@ -4353,7 +4354,7 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
 
-            phantomWtsPricemin = arguments
+            phantomWtsPricemin 
             min=phantomWtsPricemin
             for(; min < phantomWtsPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -4490,7 +4491,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            adeptWtsPricemin = arguments
+            adeptWtsPricemin 
 
             min=adeptWtsPricemin
 
@@ -4632,7 +4633,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            burstWtsPricemin = arguments
+            burstWtsPricemin 
             min=burstWtsPricemin
             for(; min < burstWtbPrice; min++) {
 
@@ -4691,7 +4692,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            cyberWtsPricemin = arguments
+            cyberWtsPricemin 
 
             for(; min < cyberWtsPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -4834,7 +4835,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            estockWtsPricemin = arguments
+            estockWtsPricemin 
             min=estockWtsPricemin
             for(; min < estockWtsPrice; min++) {
 
@@ -4895,7 +4896,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            eveWtsPricemin = arguments
+            eveWtsPricemin 
             min=eveWtsPricemin
             for(; min < eveWtsPrice; min++) {
 
@@ -5037,7 +5038,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            galaxsioWtsPricemin = arguments
+            galaxsioWtsPricemin 
             min=galaxsioWtsPricemin
 
 
@@ -5096,7 +5097,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            hawkWtsPricemin = arguments
+            hawkWtsPricemin 
             min=hawkWtsPricemin
             for(; min < hawkWtsPrice; min++) {
 
@@ -5191,7 +5192,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            ganeshWtsPricemin = arguments
+            ganeshWtsPricemin 
             min=ganeshWtsPricemin
 
             for(; min < ganeshWtsPrice; min++) {
@@ -5336,7 +5337,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            hayhaWtsPricemin = arguments
+            hayhaWtsPricemin 
             min=hayhaWtsPricemin
             for(; min < hayhaWtsPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -5471,7 +5472,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            kiloWtsPricemin = arguments
+            kiloWtsPricemin 
             min=kiloWtsPricemin
             for(; min < kiloWtsPrice; min++) {
 
@@ -5566,7 +5567,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            flareWtsPricemin = arguments
+            flareWtsPricemin 
             min=flareWtsPricemin
             for(; min < flareWtsPrice; min++) {
 
@@ -5669,7 +5670,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            fleekWtsPricemin = arguments
+            fleekWtsPricemin 
             min=fleekWtsPricemin
             for(; min < fleekWtsPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -5810,7 +5811,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            nebulaWtsPricemin = arguments
+            nebulaWtsPricemin 
             min=nebulaWtsPricemin
             for(; min < nebulaWtsPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -5952,7 +5953,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            customWtsPrice = arguments
+            customWtsPrice 
 
             if (message.content.includes("<:" )) {
                 return
@@ -6144,35 +6145,36 @@ client.on('message', receivedMessage => {
         customWtsPrice = null
         customBotWtsPrice = null
 
-        balkoPriceWtsmin = null
-        f3PriceWtsmin = null
-        rushPriceWtsmin = null
-        mercuryPriceWtsmin = null
-        solePriceWtsmin = null
-        wrathWTsPricemin = null
-        veloxWtsPricemin = null
-        mekWtsPricemin = null
-        prismWtsPricemin = null
-        polarisWtsPricemin = null
-        splashForceWtsPricemin = null
-        pdWtsPricemin = null
-        dasheWtsPricemin = null
-        tohruWtsPricemin = null
-        phantomWtsPricemin = null
-        adeptWtsPricemin = null
-        burstWtsPricemin = null
-        cyberWtsPricemin = null
-        estockWtsPricemin = null
-        eveWtsPricemin = null
-        galaxsioWtsPricemin = null
-        hawkWtsPricemin = null
-        ganeshWtsPricemin = null
-        hayhaWtsPricemin = null
-        kiloWtsPricemin = null
-        flareWtsPricemin = null
-        fleekWtsPricemin = null
-        nebulaWtsPricemin = null
 
+        balkoPriceWtsmin = 0
+        f3PriceWtsmin = 0
+        rushPriceWtsmin = 0
+        mercuryPriceWtsmin = 0
+        solePriceWtsmin = 0
+        wrathWTsPricemin = 0
+        veloxWtsPricemin = 0
+        mekWtsPricemin = 0
+        prismWtsPricemin = 0
+        polarisWtsPricemin = 0
+        splashForceWtsPricemin = 0
+        pdWtsPricemin = 0
+        dasheWtsPricemin = 0
+        tohruWtsPricemin = 0
+        phantomWtsPricemin = 0
+        adeptWtsPricemin = 0
+        burstWtsPricemin = 0
+        cyberWtsPricemin = 0
+        estockWtsPricemin = 0
+        eveWtsPricemin = 0
+        galaxsioWtsPricemin = 0
+        hawkWtsPricemin = 0
+        ganeshWtsPricemin = 0
+        hayhaWtsPricemin = 0
+        kiloWtsPricemin = 0
+        flareWtsPricemin = 0
+        fleekWtsPricemin = 0
+        nebulaWtsPricemin = 0
+       
 
     }
 
@@ -6182,7 +6184,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            balkoPriceWtbmin = arguments
+            balkoPriceWtbmin 
             min=balkoPriceWtbmin
             for(; min < min; min++) {
 
@@ -6320,7 +6322,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            f3PriceWtbmin = arguments
+            f3PriceWtbmin 
             min=f3PriceWtbmin
             for(; min < f3PriceWts; min++) {
 
@@ -6453,7 +6455,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            rushPriceWtbmin = arguments
+            rushPriceWtbmin 
             min=rushPriceWtbmin
             for(; min < rushPriceWtb; min++) {
 
@@ -6582,7 +6584,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            mercuryPriceWtbmin = arguments
+            mercuryPriceWtbmin 
             min=mercuryPriceWtbmin
             for(; min < mercuryPriceWtb; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -6847,7 +6849,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            solePriceWtbmin = arguments
+            solePriceWtbmin 
             min=solePriceWtbmin
             for(; min < solePriceWtb; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -6977,7 +6979,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            wrathWtbPricemin = arguments
+            wrathWtbPricemin 
             min=wrathWtbPricemin
             for(; min < wrathWtbPrice; min++) {
 
@@ -7104,7 +7106,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            veloxWtbPricemin = arguments
+            veloxWtbPricemin 
             min=veloxWtbPricemin
             for(; min < veloxWtbPrice; min++) {
 
@@ -7242,7 +7244,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            mekWtbPricemin = arguments
+            mekWtbPricemin 
             min=mekWtbPricemin
             for(; min < mekWtbPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -7377,7 +7379,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            prismWtbPricemin = arguments
+            prismWtbPricemin 
             min=prismWtbPricemin
             for(; min < prismWtbPrice; min++) {
 
@@ -7517,7 +7519,7 @@ client.on('message', receivedMessage => {
         user.on('message', message => { // When a message is created
 
 
-            polarisWtbPricemin = arguments
+            polarisWtbPricemin 
             min=polarisWtbPricemin
             for(; min < polarisWtbPrice; min++) {
 
@@ -7656,7 +7658,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            splashForceWtbPricemin = arguments
+            splashForceWtbPricemin 
             min=splashForceWtbPricemin
 
             for(; min < splashForceWtbPrice; min++) {
@@ -7817,7 +7819,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            pdWtbPricemin = arguments
+            pdWtbPricemin 
             min=pdWtbPricemin
             for(; min < pdWtbPrice; min++) {
 
@@ -7856,6 +7858,7 @@ client.on('message', receivedMessage => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                            client.channels.get(wtsChannelId).send('<@&774803955078266890>')
 
                         client.channels.get(wtbChannelId).send(pdEmbed)
 
@@ -7891,6 +7894,7 @@ client.on('message', receivedMessage => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                            client.channels.get(wtsChannelId).send('<@&774803955078266890>')
 
                         client.channels.get(wtbChannelId).send(pdEmbed)
 
@@ -7927,6 +7931,7 @@ client.on('message', receivedMessage => {
                             .setTimestamp()
                             .setFooter('KubeIO Monitor • ', 'https://i.imgur.com/qMKnaDQ.jpg');
 
+                            client.channels.get(wtsChannelId).send('<@&774803955078266890>')
 
                         client.channels.get(wtbChannelId).send(pdEmbed)
 
@@ -7943,7 +7948,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            dasheWtbPricemin = arguments
+            dasheWtbPricemin 
             min=dasheWtbPricemin
             for(; min < dasheWtbPrice; min++) {
 
@@ -7996,7 +8001,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            tohruWtbPricemin = arguments
+            tohruWtbPricemin 
             min=tohruWtbPricemin
             for(; min < tohruWtbPrice; min++) {
 
@@ -8139,7 +8144,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            phantomWtbPricemin = arguments
+            phantomWtbPricemin 
             min=phantomWtbPricemin
             for(; min < phantomWtbPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -8275,7 +8280,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            adeptWtbPricemin = arguments
+            adeptWtbPricemin 
             min=adeptWtbPricemin
 
 
@@ -8413,7 +8418,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            burstWtbPricemin = arguments
+            burstWtbPricemin 
             min=burstWtbPricemin
             for(; min < burstWtbPrice; min++) {
 
@@ -8472,7 +8477,7 @@ client.on('message', receivedMessage => {
     function cyberWtb(arguments, receivedMessage) {
 
         user.on('message', message => { // When a message is created
-            cyberWtbPricemin = arguments
+            cyberWtbPricemin 
             min=cyberWtbPricemin
             for(; min < cyberWtbPrice; min++) {
 
@@ -8609,7 +8614,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            estockWtbPricemin = arguments
+            estockWtbPricemin 
             min=estockWtbPricemin
             for(; min < estockWtbPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -8669,7 +8674,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            eveWtbPricemin = arguments
+            eveWtbPricemin 
             min=eveWtbPricemin
             for(; min < eveWtbPrice; min++) {
 
@@ -8809,7 +8814,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            galaxsioWtbPricemin = arguments
+            galaxsioWtbPricemin 
             min=galaxsioWtbPricemin
 
             for(; min < galaxsioWtbPrice; min++) {
@@ -9084,7 +9089,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            hawkWtbPricemin = arguments
+            hawkWtbPricemin 
             min=hawkWtbPricemin
             for(; min < hawkWtbPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -9185,7 +9190,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            ganeshWtbPricemin = arguments
+            ganeshWtbPricemin 
             min=ganeshWtbPricemin
             for(; min < ganeshWtbPrice; min++) {
 
@@ -9324,7 +9329,7 @@ client.on('message', receivedMessage => {
 
         user.on('message', message => { // When a message is created
 
-            hayhaWtbPricemin = arguments
+            hayhaWtbPricemin 
             min=hayhaWtbPricemin
             for(; min < hayhaWtbPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -9469,7 +9474,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            kiloWtbPricemin = arguments
+            kiloWtbPricemin 
             min=kiloWtbPricemin
             for(; min < kiloWtbPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -9530,7 +9535,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            flareWtbPricemin = arguments
+            flareWtbPricemin 
             min=flareWtbPricemin
             for(; min < flareWtbPrice; min++) {
 
@@ -9631,7 +9636,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            fleekWtbPricemin = arguments
+            fleekWtbPricemin 
             min=fleekWtbPricemin
             for(; min < fleekWtbPrice; min++) {
               if (message.content.includes("<" )||(message.content.includes(">" ))) {
@@ -9775,7 +9780,7 @@ client.on('message', receivedMessage => {
 
 
         user.on('message', message => { // When a message is created
-            nebulaWtbPricemin = arguments
+            nebulaWtbPricemin 
             min=nebulaWtbPricemin
             if (message.content.includes("<:" )) {
                 return
@@ -9941,7 +9946,7 @@ client.on('message', receivedMessage => {
     function CustomWtb(arguments, receivedMessage) {
 
 
-        customWtbPrice = arguments
+        customWtbPrice 
         user.on('message', message => { // When a message is created
             if (message.content.includes("<:" )) {
                 return
@@ -10135,35 +10140,37 @@ client.on('message', receivedMessage => {
         customBotWtbPrice = null
 
 
-        balkoPriceWtbmin = null
-        f3PriceWtbmin = null
-        rushPriceWtbmin = null
-        mercuryPriceWtbmin = null
-        solePriceWtbmin = null
-        wrathWtbPricemin = null
-        veloxWtbPricemin = null
-        mekWtbPricemin = null
-        prismWtbPricemin = null
-        polarisWtbPricemin = null
-        splashForceWtbPricemin = null
-        pdWtbPricemin = null
-        dasheWtbPricemin = null
-        tohruWtbPricemin = null
-        phantomWtbPricemin = null
-        adeptWtbPricemin = null
-        burstWtbPricemin = null
-        cyberWtbPricemin = null
-        estockWtbPricemin = null
-        eveWtbPricemin = null
-        galaxsioWtbPricemin = null
-        hawkWtbPricemin = null
-        ganeshWtbPricemin = null
-        hayhaWtbPricemin = null
-        kiloWtbPricemin = null
-        flareWtbPricemin = null
-        fleekWtbPricemin = null
-        nebulaWtbPricemin = null
+ 
+        balkoPriceWtbmin = 0
+        f3PriceWtbmin = 0
+        rushPriceWtbmin = 0
+        mercuryPriceWtbmin = 0
+        solePriceWtbmin = 0
+        wrathWtbPricemin = 0
+        veloxWtbPricemin = 0
+        mekWtbPricemin = 0
+        prismWtbPricemin = 0
+        polarisWtbPricemin = 0
+        splashForceWtbPricemin = 0
+        pdWtbPricemin = 0
+        dasheWtbPricemin = 0
+        tohruWtbPricemin = 0
+        phantomWtbPricemin = 0
+        adeptWtbPricemin = 0
+        burstWtbPricemin = 0
+        cyberWtbPricemin = 0
+        estockWtbPricemin = 0
+        eveWtbPricemin = 0
+        galaxsioWtbPricemin = 0
+        hawkWtbPricemin = 0
+        ganeshWtbPricemin = 0
+        hayhaWtbPricemin = 0
+        kiloWtbPricemin = 0
+        flareWtbPricemin = 0
+        fleekWtbPricemin = 0
+        nebulaWtbPricemin = 0
 
+    
     }
 
     function clearAll(arguments, receivedMessage) {
@@ -10232,64 +10239,65 @@ client.on('message', receivedMessage => {
         customWtbPrice = null
         customBotWtbPrice = null
         
- balkoPriceWtbmin = null
- f3PriceWtbmin = null
- rushPriceWtbmin = null
- mercuryPriceWtbmin = null
- solePriceWtbmin = null
- wrathWtbPricemin = null
- veloxWtbPricemin = null
- mekWtbPricemin = null
- prismWtbPricemin = null
- polarisWtbPricemin = null
- splashForceWtbPricemin = null
- pdWtbPricemin = null
- dasheWtbPricemin = null
- tohruWtbPricemin = null
- phantomWtbPricemin = null
- adeptWtbPricemin = null
- burstWtbPricemin = null
- cyberWtbPricemin = null
- estockWtbPricemin = null
- eveWtbPricemin = null
- galaxsioWtbPricemin = null
- hawkWtbPricemin = null
- ganeshWtbPricemin = null
- hayhaWtbPricemin = null
- kiloWtbPricemin = null
- flareWtbPricemin = null
- fleekWtbPricemin = null
- nebulaWtbPricemin = null
+  balkoPriceWtbmin = 0
+        f3PriceWtbmin = 0
+        rushPriceWtbmin = 0
+        mercuryPriceWtbmin = 0
+        solePriceWtbmin = 0
+        wrathWtbPricemin = 0
+        veloxWtbPricemin = 0
+        mekWtbPricemin = 0
+        prismWtbPricemin = 0
+        polarisWtbPricemin = 0
+        splashForceWtbPricemin = 0
+        pdWtbPricemin = 0
+        dasheWtbPricemin = 0
+        tohruWtbPricemin = 0
+        phantomWtbPricemin = 0
+        adeptWtbPricemin = 0
+        burstWtbPricemin = 0
+        cyberWtbPricemin = 0
+        estockWtbPricemin = 0
+        eveWtbPricemin = 0
+        galaxsioWtbPricemin = 0
+        hawkWtbPricemin = 0
+        ganeshWtbPricemin = 0
+        hayhaWtbPricemin = 0
+        kiloWtbPricemin = 0
+        flareWtbPricemin = 0
+        fleekWtbPricemin = 0
+        nebulaWtbPricemin = 0
+       
+        balkoPriceWtsmin = 0
+        f3PriceWtsmin = 0
+        rushPriceWtsmin = 0
+        mercuryPriceWtsmin = 0
+        solePriceWtsmin = 0
+        wrathWTsPricemin = 0
+        veloxWtsPricemin = 0
+        mekWtsPricemin = 0
+        prismWtsPricemin = 0
+        polarisWtsPricemin = 0
+        splashForceWtsPricemin = 0
+        pdWtsPricemin = 0
+        dasheWtsPricemin = 0
+        tohruWtsPricemin = 0
+        phantomWtsPricemin = 0
+        adeptWtsPricemin = 0
+        burstWtsPricemin = 0
+        cyberWtsPricemin = 0
+        estockWtsPricemin = 0
+        eveWtsPricemin = 0
+        galaxsioWtsPricemin = 0
+        hawkWtsPricemin = 0
+        ganeshWtsPricemin = 0
+        hayhaWtsPricemin = 0
+        kiloWtsPricemin = 0
+        flareWtsPricemin = 0
+        fleekWtsPricemin = 0
+        nebulaWtsPricemin = 0
 
- balkoPriceWtsmin = null
- f3PriceWtsmin = null
- rushPriceWtsmin = null
- mercuryPriceWtsmin = null
- solePriceWtsmin = null
- wrathWTsPricemin = null
- veloxWtsPricemin = null
- mekWtsPricemin = null
- prismWtsPricemin = null
- polarisWtsPricemin = null
- splashForceWtsPricemin = null
- pdWtsPricemin = null
- dasheWtsPricemin = null
- tohruWtsPricemin = null
- phantomWtsPricemin = null
- adeptWtsPricemin = null
- burstWtsPricemin = null
- cyberWtsPricemin = null
- estockWtsPricemin = null
- eveWtsPricemin = null
- galaxsioWtsPricemin = null
- hawkWtsPricemin = null
- ganeshWtsPricemin = null
- hayhaWtsPricemin = null
- kiloWtsPricemin = null
- flareWtsPricemin = null
- fleekWtsPricemin = null
- nebulaWtsPricemin = null
-
+    
     }
 
     function Current() {
