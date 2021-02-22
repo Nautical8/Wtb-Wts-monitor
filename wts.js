@@ -8,8 +8,8 @@ require('events').EventEmitter.defaultMaxListeners = 10000;
 // Replace BOT_TOKEN with your bot account's token
 
 
-var wtsChannelId = '750508273790353450' //change this channel ID for each group where the wts will be posted
-var wtbChannelId = '750508444397862984' //change this channel ID for each group where the wtb will be posted
+var wtsChannelId = '' //change this channel ID for each group where the wts will be posted
+var wtbChannelId = '' //change this channel ID for each group where the wtb will be posted
 
 
 var userId = null
