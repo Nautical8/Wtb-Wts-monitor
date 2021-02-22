@@ -2,8 +2,8 @@
 
 This to change for every group:
 
-var wtsChannelId='772833340327329812' //change this channel ID for each group where the wts will be posted
-var wtbChannelId='773625024779124776'//change this channel ID for each group where the wtb will be posted
+var wtsChannelId='' //change this channel ID for each group where the wts will be posted
+var wtbChannelId=''//change this channel ID for each group where the wtb will be posted
 
 
 user.login('')//User token
