@@ -10310,5 +10310,5 @@ nebulaWtsPricemin=arguments
 
 
 
-user.login('NzcyODI5Mjk4MDA4MTI5NTQ5.X6AXkw.IXLDcddPu43kNiB8UY8hOCr6HJI') //User token
-client.login('NzcyODI1NzAxNDk3MTc2MDg0.X6AUBQ.z5OXfGz2O-_xwxBR7eV9beQh1Sw') //bot token
+user.login('') //User token
+client.login('') //bot token
